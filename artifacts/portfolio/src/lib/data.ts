@@ -1,5 +1,6 @@
 import myjoyfulldayImg from "@assets/screenshots/myjoyfullday_com.png";
 import tellusjobsImg from "@assets/screenshots/tellusjobs_site.png";
+import autoshineImg from "@assets/screenshots/autoshine_co_ke.png";
 
 export const projects = [
   {
@@ -14,8 +15,8 @@ export const projects = [
     colors: { primary: "#D4A735", bg: "#FBF9F4", text: "#111111" },
     challenges: [
       "Building a reliable real-time pipeline from a WhatsApp message to a published website — handling ambiguous inputs, retries, and edge cases in natural language.",
-      "Designing Jitabi's conversational flow so it feels human, not robotic — guiding users to complete their event details through dialogue, not forms.",
-      "Scaling a vendor marketplace on both sides of the network effect problem, simultaneously.",
+      "Designing Jitabi's conversational flow so it feels human, not robotic — guiding users through dialogue, not forms.",
+      "Scaling a vendor marketplace on both sides of the network effect problem simultaneously.",
     ],
     keyFeatures: [
       "Jitabi — WhatsApp AI event-planning bot (Meta Cloud API)",
@@ -50,35 +51,58 @@ export const projects = [
     image: tellusjobsImg,
   },
   {
+    slug: "tellus",
+    title: "Tellus",
+    url: "https://tellus.site",
+    shortDescription: "AI-powered communications platform. Think faster. Write better. Act sooner.",
+    description:
+      "Tellus is the platform under everything — an AI assistant that doesn't just answer questions but anticipates what you need next. It sits at the intersection of communication, productivity, and intelligent automation. Built for people who think in systems and move fast.",
+    keyFeatures: [
+      "Context-aware AI assistant for teams and individuals",
+      "Intelligent task prioritization and follow-up drafting",
+      "Deep integrations with existing communication workflows",
+      "Proactive suggestions without being noisy",
+      "Designed for people who are already moving fast",
+    ],
+    tech: ["Next.js", "AI / LLM", "Tailwind CSS", "Supabase"],
+    colors: { primary: "#10B981", bg: "#064E3B", text: "#ECFDF5" },
+    challenges: [
+      "Designing a latency-free AI interaction pattern — users feel every millisecond of lag when they're in flow.",
+      "Balancing proactive intelligence with user autonomy — an assistant that suggests without interrupting.",
+      "Maintaining state and context across complex, long-running threads without losing coherence.",
+    ],
+    image: null,
+  },
+  {
     slug: "autoshine",
     title: "Autoshine",
     url: "https://autoshine.co.ke",
     shortDescription: "E-commerce storefront for a Kenyan car-care retailer — catalog, filtering, and payments.",
     description:
-      "Autoshine needed more than a brochure site — they needed a storefront that could move product. Built a full e-commerce experience on WordPress with a complete product catalog, smart filtering, recently-viewed features, and integrated payment setup. The kind of site that earns its keep.",
+      "Autoshine needed more than a brochure site — they needed a storefront that could move product. Built a full e-commerce experience with a complete product catalog, smart filtering, recently-viewed features, combo deals, and integrated M-Pesa + card payment setup. The kind of site that earns its keep.",
     keyFeatures: [
       "Full product catalog with category filtering",
+      "Combo deal promotions and savings engine",
       "Recently-viewed and recommendation features",
-      "Integrated payment gateway setup",
+      "M-Pesa and card payment integration",
       "Mobile-first responsive design",
-      "Domain, hosting, and ongoing maintenance",
     ],
-    tech: ["WordPress", "WooCommerce", "E-commerce", "Payment Integration"],
-    colors: { primary: "#1D4ED8", bg: "#F0F4FF", text: "#111827" },
+    tech: ["WordPress", "WooCommerce", "M-Pesa API", "E-commerce"],
+    colors: { primary: "#F59E0B", bg: "#1C1C1C", text: "#FFFFFF" },
     challenges: [
       "Translating a physical retail experience into a digital one — organizing products in a way that matches how customers actually think about car care.",
       "Payment setup for the Kenyan market — integrating M-Pesa and card options reliably.",
       "Performance optimization so the catalog stays fast even with a large product count.",
     ],
-    image: null,
+    image: autoshineImg,
   },
   {
     slug: "derivchampions",
     title: "Deriv Champions",
     url: "https://derivchampions.com",
-    shortDescription: "Conversion-focused site for a Kenyan forex mentor who has trained 500+ traders.",
+    shortDescription: "Conversion-focused site for a Kenyan forex mentor — 500+ traders trained.",
     description:
-      "Deriv Champions is the online home of a Kenyan forex mentor with a proven track record — 500+ traders trained. The site needed to do one thing above all else: convert visitors into students. Built a focused, fast, credibility-first website that communicates authority and drives enrollment.",
+      "Deriv Champions is the online home of a Kenyan forex mentor with a proven track record — 500+ traders trained. The site needed to do one thing above all else: convert visitors into students. Built a focused, credibility-first website that communicates authority and drives enrollment.",
     keyFeatures: [
       "Conversion-focused landing page architecture",
       "Testimonials and social proof sections",
@@ -86,8 +110,8 @@ export const projects = [
       "Fast load times for mobile-first Kenyan users",
       "Full domain, hosting, and payment setup",
     ],
-    tech: ["WordPress", "Wix", "Conversion Design", "Payment Integration"],
-    colors: { primary: "#059669", bg: "#F0FDF4", text: "#111827" },
+    tech: ["WordPress", "Conversion Design", "Payment Integration"],
+    colors: { primary: "#F0B429", bg: "#0F1923", text: "#FFFFFF" },
     challenges: [
       "Building credibility fast — forex is a trust-sensitive space and visitors decide in seconds whether to stay.",
       "Structuring content to guide a visitor from 'skeptic' to 'enrolled student' without friction.",
@@ -167,7 +191,7 @@ When I built Deriv Champions for a forex mentor, I couldn't just copy a generic 
 
 **The things that change when you build for Kenya:**
 
-- **Payment**: M-Pesa first, cards second, Stripe almost never. Integrate what people actually use.
+- **Payment**: M-Pesa first, cards second. Integrate what people actually use.
 - **Connectivity**: Assume mobile, assume variable bandwidth. Lazy load everything. Keep bundles small. Test on real devices.
 - **Trust**: Your credibility has to be visible in seconds. Social proof, recognizable partners, clear contact info.
 - **Language**: Even English-speaking users code-switch. Your copy needs to feel locally grounded, not imported.

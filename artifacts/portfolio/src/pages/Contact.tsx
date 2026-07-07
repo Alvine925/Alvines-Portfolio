@@ -17,8 +17,6 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
 
-const FORMSPREE_ID = import.meta.env.VITE_FORMSPREE_ID as string | undefined;
-
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
   email: z.string().email({ message: "Please enter a valid email address." }),
@@ -46,165 +44,151 @@ export function Contact() {
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    if (!FORMSPREE_ID) {
-      // Fallback: open mailto if Formspree not configured
-      const subject = encodeURIComponent(`Portfolio contact from ${values.name}`);
-      const body = encodeURIComponent(
-        `Name: ${values.name}\nEmail: ${values.email}\n\nMessage:\n${values.message}`
-      );
-      window.open(`mailto:otienoalvine925@gmail.com?subject=${subject}&body=${body}`);
-      setFormState("success");
-      form.reset();
-      return;
-    }
-
     setFormState("loading");
     setErrorMessage("");
 
+    // Formspree endpoint — replace YOUR_FORM_ID with your Formspree form ID
+    const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+
     try {
-      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+      const res = await fetch(FORMSPREE_ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({
-          name: values.name,
-          email: values.email,
-          message: values.message,
-        }),
+        body: JSON.stringify({ name: values.name, email: values.email, message: values.message }),
       });
 
       if (res.ok) {
         setFormState("success");
         form.reset();
       } else {
-        const data = await res.json();
-        setErrorMessage(data?.errors?.[0]?.message || "Something went wrong. Please try again.");
-        setFormState("error");
+        // Fallback to mailto if Formspree not yet configured
+        const subject = encodeURIComponent(`Portfolio contact from ${values.name}`);
+        const body = encodeURIComponent(`Name: ${values.name}\nEmail: ${values.email}\n\nMessage:\n${values.message}`);
+        window.open(`mailto:otienoalvine925@gmail.com?subject=${subject}&body=${body}`);
+        setFormState("success");
+        form.reset();
       }
     } catch {
-      setErrorMessage("Network error. Please check your connection and try again.");
+      setErrorMessage("Network error. Please try emailing me directly at otienoalvine925@gmail.com");
       setFormState("error");
     }
   }
 
   return (
     <Layout>
-      <div className="max-w-6xl mx-auto px-6 py-20 md:py-28">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+      <div className="max-w-5xl mx-auto px-6 py-20 md:py-32">
 
-          {/* Left */}
-          <motion.div variants={fadeUp} initial="hidden" animate="visible">
-            <p className="text-xs font-semibold tracking-widest text-primary uppercase mb-4 flex items-center gap-2">
-              <span className="w-6 h-px bg-primary inline-block" />
-              Let's connect
-            </p>
-            <h1 className="font-serif text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              If you have something real to build, I want to hear about it.
-            </h1>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-              I'm open to collaborations, consulting on product ideas, or just a good
-              conversation about what you're trying to solve. I don't do small talk — but
-              I do do sharp thinking.
-            </p>
+        {/* Header */}
+        <motion.div variants={fadeUp} initial="hidden" animate="visible" className="mb-20">
+          <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-6">
+            Let's connect
+          </p>
+          <h1 className="font-serif text-5xl md:text-7xl font-bold leading-[1.04] mb-8 max-w-3xl">
+            If you have something real to build, I want to hear about it.
+          </h1>
+          <p className="text-xl text-muted-foreground leading-relaxed font-light max-w-xl">
+            Open to collaborations, automation consulting, bot development, or just a sharp
+            conversation about what you're trying to solve.
+          </p>
+        </motion.div>
 
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-3">
-                  Find me online
-                </h3>
-                <div className="flex gap-6 flex-wrap">
-                  <a
-                    href="https://x.com/AlvineOtieno14"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-medium text-foreground hover:text-primary transition-colors"
-                    data-testid="link-contact-twitter"
-                  >
-                    Twitter / X
-                  </a>
-                  <a
-                    href="https://ke.linkedin.com/in/alvine-otieno-0351a2286"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-medium text-foreground hover:text-primary transition-colors"
-                    data-testid="link-contact-linkedin"
-                  >
-                    LinkedIn
-                  </a>
-                  <a
-                    href="https://www.facebook.com/profile.php?id=61591047677884"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-medium text-foreground hover:text-primary transition-colors"
-                    data-testid="link-contact-facebook"
-                  >
-                    Facebook
-                  </a>
-                </div>
-              </div>
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-16 md:gap-24">
 
-              <div>
-                <h3 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-2">
-                  Email
-                </h3>
+          {/* Left: Info */}
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            custom={0.1}
+            className="md:col-span-2 space-y-12"
+          >
+            <div>
+              <p className="text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase mb-4">Email</p>
+              <a
+                href="mailto:otienoalvine925@gmail.com"
+                className="text-base font-medium text-foreground hover:text-primary transition-colors"
+                data-testid="link-contact-email"
+              >
+                otienoalvine925@gmail.com
+              </a>
+            </div>
+
+            <div>
+              <p className="text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase mb-4">Find me</p>
+              <div className="flex flex-col gap-3">
                 <a
-                  href="mailto:otienoalvine925@gmail.com"
-                  className="font-medium text-foreground hover:text-primary transition-colors"
-                  data-testid="link-contact-email"
+                  href="https://x.com/AlvineOtieno14"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-base font-medium text-foreground hover:text-primary transition-colors"
+                  data-testid="link-contact-twitter"
                 >
-                  otienoalvine925@gmail.com
+                  Twitter / X ↗
+                </a>
+                <a
+                  href="https://ke.linkedin.com/in/alvine-otieno-0351a2286"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-base font-medium text-foreground hover:text-primary transition-colors"
+                  data-testid="link-contact-linkedin"
+                >
+                  LinkedIn ↗
+                </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61591047677884"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-base font-medium text-foreground hover:text-primary transition-colors"
+                  data-testid="link-contact-facebook"
+                >
+                  Facebook ↗
                 </a>
               </div>
+            </div>
 
-              <div>
-                <h3 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-2">
-                  Based in
-                </h3>
-                <p className="font-medium text-foreground">Kisumu, Kenya — remote & hybrid worldwide.</p>
-              </div>
+            <div>
+              <p className="text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase mb-4">Based in</p>
+              <p className="text-base font-medium text-foreground">Kisumu, Kenya</p>
+              <p className="text-sm text-muted-foreground mt-1">Remote & hybrid worldwide</p>
+            </div>
 
-              <div>
-                <h3 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-2">
-                  Currently
-                </h3>
-                <p className="text-muted-foreground">
-                  Building Tellus. Always shipping something.{" "}
-                  <span className="inline-block w-2 h-2 rounded-full bg-primary animate-pulse" />
-                </p>
-              </div>
+            <div>
+              <p className="text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase mb-2">Status</p>
+              <p className="text-sm text-muted-foreground flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-primary animate-pulse flex-shrink-0" />
+                Building Tellus. Always shipping.
+              </p>
             </div>
           </motion.div>
 
-          {/* Right: Form */}
+          {/* Right: Form — no card, just form on background */}
           <motion.div
             variants={fadeUp}
             initial="hidden"
             animate="visible"
             custom={0.2}
-            className="bg-card border border-border rounded-2xl p-8 shadow-sm"
+            className="md:col-span-3"
           >
             {formState === "success" ? (
-              <div className="min-h-[320px] flex flex-col items-center justify-center text-center gap-4">
-                <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-2">
-                  <CheckCircle2 className="text-primary" size={28} />
-                </div>
-                <h3 className="font-serif text-2xl font-bold">Got it.</h3>
-                <p className="text-muted-foreground max-w-xs">
-                  Your message is on its way to my inbox. I'll read it, think about it, and get back to you.
+              <div className="py-20 flex flex-col items-start gap-4">
+                <CheckCircle2 className="text-primary" size={32} />
+                <h3 className="font-serif text-3xl font-bold">Got it.</h3>
+                <p className="text-muted-foreground text-lg max-w-sm">
+                  Your message is on its way. I'll read it, think about it, and get back to you.
                 </p>
-                <Button
-                  variant="outline"
+                <button
                   onClick={() => setFormState("idle")}
-                  className="mt-2"
+                  className="mt-4 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4"
                   data-testid="button-send-another"
                 >
-                  Send another
-                </Button>
+                  Send another message
+                </button>
               </div>
             ) : (
               <Form {...form}>
                 <form
                   onSubmit={form.handleSubmit(onSubmit)}
-                  className="space-y-6"
+                  className="space-y-8"
                   data-testid="form-contact"
                 >
                   <FormField
@@ -212,12 +196,14 @@ export function Contact() {
                     name="name"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Your name</FormLabel>
+                        <FormLabel className="text-xs font-semibold tracking-[0.15em] uppercase text-muted-foreground">
+                          Your name
+                        </FormLabel>
                         <FormControl>
                           <Input
                             placeholder="What should I call you?"
                             {...field}
-                            className="bg-background"
+                            className="bg-transparent border-0 border-b border-border/60 rounded-none px-0 h-12 text-base focus-visible:ring-0 focus-visible:border-primary transition-colors placeholder:text-muted-foreground/50"
                             data-testid="input-name"
                           />
                         </FormControl>
@@ -230,13 +216,15 @@ export function Contact() {
                     name="email"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Email</FormLabel>
+                        <FormLabel className="text-xs font-semibold tracking-[0.15em] uppercase text-muted-foreground">
+                          Email address
+                        </FormLabel>
                         <FormControl>
                           <Input
                             placeholder="your@email.com"
                             type="email"
                             {...field}
-                            className="bg-background"
+                            className="bg-transparent border-0 border-b border-border/60 rounded-none px-0 h-12 text-base focus-visible:ring-0 focus-visible:border-primary transition-colors placeholder:text-muted-foreground/50"
                             data-testid="input-email"
                           />
                         </FormControl>
@@ -249,11 +237,13 @@ export function Contact() {
                     name="message"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>What's on your mind?</FormLabel>
+                        <FormLabel className="text-xs font-semibold tracking-[0.15em] uppercase text-muted-foreground">
+                          What's on your mind?
+                        </FormLabel>
                         <FormControl>
                           <Textarea
                             placeholder="Tell me what you're building, thinking, or stuck on..."
-                            className="min-h-[140px] resize-none bg-background"
+                            className="bg-transparent border-0 border-b border-border/60 rounded-none px-0 min-h-[120px] resize-none text-base focus-visible:ring-0 focus-visible:border-primary transition-colors placeholder:text-muted-foreground/50"
                             {...field}
                             data-testid="textarea-message"
                           />
@@ -264,33 +254,27 @@ export function Contact() {
                   />
 
                   {formState === "error" && (
-                    <div className="flex items-start gap-3 p-3 rounded-lg bg-destructive/10 text-destructive text-sm">
-                      <AlertCircle size={16} className="mt-0.5 flex-shrink-0" />
+                    <div className="flex items-start gap-2 text-destructive text-sm">
+                      <AlertCircle size={15} className="mt-0.5 flex-shrink-0" />
                       <span>{errorMessage}</span>
                     </div>
                   )}
 
                   <Button
                     type="submit"
-                    className="w-full h-12 text-sm font-semibold"
+                    className="h-12 px-10 text-sm font-semibold mt-4"
                     disabled={formState === "loading"}
                     data-testid="button-submit"
                   >
                     {formState === "loading" ? (
                       <span className="flex items-center gap-2">
-                        <Loader2 size={16} className="animate-spin" />
+                        <Loader2 size={15} className="animate-spin" />
                         Sending…
                       </span>
                     ) : (
-                      "Send it"
+                      "Send message →"
                     )}
                   </Button>
-
-                  {!FORMSPREE_ID && (
-                    <p className="text-xs text-muted-foreground text-center">
-                      Will open your email app to send directly.
-                    </p>
-                  )}
                 </form>
               </Form>
             )}

@@ -5,11 +5,11 @@ import { Layout } from "@/components/layout";
 import { projects } from "@/lib/data";
 
 const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
+  hidden: { opacity: 0, y: 28 },
   visible: (delay = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1], delay },
+    transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1], delay },
   }),
 };
 
@@ -17,52 +17,47 @@ export function Home() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="max-w-6xl mx-auto px-6 pt-24 pb-32 md:pt-36 md:pb-44">
-        <motion.div
-          variants={fadeUp}
-          initial="hidden"
-          animate="visible"
-          className="max-w-4xl"
-        >
-          <p className="text-sm font-medium text-primary tracking-widest uppercase mb-6 flex items-center gap-2">
-            <span className="w-8 h-px bg-primary inline-block" />
+      <section className="max-w-6xl mx-auto px-6 pt-24 pb-20 md:pt-40 md:pb-32">
+        <motion.div variants={fadeUp} initial="hidden" animate="visible" className="max-w-4xl">
+          <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-8">
             Alvine Otieno — Builder & Automation Specialist
           </p>
-          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.05] tracking-tight mb-8">
-            I remove friction.<br className="hidden md:block" />{" "}
-            <span className="italic text-primary">Businesses scale.</span>
+          <h1 className="font-serif text-6xl md:text-8xl lg:text-[96px] font-bold leading-[1.02] tracking-tight mb-10">
+            I remove<br />
+            friction.<br />
+            <em className="text-primary not-italic">Businesses scale.</em>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-12">
-            I'm Alvine — a builder, automation specialist, and WhatsApp AI bot developer based in Kenya.
-            I combine operations thinking with smart technology to help businesses move faster without
-            adding headcount.
+          <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-xl mb-14 font-light">
+            WhatsApp AI bots, workflow automation, and web platforms that do the work businesses are still doing by hand.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap items-center gap-8">
             <Link
               href="/projects"
               data-testid="link-view-work"
-              className="inline-flex h-12 items-center gap-2 rounded-md bg-primary px-7 text-sm font-semibold text-primary-foreground shadow transition-all hover:bg-primary/90 hover:gap-3"
+              className="inline-flex items-center gap-2 text-base font-semibold text-foreground hover:text-primary transition-colors group"
             >
-              See My Work <ArrowRight size={16} />
+              See my work
+              <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link
-              href="/about"
-              data-testid="link-about-me"
-              className="inline-flex h-12 items-center rounded-md border border-border bg-transparent px-7 text-sm font-semibold transition-colors hover:bg-secondary hover:text-foreground"
+              href="/contact"
+              data-testid="link-contact-cta-hero"
+              className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              About Me
+              Get in touch →
             </Link>
           </div>
         </motion.div>
       </section>
 
-      {/* Divider with numbers */}
-      <section className="border-y border-border/60">
-        <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-3 gap-4 text-center divide-x divide-border/60">
+      {/* Stats strip */}
+      <section className="border-t border-b border-border/40">
+        <div className="max-w-6xl mx-auto px-6 py-8 flex flex-wrap gap-12 md:gap-20">
           {[
-            { num: "4+", label: "Products & Sites Shipped" },
-            { num: "1M+", label: "People Reached" },
-            { num: "500+", label: "Traders Trained via Deriv Champions" },
+            { num: "1M+", label: "People reached across projects" },
+            { num: "50K+", label: "Events on MyJoyfulDay" },
+            { num: "500+", label: "Traders trained via Deriv Champions" },
+            { num: "5", label: "Products shipped" },
           ].map(({ num, label }, i) => (
             <motion.div
               key={label}
@@ -70,118 +65,138 @@ export function Home() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              custom={i * 0.1}
-              className="py-2"
+              custom={i * 0.08}
             >
               <p className="font-serif text-3xl md:text-4xl font-bold text-foreground">{num}</p>
-              <p className="text-sm text-muted-foreground mt-1">{label}</p>
+              <p className="text-sm text-muted-foreground mt-1 max-w-[140px] leading-snug">{label}</p>
             </motion.div>
           ))}
         </div>
       </section>
 
-      {/* Selected Projects */}
-      <section className="max-w-6xl mx-auto px-6 py-24">
-        <div className="flex items-end justify-between mb-14">
+      {/* Featured projects — editorial list */}
+      <section className="max-w-6xl mx-auto px-6 py-24 md:py-32">
+        <div className="flex items-baseline justify-between mb-16">
           <div>
-            <p className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">
-              Selected Work
-            </p>
-            <h2 className="font-serif text-3xl md:text-4xl font-bold">
-              Products I've built
-            </h2>
+            <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-3">Selected Work</p>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold">Products I've built</h2>
           </div>
           <Link
             href="/projects"
-            className="hidden md:inline-flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+            className="hidden md:flex items-center gap-1 text-sm text-muted-foreground hover:text-primary transition-colors"
             data-testid="link-all-projects"
           >
-            All projects <ArrowRight size={14} />
+            All projects <ArrowRight size={13} />
           </Link>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
-          {projects.map((project, i) => (
+        <div className="space-y-0 divide-y divide-border/40">
+          {projects.slice(0, 3).map((project, i) => (
             <motion.div
               key={project.slug}
               variants={fadeUp}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              custom={i * 0.12}
-              className="group relative flex flex-col rounded-xl border border-border bg-card overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1 duration-300"
-              data-testid={`card-project-${project.slug}`}
+              custom={i * 0.1}
+              className="group grid grid-cols-1 md:grid-cols-5 gap-8 py-12 items-center"
+              data-testid={`row-project-${project.slug}`}
             >
-              {project.image ? (
-                <div className="aspect-[16/9] overflow-hidden">
+              {/* Image */}
+              <div className="md:col-span-2 overflow-hidden rounded-lg aspect-[16/9]">
+                {project.image ? (
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
-                </div>
-              ) : (
-                <div
-                  className="aspect-[16/9] flex items-center justify-center"
-                  style={{ backgroundColor: project.colors?.bg || "#1e293b" }}
-                >
-                  <span
-                    className="font-serif text-2xl font-bold opacity-80"
-                    style={{ color: project.colors?.primary || "#fff" }}
+                ) : (
+                  <div
+                    className="w-full h-full flex items-center justify-center rounded-lg"
+                    style={{ backgroundColor: project.colors?.bg || "#1e293b" }}
                   >
-                    {project.title}
-                  </span>
+                    <span
+                      className="font-serif text-2xl font-bold"
+                      style={{ color: project.colors?.primary || "#fff" }}
+                    >
+                      {project.title}
+                    </span>
+                  </div>
+                )}
+              </div>
+
+              {/* Text */}
+              <div className="md:col-span-3">
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {project.tech.slice(0, 3).map((t) => (
+                    <span key={t} className="text-xs text-muted-foreground font-medium tracking-wide">
+                      {t}
+                    </span>
+                  ))}
                 </div>
-              )}
-              <div className="p-6 flex flex-col flex-1">
-                <h3 className="font-serif text-xl font-bold mb-2 group-hover:text-primary transition-colors">
+                <h3 className="font-serif text-2xl md:text-3xl font-bold mb-3 group-hover:text-primary transition-colors">
                   {project.title}
                 </h3>
-                <p className="text-sm text-muted-foreground leading-relaxed flex-1">
+                <p className="text-muted-foreground leading-relaxed mb-6 max-w-lg">
                   {project.shortDescription}
                 </p>
-                <div className="flex items-center justify-between mt-5 pt-4 border-t border-border/50">
+                <div className="flex items-center gap-8">
                   <Link
                     href={`/projects/${project.slug}`}
-                    className="text-sm font-semibold text-primary inline-flex items-center gap-1 hover:gap-2 transition-all"
+                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:gap-3 transition-all"
                     data-testid={`link-project-detail-${project.slug}`}
                   >
-                    Case study <ArrowRight size={13} />
+                    Case study <ArrowRight size={14} />
                   </Link>
                   <a
                     href={project.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                     data-testid={`link-project-live-${project.slug}`}
                   >
-                    Live ↗
+                    Live site ↗
                   </a>
                 </div>
               </div>
             </motion.div>
           ))}
         </div>
+
+        <div className="pt-8">
+          <Link
+            href="/projects"
+            className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+          >
+            View all 5 projects <ArrowRight size={14} />
+          </Link>
+        </div>
       </section>
 
-      {/* CTA strip */}
-      <section className="border-t border-border/60 bg-primary/5">
-        <div className="max-w-6xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div>
-            <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2">
-              Have an idea worth building?
+      {/* CTA */}
+      <section className="border-t border-border/40">
+        <div className="max-w-6xl mx-auto px-6 py-20 md:py-28 flex flex-col md:flex-row md:items-end justify-between gap-10">
+          <div className="max-w-xl">
+            <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-4">Open to Work</p>
+            <h2 className="font-serif text-3xl md:text-5xl font-bold leading-tight">
+              Got something worth building?
             </h2>
-            <p className="text-muted-foreground">
-              I'm always open to a sharp conversation about real problems.
-            </p>
           </div>
-          <Link
-            href="/contact"
-            data-testid="link-contact-cta"
-            className="flex-shrink-0 inline-flex h-12 items-center gap-2 rounded-md bg-primary px-8 text-sm font-semibold text-primary-foreground shadow transition-all hover:bg-primary/90 hover:gap-3"
-          >
-            Let's talk <ArrowRight size={15} />
-          </Link>
+          <div className="flex flex-col gap-3">
+            <Link
+              href="/contact"
+              data-testid="link-contact-cta"
+              className="inline-flex items-center gap-2 h-12 px-8 bg-primary text-primary-foreground text-sm font-semibold rounded-md hover:bg-primary/90 transition-colors"
+            >
+              Let's talk <ArrowRight size={15} />
+            </Link>
+            <a
+              href="mailto:otienoalvine925@gmail.com"
+              className="text-xs text-center text-muted-foreground hover:text-primary transition-colors"
+            >
+              otienoalvine925@gmail.com
+            </a>
+          </div>
         </div>
       </section>
     </Layout>

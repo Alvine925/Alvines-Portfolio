@@ -62,7 +62,7 @@ export function ProjectDetail() {
               Case Study
             </p>
             <h1
-              className="font-serif text-5xl md:text-7xl font-bold leading-[1.04] mb-6 max-w-3xl"
+              className="font-serif text-2xl md:text-3xl font-bold leading-snug mb-6 max-w-3xl"
               style={{ color: project.colors?.text || "inherit" }}
             >
               {project.title}
@@ -91,8 +91,38 @@ export function ProjectDetail() {
               viewport={{ once: true }}
             >
               <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-6">Overview</p>
-              <p className="text-lg text-muted-foreground leading-relaxed">{project.description}</p>
+              <p className="text-base text-muted-foreground leading-relaxed">{project.description}</p>
             </motion.section>
+
+            {/* Problem */}
+            {project.problem && (
+              <motion.section
+                variants={fadeUp}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-6">The Problem</p>
+                <div className="border-l-2 border-destructive/40 pl-5">
+                  <p className="text-base text-muted-foreground leading-relaxed">{project.problem}</p>
+                </div>
+              </motion.section>
+            )}
+
+            {/* Solution */}
+            {project.solution && (
+              <motion.section
+                variants={fadeUp}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-6">The Solution</p>
+                <div className="border-l-2 border-primary/40 pl-5">
+                  <p className="text-base text-muted-foreground leading-relaxed">{project.solution}</p>
+                </div>
+              </motion.section>
+            )}
 
             {/* Screenshot */}
             {project.image && (
@@ -131,7 +161,7 @@ export function ProjectDetail() {
                 </div>
                 <div className="flex-1 flex flex-col items-center justify-center text-center p-8">
                   <h3
-                    className="font-serif text-5xl font-bold mb-4"
+                    className="font-serif text-2xl font-bold mb-4"
                     style={{ color: project.colors?.primary || "#fff" }}
                   >
                     {project.title}
@@ -211,7 +241,7 @@ export function ProjectDetail() {
                 <ul className="space-y-3">
                   {project.keyFeatures.map((feature) => (
                     <li key={feature} className="text-sm text-muted-foreground flex gap-2">
-                      <span className="text-primary mt-1.5 flex-shrink-0">—</span>
+                      <span className="text-primary mt-1.5 flex-shrink-0">·</span>
                       {feature}
                     </li>
                   ))}

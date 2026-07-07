@@ -49,10 +49,10 @@ export function Home() {
                 />
               </div>
               <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase">
-                Alvine Otieno — Builder & Automation Specialist
+                Alvine Otieno · Builder & Automation Specialist
               </p>
             </div>
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.08] tracking-tight mb-8 text-foreground">
+            <h1 className="font-serif text-3xl md:text-4xl font-bold leading-snug tracking-tight mb-8 text-foreground">
               I remove<br />
               friction.<br />
               <em className="text-primary not-italic">Businesses scale.</em>
@@ -129,7 +129,7 @@ export function Home() {
         <div className="flex items-baseline justify-between mb-16">
           <div>
             <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-3">Selected Work</p>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold">Products I've built</h2>
+            <h2 className="font-serif text-xl md:text-2xl font-bold">Products I've built</h2>
           </div>
           <Link
             href="/projects"
@@ -184,7 +184,7 @@ export function Home() {
                     </span>
                   ))}
                 </div>
-                <h3 className="font-serif text-2xl md:text-3xl font-bold mb-3 group-hover:text-primary transition-colors">
+                <h3 className="font-serif text-lg md:text-xl font-bold mb-3 group-hover:text-primary transition-colors">
                   {project.title}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-6 max-w-lg">
@@ -228,7 +228,7 @@ export function Home() {
         <div className="max-w-6xl mx-auto px-6 py-20 md:py-28 flex flex-col md:flex-row md:items-end justify-between gap-10">
           <div className="max-w-xl">
             <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-4">Open to Work</p>
-            <h2 className="font-serif text-3xl md:text-5xl font-bold leading-tight">
+            <h2 className="font-serif text-xl md:text-2xl font-bold leading-tight">
               Got something worth building?
             </h2>
           </div>

@@ -29,20 +29,20 @@ const timeline = [
   },
   {
     year: "2023–2025",
-    title: "Hub Manager — Kisumu Hub",
-    description: "Ran daily operations at one of Kisumu's most vibrant coworking spaces — while simultaneously building digital systems on the side.",
+    title: "Hub Manager, Kisumu Hub",
+    description: "Ran daily operations at one of Kisumu's most vibrant coworking spaces, while simultaneously building digital systems on the side.",
     active: false,
   },
   {
     year: "2023",
-    title: "MyJoyfulDay — First big launch",
+    title: "MyJoyfulDay: First big launch",
     description: "Built Jitabi, the WhatsApp AI event-planning bot. Watching it reach 50K+ events proved that WhatsApp is infrastructure, not just a chat app.",
     active: false,
   },
   {
     year: "Before",
     title: "Strategy, systems & learning to ship",
-    description: "Business strategy, operations thinking, and an obsession with removing friction. Started seeing technology as a lever — and decided to become the person who pulls it.",
+    description: "Business strategy, operations thinking, and an obsession with removing friction. Started seeing technology as a lever, and decided to become the person who pulls it.",
     active: false,
   },
 ];
@@ -60,13 +60,13 @@ export function About() {
               <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-8">
                 The person behind the work
               </p>
-              <h1 className="font-serif text-5xl md:text-6xl font-bold leading-[1.04] tracking-tight mb-10">
+              <h1 className="font-serif text-2xl md:text-3xl font-bold leading-snug tracking-tight mb-10">
                 Hi, I'm Alvine.<br />
                 <em className="italic font-normal text-muted-foreground">Operations meets automation.</em>
               </h1>
               <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  I'm passionate about business and the systems that make it work — strategy, growth,
+                  I'm passionate about business and the systems that make it work: strategy, growth,
                   operations, and the technology that ties it all together. Based in Kisumu, Kenya, I
                   bring a blend of strategic thinking, hands-on execution, and a bias toward building
                   things that actually get used.
@@ -74,7 +74,7 @@ export function About() {
                 <p>
                   Over the last two years I've worn two hats simultaneously: running operations at
                   Kisumu Hub while building digital systems for businesses that wanted to move faster.
-                  WhatsApp AI bots. Workflow automations. Full web platforms. Not as separate things —
+                  WhatsApp AI bots. Workflow automations. Full web platforms. Not as separate things,
                   as one interconnected practice.
                 </p>
               </div>
@@ -101,11 +101,11 @@ export function About() {
           custom={0.05}
           className="border-t border-border/40 py-20 mb-24"
         >
-          <blockquote className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.2] max-w-3xl">
+          <blockquote className="font-serif text-lg md:text-xl lg:text-2xl font-bold leading-relaxed max-w-3xl">
             "Operations without automation is managed chaos. Automation without operations context is expensive chaos."
           </blockquote>
           <cite className="block mt-6 text-sm text-muted-foreground not-italic tracking-wide">
-            — Alvine, figuring this out in real time
+            Alvine, figuring this out in real time
           </cite>
         </motion.div>
 
@@ -134,7 +134,7 @@ export function About() {
               {
                 num: "03",
                 title: "Websites & Platforms",
-                desc: "From event platforms to e-commerce stores — WordPress, Wix, and custom builds with full domain, hosting, and payment setup included.",
+                desc: "From event platforms to e-commerce stores: WordPress, Wix, and custom builds with full domain, hosting, and payment setup included.",
               },
             ].map((item, i) => (
               <motion.div

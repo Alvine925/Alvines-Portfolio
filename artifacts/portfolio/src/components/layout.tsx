@@ -33,6 +33,7 @@ export function Navbar() {
   const links = [
     { href: "/about", label: "About" },
     { href: "/projects", label: "Projects" },
+    { href: "/capabilities", label: "Capabilities" },
     { href: "/blog", label: "Writing" },
     { href: "/contact", label: "Contact" },
   ];
@@ -142,7 +143,7 @@ export function Footer() {
     <footer className="border-t border-border/50 py-10 mt-20">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Alvine — built from scratch, shipped with pride.
+          © {new Date().getFullYear()} Alvine. Built from scratch, shipped with pride.
         </p>
         <div className="flex items-center gap-5">
           {socialLinks.map(({ href, label, icon: Icon, testId }) => (

@@ -20,7 +20,7 @@ export function Blog() {
           <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-6">
             Writing
           </p>
-          <h1 className="font-serif text-5xl md:text-7xl font-bold leading-[1.04] mb-8">
+          <h1 className="font-serif text-2xl md:text-3xl font-bold leading-snug mb-8">
             Thoughts I couldn't<br className="hidden md:block" /> keep to myself.
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed font-light max-w-lg">
@@ -57,7 +57,7 @@ export function Blog() {
                 ))}
               </div>
 
-              <h2 className="font-serif text-3xl md:text-4xl font-bold mb-5 leading-tight group-hover:text-primary transition-colors">
+              <h2 className="font-serif text-xl md:text-2xl font-bold mb-5 leading-tight group-hover:text-primary transition-colors">
                 <Link href={`/blog/${post.slug}`} data-testid={`link-blog-post-${post.slug}`}>
                   {post.title}
                 </Link>

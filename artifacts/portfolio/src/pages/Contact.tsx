@@ -84,7 +84,7 @@ export function Contact() {
           <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-6">
             Let's connect
           </p>
-          <h1 className="font-serif text-5xl md:text-7xl font-bold leading-[1.04] mb-8 max-w-3xl">
+          <h1 className="font-serif text-2xl md:text-3xl font-bold leading-snug mb-8 max-w-3xl">
             If you have something real to build, I want to hear about it.
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed font-light max-w-xl">

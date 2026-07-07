@@ -21,7 +21,7 @@ export function Projects() {
           <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-6">
             Real Products. Real Users.
           </p>
-          <h1 className="font-serif text-5xl md:text-7xl font-bold leading-[1.04] mb-8">
+          <h1 className="font-serif text-2xl md:text-3xl font-bold leading-snug mb-8">
             Things I've built<br className="hidden md:block" /> and shipped.
           </h1>
           <p className="text-xl text-muted-foreground max-w-xl leading-relaxed font-light">
@@ -78,7 +78,7 @@ export function Projects() {
                     </span>
                   ))}
                 </div>
-                <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 group-hover:text-primary transition-colors">
+                <h2 className="font-serif text-xl md:text-2xl font-bold mb-4 group-hover:text-primary transition-colors">
                   {project.title}
                 </h2>
                 <p className="text-muted-foreground leading-relaxed mb-6 text-lg">

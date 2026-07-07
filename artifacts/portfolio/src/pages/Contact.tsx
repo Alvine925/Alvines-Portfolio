@@ -73,16 +73,7 @@ export function Contact() {
                 </h3>
                 <div className="flex gap-6 flex-wrap">
                   <a
-                    href="https://github.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-medium text-foreground hover:text-primary transition-colors"
-                    data-testid="link-contact-github"
-                  >
-                    GitHub
-                  </a>
-                  <a
-                    href="https://twitter.com"
+                    href="https://x.com/AlvineOtieno14"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-medium text-foreground hover:text-primary transition-colors"
@@ -91,13 +82,22 @@ export function Contact() {
                     Twitter / X
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://ke.linkedin.com/in/alvine-otieno-0351a2286"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-medium text-foreground hover:text-primary transition-colors"
                     data-testid="link-contact-linkedin"
                   >
                     LinkedIn
+                  </a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61591047677884"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium text-foreground hover:text-primary transition-colors"
+                    data-testid="link-contact-facebook"
+                  >
+                    Facebook
                   </a>
                 </div>
               </div>

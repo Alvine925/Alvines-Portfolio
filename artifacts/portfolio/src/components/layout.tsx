@@ -93,31 +93,31 @@ export function Footer() {
         </p>
         <div className="flex gap-6">
           <a
-            href="https://github.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors text-sm"
-            data-testid="link-footer-github"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://twitter.com"
+            href="https://x.com/AlvineOtieno14"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors text-sm"
             data-testid="link-footer-twitter"
           >
-            Twitter
+            Twitter / X
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://ke.linkedin.com/in/alvine-otieno-0351a2286"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors text-sm"
             data-testid="link-footer-linkedin"
           >
             LinkedIn
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61591047677884"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors text-sm"
+            data-testid="link-footer-facebook"
+          >
+            Facebook
           </a>
         </div>
       </div>

@@ -13,47 +13,49 @@ const fadeUp = {
 };
 
 const skills = [
-  { name: "Next.js", group: "Frontend" },
-  { name: "React", group: "Frontend" },
-  { name: "TypeScript", group: "Frontend" },
-  { name: "Tailwind CSS", group: "Frontend" },
-  { name: "Vite", group: "Frontend" },
-  { name: "Node.js", group: "Backend" },
-  { name: "Supabase", group: "Backend" },
-  { name: "PostgreSQL", group: "Backend" },
-  { name: "Drizzle ORM", group: "Backend" },
-  { name: "AI / LLM", group: "AI" },
-  { name: "Prompt Engineering", group: "AI" },
-  { name: "Vibe Coding", group: "Method" },
+  { name: "WhatsApp Cloud API" },
+  { name: "AI Bot Development" },
+  { name: "n8n Automation" },
+  { name: "Make (Integromat)" },
+  { name: "OpenAI API" },
+  { name: "WordPress" },
+  { name: "Wix" },
+  { name: "Next.js" },
+  { name: "React" },
+  { name: "Tailwind CSS" },
+  { name: "Supabase" },
+  { name: "E-commerce" },
+  { name: "Business Operations" },
+  { name: "Community Building" },
 ];
 
 const timeline = [
   {
-    year: "2025",
-    title: "Tellus",
+    year: "Now",
+    title: "Builder & Automation Specialist",
     description:
-      "Launched Tellus — an AI-powered communications and productivity platform. Designing intelligent assistants that feel like an extension of your thinking.",
+      "Building WhatsApp AI bots, web platforms, and workflow automations for businesses that want to move faster without hiring more people. Projects across event tech, e-commerce, forex, and beyond.",
     active: true,
   },
   {
-    year: "2024",
-    title: "TellusJobs",
+    year: "2023–2025",
+    title: "Hub Manager — Kisumu Hub",
     description:
-      "Built and shipped TellusJobs, solving the fragmented Kenyan job market with AI-matching and auto-apply. Real users. Real applications. Real impact.",
+      "Ran daily operations at one of Kisumu's most vibrant coworking spaces. Managed community, logistics, and growth while simultaneously building digital systems on the side — proving you can run operations and ship products at the same time.",
     active: false,
   },
   {
     year: "2023",
-    title: "MyJoyfulDay",
+    title: "MyJoyfulDay — First big launch",
     description:
-      "Created a zero-friction event website builder via WhatsApp. Grew to 50K+ events and over a million guests. Proved that the best UI is sometimes no UI.",
+      "Built Jitabi, the WhatsApp AI event-planning bot powering MyJoyfulDay. Watching it reach 50K+ events and over a million guests proved that WhatsApp is infrastructure, not just a chat app.",
     active: false,
   },
   {
     year: "Before",
-    title: "Learning to Ship",
+    title: "Strategy, systems, and learning to ship",
     description:
-      "Years of frontend engineering, product thinking, and watching ideas die in Notion. One day decided to just build the thing. Haven't stopped since.",
+      "Business strategy, operations thinking, and an obsession with removing friction from how organizations work. Started seeing technology not as a tool but as a lever — and decided to become the person who pulls it.",
     active: false,
   },
 ];
@@ -76,28 +78,68 @@ export function About() {
           </p>
           <h1 className="font-serif text-4xl md:text-6xl font-bold leading-tight mb-8">
             Hi, I'm Alvine.<br />
-            <span className="italic text-muted-foreground font-normal">I build what I believe in.</span>
+            <span className="italic text-muted-foreground font-normal">Operations meets automation.</span>
           </h1>
           <div className="space-y-5 text-lg text-muted-foreground leading-relaxed max-w-2xl">
             <p>
-              I'm a vibe coder and product builder based in Kenya. I don't wait for
-              permission, budget, or a co-founder — I start with a problem that matters
-              and build until it works.
+              I'm passionate about business and the systems that make it work — strategy, growth,
+              operations, and the technology that ties it all together. Based in Kenya, I bring a
+              blend of strategic thinking, hands-on execution, and a bias toward building things that
+              actually get used.
             </p>
             <p>
-              My edge is speed without sloppiness. I move fast because I've built enough
-              to know what corners are safe to cut and which ones aren't. I use AI as a
-              creative partner, not a crutch. The ideas are mine. The craft is mine.
+              Over the last two years I've worn two hats simultaneously: running operations at
+              Kisumu Hub — one of Kisumu's leading coworking spaces — while building digital systems
+              for businesses that wanted to move faster. WhatsApp AI bots. Workflow automations.
+              Full-stack web platforms. Not as separate things — as one interconnected practice.
             </p>
             <p>
-              I'm most energized when a product solves a real pain in a context that
-              people say "can't be done here." Africa, WhatsApp, manual job applications —
-              I see infrastructure gaps as product opportunities.
+              My mission is simple: remove friction. Free up human time. Help good businesses scale
+              using automation and smart tooling, not headcount.
             </p>
           </div>
         </motion.div>
 
-        {/* Philosophy callout */}
+        {/* What I build */}
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          custom={0.05}
+          className="mb-20 grid md:grid-cols-3 gap-6"
+        >
+          {[
+            {
+              title: "WhatsApp AI Bots",
+              desc: "Conversational flows, automated customer support, and AI-powered assistants built on Meta's WhatsApp Cloud API. Real businesses. Real conversations. Zero extra staff.",
+            },
+            {
+              title: "Workflow Automation",
+              desc: "Connecting apps and eliminating repetitive work using n8n and Make. Integrating OpenAI and other AI APIs into processes that used to eat hours every week.",
+            },
+            {
+              title: "Websites & Platforms",
+              desc: "From event platforms to e-commerce stores to conversion-focused business sites — WordPress, Wix, and custom builds with full domain, hosting, and payment setup.",
+            },
+          ].map((item, i) => (
+            <motion.div
+              key={item.title}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.45, delay: i * 0.1 }}
+              className="p-6 rounded-xl border border-border bg-card"
+              data-testid={`card-service-${i}`}
+            >
+              <div className="w-8 h-1 bg-primary rounded mb-4" />
+              <h3 className="font-semibold text-foreground mb-2">{item.title}</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
+            </motion.div>
+          ))}
+        </motion.div>
+
+        {/* Quote */}
         <motion.blockquote
           variants={fadeUp}
           initial="hidden"
@@ -107,10 +149,10 @@ export function About() {
           className="relative border-l-4 border-primary pl-6 my-16 py-2"
         >
           <p className="font-serif text-2xl md:text-3xl text-foreground leading-snug italic">
-            "Ship it. Refine it. Ship it again. The product is never done — only paused."
+            "Operations without automation is just managed chaos. Automation without operations context is just expensive chaos."
           </p>
           <cite className="block mt-4 text-sm text-muted-foreground not-italic">
-            — Alvine, every single time
+            — Alvine, figuring this out in real time
           </cite>
         </motion.blockquote>
 
@@ -123,7 +165,7 @@ export function About() {
           custom={0.05}
           className="mb-20"
         >
-          <h2 className="font-serif text-2xl font-bold mb-8">Tools I Reach For</h2>
+          <h2 className="font-serif text-2xl font-bold mb-8">Tools & Technologies</h2>
           <div className="flex flex-wrap gap-2.5">
             {skills.map((skill, i) => (
               <motion.span
@@ -132,12 +174,9 @@ export function About() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.28, delay: i * 0.04 }}
-                className="inline-flex items-center gap-1.5 px-4 py-2 bg-secondary text-secondary-foreground rounded-full text-sm font-medium"
+                className="inline-flex items-center px-4 py-2 bg-secondary text-secondary-foreground rounded-full text-sm font-medium"
                 data-testid={`tag-skill-${i}`}
               >
-                {skill.group === "AI" && (
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
-                )}
                 {skill.name}
               </motion.span>
             ))}
@@ -151,6 +190,7 @@ export function About() {
           whileInView="visible"
           viewport={{ once: true }}
           custom={0.05}
+          className="mb-20"
         >
           <h2 className="font-serif text-2xl font-bold mb-10">How I got here</h2>
           <div className="relative">
@@ -184,6 +224,47 @@ export function About() {
           </div>
         </motion.div>
 
+        {/* Currently open to */}
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          custom={0.05}
+          className="mb-16 p-6 rounded-xl border border-primary/30 bg-primary/5"
+        >
+          <div className="flex items-center gap-2 mb-3">
+            <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+            <span className="text-xs font-bold tracking-widest text-primary uppercase">Currently open to</span>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {[
+              "Hybrid Operations + Tech Roles",
+              "Automation Specialist",
+              "WhatsApp / AI Bot Developer",
+              "Web Developer",
+              "Business Operations Manager",
+              "Freelance Projects",
+            ].map((role) => (
+              <span
+                key={role}
+                className="text-sm px-3 py-1.5 bg-background border border-border rounded-full text-foreground font-medium"
+              >
+                {role}
+              </span>
+            ))}
+          </div>
+          <p className="text-sm text-muted-foreground mt-4">
+            Remote or hybrid. Kenya-based.{" "}
+            <a
+              href="mailto:otienoalvine925@gmail.com"
+              className="text-primary hover:underline font-medium"
+            >
+              otienoalvine925@gmail.com
+            </a>
+          </p>
+        </motion.div>
+
         {/* CTA */}
         <motion.div
           variants={fadeUp}
@@ -191,7 +272,7 @@ export function About() {
           whileInView="visible"
           viewport={{ once: true }}
           custom={0.1}
-          className="mt-20 pt-12 border-t border-border/60 flex flex-col sm:flex-row gap-4"
+          className="pt-8 border-t border-border/60 flex flex-col sm:flex-row gap-4"
         >
           <Link
             href="/projects"

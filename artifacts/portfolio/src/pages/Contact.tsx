@@ -104,9 +104,22 @@ export function Contact() {
 
               <div>
                 <h3 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-2">
+                  Email
+                </h3>
+                <a
+                  href="mailto:otienoalvine925@gmail.com"
+                  className="font-medium text-foreground hover:text-primary transition-colors"
+                  data-testid="link-contact-email"
+                >
+                  otienoalvine925@gmail.com
+                </a>
+              </div>
+
+              <div>
+                <h3 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-2">
                   Based in
                 </h3>
-                <p className="font-medium text-foreground">Kenya — available worldwide.</p>
+                <p className="font-medium text-foreground">Kisumu, Kenya — remote & hybrid worldwide.</p>
               </div>
 
               <div>

@@ -26,15 +26,16 @@ export function Home() {
         >
           <p className="text-sm font-medium text-primary tracking-widest uppercase mb-6 flex items-center gap-2">
             <span className="w-8 h-px bg-primary inline-block" />
-            Alvine — Maker & Builder
+            Alvine Otieno — Builder & Automation Specialist
           </p>
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.05] tracking-tight mb-8">
-            I don't wait for<br className="hidden md:block" /> permission{" "}
-            <span className="italic text-primary">to ship.</span>
+            I remove friction.<br className="hidden md:block" />{" "}
+            <span className="italic text-primary">Businesses scale.</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-12">
-            I'm Alvine — a vibe coder, product builder, and creative technologist. I turn ideas
-            into working products fast. Real users. Real problems. Real code.
+            I'm Alvine — a builder, automation specialist, and WhatsApp AI bot developer based in Kenya.
+            I combine operations thinking with smart technology to help businesses move faster without
+            adding headcount.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link
@@ -59,9 +60,9 @@ export function Home() {
       <section className="border-y border-border/60">
         <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-3 gap-4 text-center divide-x divide-border/60">
           {[
-            { num: "3", label: "Products Shipped" },
+            { num: "4+", label: "Products & Sites Shipped" },
             { num: "1M+", label: "People Reached" },
-            { num: "0", label: "Waiting for investors" },
+            { num: "500+", label: "Traders Trained via Deriv Champions" },
           ].map(({ num, label }, i) => (
             <motion.div
               key={label}
@@ -87,7 +88,7 @@ export function Home() {
               Selected Work
             </p>
             <h2 className="font-serif text-3xl md:text-4xl font-bold">
-              Things I've shipped
+              Products I've built
             </h2>
           </div>
           <Link

@@ -3,6 +3,28 @@ import { ReactNode } from "react";
 import { Link, useLocation } from "wouter";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { FaXTwitter, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
+
+const socialLinks = [
+  {
+    href: "https://x.com/AlvineOtieno14",
+    label: "Twitter / X",
+    icon: FaXTwitter,
+    testId: "twitter",
+  },
+  {
+    href: "https://ke.linkedin.com/in/alvine-otieno-0351a2286",
+    label: "LinkedIn",
+    icon: FaLinkedinIn,
+    testId: "linkedin",
+  },
+  {
+    href: "https://www.facebook.com/profile.php?id=61591047677884",
+    label: "Facebook",
+    icon: FaFacebookF,
+    testId: "facebook",
+  },
+];
 
 export function Navbar() {
   const [location] = useLocation();
@@ -41,6 +63,22 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
+          {/* Social icons in nav */}
+          <div className="flex items-center gap-3 pl-4 border-l border-border/50">
+            {socialLinks.map(({ href, label, icon: Icon, testId }) => (
+              <a
+                key={testId}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                data-testid={`link-nav-${testId}`}
+                className="text-primary hover:text-primary/70 transition-colors"
+              >
+                <Icon size={14} />
+              </a>
+            ))}
+          </div>
         </div>
 
         <button
@@ -76,6 +114,21 @@ export function Navbar() {
                   {link.label}
                 </Link>
               ))}
+              <div className="flex gap-5 pt-2 border-t border-border/40">
+                {socialLinks.map(({ href, label, icon: Icon, testId }) => (
+                  <a
+                    key={testId}
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={label}
+                    data-testid={`link-mobile-${testId}`}
+                    className="text-primary hover:text-primary/70 transition-colors"
+                  >
+                    <Icon size={16} />
+                  </a>
+                ))}
+              </div>
             </div>
           </motion.div>
         )}
@@ -87,38 +140,27 @@ export function Navbar() {
 export function Footer() {
   return (
     <footer className="border-t border-border/50 py-10 mt-20">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} Alvine — built from scratch, shipped with pride.
         </p>
-        <div className="flex gap-6">
-          <a
-            href="https://x.com/AlvineOtieno14"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors text-sm"
-            data-testid="link-footer-twitter"
-          >
-            Twitter / X
-          </a>
-          <a
-            href="https://ke.linkedin.com/in/alvine-otieno-0351a2286"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors text-sm"
-            data-testid="link-footer-linkedin"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="https://www.facebook.com/profile.php?id=61591047677884"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors text-sm"
-            data-testid="link-footer-facebook"
-          >
-            Facebook
-          </a>
+        <div className="flex items-center gap-5">
+          {socialLinks.map(({ href, label, icon: Icon, testId }) => (
+            <a
+              key={testId}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={label}
+              data-testid={`link-footer-${testId}`}
+              className="flex items-center gap-2 text-primary hover:text-primary/70 transition-colors group"
+            >
+              <Icon size={16} />
+              <span className="text-xs font-medium text-muted-foreground group-hover:text-primary transition-colors hidden sm:inline">
+                {label}
+              </span>
+            </a>
+          ))}
         </div>
       </div>
     </footer>

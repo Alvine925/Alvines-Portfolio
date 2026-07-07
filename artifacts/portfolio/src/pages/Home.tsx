@@ -18,46 +18,77 @@ export function Home() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="max-w-6xl mx-auto px-6 pt-24 pb-20 md:pt-40 md:pb-32">
-        <motion.div variants={fadeUp} initial="hidden" animate="visible" className="max-w-4xl">
-          <div className="flex items-center gap-4 mb-8">
-            <div className="w-11 h-11 rounded-full overflow-hidden ring-2 ring-primary/20 flex-shrink-0">
-              <img
-                src={alvinePhoto}
-                alt="Alvine Otieno"
-                className="w-full h-full object-cover object-top"
-              />
+      <section className="max-w-6xl mx-auto px-6 pt-16 pb-12 md:pt-28 md:pb-20">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-10 md:gap-16 items-center">
+          {/* Left — text */}
+          <motion.div variants={fadeUp} initial="hidden" animate="visible" className="md:col-span-3">
+            <div className="flex items-center gap-3 mb-8">
+              <div className="w-10 h-10 rounded-full overflow-hidden ring-2 ring-primary/20 flex-shrink-0">
+                <img
+                  src={alvinePhoto}
+                  alt="Alvine Otieno"
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+              <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase">
+                Alvine Otieno — Builder & Automation Specialist
+              </p>
             </div>
-            <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase">
-              Alvine Otieno — Builder & Automation Specialist
+            <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.02] tracking-tight mb-8">
+              I remove<br />
+              friction.<br />
+              <em className="text-primary not-italic">Businesses scale.</em>
+            </h1>
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-lg mb-10 font-light">
+              WhatsApp AI bots, workflow automation, and web platforms that do the work businesses are still doing by hand.
             </p>
-          </div>
-          <h1 className="font-serif text-6xl md:text-8xl lg:text-[96px] font-bold leading-[1.02] tracking-tight mb-10">
-            I remove<br />
-            friction.<br />
-            <em className="text-primary not-italic">Businesses scale.</em>
-          </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-xl mb-14 font-light">
-            WhatsApp AI bots, workflow automation, and web platforms that do the work businesses are still doing by hand.
-          </p>
-          <div className="flex flex-wrap items-center gap-8">
-            <Link
-              href="/projects"
-              data-testid="link-view-work"
-              className="inline-flex items-center gap-2 text-base font-semibold text-foreground hover:text-primary transition-colors group"
-            >
-              See my work
-              <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-            </Link>
-            <Link
-              href="/contact"
-              data-testid="link-contact-cta-hero"
-              className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Get in touch →
-            </Link>
-          </div>
-        </motion.div>
+            <div className="flex flex-wrap items-center gap-8">
+              <Link
+                href="/projects"
+                data-testid="link-view-work"
+                className="inline-flex items-center gap-2 text-base font-semibold text-foreground hover:text-primary transition-colors group"
+              >
+                See my work
+                <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+              </Link>
+              <Link
+                href="/contact"
+                data-testid="link-contact-cta-hero"
+                className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Get in touch →
+              </Link>
+            </div>
+          </motion.div>
+
+          {/* Right — hero portrait */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.97, y: 16 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
+            className="md:col-span-2 flex justify-center md:justify-end"
+          >
+            <div className="relative w-full max-w-sm md:max-w-none">
+              {/* Green accent behind photo */}
+              <div className="absolute -inset-3 rounded-3xl bg-primary/8 -z-10" />
+              <div className="overflow-hidden rounded-2xl aspect-[3/4] w-full">
+                <img
+                  src={alvinePhoto}
+                  alt="Alvine Otieno"
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+              {/* Floating badge */}
+              <div className="absolute -bottom-4 -left-4 bg-background border border-border/60 rounded-xl px-4 py-3 shadow-sm">
+                <p className="text-xs font-semibold text-primary uppercase tracking-wide">Kisumu, Kenya</p>
+                <p className="text-xs text-muted-foreground mt-0.5 flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
+                  Available for work
+                </p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
       </section>
 
       {/* Stats strip */}

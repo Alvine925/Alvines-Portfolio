@@ -124,8 +124,8 @@ export function Contact() {
                   className="flex items-center gap-3 text-base font-medium text-foreground hover:text-primary transition-colors group"
                   data-testid="link-contact-twitter"
                 >
-                  <span className="w-9 h-9 rounded-lg bg-foreground/6 flex items-center justify-center group-hover:bg-primary/10 transition-colors">
-                    <FaXTwitter size={15} />
+                  <span className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                    <FaXTwitter size={15} className="text-primary" />
                   </span>
                   Twitter / X
                 </a>
@@ -136,8 +136,8 @@ export function Contact() {
                   className="flex items-center gap-3 text-base font-medium text-foreground hover:text-primary transition-colors group"
                   data-testid="link-contact-linkedin"
                 >
-                  <span className="w-9 h-9 rounded-lg bg-foreground/6 flex items-center justify-center group-hover:bg-primary/10 transition-colors">
-                    <FaLinkedinIn size={15} />
+                  <span className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                    <FaLinkedinIn size={15} className="text-primary" />
                   </span>
                   LinkedIn
                 </a>
@@ -148,8 +148,8 @@ export function Contact() {
                   className="flex items-center gap-3 text-base font-medium text-foreground hover:text-primary transition-colors group"
                   data-testid="link-contact-facebook"
                 >
-                  <span className="w-9 h-9 rounded-lg bg-foreground/6 flex items-center justify-center group-hover:bg-primary/10 transition-colors">
-                    <FaFacebookF size={15} />
+                  <span className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                    <FaFacebookF size={15} className="text-primary" />
                   </span>
                   Facebook
                 </a>

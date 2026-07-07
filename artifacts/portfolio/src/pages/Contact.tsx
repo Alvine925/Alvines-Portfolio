@@ -15,13 +15,17 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
+
+const FORMSPREE_ID = import.meta.env.VITE_FORMSPREE_ID as string | undefined;
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
   email: z.string().email({ message: "Please enter a valid email address." }),
   message: z.string().min(10, { message: "Message must be at least 10 characters." }),
 });
+
+type FormState = "idle" | "loading" | "success" | "error";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -33,17 +37,53 @@ const fadeUp = {
 };
 
 export function Contact() {
-  const [isSuccess, setIsSuccess] = useState(false);
+  const [formState, setFormState] = useState<FormState>("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: { name: "", email: "", message: "" },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    setIsSuccess(true);
-    form.reset();
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    if (!FORMSPREE_ID) {
+      // Fallback: open mailto if Formspree not configured
+      const subject = encodeURIComponent(`Portfolio contact from ${values.name}`);
+      const body = encodeURIComponent(
+        `Name: ${values.name}\nEmail: ${values.email}\n\nMessage:\n${values.message}`
+      );
+      window.open(`mailto:otienoalvine925@gmail.com?subject=${subject}&body=${body}`);
+      setFormState("success");
+      form.reset();
+      return;
+    }
+
+    setFormState("loading");
+    setErrorMessage("");
+
+    try {
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          name: values.name,
+          email: values.email,
+          message: values.message,
+        }),
+      });
+
+      if (res.ok) {
+        setFormState("success");
+        form.reset();
+      } else {
+        const data = await res.json();
+        setErrorMessage(data?.errors?.[0]?.message || "Something went wrong. Please try again.");
+        setFormState("error");
+      }
+    } catch {
+      setErrorMessage("Network error. Please check your connection and try again.");
+      setFormState("error");
+    }
   }
 
   return (
@@ -142,18 +182,18 @@ export function Contact() {
             custom={0.2}
             className="bg-card border border-border rounded-2xl p-8 shadow-sm"
           >
-            {isSuccess ? (
+            {formState === "success" ? (
               <div className="min-h-[320px] flex flex-col items-center justify-center text-center gap-4">
                 <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-2">
                   <CheckCircle2 className="text-primary" size={28} />
                 </div>
                 <h3 className="font-serif text-2xl font-bold">Got it.</h3>
                 <p className="text-muted-foreground max-w-xs">
-                  Your message is in. I'll read it, think about it, and get back to you.
+                  Your message is on its way to my inbox. I'll read it, think about it, and get back to you.
                 </p>
                 <Button
                   variant="outline"
-                  onClick={() => setIsSuccess(false)}
+                  onClick={() => setFormState("idle")}
                   className="mt-2"
                   data-testid="button-send-another"
                 >
@@ -222,13 +262,35 @@ export function Contact() {
                       </FormItem>
                     )}
                   />
+
+                  {formState === "error" && (
+                    <div className="flex items-start gap-3 p-3 rounded-lg bg-destructive/10 text-destructive text-sm">
+                      <AlertCircle size={16} className="mt-0.5 flex-shrink-0" />
+                      <span>{errorMessage}</span>
+                    </div>
+                  )}
+
                   <Button
                     type="submit"
                     className="w-full h-12 text-sm font-semibold"
+                    disabled={formState === "loading"}
                     data-testid="button-submit"
                   >
-                    Send it
+                    {formState === "loading" ? (
+                      <span className="flex items-center gap-2">
+                        <Loader2 size={16} className="animate-spin" />
+                        Sending…
+                      </span>
+                    ) : (
+                      "Send it"
+                    )}
                   </Button>
+
+                  {!FORMSPREE_ID && (
+                    <p className="text-xs text-muted-foreground text-center">
+                      Will open your email app to send directly.
+                    </p>
+                  )}
                 </form>
               </Form>
             )}

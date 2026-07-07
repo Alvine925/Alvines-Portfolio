@@ -1,6 +1,7 @@
 import myjoyfulldayImg from "@assets/screenshots/myjoyfullday_com.png";
 import tellusjobsImg from "@assets/screenshots/tellusjobs_site.png";
 import autoshineImg from "@assets/screenshots/autoshine_co_ke.png";
+import tellusImg from "@assets/screenshots/site_tellusplatform_site.png";
 
 export const projects = [
   {
@@ -53,7 +54,7 @@ export const projects = [
   {
     slug: "tellus",
     title: "Tellus",
-    url: "https://tellus.site",
+    url: "https://site.tellusplatform.site/",
     shortDescription: "AI-powered communications platform. Think faster. Write better. Act sooner.",
     description:
       "Tellus is the platform under everything — an AI assistant that doesn't just answer questions but anticipates what you need next. It sits at the intersection of communication, productivity, and intelligent automation. Built for people who think in systems and move fast.",
@@ -71,7 +72,7 @@ export const projects = [
       "Balancing proactive intelligence with user autonomy — an assistant that suggests without interrupting.",
       "Maintaining state and context across complex, long-running threads without losing coherence.",
     ],
-    image: null,
+    image: tellusImg,
   },
   {
     slug: "autoshine",

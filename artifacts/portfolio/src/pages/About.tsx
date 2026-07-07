@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Layout } from "@/components/layout";
+import { SEO } from "@/components/SEO";
 import { Link } from "wouter";
 import { ArrowRight } from "lucide-react";
 import alvinePhoto from "@assets/713531308_2391480708041703_8942490288083047707_n_1783423380935.jpg";
@@ -9,7 +10,7 @@ const fadeUp = {
   visible: (delay = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1], delay },
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] as [number, number, number, number], delay },
   }),
 };
 
@@ -50,6 +51,12 @@ const timeline = [
 export function About() {
   return (
     <Layout>
+      <SEO
+        canonical="/about"
+        title="About Alvine Otieno — Builder & Automation Specialist, Kisumu Kenya"
+        description="Alvine Otieno is a WhatsApp AI bot developer and automation specialist based in Kisumu, Kenya. Two years running operations and building digital systems simultaneously — for businesses that want to move faster without hiring more people."
+        keywords="Alvine Otieno, WhatsApp bot developer Kenya, automation specialist Kisumu, AI developer Kenya, business operations Kenya, Kisumu tech developer, digital systems Kenya"
+      />
       <div className="max-w-5xl mx-auto px-6 py-20 md:py-32">
 
         {/* Intro */}

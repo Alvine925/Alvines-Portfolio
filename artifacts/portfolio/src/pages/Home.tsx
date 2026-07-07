@@ -10,6 +10,7 @@ function WhatsAppIcon({ size = 16 }: { size?: number }) {
   );
 }
 import { Layout } from "@/components/layout";
+import { SEO } from "@/components/SEO";
 import { projects } from "@/lib/data";
 import alvinePhoto from "@assets/713531308_2391480708041703_8942490288083047707_n_1783423380935.jpg";
 
@@ -18,13 +19,19 @@ const fadeUp = {
   visible: (delay = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1], delay },
+    transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1] as [number, number, number, number], delay },
   }),
 };
 
 export function Home() {
   return (
     <Layout>
+      <SEO
+        canonical="/"
+        title="WhatsApp AI Bots, Workflow Automation & Web Development · Kisumu, Kenya"
+        description="Alvine Otieno builds WhatsApp AI bots, workflow automations, and web platforms for businesses in Kenya and beyond. Based in Kisumu. Available for work."
+        keywords="WhatsApp AI bot developer Kenya, workflow automation Kisumu, web developer Kenya, AI chatbot builder, M-Pesa integration developer, business automation Kenya, WhatsApp business bot, n8n automation Kenya"
+      />
       {/* Hero */}
       <section
         className="relative w-full min-h-[90vh] flex items-center overflow-hidden"

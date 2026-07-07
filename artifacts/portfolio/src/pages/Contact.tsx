@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
+import { SEO } from "@/components/SEO";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { Layout } from "@/components/layout";
@@ -31,7 +32,7 @@ const fadeUp = {
   visible: (delay = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1], delay },
+    transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] as [number, number, number, number], delay },
   }),
 };
 
@@ -77,6 +78,12 @@ export function Contact() {
 
   return (
     <Layout>
+      <SEO
+        canonical="/contact"
+        title="Contact Alvine Otieno — Hire a WhatsApp Bot Developer in Kenya"
+        description="Get in touch with Alvine Otieno to discuss WhatsApp AI bots, workflow automation, web development, or any project that needs to remove friction and scale. Based in Kisumu, Kenya. Available for remote and hybrid work."
+        keywords="hire WhatsApp bot developer Kenya, contact Alvine Otieno, automation consultant Kenya, web developer for hire Kisumu, AI chatbot developer Kenya, freelance developer Kenya"
+      />
       <div className="max-w-5xl mx-auto px-6 py-20 md:py-32">
 
         {/* Header */}

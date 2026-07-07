@@ -2,13 +2,14 @@ import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { Layout } from "@/components/layout";
+import { SEO } from "@/components/SEO";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
   visible: (delay = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1], delay },
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] as [number, number, number, number], delay },
   }),
 };
 
@@ -139,6 +140,12 @@ const proofPoints = [
 export function Capabilities() {
   return (
     <Layout>
+      <SEO
+        canonical="/capabilities"
+        title="Capabilities — WhatsApp Bots, Automation, Web Dev & AI Integration"
+        description="Six proven capabilities: WhatsApp AI bots, workflow automation with n8n, web and platform development, e-commerce with M-Pesa, AI/LLM integration, and business operations. All backed by shipped products with real users."
+        keywords="WhatsApp AI bot services Kenya, workflow automation services Kenya, web development services Kisumu, M-Pesa integration developer, n8n automation Kenya, AI integration Kenya, e-commerce Kenya developer"
+      />
       <div className="max-w-5xl mx-auto px-6 py-20 md:py-28">
 
         {/* Header */}

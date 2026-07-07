@@ -2,6 +2,7 @@ import { useParams, Link } from "wouter";
 import { motion } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Layout } from "@/components/layout";
+import { SEO } from "@/components/SEO";
 import { projects } from "@/lib/data";
 
 const fadeUp = {
@@ -9,7 +10,7 @@ const fadeUp = {
   visible: (delay = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1], delay },
+    transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] as [number, number, number, number], delay },
   }),
 };
 
@@ -35,6 +36,12 @@ export function ProjectDetail() {
 
   return (
     <Layout>
+      <SEO
+        canonical={`/projects/${project.slug}`}
+        title={`${project.title} — Case Study`}
+        description={project.shortDescription}
+        keywords={`${project.title}, ${project.tech.join(", ")}, web developer Kenya, AI developer Kenya, case study`}
+      />
       {/* Hero — colored band without card */}
       <div
         className="w-full py-28 md:py-36 border-b border-border/30"

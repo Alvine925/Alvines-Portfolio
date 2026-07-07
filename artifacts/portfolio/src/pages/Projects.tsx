@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Layout } from "@/components/layout";
+import { SEO } from "@/components/SEO";
 import { projects } from "@/lib/data";
 
 const fadeUp = {
@@ -9,13 +10,19 @@ const fadeUp = {
   visible: (delay = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1], delay },
+    transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] as [number, number, number, number], delay },
   }),
 };
 
 export function Projects() {
   return (
     <Layout>
+      <SEO
+        canonical="/projects"
+        title="Projects — WhatsApp Bots, AI Platforms & Web Apps Built in Kenya"
+        description="Case studies of real products built by Alvine Otieno: MyJoyfulDay (50K+ events via WhatsApp AI), TellusJobs (AI job matching for Kenya), Tellus Platform, Autoshine e-commerce, and Deriv Champions."
+        keywords="WhatsApp bot portfolio Kenya, AI projects Kenya, MyJoyfulDay, TellusJobs, web development portfolio Kisumu, M-Pesa e-commerce Kenya, AI developer portfolio"
+      />
       <div className="max-w-6xl mx-auto px-6 py-20 md:py-32">
         <motion.div variants={fadeUp} initial="hidden" animate="visible" className="mb-20">
           <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-6">

@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Layout } from "@/components/layout";
 import { projects } from "@/lib/data";
+import alvinePhoto from "@assets/713531308_2391480708041703_8942490288083047707_n_1783423380935.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 28 },
@@ -19,9 +20,18 @@ export function Home() {
       {/* Hero */}
       <section className="max-w-6xl mx-auto px-6 pt-24 pb-20 md:pt-40 md:pb-32">
         <motion.div variants={fadeUp} initial="hidden" animate="visible" className="max-w-4xl">
-          <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-8">
-            Alvine Otieno — Builder & Automation Specialist
-          </p>
+          <div className="flex items-center gap-4 mb-8">
+            <div className="w-11 h-11 rounded-full overflow-hidden ring-2 ring-primary/20 flex-shrink-0">
+              <img
+                src={alvinePhoto}
+                alt="Alvine Otieno"
+                className="w-full h-full object-cover object-top"
+              />
+            </div>
+            <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase">
+              Alvine Otieno — Builder & Automation Specialist
+            </p>
+          </div>
           <h1 className="font-serif text-6xl md:text-8xl lg:text-[96px] font-bold leading-[1.02] tracking-tight mb-10">
             I remove<br />
             friction.<br />

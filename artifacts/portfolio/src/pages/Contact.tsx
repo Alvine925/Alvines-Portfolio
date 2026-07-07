@@ -16,6 +16,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
+import { FaXTwitter, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -115,33 +116,42 @@ export function Contact() {
 
             <div>
               <p className="text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase mb-4">Find me</p>
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-col gap-4">
                 <a
                   href="https://x.com/AlvineOtieno14"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-base font-medium text-foreground hover:text-primary transition-colors"
+                  className="flex items-center gap-3 text-base font-medium text-foreground hover:text-primary transition-colors group"
                   data-testid="link-contact-twitter"
                 >
-                  Twitter / X ↗
+                  <span className="w-9 h-9 rounded-lg bg-foreground/6 flex items-center justify-center group-hover:bg-primary/10 transition-colors">
+                    <FaXTwitter size={15} />
+                  </span>
+                  Twitter / X
                 </a>
                 <a
                   href="https://ke.linkedin.com/in/alvine-otieno-0351a2286"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-base font-medium text-foreground hover:text-primary transition-colors"
+                  className="flex items-center gap-3 text-base font-medium text-foreground hover:text-primary transition-colors group"
                   data-testid="link-contact-linkedin"
                 >
-                  LinkedIn ↗
+                  <span className="w-9 h-9 rounded-lg bg-foreground/6 flex items-center justify-center group-hover:bg-primary/10 transition-colors">
+                    <FaLinkedinIn size={15} />
+                  </span>
+                  LinkedIn
                 </a>
                 <a
                   href="https://www.facebook.com/profile.php?id=61591047677884"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-base font-medium text-foreground hover:text-primary transition-colors"
+                  className="flex items-center gap-3 text-base font-medium text-foreground hover:text-primary transition-colors group"
                   data-testid="link-contact-facebook"
                 >
-                  Facebook ↗
+                  <span className="w-9 h-9 rounded-lg bg-foreground/6 flex items-center justify-center group-hover:bg-primary/10 transition-colors">
+                    <FaFacebookF size={15} />
+                  </span>
+                  Facebook
                 </a>
               </div>
             </div>

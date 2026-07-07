@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Layout } from "@/components/layout";
 import { Link } from "wouter";
 import { ArrowRight } from "lucide-react";
+import alvinePhoto from "@assets/713531308_2391480708041703_8942490288083047707_n_1783423380935.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -53,26 +54,41 @@ export function About() {
 
         {/* Intro */}
         <motion.div variants={fadeUp} initial="hidden" animate="visible" className="mb-24">
-          <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-8">
-            The person behind the work
-          </p>
-          <h1 className="font-serif text-5xl md:text-7xl font-bold leading-[1.04] tracking-tight mb-12">
-            Hi, I'm Alvine.<br />
-            <em className="italic font-normal text-muted-foreground">Operations meets automation.</em>
-          </h1>
-          <div className="grid md:grid-cols-2 gap-8 text-lg text-muted-foreground leading-relaxed">
-            <p>
-              I'm passionate about business and the systems that make it work — strategy, growth,
-              operations, and the technology that ties it all together. Based in Kisumu, Kenya, I
-              bring a blend of strategic thinking, hands-on execution, and a bias toward building
-              things that actually get used.
-            </p>
-            <p>
-              Over the last two years I've worn two hats simultaneously: running operations at
-              Kisumu Hub while building digital systems for businesses that wanted to move faster.
-              WhatsApp AI bots. Workflow automations. Full web platforms. Not as separate things —
-              as one interconnected practice.
-            </p>
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-12 md:gap-20 items-start">
+            {/* Text */}
+            <div className="md:col-span-3">
+              <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-8">
+                The person behind the work
+              </p>
+              <h1 className="font-serif text-5xl md:text-6xl font-bold leading-[1.04] tracking-tight mb-10">
+                Hi, I'm Alvine.<br />
+                <em className="italic font-normal text-muted-foreground">Operations meets automation.</em>
+              </h1>
+              <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
+                <p>
+                  I'm passionate about business and the systems that make it work — strategy, growth,
+                  operations, and the technology that ties it all together. Based in Kisumu, Kenya, I
+                  bring a blend of strategic thinking, hands-on execution, and a bias toward building
+                  things that actually get used.
+                </p>
+                <p>
+                  Over the last two years I've worn two hats simultaneously: running operations at
+                  Kisumu Hub while building digital systems for businesses that wanted to move faster.
+                  WhatsApp AI bots. Workflow automations. Full web platforms. Not as separate things —
+                  as one interconnected practice.
+                </p>
+              </div>
+            </div>
+            {/* Photo */}
+            <div className="md:col-span-2">
+              <div className="overflow-hidden rounded-2xl aspect-[3/4] w-full max-w-xs md:max-w-none">
+                <img
+                  src={alvinePhoto}
+                  alt="Alvine Otieno"
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+            </div>
           </div>
         </motion.div>
 

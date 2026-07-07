@@ -1,0 +1,57 @@
+Build me a personal portfolio website using Next.js (App Router, TypeScript, Tailwind CSS). This should be a multipage site (not a single-page landing site — each section is its own page/route). The design must feel clean, premium, and professional/corporate — avoid generic templated layouts, generic stock icons, and cookie-cutter "portfolio starter kit" looks. Think intentional spacing, refined typography pairing, subtle micro-interactions, and a polished, custom feel — like a boutique studio or premium SaaS site, not a free template.
+Theme:
+
+Primary color: green (choose a sophisticated shade — e.g. deep emerald or forest green — not a bright/neon green), paired with neutral off-white/charcoal tones for a premium contrast
+Consistent accent usage: buttons, links, section highlights, hover states
+
+Pages needed (separate routes):
+
+Home (/)
+
+Strong headline + tagline about who I am
+Short intro/summary with CTA buttons to Projects and Blog
+Nav bar (Home, About, Projects, Blog, Contact) + footer with social links
+
+
+About (/about)
+
+Bio section — who I am, background, what I do
+Skills/tools section (tech stack, tools I use for vibe coding)
+Optional timeline/experience section
+
+
+Projects (/projects)
+
+Grid/card layout showcasing the sites I've built:
+
+myjoyfullday.com
+tellusjobs.site
+tellus.site
+
+
+Each card: site name, short description, tech/tools used, screenshot/thumbnail, live link
+Individual project detail page per site (/projects/[slug]) for a longer write-up (what it does, why I built it, challenges, tech stack)
+
+
+Blog (/blog)
+
+Blog listing page (title, date, short excerpt, tags)
+Individual blog post pages (/blog/[slug]) rendered from local markdown files (use MDX for rich formatting), stored in a /content/blog folder
+Clean, readable typography for long-form content (good line-height, max-width for readability)
+
+
+Contact (/contact)
+
+Contact form (name, email, message) wired to a working backend (Formspree, Resend, or a Next.js API route)
+Email/socials listed (LinkedIn, GitHub, Twitter/X, etc.)
+
+
+
+Technical requirements:
+
+Next.js 14+, App Router, TypeScript, Tailwind CSS
+Fully responsive, mobile-first
+SEO basics: meta tags, Open Graph tags, sitemap.xml, favicon
+Optimized images via next/image, lazy loading
+Deployable on Vercel
+Clean componentized structure: app/, components/, content/blog/ for markdown posts

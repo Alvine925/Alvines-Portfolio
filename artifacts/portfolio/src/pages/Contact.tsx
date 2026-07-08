@@ -49,7 +49,7 @@ export function Contact() {
     setFormState("loading");
     setErrorMessage("");
 
-    const FORMSPREE_ENDPOINT = "https://formspree.io/f/mzdlqqok";
+    const FORMSPREE_ENDPOINT = "https://formspree.io/f/mldbvkyb";
 
     try {
       const res = await fetch(FORMSPREE_ENDPOINT, {

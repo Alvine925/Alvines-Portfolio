@@ -38,11 +38,11 @@ export function ProjectDetail() {
     <Layout>
       <SEO
         canonical={`/projects/${project.slug}`}
-        title={`${project.title} — Case Study`}
+        title={`${project.title}  -  Case Study`}
         description={project.shortDescription}
         keywords={`${project.title}, ${project.tech.join(", ")}, web developer Kenya, AI developer Kenya, case study`}
       />
-      {/* Hero — colored band without card */}
+      {/* Hero  -  colored band without card */}
       <div
         className="w-full py-28 md:py-36 border-b border-border/30"
         style={{
@@ -148,7 +148,7 @@ export function ProjectDetail() {
               </motion.div>
             )}
 
-            {/* No screenshot — styled visual */}
+            {/* No screenshot  -  styled visual */}
             {!project.image && (
               <motion.div
                 initial={{ opacity: 0, scale: 0.98 }}
@@ -208,7 +208,7 @@ export function ProjectDetail() {
             )}
           </div>
 
-          {/* Sidebar — no card, just structured text */}
+          {/* Sidebar  -  no card, just structured text */}
           <motion.div
             variants={fadeUp}
             initial="hidden"

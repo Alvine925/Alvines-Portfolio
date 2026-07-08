@@ -2,11 +2,11 @@ export const coverImage = "https://images.unsplash.com/photo-1534536281715-e28d7
 
 export const content = `## Customer Support Automation for Kenyan Businesses: How to Scale Without Scaling Headcount
 
-Customer support is one of the most labour-intensive functions in any Kenyan business with a meaningful customer base. The volume of incoming inquiries — via WhatsApp, phone, email, social media — grows proportionally with the business, which means customer support headcount has to grow proportionally too. Or does it?
+Customer support is one of the most labour-intensive functions in any Kenyan business with a meaningful customer base. The volume of incoming inquiries  -  via WhatsApp, phone, email, social media  -  grows proportionally with the business, which means customer support headcount has to grow proportionally too. Or does it?
 
-Automation changes this relationship. With well-implemented customer support automation, a Kenyan business can handle 3–5x the inquiry volume with the same human team — because automation handles the repetitive, high-volume, low-complexity inquiries, leaving humans to manage the complex, sensitive, and relationship-critical conversations that actually require their judgment.
+Automation changes this relationship. With well-implemented customer support automation, a Kenyan business can handle 3 - 5x the inquiry volume with the same human team  -  because automation handles the repetitive, high-volume, low-complexity inquiries, leaving humans to manage the complex, sensitive, and relationship-critical conversations that actually require their judgment.
 
-This guide covers customer support automation specifically for the Kenyan business context — the tools that work, the patterns that produce results, and how Tellus helps Kenyan businesses implement automation that improves both efficiency and customer experience.
+This guide covers customer support automation specifically for the Kenyan business context  -  the tools that work, the patterns that produce results, and how Tellus helps Kenyan businesses implement automation that improves both efficiency and customer experience.
 
 ![Customer support team with automation technology](https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=1200&q=80)
 
@@ -16,13 +16,13 @@ Before designing automation, it's worth understanding the specific characteristi
 
 **WhatsApp is the primary channel.** Kenyan customers overwhelmingly prefer WhatsApp for business communication. Email exists but response expectations are lower; phone calls are used for urgent matters; WhatsApp is the everyday channel for inquiries, complaints, follow-ups, and everything in between. Customer support automation for Kenya must start with WhatsApp.
 
-**Volume is highest in the morning and evening.** Kenyan customers largely contact businesses during lunch breaks and after work — 12pm–2pm and 6pm–9pm are the peak inquiry windows. Many businesses have staff available during these windows; the gaps (early morning, overnight) often go unserviced.
+**Volume is highest in the morning and evening.** Kenyan customers largely contact businesses during lunch breaks and after work  -  12pm - 2pm and 6pm - 9pm are the peak inquiry windows. Many businesses have staff available during these windows; the gaps (early morning, overnight) often go unserviced.
 
-**Response time expectations are high but acceptance of delays is contextual.** For urgent matters (my order hasn't arrived; my payment went through but nothing happened), Kenyan customers expect fast responses. For general inquiries, 2–4 hours is acceptable. For non-urgent questions, same-day is fine. Automated instant responses — acknowledging receipt and setting expectations — satisfy customers during gaps even if the full resolution comes later.
+**Response time expectations are high but acceptance of delays is contextual.** For urgent matters (my order hasn't arrived; my payment went through but nothing happened), Kenyan customers expect fast responses. For general inquiries, 2 - 4 hours is acceptable. For non-urgent questions, same-day is fine. Automated instant responses  -  acknowledging receipt and setting expectations  -  satisfy customers during gaps even if the full resolution comes later.
 
 **Kiswahili and code-switching matter.** Kenyan customers often communicate in a mix of English and Kiswahili, sometimes within a single message. Customer support automation that can only handle formal English will alienate a significant portion of the customer base.
 
-**M-Pesa creates specific inquiry types.** Payment inquiries are a large category in Kenyan customer support — "I sent payment but didn't receive confirmation," "can I pay via M-Pesa," "my transaction was reversed." These have defined resolution flows that are excellent automation candidates.
+**M-Pesa creates specific inquiry types.** Payment inquiries are a large category in Kenyan customer support  -  "I sent payment but didn't receive confirmation," "can I pay via M-Pesa," "my transaction was reversed." These have defined resolution flows that are excellent automation candidates.
 
 ## What to Automate in Customer Support
 
@@ -73,9 +73,9 @@ For common inquiry categories:
 
 **Tier 3: AI-powered conversation handling**
 
-Beyond keyword matching, AI-powered bots can understand natural language — handling inquiries phrased in any way, understanding context from previous messages in the conversation, and providing more nuanced responses than keyword-triggered FAQ answers.
+Beyond keyword matching, AI-powered bots can understand natural language  -  handling inquiries phrased in any way, understanding context from previous messages in the conversation, and providing more nuanced responses than keyword-triggered FAQ answers.
 
-Tellus builds AI-powered WhatsApp bots at this tier, integrating language models with your business knowledge base and your operational systems. The AI can understand: "I sent 2000 bob yesterday evening but my account still hasn't been topped up" — parsing the payment amount, inferring the timeframe, identifying the service, and either triggering an automatic check or routing to the appropriate human agent.
+Tellus builds AI-powered WhatsApp bots at this tier, integrating language models with your business knowledge base and your operational systems. The AI can understand: "I sent 2000 bob yesterday evening but my account still hasn't been topped up"  -  parsing the payment amount, inferring the timeframe, identifying the service, and either triggering an automatic check or routing to the appropriate human agent.
 
 **Tier 4: Human handoff**
 
@@ -87,18 +87,18 @@ The handoff experience matters enormously. A customer who has gone through three
 
 ## Implementing a Multi-Agent Customer Support Inbox
 
-For businesses receiving more than 30–50 WhatsApp inquiries per day, a single WhatsApp Business App account managed by one person is inadequate. The WhatsApp Business API with a multi-agent inbox solves this.
+For businesses receiving more than 30 - 50 WhatsApp inquiries per day, a single WhatsApp Business App account managed by one person is inadequate. The WhatsApp Business API with a multi-agent inbox solves this.
 
 A multi-agent inbox allows:
 - Multiple support agents to handle conversations simultaneously from a shared pool
 - Assignment of conversations to specific agents or agent teams
 - Visibility of which conversations are being handled and which are waiting
-- SLA tracking — seeing which conversations have exceeded their response time target
+- SLA tracking  -  seeing which conversations have exceeded their response time target
 - Transfer of conversations between agents with full context preserved
 - Reporting on agent performance, resolution rates, and customer satisfaction
 
-Kenyan businesses that implement a multi-agent inbox with proper automation in Tier 1–3 typically see:
-- 40–60% reduction in conversations requiring human handling
+Kenyan businesses that implement a multi-agent inbox with proper automation in Tier 1 - 3 typically see:
+- 40 - 60% reduction in conversations requiring human handling
 - Improvement in response time for the conversations that do reach humans (smaller queue)
 - Better agent experience (handling genuinely complex cases rather than repetitive FAQs)
 - Higher customer satisfaction scores
@@ -107,7 +107,7 @@ Kenyan businesses that implement a multi-agent inbox with proper automation in T
 
 Automation should be measured, not just implemented. The metrics that matter:
 
-**Containment rate:** Percentage of inquiries fully resolved by automation without human involvement. A good containment rate for FAQ automation is 50–70%; for more complex AI bots, 60–80%.
+**Containment rate:** Percentage of inquiries fully resolved by automation without human involvement. A good containment rate for FAQ automation is 50 - 70%; for more complex AI bots, 60 - 80%.
 
 **First response time:** Time from customer message to first response (automated or human). With automation, this should be near-instant for automated tiers.
 
@@ -121,11 +121,11 @@ Automation should be measured, not just implemented. The metrics that matter:
 
 Tellus approaches customer support automation implementation in stages:
 
-**Discovery:** We audit your current customer inquiries — volume, type, resolution time, channels. This identifies the highest-priority automation candidates.
+**Discovery:** We audit your current customer inquiries  -  volume, type, resolution time, channels. This identifies the highest-priority automation candidates.
 
-**Design:** We design the conversation flows, the escalation logic, and the human handoff experience specific to your business. Generic chatbot templates are not used — your automation reflects your business.
+**Design:** We design the conversation flows, the escalation logic, and the human handoff experience specific to your business. Generic chatbot templates are not used  -  your automation reflects your business.
 
-**Integration:** We connect the automation to your business systems — order management, inventory, CRM — so automated responses can include real-time business data, not just static FAQ answers.
+**Integration:** We connect the automation to your business systems  -  order management, inventory, CRM  -  so automated responses can include real-time business data, not just static FAQ answers.
 
 **Testing:** The automation runs in test mode with real conversations before going live. We identify gaps and edge cases during this phase.
 
@@ -133,4 +133,4 @@ Tellus approaches customer support automation implementation in stages:
 
 **Ongoing management:** Customer inquiries evolve. New products, new policies, new common questions. We maintain and update the automation to stay current.
 
-The goal is not to eliminate customer support — it's to make your customer support team more capable: handling more customers, with better information, focused on the interactions that actually require their judgment and care.`;
+The goal is not to eliminate customer support  -  it's to make your customer support team more capable: handling more customers, with better information, focused on the interactions that actually require their judgment and care.`;

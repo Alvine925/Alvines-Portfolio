@@ -79,9 +79,9 @@ export const projects = [
     description:
       "Event planning is already stressful. Adding a new tool to learn makes it worse. MyJoyfulDay removes the friction entirely, powered by Jitabi, a WhatsApp AI bot I built on Meta's Cloud API that lets anyone create a full event website by simply sending a message. No dashboard. No forms. No learning curve.",
     problem:
-      "Event planning platforms assume you have time to learn a new tool. Most people planning a birthday or wedding in Kenya are doing it on the side, on their phone, in between everything else. They needed a website for their event but couldn't navigate a dashboard — and weren't going to download yet another app for a one-time occasion.",
+      "Event planning platforms assume you have time to learn a new tool. Most people planning a birthday or wedding in Kenya are doing it on the side, on their phone, in between everything else. They needed a website for their event but couldn't navigate a dashboard  -  and weren't going to download yet another app for a one-time occasion.",
     solution:
-      "Built Jitabi, a WhatsApp AI bot that creates a fully live event website from a single message. Send 'I'm having Amara's birthday on Saturday at my house' and get a live event page, RSVP link and all, back in under 10 seconds. Zero dashboard, zero learning curve — it meets users exactly where they already are.",
+      "Built Jitabi, a WhatsApp AI bot that creates a fully live event website from a single message. Send 'I'm having Amara's birthday on Saturday at my house' and get a live event page, RSVP link and all, back in under 10 seconds. Zero dashboard, zero learning curve  -  it meets users exactly where they already are.",
     stats: ["50K+ events created", "1M+ guests reached", "4.9 rating"],
     tech: ["WhatsApp Cloud API", "AI / LLM", "Next.js", "Supabase", "Tailwind CSS"],
     colors: { primary: "#D4A735", bg: "#FBF9F4", text: "#111111" },
@@ -91,7 +91,7 @@ export const projects = [
       "Scaling a vendor marketplace on both sides of the network effect problem simultaneously.",
     ],
     keyFeatures: [
-      "Jitabi — WhatsApp AI event-planning bot (Meta Cloud API)",
+      "Jitabi  -  WhatsApp AI event-planning bot (Meta Cloud API)",
       "Zero-UI website creation via conversation",
       "Vendor marketplace for weddings & events",
       "Live RSVP and guest management",
@@ -188,7 +188,7 @@ export const projects = [
     description:
       "Deriv Champions is the online home of a Kenyan forex mentor with a proven track record: 500+ traders trained. The site needed to do one thing above all else, convert visitors into students. Built a focused, credibility-first website that communicates authority and drives enrollment.",
     problem:
-      "Forex education in Kenya carries a trust problem. Potential students arrive skeptical, and with good reason — the space has its share of scams. A generic landing page wasn't going to convert anyone. The mentor had genuine credibility; the site wasn't showing it.",
+      "Forex education in Kenya carries a trust problem. Potential students arrive skeptical, and with good reason  -  the space has its share of scams. A generic landing page wasn't going to convert anyone. The mentor had genuine credibility; the site wasn't showing it.",
     solution:
       "Designed a credibility-first conversion funnel: verifiable track record upfront, real student testimonials, clear program details, and a frictionless enrollment flow. The site does the persuading so the mentor can focus on teaching. Optimized for mobile users on slower connections, the core audience.",
     keyFeatures: [
@@ -217,7 +217,7 @@ export const blogPosts = [
     title: "How Jitabi Creates a Live Event Website from a Single WhatsApp Message",
     date: "2025-06-15",
     excerpt:
-      "Send one message. Get a live event website back in under ten seconds. Here's the exact technical pipeline that makes it happen — and why it's harder than it sounds.",
+      "Send one message. Get a live event website back in under ten seconds. Here's the exact technical pipeline that makes it happen  -  and why it's harder than it sounds.",
     tags: ["MyJoyfulDay", "WhatsApp", "AI"],
     content: `Building a product that converts a WhatsApp message into a published event website in under ten seconds sounds like a neat party trick. It's actually one of the harder engineering problems I've worked on.
 
@@ -233,7 +233,7 @@ The raw text goes into an LLM-powered extraction layer. The model's job is to pu
 
 **Step 3: Clarification flow (when needed)**
 
-If the extraction confidence falls below threshold on critical fields — date and location — Jitabi sends back a single targeted question. Not a list. Not a form. One question at a time. "Which Saturday do you mean — July 12 or July 19?" The user replies, and the pipeline resumes with the updated data.
+If the extraction confidence falls below threshold on critical fields  -  date and location  -  Jitabi sends back a single targeted question. Not a list. Not a form. One question at a time. "Which Saturday do you mean  -  July 12 or July 19?" The user replies, and the pipeline resumes with the updated data.
 
 **Step 4: Event record creation**
 
@@ -245,7 +245,7 @@ The event page is generated using a template system that hydrates a pre-built Ne
 
 **Step 6: Response**
 
-Jitabi sends the user their event URL — typically within 8–12 seconds of their original message. The URL is live, shareable, and ready for RSVPs immediately.
+Jitabi sends the user their event URL  -  typically within 8 - 12 seconds of their original message. The URL is live, shareable, and ready for RSVPs immediately.
 
 **What makes this hard**
 
@@ -278,7 +278,7 @@ WhatsApp has a penetration rate in Kenya that no app we could build would ever m
 
 When I say Jitabi has no UI, I don't mean the experience is bad. I mean we replaced every form, every sign-up screen, every dashboard with a conversation. A conversation that happens inside an app the user has opened a hundred times today.
 
-The event page Jitabi creates does have a UI — it's a proper web page with the event details, a photo, a map, and an RSVP button. But the creator never has to interact with that UI to build it. They just talk.
+The event page Jitabi creates does have a UI  -  it's a proper web page with the event details, a photo, a map, and an RSVP button. But the creator never has to interact with that UI to build it. They just talk.
 
 **The results**
 
@@ -299,32 +299,32 @@ Here's what we learned from it.
 
 **Most events are personal, not professional**
 
-We expected the platform to skew toward weddings and large formal gatherings. The reality: birthday parties are the single biggest category, followed by house parties, baby showers, and small community gatherings. Formal weddings are there, but they're not the core use case. This changed how we prioritized features — simpler flows matter more than advanced vendor coordination.
+We expected the platform to skew toward weddings and large formal gatherings. The reality: birthday parties are the single biggest category, followed by house parties, baby showers, and small community gatherings. Formal weddings are there, but they're not the core use case. This changed how we prioritized features  -  simpler flows matter more than advanced vendor coordination.
 
 **People share their event page within minutes**
 
-We tracked how quickly event creators shared their URL after creation. The median was under four minutes. People weren't creating the page and sitting on it — they were immediately sharing it in WhatsApp groups. This told us the page had to be beautiful and load instantly, because it was going to be judged by a group chat full of the creator's friends within seconds.
+We tracked how quickly event creators shared their URL after creation. The median was under four minutes. People weren't creating the page and sitting on it  -  they were immediately sharing it in WhatsApp groups. This told us the page had to be beautiful and load instantly, because it was going to be judged by a group chat full of the creator's friends within seconds.
 
 **Ambiguity is the most common failure point**
 
-When we looked at events that stalled — where a user started the creation flow but never got a published page — the overwhelming cause was ambiguity in the initial message. Dates without years. Locations without addresses. Events with names that could be interpreted multiple ways. We spent a significant engineering effort on our clarification flow to reduce stalls, and it worked.
+When we looked at events that stalled  -  where a user started the creation flow but never got a published page  -  the overwhelming cause was ambiguity in the initial message. Dates without years. Locations without addresses. Events with names that could be interpreted multiple ways. We spent a significant engineering effort on our clarification flow to reduce stalls, and it worked.
 
 **The vendor marketplace has a cold-start advantage we didn't expect**
 
-We assumed onboarding vendors (caterers, photographers, decorators) would be the hard part. It turned out event creators wanted vendor recommendations so badly that they were actively asking Jitabi for them — even before we had fully built the marketplace. Demand preceded supply by three weeks.
+We assumed onboarding vendors (caterers, photographers, decorators) would be the hard part. It turned out event creators wanted vendor recommendations so badly that they were actively asking Jitabi for them  -  even before we had fully built the marketplace. Demand preceded supply by three weeks.
 
 **What we'd do differently**
 
 Start with the RSVP experience. We underinvested in the guest-side experience early on, focusing on the creator-side flows. RSVPs should have felt as smooth as the creation experience. We caught up eventually, but guests deserve as much design attention as creators.
 
-Fifty thousand events is a milestone. The real metric is what happens at event 100,000 — and the lessons above are shaping everything we build toward it.`,
+Fifty thousand events is a milestone. The real metric is what happens at event 100,000  -  and the lessons above are shaping everything we build toward it.`,
   },
   {
     slug: "myjoyfullday-zero-ui-design",
     title: "Zero UI: Why We Removed the Dashboard and Replaced It with a Conversation",
     date: "2025-05-10",
     excerpt:
-      "Every dashboard we designed got thrown out. Not because the designs were bad — because they were solving the wrong problem. Here's the case for Zero UI and what it means in practice.",
+      "Every dashboard we designed got thrown out. Not because the designs were bad  -  because they were solving the wrong problem. Here's the case for Zero UI and what it means in practice.",
     tags: ["MyJoyfulDay", "Design", "WhatsApp"],
     content: `Zero UI is a design principle that's talked about a lot and practiced almost nowhere. The idea is simple: the best interface is no interface. The execution is genuinely hard.
 
@@ -332,7 +332,7 @@ For MyJoyfulDay, it wasn't a design philosophy we started with. It was a conclus
 
 **The dashboard problem**
 
-The first version of MyJoyfulDay had a web dashboard. It was clean. It had a great UX. Users could create events, customise their page, manage RSVPs, and contact vendors — all in a well-designed interface.
+The first version of MyJoyfulDay had a web dashboard. It was clean. It had a great UX. Users could create events, customise their page, manage RSVPs, and contact vendors  -  all in a well-designed interface.
 
 Nobody used it.
 
@@ -340,11 +340,11 @@ Not because they couldn't find it. We tracked this carefully. People would open 
 
 **The insight**
 
-The people planning events in Kenya aren't looking for a new tool to learn. They're already managing everything through WhatsApp — conversations with family, chats with vendors, reminders in group chats. Adding a dashboard to their workflow meant adding context switching, a new login, a new mental model. It was more friction, not less.
+The people planning events in Kenya aren't looking for a new tool to learn. They're already managing everything through WhatsApp  -  conversations with family, chats with vendors, reminders in group chats. Adding a dashboard to their workflow meant adding context switching, a new login, a new mental model. It was more friction, not less.
 
 **What Zero UI means in practice**
 
-Zero UI doesn't mean zero product. It means zero new interface. The conversation becomes the interface. Every state in the product — "what's my event page URL?", "how many RSVPs have I gotten?", "can I change the date?" — is accessed through a message, not a menu.
+Zero UI doesn't mean zero product. It means zero new interface. The conversation becomes the interface. Every state in the product  -  "what's my event page URL?", "how many RSVPs have I gotten?", "can I change the date?"  -  is accessed through a message, not a menu.
 
 This required rethinking everything. Forms became questions. Navigation became intent recognition. Status screens became proactive messages ("You have 23 RSVPs so far!"). Every feature had to be translatable into a natural language interaction.
 
@@ -361,7 +361,7 @@ The dashboard still exists, but it's optional. For the 85% of users who never op
     title: "Building a Two-Sided Marketplace for Kenyan Weddings from Zero",
     date: "2025-04-28",
     excerpt:
-      "The cold-start problem is real. Here's how we built both sides of the MyJoyfulDay vendor marketplace simultaneously — without faking supply or subsidizing demand.",
+      "The cold-start problem is real. Here's how we built both sides of the MyJoyfulDay vendor marketplace simultaneously  -  without faking supply or subsidizing demand.",
     tags: ["MyJoyfulDay", "Product", "Kenya"],
     content: `Two-sided marketplaces are notoriously hard to start. You need vendors to attract event planners. You need event planners to attract vendors. The classic chicken-and-egg problem.
 
@@ -398,13 +398,13 @@ The marketplace is still early. Two-sided networks take time to reach liquidity.
     tags: ["MyJoyfulDay", "Product", "Design"],
     content: `Every event platform faces the same tension: you need to track guest RSVPs, but guests won't create accounts for a one-time event.
 
-The standard solution — "just make them sign up" — trades platform certainty for user friction. When you force a guest to create an account to RSVP to a birthday party, a significant portion of them don't. Not because they don't want to come — because signing up is more effort than the occasion deserves.
+The standard solution  -  "just make them sign up"  -  trades platform certainty for user friction. When you force a guest to create an account to RSVP to a birthday party, a significant portion of them don't. Not because they don't want to come  -  because signing up is more effort than the occasion deserves.
 
 MyJoyfulDay needed a different approach.
 
 **The design constraints**
 
-Guests arrive at an event page via a shared link — typically from a WhatsApp forward. They're on mobile. They don't have an account. The event creator wants to know who's coming. The guest wants to say yes without jumping through hoops.
+Guests arrive at an event page via a shared link  -  typically from a WhatsApp forward. They're on mobile. They don't have an account. The event creator wants to know who's coming. The guest wants to say yes without jumping through hoops.
 
 We had three requirements: the RSVP had to work with zero account creation, it had to capture enough data to be useful to the event creator, and it had to work reliably on low-bandwidth mobile connections.
 
@@ -412,15 +412,15 @@ We had three requirements: the RSVP had to work with zero account creation, it h
 
 The RSVP flow is a single form: name and phone number, nothing else. No email. No password. No confirmation email. You fill it in, tap "I'm coming," and you're done in under 15 seconds.
 
-The phone number serves as the guest identifier — it's unique, it's already known to the user, and it lets us send a WhatsApp confirmation to the guest after they RSVP. That confirmation message doubles as a reminder mechanism: we send a follow-up the day before the event.
+The phone number serves as the guest identifier  -  it's unique, it's already known to the user, and it lets us send a WhatsApp confirmation to the guest after they RSVP. That confirmation message doubles as a reminder mechanism: we send a follow-up the day before the event.
 
 **For the event creator**
 
-The creator sees a live RSVP count and a guest list in real time — accessible both from their event page and from Jitabi. They can ask "How many people are coming?" in a WhatsApp message and get an immediate count back.
+The creator sees a live RSVP count and a guest list in real time  -  accessible both from their event page and from Jitabi. They can ask "How many people are coming?" in a WhatsApp message and get an immediate count back.
 
 **The reliability layer**
 
-RSVP writes are idempotent. If a guest submits twice — network hiccup, double-tap — we deduplicate on phone number. The form submission is optimistic: it shows success immediately and syncs to the server in the background. This makes the experience feel instant even on slow connections.
+RSVP writes are idempotent. If a guest submits twice  -  network hiccup, double-tap  -  we deduplicate on phone number. The form submission is optimistic: it shows success immediately and syncs to the server in the background. This makes the experience feel instant even on slow connections.
 
 One million guests later, we've had fewer than 200 duplicate complaints. The system works.`,
   },
@@ -450,17 +450,17 @@ Before building Jitabi, I assumed users would send reasonably structured message
 
 We use an LLM with structured output to extract: event name, event type, date, time, location, host name, and notes. Each field comes back with a confidence score. Fields below 0.7 confidence are flagged for clarification.
 
-The model handles relative dates ("next Friday," "this weekend," "the 14th") by resolving them against the current date at the time of the message. It handles event type inference — if you say "birthday" without saying "birthday party," it infers a party. It handles plurals and alternates.
+The model handles relative dates ("next Friday," "this weekend," "the 14th") by resolving them against the current date at the time of the message. It handles event type inference  -  if you say "birthday" without saying "birthday party," it infers a party. It handles plurals and alternates.
 
 **The clarification protocol**
 
-When confidence is low, Jitabi asks exactly one question. Not a list. One targeted question about the field with the lowest confidence. If the user answers and introduces new ambiguity, Jitabi asks another single question. We capped this at three clarification rounds — if we still don't have a parseable event after three exchanges, we give the user a structured template to fill in.
+When confidence is low, Jitabi asks exactly one question. Not a list. One targeted question about the field with the lowest confidence. If the user answers and introduces new ambiguity, Jitabi asks another single question. We capped this at three clarification rounds  -  if we still don't have a parseable event after three exchanges, we give the user a structured template to fill in.
 
 In practice, 78% of events are created with zero clarification questions. Another 18% need one. Only 4% need two or more.
 
 **The hardest case**
 
-The hardest inputs are ones that look complete but aren't. "Birthday party for Amara, Saturday, Kisumu" looks fine. But Kisumu is a city, not a venue. We handle this by accepting the location as-is and showing it on the event page as the user provided it — then prompting the creator to add a specific address if they want map integration. Respecting the user's intent even when the data is imperfect is better than blocking them.`,
+The hardest inputs are ones that look complete but aren't. "Birthday party for Amara, Saturday, Kisumu" looks fine. But Kisumu is a city, not a venue. We handle this by accepting the location as-is and showing it on the event page as the user provided it  -  then prompting the creator to add a specific address if they want map integration. Respecting the user's intent even when the data is imperfect is better than blocking them.`,
   },
   {
     slug: "myjoyfullday-whatsapp-cloud-api",
@@ -475,7 +475,7 @@ We spent two weeks evaluating all three before committing. Here's what we found.
 
 **Option 1: Meta WhatsApp Business Cloud API**
 
-This is Meta's own hosted API — direct. You apply for access, get approved, connect your phone number, and communicate directly with Meta's servers. No intermediary.
+This is Meta's own hosted API  -  direct. You apply for access, get approved, connect your phone number, and communicate directly with Meta's servers. No intermediary.
 
 Pricing: message-based, charged by conversation type (service conversations, utility conversations, marketing conversations). The cost per conversation varies by country.
 
@@ -501,7 +501,7 @@ Cons: highest cost per message, less control, dependency on a third-party that c
 
 **Our decision: Meta Cloud API**
 
-For Jitabi's volume — tens of thousands of conversations monthly — the per-message cost differential between Meta Direct and a BSP is significant. More importantly, for a product where the WhatsApp interface is the entire product, we needed the closest possible integration with Meta's infrastructure. Every millisecond of latency matters when the promise is a 10-second event creation.
+For Jitabi's volume  -  tens of thousands of conversations monthly  -  the per-message cost differential between Meta Direct and a BSP is significant. More importantly, for a product where the WhatsApp interface is the entire product, we needed the closest possible integration with Meta's infrastructure. Every millisecond of latency matters when the promise is a 10-second event creation.
 
 The setup was harder. The approval took longer. The support is self-serve. We accepted all of that for the cost, control, and performance advantages of going direct.
 
@@ -512,7 +512,7 @@ If you're building a WhatsApp bot for a small business with low volume and want 
     title: "What Global Event Platforms Get Wrong About Kenya",
     date: "2025-03-05",
     excerpt:
-      "Eventbrite, Meetup, and every other global event platform is available in Kenya. None of them dominate. Here's why — and what it reveals about building for local markets.",
+      "Eventbrite, Meetup, and every other global event platform is available in Kenya. None of them dominate. Here's why  -  and what it reveals about building for local markets.",
     tags: ["MyJoyfulDay", "Kenya", "Product"],
     content: `Eventbrite works in Kenya. So does Meetup. So does Google Forms for RSVPs. The tools exist. The penetration doesn't.
 
@@ -534,7 +534,7 @@ Kenyan internet users are appropriately cautious about entering personal or paym
 
 **The context problem**
 
-Most global event platforms are designed for professional organizers: conferences, concerts, corporate events. The interface assumes the person running the event has time to navigate a feature-rich tool. Kenyan event planners are mostly people planning personal occasions — birthdays, weddings, funerals, graduations — while holding down jobs and managing families.
+Most global event platforms are designed for professional organizers: conferences, concerts, corporate events. The interface assumes the person running the event has time to navigate a feature-rich tool. Kenyan event planners are mostly people planning personal occasions  -  birthdays, weddings, funerals, graduations  -  while holding down jobs and managing families.
 
 MyJoyfulDay was built from the ground up for that context. WhatsApp as the interface. M-Pesa for payments. A local brand that Kenyan users can trust. An experience designed for one-time event planners, not professional organizers.
 
@@ -549,7 +549,7 @@ Global platforms can enter any market. Understanding that market is a different 
     tags: ["MyJoyfulDay", "Design", "AI"],
     content: `There's a version of a WhatsApp event bot that works like this: "What is the event name? What is the date? What is the location?" Three questions, one at a time, in sequence. It's technically functional. It's conversationally horrible.
 
-Users describe that experience as "talking to a form." They're not wrong. It's a form in disguise — a linear sequence of required fields dressed up as a conversation.
+Users describe that experience as "talking to a form." They're not wrong. It's a form in disguise  -  a linear sequence of required fields dressed up as a conversation.
 
 Jitabi was designed to be different. Here's what that meant in practice.
 
@@ -565,11 +565,11 @@ If Jitabi needs to clarify, it asks one targeted question. Never multiple questi
 
 **Principle 3: Acknowledge before asking**
 
-Before every clarification, Jitabi acknowledges what it understood. "Got it — Amara's birthday at Karen. One thing: which Saturday do you mean?" This pattern signals that the bot is listening and has processed the input, not just pattern-matching to a question sequence.
+Before every clarification, Jitabi acknowledges what it understood. "Got it  -  Amara's birthday at Karen. One thing: which Saturday do you mean?" This pattern signals that the bot is listening and has processed the input, not just pattern-matching to a question sequence.
 
 **Principle 4: Offer recovery paths without abandoning the conversation**
 
-When users go off-script (and they do), Jitabi tries to interpret intent rather than saying "I don't understand." If it can't parse the message after one clarification attempt, it offers three quick-reply options to get the user back on track — without breaking the conversational context.
+When users go off-script (and they do), Jitabi tries to interpret intent rather than saying "I don't understand." If it can't parse the message after one clarification attempt, it offers three quick-reply options to get the user back on track  -  without breaking the conversational context.
 
 **Principle 5: Celebrate the win**
 
@@ -585,7 +585,7 @@ Good conversational UX requires the same discipline as good screen UX. Fewer wor
     title: "The Kenyan Job Market Is Fragmented. TellusJobs Is the Fix",
     date: "2025-07-01",
     excerpt:
-      "A qualified candidate in Kenya has to check LinkedIn, BrighterMonday, NGO boards, bank career pages, and government sites — every day. TellusJobs consolidates all of it so you don't have to.",
+      "A qualified candidate in Kenya has to check LinkedIn, BrighterMonday, NGO boards, bank career pages, and government sites  -  every day. TellusJobs consolidates all of it so you don't have to.",
     tags: ["TellusJobs", "Kenya", "AI"],
     content: `If you're looking for work in Kenya, your morning routine probably looks like this: check LinkedIn. Check BrighterMonday. Check the NGO board for whichever sector you're targeting. Check the websites of the specific companies you want to work for. Maybe check a government jobs portal if you're open to public sector. Maybe check three or four more platforms depending on your field.
 
@@ -593,13 +593,13 @@ That's not a job search. That's a second job.
 
 **The fragmentation problem**
 
-The Kenyan job market is distributed across dozens of platforms, each with its own posting ecosystem, its own search interface, and its own update cadence. There's no single authoritative source. Jobs posted exclusively on a company's own careers page — which describes most large Kenyan employers — don't show up on aggregators at all.
+The Kenyan job market is distributed across dozens of platforms, each with its own posting ecosystem, its own search interface, and its own update cadence. There's no single authoritative source. Jobs posted exclusively on a company's own careers page  -  which describes most large Kenyan employers  -  don't show up on aggregators at all.
 
 The result: qualified candidates miss opportunities because they weren't checking the right platform on the right day. And employers get a fraction of the applicant pool they deserve because most qualified candidates never see the posting.
 
 **What TellusJobs does**
 
-TellusJobs aggregates job listings from over 10 Kenyan portals and company career pages daily. Not just the public API feeds — actual postings, scraped, normalized, and deduplicated. We match these against your uploaded CV using AI to surface the roles where your profile is the strongest fit.
+TellusJobs aggregates job listings from over 10 Kenyan portals and company career pages daily. Not just the public API feeds  -  actual postings, scraped, normalized, and deduplicated. We match these against your uploaded CV using AI to surface the roles where your profile is the strongest fit.
 
 You don't change your job search. You change your starting point.
 
@@ -611,7 +611,7 @@ The goal is to take you from "I found a role that fits" to "my application is re
 
 **Who it's for**
 
-TellusJobs is built for job seekers in Kenya who are serious, qualified, and running out of time to do this manually. It's not a passive job alert tool — it's an active application assistant.
+TellusJobs is built for job seekers in Kenya who are serious, qualified, and running out of time to do this manually. It's not a passive job alert tool  -  it's an active application assistant.
 
 If you've ever calculated how many hours a week your job search is costing you and felt the number was too high, TellusJobs is built for you.`,
   },
@@ -624,19 +624,19 @@ If you've ever calculated how many hours a week your job search is costing you a
     tags: ["TellusJobs", "AI", "Technical"],
     content: `When you upload your CV to most job platforms, here's what happens: a system extracts keywords (Java, Project Management, MBA) and matches them against keywords in job postings. If your CV contains the same words as the job description, you match. If it doesn't, you don't.
 
-This approach has three problems. First, it penalizes people who describe their experience accurately instead of gaming keywords. Second, it misses semantic similarity — "revenue growth" and "sales performance" mean the same thing but don't match as keywords. Third, it ignores the context of experience — five years of senior project management is very different from five years of entry-level project management, but keyword matching doesn't distinguish them.
+This approach has three problems. First, it penalizes people who describe their experience accurately instead of gaming keywords. Second, it misses semantic similarity  -  "revenue growth" and "sales performance" mean the same thing but don't match as keywords. Third, it ignores the context of experience  -  five years of senior project management is very different from five years of entry-level project management, but keyword matching doesn't distinguish them.
 
 TellusJobs uses a different approach.
 
 **Semantic embeddings**
 
-When you upload your CV, we convert it into a high-dimensional vector — a numerical representation of the meaning and content of your experience, not just the words on the page. Job descriptions go through the same process. Matching is then a similarity calculation between vectors, not a keyword intersection.
+When you upload your CV, we convert it into a high-dimensional vector  -  a numerical representation of the meaning and content of your experience, not just the words on the page. Job descriptions go through the same process. Matching is then a similarity calculation between vectors, not a keyword intersection.
 
 This means "programme officer at an international NGO" and "project manager at a development organisation" are recognized as similar roles, even though the words are different. Your actual experience is what's being measured.
 
 **Role context scoring**
 
-We don't just match on content — we score on fit. A 90% match doesn't mean your CV has 90% of the same words as the job description. It means your professional profile is 90% aligned with the role profile, taking into account seniority, sector experience, skill set, and stated requirements.
+We don't just match on content  -  we score on fit. A 90% match doesn't mean your CV has 90% of the same words as the job description. It means your professional profile is 90% aligned with the role profile, taking into account seniority, sector experience, skill set, and stated requirements.
 
 This is especially important in the Kenyan market, where job titles are less standardised than in markets with longer corporate history.
 
@@ -651,7 +651,7 @@ The AI does the search. You do the judgment. That's the right division of labour
     title: "We Scraped 10 Kenyan Job Portals. Here's What the Data Showed",
     date: "2025-06-10",
     excerpt:
-      "Building TellusJobs meant collecting data from every major Kenyan job portal. Here's what we found — about posting volumes, duplication rates, exclusive listings, and where the real jobs are hiding.",
+      "Building TellusJobs meant collecting data from every major Kenyan job portal. Here's what we found  -  about posting volumes, duplication rates, exclusive listings, and where the real jobs are hiding.",
     tags: ["TellusJobs", "Kenya", "Data"],
     content: `Building a job aggregator means living inside job portal data. For the last year, we've been ingesting, cleaning, and analysing postings from over 10 Kenyan job sources daily. The picture that emerged was more interesting than we expected.
 
@@ -669,15 +669,15 @@ Reliefweb, Devex, and sector-specific boards carry a significant volume of high-
 
 **Company career pages**
 
-This was the biggest finding. A majority of the roles posted by Kenya's largest private employers — banks, telcos, large corporates — are posted exclusively on their own career pages. They don't appear on any aggregator. Our scraping of company career pages surfaces a category of opportunity that's effectively invisible to most job seekers.
+This was the biggest finding. A majority of the roles posted by Kenya's largest private employers  -  banks, telcos, large corporates  -  are posted exclusively on their own career pages. They don't appear on any aggregator. Our scraping of company career pages surfaces a category of opportunity that's effectively invisible to most job seekers.
 
 **Duplication rates**
 
-Across aggregated sources, approximately 23% of postings are duplicates — the same role posted on multiple platforms. We deduplicate aggressively, normalising on employer name, role title, and posting date.
+Across aggregated sources, approximately 23% of postings are duplicates  -  the same role posted on multiple platforms. We deduplicate aggressively, normalising on employer name, role title, and posting date.
 
 **The cadence insight**
 
-Most Kenyan employers post roles on Tuesday and Wednesday mornings. The worst time to check for new postings is Friday afternoon — posting activity drops significantly. If you're doing a manual daily job search, optimise for Tuesday and Wednesday.
+Most Kenyan employers post roles on Tuesday and Wednesday mornings. The worst time to check for new postings is Friday afternoon  -  posting activity drops significantly. If you're doing a manual daily job search, optimise for Tuesday and Wednesday.
 
 TellusJobs runs daily ingestion across all sources so you don't have to think about timing. But the data is useful context for anyone doing this manually.`,
   },
@@ -686,7 +686,7 @@ TellusJobs runs daily ingestion across all sources so you don't have to think ab
     title: "How TellusJobs Writes Cover Letters That Don't Sound Like AI Wrote Them",
     date: "2025-05-28",
     excerpt:
-      "Generic AI cover letters are easy to spot and immediately disqualifying. Here's how we built a cover letter system that sounds like the candidate wrote it — because in the ways that matter, they did.",
+      "Generic AI cover letters are easy to spot and immediately disqualifying. Here's how we built a cover letter system that sounds like the candidate wrote it  -  because in the ways that matter, they did.",
     tags: ["TellusJobs", "AI", "Writing"],
     content: `Every recruiter in Kenya has, by now, read an AI-generated cover letter. They know it when they see it: generic language, no specificity, phrases like "I am a highly motivated professional with a passion for excellence" that could describe anyone or no one.
 
@@ -696,7 +696,7 @@ TellusJobs generates cover letters that pass the "did a human write this?" test.
 
 **The foundation: your actual experience**
 
-The cover letter starts from your CV — your specific experience, your actual job titles, your real accomplishments. Not a generic template filled with your name. Your specifics become the substance of the letter.
+The cover letter starts from your CV  -  your specific experience, your actual job titles, your real accomplishments. Not a generic template filled with your name. Your specifics become the substance of the letter.
 
 **The job description as the lens**
 
@@ -706,11 +706,11 @@ If the job description emphasises "stakeholder management" and your CV mentions 
 
 **The tone layer**
 
-We've trained our generation pipeline on successful Kenyan cover letters across sectors — professional, formal but not stiff, confident but not arrogant. The output doesn't read like a Silicon Valley tech cover letter, because Kenyan hiring contexts aren't Silicon Valley.
+We've trained our generation pipeline on successful Kenyan cover letters across sectors  -  professional, formal but not stiff, confident but not arrogant. The output doesn't read like a Silicon Valley tech cover letter, because Kenyan hiring contexts aren't Silicon Valley.
 
 **What you review before sending**
 
-The cover letter you get from TellusJobs is a first draft, not a final product. We expect you to read it, adjust the tone to match your voice, and add anything personal that the system couldn't know — a connection at the company, a specific project the role would let you continue, a detail from a recent interaction with the employer's product.
+The cover letter you get from TellusJobs is a first draft, not a final product. We expect you to read it, adjust the tone to match your voice, and add anything personal that the system couldn't know  -  a connection at the company, a specific project the role would let you continue, a detail from a recent interaction with the employer's product.
 
 The AI does 80% of the work. The 20% you add is what makes it yours.`,
   },
@@ -719,9 +719,9 @@ The AI does 80% of the work. The 20% you add is what makes it yours.`,
     title: "Why LinkedIn Alone Won't Land You a Job in Kenya",
     date: "2025-05-15",
     excerpt:
-      "LinkedIn is necessary but not sufficient for job seekers in Kenya. Here's the full picture of where Kenyan jobs actually live — and what a complete search strategy looks like.",
+      "LinkedIn is necessary but not sufficient for job seekers in Kenya. Here's the full picture of where Kenyan jobs actually live  -  and what a complete search strategy looks like.",
     tags: ["TellusJobs", "Kenya", "Career"],
-    content: `LinkedIn is the professional platform of record globally. In Kenya, it's important. It's also not enough — and treating it as your only job search channel is costing you opportunities.
+    content: `LinkedIn is the professional platform of record globally. In Kenya, it's important. It's also not enough  -  and treating it as your only job search channel is costing you opportunities.
 
 Here's the honest breakdown of where Kenyan jobs actually live.
 
@@ -733,13 +733,13 @@ LinkedIn is also the right place for professional visibility. A well-maintained 
 
 **Where LinkedIn falls short**
 
-SMEs — which employ the majority of formal sector workers in Kenya — post sparsely on LinkedIn if at all. The platform's cost structure (posting a job is not free) and the complexity of its interface mean many smaller Kenyan employers simply don't use it.
+SMEs  -  which employ the majority of formal sector workers in Kenya  -  post sparsely on LinkedIn if at all. The platform's cost structure (posting a job is not free) and the complexity of its interface mean many smaller Kenyan employers simply don't use it.
 
 NGO and development sector roles are better found on Reliefweb, Devex, and sector-specific boards. A programme manager who relies only on LinkedIn will miss most of the relevant postings in their field.
 
 Government and parastatal roles are posted through official government channels, not LinkedIn. If public sector is on your radar, you need a different monitoring system entirely.
 
-And as noted above, a significant portion of roles at large Kenyan private employers — banks, telcos, large manufacturers — are posted exclusively on their own careers pages.
+And as noted above, a significant portion of roles at large Kenyan private employers  -  banks, telcos, large manufacturers  -  are posted exclusively on their own careers pages.
 
 **A complete Kenya job search strategy**
 
@@ -754,17 +754,17 @@ It sounds like a lot. That's exactly why we built TellusJobs.`,
     excerpt:
       "A step-by-step walkthrough of what actually happens from the moment you upload your CV to the moment your application is in an employer's inbox.",
     tags: ["TellusJobs", "Product", "Kenya"],
-    content: `TellusJobs is designed so that the hardest work — scanning dozens of job portals, matching your profile against hundreds of roles, writing application documents — happens automatically. Here's exactly what that looks like in practice.
+    content: `TellusJobs is designed so that the hardest work  -  scanning dozens of job portals, matching your profile against hundreds of roles, writing application documents  -  happens automatically. Here's exactly what that looks like in practice.
 
 **Step 1: Upload your CV**
 
-You upload your CV in PDF or Word format. Our parser extracts your experience, skills, education, and accomplishments. You review the extracted profile for accuracy and add anything the parser missed — languages, certifications, specific achievements that weren't prominently featured.
+You upload your CV in PDF or Word format. Our parser extracts your experience, skills, education, and accomplishments. You review the extracted profile for accuracy and add anything the parser missed  -  languages, certifications, specific achievements that weren't prominently featured.
 
 This takes about 5 minutes for a well-formatted CV.
 
 **Step 2: Set your search parameters**
 
-You tell us what you're looking for: sectors you're open to, seniority level, preferred locations, salary range if you have one. These parameters don't limit the matching — they're weights that influence how roles are ranked in your feed.
+You tell us what you're looking for: sectors you're open to, seniority level, preferred locations, salary range if you have one. These parameters don't limit the matching  -  they're weights that influence how roles are ranked in your feed.
 
 **Step 3: The daily match**
 
@@ -780,11 +780,11 @@ For each selected role, TellusJobs generates a tailored application pack within 
 
 **Step 6: Review and personalise**
 
-You read the generated documents. You adjust tone, add personal details, make any corrections. This step matters — the AI does the structural work, but your voice and judgment improve the output.
+You read the generated documents. You adjust tone, add personal details, make any corrections. This step matters  -  the AI does the structural work, but your voice and judgment improve the output.
 
 **Step 7: Submit**
 
-You submit the application through the employer's preferred channel — their website, email, or whatever the posting specified. TellusJobs tracks what you've applied for and when.
+You submit the application through the employer's preferred channel  -  their website, email, or whatever the posting specified. TellusJobs tracks what you've applied for and when.
 
 That's the full workflow. Most candidates go from "new match appeared" to "application submitted" in under 30 minutes.`,
   },
@@ -807,13 +807,13 @@ The same title. Four completely different jobs. An AI that matches on title simi
 
 **Why Kenya's market is different**
 
-Kenya's formal corporate sector is younger than its equivalents in Europe or North America. Title conventions haven't had decades to standardise. Smaller companies in particular create bespoke titles that reflect their specific org structure rather than any market convention. And the development/NGO sector — a major employer in Kenya — uses entirely different title conventions from the private sector.
+Kenya's formal corporate sector is younger than its equivalents in Europe or North America. Title conventions haven't had decades to standardise. Smaller companies in particular create bespoke titles that reflect their specific org structure rather than any market convention. And the development/NGO sector  -  a major employer in Kenya  -  uses entirely different title conventions from the private sector.
 
 **How we handle it**
 
 TellusJobs doesn't match on titles. We match on content: what the job description says the role actually involves, and what the CV demonstrates the candidate has actually done. The embedding approach treats titles as weak signals and experience content as strong signals.
 
-When we see "Business Development Executive" in a job description, we parse what the role requires — client acquisition, partnership management, revenue targets, team leadership — and match that against demonstrated experience. A candidate who spent three years managing corporate partnerships at a bank will match strongly to a corporate BD role and weakly to a field sales role, regardless of how either is titled.
+When we see "Business Development Executive" in a job description, we parse what the role requires  -  client acquisition, partnership management, revenue targets, team leadership  -  and match that against demonstrated experience. A candidate who spent three years managing corporate partnerships at a bank will match strongly to a corporate BD role and weakly to a field sales role, regardless of how either is titled.
 
 This is why semantic matching outperforms keyword matching in the Kenyan context. The words don't always tell the truth. The experience description does.`,
   },
@@ -846,7 +846,7 @@ Best for: senior roles, multinational companies, being found by recruiters, prof
 
 **Other Kenya-specific boards**
 
-MyJobMag, Career Point Kenya, Job Webkenya — each has a slice of the market. None has comprehensive coverage. Each requires separate daily monitoring.
+MyJobMag, Career Point Kenya, Job Webkenya  -  each has a slice of the market. None has comprehensive coverage. Each requires separate daily monitoring.
 
 Best for: sector-specific opportunities that don't appear on the bigger platforms.
 
@@ -854,7 +854,7 @@ Best for: sector-specific opportunities that don't appear on the bigger platform
 
 Strengths: aggregates from all the above and more, AI-powered matching saves hours of manual review, auto-generated application documents, one platform to cover most of the market.
 
-Weaknesses: newer platform, smaller brand recognition, matching quality depends on how well your CV communicates your experience (garbage in, garbage out), personal connections and referrals — the most effective job search mechanism — are outside our scope.
+Weaknesses: newer platform, smaller brand recognition, matching quality depends on how well your CV communicates your experience (garbage in, garbage out), personal connections and referrals  -  the most effective job search mechanism  -  are outside our scope.
 
 Best for: efficient high-volume job searching, people who want to apply quickly to multiple roles, candidates who lose opportunities because they can't monitor all platforms daily.
 
@@ -867,7 +867,7 @@ Use all of them. TellusJobs for daily monitoring and application efficiency. Lin
     title: "The Real Cost of Applying for Jobs Manually in Kenya (It's Not Just Time)",
     date: "2025-03-28",
     excerpt:
-      "We calculated what a manual job search actually costs a Kenyan professional. The number is higher than you think — and it's not just measured in hours.",
+      "We calculated what a manual job search actually costs a Kenyan professional. The number is higher than you think  -  and it's not just measured in hours.",
     tags: ["TellusJobs", "Kenya", "Career"],
     content: `Job searching is usually framed as something people do in their spare time. The implicit assumption is that it's free. It's not.
 
@@ -877,11 +877,11 @@ Here's the honest accounting of what a manual job search costs a Kenyan professi
 
 The average Kenyan professional doing a serious job search spends 2-3 hours per day monitoring platforms, identifying relevant roles, preparing application materials, and tracking submissions. At 5 days per week over a 3-month search, that's 180-270 hours of active search time.
 
-At Kenya's median professional salary of approximately KES 80,000/month, your time is worth roughly KES 500/hour. A 3-month job search costs 90,000-135,000 KES in time value — almost two months of salary.
+At Kenya's median professional salary of approximately KES 80,000/month, your time is worth roughly KES 500/hour. A 3-month job search costs 90,000-135,000 KES in time value  -  almost two months of salary.
 
 **Cognitive cost**
 
-This is harder to measure but more damaging. Decision fatigue from reviewing dozens of irrelevant postings daily. The emotional weight of rejection. The cognitive overhead of tracking applications, follow-ups, and deadlines across multiple platforms. These aren't just productivity costs — they affect the quality of applications you submit and the mental energy you bring to interviews.
+This is harder to measure but more damaging. Decision fatigue from reviewing dozens of irrelevant postings daily. The emotional weight of rejection. The cognitive overhead of tracking applications, follow-ups, and deadlines across multiple platforms. These aren't just productivity costs  -  they affect the quality of applications you submit and the mental energy you bring to interviews.
 
 **The application quality cost**
 
@@ -893,16 +893,16 @@ The time spent on manual job searching is time not spent on skill development, p
 
 **What the arithmetic suggests**
 
-The total cost of a manual job search — in time, cognitive load, and opportunity cost — is significant enough to justify investment in tools that reduce it. TellusJobs is designed to collapse the time cost from 2-3 hours per day to 20-30 minutes: review your matches, approve your application documents, submit. The cognitive overhead drops with it, because you're not sorting through noise.
+The total cost of a manual job search  -  in time, cognitive load, and opportunity cost  -  is significant enough to justify investment in tools that reduce it. TellusJobs is designed to collapse the time cost from 2-3 hours per day to 20-30 minutes: review your matches, approve your application documents, submit. The cognitive overhead drops with it, because you're not sorting through noise.
 
-The goal isn't to automate your job search entirely. It's to make the human parts of it — judgment, relationships, preparation — the only parts you have to do.`,
+The goal isn't to automate your job search entirely. It's to make the human parts of it  -  judgment, relationships, preparation  -  the only parts you have to do.`,
   },
   {
     slug: "tellusjobs-what-employers-want",
     title: "What Kenyan Employers Are Actually Looking For in 2025",
     date: "2025-03-15",
     excerpt:
-      "We analysed thousands of Kenyan job postings. Here's what employers say they want — and more importantly, what the patterns reveal about the skills that actually matter.",
+      "We analysed thousands of Kenyan job postings. Here's what employers say they want  -  and more importantly, what the patterns reveal about the skills that actually matter.",
     tags: ["TellusJobs", "Kenya", "Career"],
     content: `Reading enough job descriptions gives you a picture of what employers think they want. Analysing patterns across thousands of them gives you a picture of what they actually value. The two aren't always the same.
 
@@ -910,27 +910,27 @@ Here's what our analysis of Kenyan job postings in 2025 revealed.
 
 **What appears in almost every posting**
 
-"Strong communication skills." "Team player." "Self-starter." "Attention to detail." These phrases appear in roughly 80% of Kenyan job postings regardless of role, level, or sector. This is employer boilerplate — it's not a signal of what they're actually selecting for.
+"Strong communication skills." "Team player." "Self-starter." "Attention to detail." These phrases appear in roughly 80% of Kenyan job postings regardless of role, level, or sector. This is employer boilerplate  -  it's not a signal of what they're actually selecting for.
 
 **What employers are genuinely filtering on**
 
-The language that appears in postings where employers invest significant space — multiple bullet points, detailed descriptions — is more revealing:
+The language that appears in postings where employers invest significant space  -  multiple bullet points, detailed descriptions  -  is more revealing:
 
-Technology literacy is now a baseline, not a differentiator. Employers across sectors expect candidates to be comfortable with digital tools, even for non-technical roles. What differentiates candidates is proficiency with specific tools relevant to the sector — SAP for finance, Salesforce for sales, specific sector platforms for development roles.
+Technology literacy is now a baseline, not a differentiator. Employers across sectors expect candidates to be comfortable with digital tools, even for non-technical roles. What differentiates candidates is proficiency with specific tools relevant to the sector  -  SAP for finance, Salesforce for sales, specific sector platforms for development roles.
 
-Project management and execution credibility matters more than credentials. Employers describe wanting "someone who has done this before" far more than "someone with a degree in this area." Demonstrated execution — specific projects, measurable outcomes — is the signal that lands interviews.
+Project management and execution credibility matters more than credentials. Employers describe wanting "someone who has done this before" far more than "someone with a degree in this area." Demonstrated execution  -  specific projects, measurable outcomes  -  is the signal that lands interviews.
 
-Local market understanding is a stated differentiator for most roles. Kenyan employers aren't looking for generic professionals. They're looking for people who understand the specific dynamics of doing business in Kenya — M-Pesa integration, regulatory environment, customer behaviour.
+Local market understanding is a stated differentiator for most roles. Kenyan employers aren't looking for generic professionals. They're looking for people who understand the specific dynamics of doing business in Kenya  -  M-Pesa integration, regulatory environment, customer behaviour.
 
 **The 2025 shifts**
 
-AI-adjacent skills are appearing more frequently — not necessarily AI engineering, but comfort with AI tools: using AI writing assistants, working with AI-generated outputs, understanding what AI can and can't do. This isn't about being a data scientist. It's about being someone who's integrated AI into their workflow.
+AI-adjacent skills are appearing more frequently  -  not necessarily AI engineering, but comfort with AI tools: using AI writing assistants, working with AI-generated outputs, understanding what AI can and can't do. This isn't about being a data scientist. It's about being someone who's integrated AI into their workflow.
 
-Hybrid and remote work skills — async communication, documentation, self-direction — have become standard asks rather than special conditions.
+Hybrid and remote work skills  -  async communication, documentation, self-direction  -  have become standard asks rather than special conditions.
 
 **What this means for your applications**
 
-Lead with specifics. Metrics. Named projects. Demonstrable outcomes. Generic language in a cover letter or CV gets filtered out before it's read carefully. The data from employer postings suggests that specificity — "managed a KES 12M portfolio" rather than "managed large portfolios" — is what gets applications through the first review.`,
+Lead with specifics. Metrics. Named projects. Demonstrable outcomes. Generic language in a cover letter or CV gets filtered out before it's read carefully. The data from employer postings suggests that specificity  -  "managed a KES 12M portfolio" rather than "managed large portfolios"  -  is what gets applications through the first review.`,
   },
 
   // ─── Tellus Platform series ───────────────────────────────────────────────
@@ -940,7 +940,7 @@ Lead with specifics. Metrics. Named projects. Demonstrable outcomes. Generic lan
     title: "Why We Built Tellus: The Case Against Another Productivity Tool",
     date: "2025-07-05",
     excerpt:
-      "Most productivity tools make you more productive at using productivity tools. Tellus was built to be the last tool you add — not another app to manage.",
+      "Most productivity tools make you more productive at using productivity tools. Tellus was built to be the last tool you add  -  not another app to manage.",
     tags: ["Tellus", "AI", "Productivity"],
     content: `Before I built Tellus, I spent six months using every major productivity and team communication tool I could find. Notion. Linear. Slack. Asana. Loom. Superhuman. Cron. Each one solved something and created something new. A new inbox. A new notification surface. A new thing to keep up with.
 
@@ -948,15 +948,15 @@ By month three, I was spending roughly 40% of my productive hours managing my pr
 
 **The pattern I kept seeing**
 
-Every productivity tool I used was designed to organise information or coordinate tasks. None of them were designed to help me think. None of them anticipated what I needed to do next. None of them reduced the overhead of communication — they just gave that overhead a better interface.
+Every productivity tool I used was designed to organise information or coordinate tasks. None of them were designed to help me think. None of them anticipated what I needed to do next. None of them reduced the overhead of communication  -  they just gave that overhead a better interface.
 
 The smartest people I worked with were not the ones with the best systems. They were the ones who spent the least time on coordination overhead and the most time on the actual work that required their judgment.
 
 **The Tellus insight**
 
-Productivity isn't a filing problem. It's an attention problem. The question isn't "where should this information live?" — it's "what needs my attention right now, and what can wait?"
+Productivity isn't a filing problem. It's an attention problem. The question isn't "where should this information live?"  -  it's "what needs my attention right now, and what can wait?"
 
-Tellus was designed to answer that question. Not by giving you a better inbox or a smarter task list — but by understanding the context of what you're working on well enough to surface what matters and suppress what doesn't.
+Tellus was designed to answer that question. Not by giving you a better inbox or a smarter task list  -  but by understanding the context of what you're working on well enough to surface what matters and suppress what doesn't.
 
 **What this means in practice**
 
@@ -971,7 +971,7 @@ That's what we set out to build. That's what Tellus is.`,
     title: "Context-Aware AI: Why Tellus Knows What You Need Before You Ask",
     date: "2025-06-25",
     excerpt:
-      "Most AI assistants are reactive. You ask, they answer. Tellus is designed to be proactive — surfacing what you need before you realise you need it. Here's how that works.",
+      "Most AI assistants are reactive. You ask, they answer. Tellus is designed to be proactive  -  surfacing what you need before you realise you need it. Here's how that works.",
     tags: ["Tellus", "AI", "Technical"],
     content: `There's a meaningful difference between an AI that answers questions and an AI that anticipates them.
 
@@ -985,19 +985,19 @@ Tellus is designed to do the second thing.
 
 To anticipate what you need, a system needs at minimum: an understanding of what you're working on right now, a sense of what's changed since the last time it had your attention, and a model of what kinds of changes require your input versus what can proceed without you.
 
-This is harder than it sounds. Most AI systems process each query in isolation — they don't maintain state between interactions. Tellus maintains a context model that persists across sessions, updating as new information arrives.
+This is harder than it sounds. Most AI systems process each query in isolation  -  they don't maintain state between interactions. Tellus maintains a context model that persists across sessions, updating as new information arrives.
 
 **What this looks like in practice**
 
-If you're in the middle of a project with a deadline approaching, Tellus surfaces the deadline and any blockers proactively — not because you asked, but because the system's context model flagged it as relevant.
+If you're in the middle of a project with a deadline approaching, Tellus surfaces the deadline and any blockers proactively  -  not because you asked, but because the system's context model flagged it as relevant.
 
-If a team member sent you a message that references a decision you made three weeks ago, Tellus can surface that context when you're reviewing the message — so you're not reconstructing it from memory.
+If a team member sent you a message that references a decision you made three weeks ago, Tellus can surface that context when you're reviewing the message  -  so you're not reconstructing it from memory.
 
 If two conversations on different threads are about the same thing, Tellus can connect them and present them together rather than requiring you to hold the connection in your head.
 
 **The boundary**
 
-Context-awareness has a failure mode: surveillance. A system that monitors everything and surfaces everything becomes noise. Tellus is designed with a relevance threshold — information is surfaced only when the system's confidence that it requires your attention is above a set level. You can adjust this threshold. More proactive or less proactive, depending on your working style.
+Context-awareness has a failure mode: surveillance. A system that monitors everything and surfaces everything becomes noise. Tellus is designed with a relevance threshold  -  information is surfaced only when the system's confidence that it requires your attention is above a set level. You can adjust this threshold. More proactive or less proactive, depending on your working style.
 
 The goal isn't omniscience. It's the kind of attentiveness a good chief of staff provides: aware of everything, but only escalating what matters.`,
   },
@@ -1006,9 +1006,9 @@ The goal isn't omniscience. It's the kind of attentiveness a good chief of staff
     title: "Why AI Assistants Feel Slow (and What We Did About It)",
     date: "2025-06-15",
     excerpt:
-      "Latency in AI interactions isn't just inconvenient — it breaks flow. Here's how we designed Tellus to feel instant even when the underlying computation isn't.",
+      "Latency in AI interactions isn't just inconvenient  -  it breaks flow. Here's how we designed Tellus to feel instant even when the underlying computation isn't.",
     tags: ["Tellus", "Technical", "AI"],
-    content: `When you're in flow — genuinely focused, thinking fast, building toward something — every interruption has a cost. Not just the seconds the interruption takes. The cost of re-establishing the mental state that made the flow possible.
+    content: `When you're in flow  -  genuinely focused, thinking fast, building toward something  -  every interruption has a cost. Not just the seconds the interruption takes. The cost of re-establishing the mental state that made the flow possible.
 
 An AI assistant with 3-second response times isn't just slow. It's a flow-breaker. Each interaction carries a context-switching tax that compounds across a working day.
 
@@ -1016,21 +1016,21 @@ This was a non-negotiable design constraint for Tellus: interactions had to feel
 
 **Why AI responses are slow**
 
-LLM inference is computationally expensive. A typical GPT-4 class model responds in 1-4 seconds for a moderate-length response. That's not a solvable problem at the model level — it's a physics constraint given current hardware.
+LLM inference is computationally expensive. A typical GPT-4 class model responds in 1-4 seconds for a moderate-length response. That's not a solvable problem at the model level  -  it's a physics constraint given current hardware.
 
 What is solvable is perceived latency. The gap between when you ask something and when you feel like the system is responding.
 
 **Technique 1: Streaming**
 
-Tellus starts displaying text the moment the first tokens are generated — before the full response is ready. This brings perceived response time from "time to first full response" (3-4 seconds) to "time to first token" (typically under 500ms). The response appears to grow in real time, which feels conversational rather than computational.
+Tellus starts displaying text the moment the first tokens are generated  -  before the full response is ready. This brings perceived response time from "time to first full response" (3-4 seconds) to "time to first token" (typically under 500ms). The response appears to grow in real time, which feels conversational rather than computational.
 
 **Technique 2: Speculative rendering**
 
-For common interactions where we can predict the likely output structure — a follow-up question, a summary, an action list — we begin rendering the skeleton of the response before the content is complete. The interface doesn't wait for the full response to start showing shape.
+For common interactions where we can predict the likely output structure  -  a follow-up question, a summary, an action list  -  we begin rendering the skeleton of the response before the content is complete. The interface doesn't wait for the full response to start showing shape.
 
 **Technique 3: Pre-computation for known patterns**
 
-For interactions that are triggered by predictable events — a new message arriving, a deadline approaching, a document being updated — Tellus pre-computes the likely response context so the information is ready before you ask for it.
+For interactions that are triggered by predictable events  -  a new message arriving, a deadline approaching, a document being updated  -  Tellus pre-computes the likely response context so the information is ready before you ask for it.
 
 **The result**
 
@@ -1045,9 +1045,9 @@ Flow matters. We built for it.`,
     excerpt:
       "A proactive AI assistant that interrupts you at the wrong moment is worse than no assistant at all. Here's how Tellus distinguishes between what needs your attention and what doesn't.",
     tags: ["Tellus", "Design", "AI"],
-    content: `The most common complaint about notification systems — from email to Slack to every productivity app ever built — is that there are too many of them. Each one asks for your attention. Each one has a cost. And most of them don't deserve what they're asking for.
+    content: `The most common complaint about notification systems  -  from email to Slack to every productivity app ever built  -  is that there are too many of them. Each one asks for your attention. Each one has a cost. And most of them don't deserve what they're asking for.
 
-An AI assistant that generates proactive notifications faces the same risk at higher stakes. If Tellus interrupts you every time it has something to say, it becomes another noise source — just a smarter-sounding one.
+An AI assistant that generates proactive notifications faces the same risk at higher stakes. If Tellus interrupts you every time it has something to say, it becomes another noise source  -  just a smarter-sounding one.
 
 The design challenge: how does a system decide what rises to the level of interruption?
 
@@ -1071,7 +1071,7 @@ Decision requirement: Does this require a decision from the user, or can it proc
 
 **The interruption threshold**
 
-A proactive notification from Tellus requires high scores on at least two of three axes. An urgent, relevant item that doesn't require a decision might still generate a gentle flag — visible but not intrusive. An urgent item that requires a decision gets a real notification, regardless of relevance.
+A proactive notification from Tellus requires high scores on at least two of three axes. An urgent, relevant item that doesn't require a decision might still generate a gentle flag  -  visible but not intrusive. An urgent item that requires a decision gets a real notification, regardless of relevance.
 
 **User control**
 
@@ -1090,7 +1090,7 @@ Tellus was designed with a different premise: meet people in the workflow they a
 
 **What this means technically**
 
-Tellus integrates with the tools you're already using — email, Slack, calendar, project management — rather than asking you to migrate to a new platform. The integration is read-aware and action-capable: Tellus can observe what's happening across your connected tools and take actions on your behalf when instructed.
+Tellus integrates with the tools you're already using  -  email, Slack, calendar, project management  -  rather than asking you to migrate to a new platform. The integration is read-aware and action-capable: Tellus can observe what's happening across your connected tools and take actions on your behalf when instructed.
 
 The data stays where it is. Tellus doesn't require you to move everything into a new system.
 
@@ -1098,9 +1098,9 @@ The data stays where it is. Tellus doesn't require you to move everything into a
 
 Most integrations work by pulling data into a central hub. You see everything in one place, but the one place is now another thing to check.
 
-Tellus inverts this. Instead of pulling everything to one place, it pushes relevant information to you in context — when you're in the middle of a relevant task, Tellus surfaces what you need, from wherever it lives.
+Tellus inverts this. Instead of pulling everything to one place, it pushes relevant information to you in context  -  when you're in the middle of a relevant task, Tellus surfaces what you need, from wherever it lives.
 
-If you're reviewing an email about a project, Tellus can surface the relevant Slack threads and calendar events connected to that project — without you switching apps to find them.
+If you're reviewing an email about a project, Tellus can surface the relevant Slack threads and calendar events connected to that project  -  without you switching apps to find them.
 
 **The no-migration principle**
 
@@ -1119,19 +1119,19 @@ The integration-first approach means Tellus is only as good as the integrations 
     excerpt:
       "The most dangerous AI assistant is one that makes decisions without telling you. Here's how Tellus is designed to support human judgment rather than replace it.",
     tags: ["Tellus", "AI", "Design"],
-    content: `There's a version of an AI assistant that's maximally helpful: it reads everything, understands everything, makes decisions, sends messages, files things, schedules meetings, and updates projects on your behalf — all without asking. You come back at the end of the day and everything is done.
+    content: `There's a version of an AI assistant that's maximally helpful: it reads everything, understands everything, makes decisions, sends messages, files things, schedules meetings, and updates projects on your behalf  -  all without asking. You come back at the end of the day and everything is done.
 
 This version terrifies me.
 
-Not because AI can't do these things reliably — increasingly it can. But because decisions made without human awareness create problems that surface later and look like your fault. An AI that sent a reply you didn't review. An AI that declined a meeting without understanding the relationship context. An AI that flagged something as resolved that wasn't.
+Not because AI can't do these things reliably  -  increasingly it can. But because decisions made without human awareness create problems that surface later and look like your fault. An AI that sent a reply you didn't review. An AI that declined a meeting without understanding the relationship context. An AI that flagged something as resolved that wasn't.
 
 **The autonomy design principle in Tellus**
 
-Tellus is designed to surface, suggest, and draft — not to decide and act. Everything it does that affects the outside world requires explicit user confirmation. This is a deliberate constraint.
+Tellus is designed to surface, suggest, and draft  -  not to decide and act. Everything it does that affects the outside world requires explicit user confirmation. This is a deliberate constraint.
 
 Internally, Tellus takes many autonomous actions: monitoring, summarising, connecting threads, preparing context. These are read operations. They don't have external consequences and don't require your review.
 
-For write operations — sending messages, updating tasks, scheduling meetings — Tellus prepares and presents but doesn't execute without confirmation.
+For write operations  -  sending messages, updating tasks, scheduling meetings  -  Tellus prepares and presents but doesn't execute without confirmation.
 
 **Why this matters for trust**
 
@@ -1141,9 +1141,9 @@ You know what it does autonomously (monitoring, summarising, connecting). You kn
 
 **The tradeoff**
 
-This design means Tellus is less autonomous than a maximally aggressive AI assistant. For some users, that's frustrating — they want more things to happen without their involvement.
+This design means Tellus is less autonomous than a maximally aggressive AI assistant. For some users, that's frustrating  -  they want more things to happen without their involvement.
 
-For the users Tellus is designed for — people who are already moving fast and making judgment calls constantly — maintaining control over what goes out under their name is worth the extra confirmation step.`,
+For the users Tellus is designed for  -  people who are already moving fast and making judgment calls constantly  -  maintaining control over what goes out under their name is worth the extra confirmation step.`,
   },
   {
     slug: "tellus-communication-overhead",
@@ -1170,13 +1170,13 @@ Follow-up loops. "Just checking in on my previous message" is a question that ex
 
 **The compounding problem**
 
-Communication overhead compounds. Each interruption costs more than the time it takes because of the context restoration cost — the time required to get back to where you were before the interruption. Research from the University of California, Irvine suggests this is approximately 23 minutes per deep-work interruption.
+Communication overhead compounds. Each interruption costs more than the time it takes because of the context restoration cost  -  the time required to get back to where you were before the interruption. Research from the University of California, Irvine suggests this is approximately 23 minutes per deep-work interruption.
 
 A day with 15 interruptions doesn't just cost 15 times the average interruption duration. It costs substantially more.
 
 **What Tellus changes**
 
-Tellus reduces communication overhead by making information available without asking — context surfaced proactively, status visible without status meetings, threads connected without manual cross-referencing. The goal isn't zero communication. It's eliminating the communication that exists only because the alternative was worse.`,
+Tellus reduces communication overhead by making information available without asking  -  context surfaced proactively, status visible without status meetings, threads connected without manual cross-referencing. The goal isn't zero communication. It's eliminating the communication that exists only because the alternative was worse.`,
   },
   {
     slug: "tellus-thread-coherence",
@@ -1187,7 +1187,7 @@ Tellus reduces communication overhead by making information available without as
     tags: ["Tellus", "Technical", "AI"],
     content: `Every team has a thread that got out of hand. It started as a focused question. Replies came. Side discussions branched off. Decisions were made and then revisited. The original question is now 47 messages back and nobody can remember what was decided.
 
-Thread coherence — the ability to understand the current state and key decisions of a long conversation without reading everything from the beginning — is one of the most undervalued features a communication tool can have.
+Thread coherence  -  the ability to understand the current state and key decisions of a long conversation without reading everything from the beginning  -  is one of the most undervalued features a communication tool can have.
 
 It's also one of the hardest to build well.
 
@@ -1195,7 +1195,7 @@ It's also one of the hardest to build well.
 
 Threads naturally accumulate noise as they grow: tangential discussions, social niceties, corrections to earlier messages, questions that were answered inline. The signal-to-noise ratio decreases over time. Important information becomes harder to find relative to unimportant information.
 
-LLMs face an additional problem: context window limits. Most AI systems have a maximum amount of text they can process at once. A thread that exceeds that limit can't be processed as a unit — the AI has to choose what to include, and that choice introduces potential blind spots.
+LLMs face an additional problem: context window limits. Most AI systems have a maximum amount of text they can process at once. A thread that exceeds that limit can't be processed as a unit  -  the AI has to choose what to include, and that choice introduces potential blind spots.
 
 **How Tellus handles this**
 
@@ -1205,7 +1205,7 @@ This summary is queryable. "What was decided about the Q3 timeline?" returns the
 
 **The coherence guarantee**
 
-For threads Tellus is monitoring, the system guarantees that a user joining the thread late — or returning to it after a gap — can get the essential context without reading back through everything. The summary is always current, because it's updated message-by-message rather than generated on demand.
+For threads Tellus is monitoring, the system guarantees that a user joining the thread late  -  or returning to it after a gap  -  can get the essential context without reading back through everything. The summary is always current, because it's updated message-by-message rather than generated on demand.
 
 This changes the relationship to long threads. Instead of dreading them, you can let them grow knowing the coherence layer is maintained automatically.`,
   },
@@ -1216,11 +1216,11 @@ This changes the relationship to long threads. Instead of dreading them, you can
     excerpt:
       "Asynchronous communication is better for deep work, better for distributed teams, and better for individual autonomy. The only reason it hasn't fully won is that it creates coordination overhead. AI removes that overhead.",
     tags: ["Tellus", "Teams", "Productivity"],
-    content: `The case for asynchronous team communication is strong and has been well-made by others. Deep work requires long uninterrupted periods. Synchronous communication — meetings, real-time messaging — is the enemy of those periods. The teams doing the most intellectually demanding work find ways to protect deep work time, which means reducing synchronous communication requirements.
+    content: `The case for asynchronous team communication is strong and has been well-made by others. Deep work requires long uninterrupted periods. Synchronous communication  -  meetings, real-time messaging  -  is the enemy of those periods. The teams doing the most intellectually demanding work find ways to protect deep work time, which means reducing synchronous communication requirements.
 
 The case for synchronous communication is also real: coordination is genuinely hard to do asynchronously. Nuanced discussions are easier in person. Relationship-building requires real-time presence. Quick questions are faster to ask out loud than to write.
 
-The high-performing team solution isn't fully async or fully sync — it's async by default with sync for the specific things that genuinely require it.
+The high-performing team solution isn't fully async or fully sync  -  it's async by default with sync for the specific things that genuinely require it.
 
 **Where async breaks down**
 
@@ -1232,9 +1232,9 @@ This is why many teams abandon async: the overhead of waiting, following up, and
 
 AI changes three things about async work that have historically made it hard:
 
-Information availability. Questions like "where did we land on this?" and "what's the current status of X?" — which often prompted synchronous check-ins — can be answered by a well-connected AI assistant instantly, without involving the person you'd otherwise ask.
+Information availability. Questions like "where did we land on this?" and "what's the current status of X?"  -  which often prompted synchronous check-ins  -  can be answered by a well-connected AI assistant instantly, without involving the person you'd otherwise ask.
 
-Follow-up management. The cognitive overhead of tracking who's waiting on what gets offloaded to the AI. Tellus knows what messages are pending responses and can surface them appropriately — without requiring the sender to maintain that tracking manually.
+Follow-up management. The cognitive overhead of tracking who's waiting on what gets offloaded to the AI. Tellus knows what messages are pending responses and can surface them appropriately  -  without requiring the sender to maintain that tracking manually.
 
 Context for people joining late. Someone returning from leave or joining a project mid-stream no longer has to read back through weeks of thread history. The AI provides structured context.
 
@@ -1249,7 +1249,7 @@ These aren't total solutions to async coordination challenges. But they remove t
     tags: ["Tellus", "Teams", "Productivity"],
     content: `If you audit your team's calendar and ask "what decision does this meeting produce?" for each meeting, you'll find that most meetings don't produce decisions. They produce updates.
 
-Status updates. Progress reports. "Alignment" sessions that really mean "making sure everyone has heard the same thing." These meetings exist because the alternative — trusting that information has been communicated and understood without verification — feels risky.
+Status updates. Progress reports. "Alignment" sessions that really mean "making sure everyone has heard the same thing." These meetings exist because the alternative  -  trusting that information has been communicated and understood without verification  -  feels risky.
 
 The risk isn't imaginary. Information does get lost. People do have different understandings of the same situation. Alignment does break down. Meetings are a reliable, if expensive, way to address this.
 
@@ -1263,7 +1263,7 @@ If a meeting's primary function is information transfer, it should be a document
 
 **Category 2: Meetings that should be threads**
 
-Discussions that don't require real-time response — "what should we do about X?" — are almost always better as asynchronous threads. The reasons: written responses are better considered than immediate verbal responses. People who need to research before responding can do so. The discussion is automatically documented.
+Discussions that don't require real-time response  -  "what should we do about X?"  -  are almost always better as asynchronous threads. The reasons: written responses are better considered than immediate verbal responses. People who need to research before responding can do so. The discussion is automatically documented.
 
 If a meeting's primary function is gathering input, it should be a thread.
 
@@ -1289,22 +1289,22 @@ The meetings that remain are the ones that should remain. That's the goal.`,
     tags: ["WhatsApp", "Automation"],
     content: `Most founders build an app and then think about how to get users to download it. I flipped that.
 
-When I was building MyJoyfulDay, the hardest insight wasn't technical — it was distribution. Our target users (people planning weddings and birthdays in Kenya) weren't going to download a new app for a one-time event. But every single one of them had WhatsApp open already.
+When I was building MyJoyfulDay, the hardest insight wasn't technical  -  it was distribution. Our target users (people planning weddings and birthdays in Kenya) weren't going to download a new app for a one-time event. But every single one of them had WhatsApp open already.
 
 So we moved the entire product into WhatsApp.
 
-Jitabi — our event-planning bot — lets anyone create a live event website by sending a message. No download. No sign-up. No dashboard. Just: "I'm having Amara's birthday on Saturday at my house" → live event page, published, URL sent back in under 10 seconds.
+Jitabi  -  our event-planning bot  -  lets anyone create a live event website by sending a message. No download. No sign-up. No dashboard. Just: "I'm having Amara's birthday on Saturday at my house" → live event page, published, URL sent back in under 10 seconds.
 
 Here's what building Jitabi taught me about WhatsApp as infrastructure:
 
 **1. It's not a chatbot, it's an interface.**
-The mistake most builders make is treating a WhatsApp bot like a FAQ answerer. Jitabi is an interface — a replacement for a form, a dashboard, a signup flow. Design it that way. Every message is a UI state.
+The mistake most builders make is treating a WhatsApp bot like a FAQ answerer. Jitabi is an interface  -  a replacement for a form, a dashboard, a signup flow. Design it that way. Every message is a UI state.
 
 **2. Ambiguity is the hard problem.**
-"Saturday" could mean this Saturday or next. "My place" could mean anything. You need an extraction layer (LLM) plus a recovery flow for when confidence is low. Jitabi asks one clarifying question at a time — never a list of questions, always a conversation.
+"Saturday" could mean this Saturday or next. "My place" could mean anything. You need an extraction layer (LLM) plus a recovery flow for when confidence is low. Jitabi asks one clarifying question at a time  -  never a list of questions, always a conversation.
 
 **3. WhatsApp has business infrastructure built in.**
-Read receipts, delivery confirmation, phone number verification, push notifications — all included, all trusted by users. You don't have to build any of it.
+Read receipts, delivery confirmation, phone number verification, push notifications  -  all included, all trusted by users. You don't have to build any of it.
 
 WhatsApp isn't just where your users are. It's where trust already lives. Build there.`,
   },
@@ -1315,17 +1315,17 @@ WhatsApp isn't just where your users are. It's where trust already lives. Build 
     excerpt:
       "Running a coworking space while building products taught me something most founders miss. The best headcount is the one you never added.",
     tags: ["Automation", "Operations"],
-    content: `I ran Kisumu Hub while simultaneously building digital products. That sounds impossible. It wasn't — but it required one hard rule: never do manually what can be automated.
+    content: `I ran Kisumu Hub while simultaneously building digital products. That sounds impossible. It wasn't  -  but it required one hard rule: never do manually what can be automated.
 
 Here's what that looked like in practice:
 
 **Member onboarding:** Instead of manually sending welcome emails, access instructions, and introductions, I built a workflow in n8n that triggered the moment someone signed up. It sent the right information at the right time, tagged them in our CRM, and added them to the right WhatsApp group. Zero manual steps.
 
-**Event coordination:** Booking confirmations, reminders, venue prep checklists — all automated. The only human in the loop was the part that genuinely required human judgment.
+**Event coordination:** Booking confirmations, reminders, venue prep checklists  -  all automated. The only human in the loop was the part that genuinely required human judgment.
 
-**Reporting:** Weekly member stats, revenue summaries, occupancy rates — pulled, formatted, and delivered to my inbox every Monday morning. I didn't produce these reports. I read them.
+**Reporting:** Weekly member stats, revenue summaries, occupancy rates  -  pulled, formatted, and delivered to my inbox every Monday morning. I didn't produce these reports. I read them.
 
-The result: I could run meaningful operations with far less overhead than you'd expect — because I wasn't doing the work that shouldn't need a human.
+The result: I could run meaningful operations with far less overhead than you'd expect  -  because I wasn't doing the work that shouldn't need a human.
 
 **What automation can't do:**
 It can't build relationships. It can't handle the member who shows up in a bad mood and needs a real conversation. It can't make judgment calls in ambiguous situations.
@@ -1343,9 +1343,9 @@ Every business has more automatable work than they realize. The first step is si
     tags: ["Product", "Kenya"],
     content: `I've built products for a specific context: Kenya. And that context changes everything.
 
-When I was building the Autoshine e-commerce site, I couldn't just follow the standard WooCommerce playbook. My users are on mobile, often on slower connections, and they expect M-Pesa as a payment option — not a bolt-on, but the primary flow. A site that loads in 2 seconds on fiber in Nairobi might take 8 seconds on 3G in Kisumu. That 6-second difference is the difference between a sale and a bounce.
+When I was building the Autoshine e-commerce site, I couldn't just follow the standard WooCommerce playbook. My users are on mobile, often on slower connections, and they expect M-Pesa as a payment option  -  not a bolt-on, but the primary flow. A site that loads in 2 seconds on fiber in Nairobi might take 8 seconds on 3G in Kisumu. That 6-second difference is the difference between a sale and a bounce.
 
-When I built Deriv Champions for a forex mentor, I couldn't just copy a generic "online course" template. Forex in Kenya carries specific trust challenges — there are a lot of scams. The site had to lead with credibility signals, real testimonials, verifiable track record, before asking anyone to enroll. Context isn't just UX. It's the entire product strategy.
+When I built Deriv Champions for a forex mentor, I couldn't just copy a generic "online course" template. Forex in Kenya carries specific trust challenges  -  there are a lot of scams. The site had to lead with credibility signals, real testimonials, verifiable track record, before asking anyone to enroll. Context isn't just UX. It's the entire product strategy.
 
 **The things that change when you build for Kenya:**
 
@@ -1354,7 +1354,7 @@ When I built Deriv Champions for a forex mentor, I couldn't just copy a generic 
 - **Trust:** Your credibility has to be visible in seconds. Social proof, recognizable partners, clear contact info.
 - **Language:** Even English-speaking users code-switch. Your copy needs to feel locally grounded, not imported.
 
-The biggest mistake I see from builders here is importing a Silicon Valley product playbook unchanged. The fundamentals of good product thinking travel — but the specifics don't.
+The biggest mistake I see from builders here is importing a Silicon Valley product playbook unchanged. The fundamentals of good product thinking travel  -  but the specifics don't.
 
 Context is not a constraint to work around. It's a feature that, if you design for it, becomes your competitive advantage.`,
   },
@@ -1365,7 +1365,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "myjoyfullday-wedding-planning-kenya",
     title: "Wedding Planning in Kenya: The Complete Guide for 2025",
     date: "2025-07-01",
-    excerpt: "Planning a Kenyan wedding involves vendors, venues, budgets, and family expectations. Here's the complete guide to pulling it off beautifully — and how MyJoyfulDay makes the whole process easier.",
+    excerpt: "Planning a Kenyan wedding involves vendors, venues, budgets, and family expectations. Here's the complete guide to pulling it off beautifully  -  and how MyJoyfulDay makes the whole process easier.",
     tags: ["MyJoyfulDay", "Wedding", "Kenya"],
     coverImage: mjdWedding.coverImage,
     content: mjdWedding.content,
@@ -1392,7 +1392,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "myjoyfullday-corporate-events-kenya",
     title: "Corporate Events in Kenya: Planning That Reflects Well on Your Organisation",
     date: "2025-07-04",
-    excerpt: "Corporate events in Kenya — product launches, team builds, annual dinners — are high-stakes. Here's how to plan them well and what separates forgettable events from ones people talk about.",
+    excerpt: "Corporate events in Kenya  -  product launches, team builds, annual dinners  -  are high-stakes. Here's how to plan them well and what separates forgettable events from ones people talk about.",
     tags: ["MyJoyfulDay", "Corporate", "Events"],
     coverImage: mjdCorporate.coverImage,
     content: mjdCorporate.content,
@@ -1410,7 +1410,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "myjoyfullday-mpesa-event-payments",
     title: "M-Pesa for Event Payments: How to Collect Guest Contributions and Vendor Fees",
     date: "2025-07-06",
-    excerpt: "From harambee contributions to vendor deposits, M-Pesa is how Kenyans handle event money. Here's how to set it up properly — and how MyJoyfulDay automates the whole process.",
+    excerpt: "From harambee contributions to vendor deposits, M-Pesa is how Kenyans handle event money. Here's how to set it up properly  -  and how MyJoyfulDay automates the whole process.",
     tags: ["MyJoyfulDay", "M-Pesa", "Payments"],
     coverImage: mjdMpesa.coverImage,
     content: mjdMpesa.content,
@@ -1446,7 +1446,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "myjoyfullday-kisumu-event-planning",
     title: "Event Planning in Kisumu: The Guide for Kenya's Lakeside City",
     date: "2025-07-10",
-    excerpt: "Kisumu has a thriving events scene with its own distinct character. Here's how to plan events in the lakeside city — venues, vendors, logistics, and the things that make Kisumu events unique.",
+    excerpt: "Kisumu has a thriving events scene with its own distinct character. Here's how to plan events in the lakeside city  -  venues, vendors, logistics, and the things that make Kisumu events unique.",
     tags: ["MyJoyfulDay", "Kisumu", "Events"],
     coverImage: mjdKisumu.coverImage,
     content: mjdKisumu.content,
@@ -1455,7 +1455,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "myjoyfullday-whatsapp-invitations",
     title: "WhatsApp Event Invitations: The Smart Way to Invite Guests in Kenya",
     date: "2025-07-11",
-    excerpt: "Printed cards are fading. WhatsApp invitations are how Kenyans actually invite guests. Here's how to do it well — and how MyJoyfulDay creates shareable digital invitations automatically.",
+    excerpt: "Printed cards are fading. WhatsApp invitations are how Kenyans actually invite guests. Here's how to do it well  -  and how MyJoyfulDay creates shareable digital invitations automatically.",
     tags: ["MyJoyfulDay", "WhatsApp", "Invitations"],
     coverImage: mjdWhatsappInvitations.coverImage,
     content: mjdWhatsappInvitations.content,
@@ -1464,7 +1464,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "myjoyfullday-event-budgeting-kenya",
     title: "Event Budgeting in Kenya: A Realistic Guide to Planning Costs",
     date: "2025-07-12",
-    excerpt: "Kenyan events frequently run over budget — not because people are careless, but because the true costs aren't clear at the start. Here's how to budget accurately and where to find savings.",
+    excerpt: "Kenyan events frequently run over budget  -  not because people are careless, but because the true costs aren't clear at the start. Here's how to budget accurately and where to find savings.",
     tags: ["MyJoyfulDay", "Budget", "Events"],
     coverImage: mjdBudgeting.coverImage,
     content: mjdBudgeting.content,
@@ -1473,7 +1473,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "myjoyfullday-house-party-planning",
     title: "House Party Planning in Kenya: How to Host at Home Without the Stress",
     date: "2025-07-13",
-    excerpt: "A well-run house party is one of the best event experiences you can create. Here's how to plan one in Kenya — from invitations and catering to managing the guest list and the morning after.",
+    excerpt: "A well-run house party is one of the best event experiences you can create. Here's how to plan one in Kenya  -  from invitations and catering to managing the guest list and the morning after.",
     tags: ["MyJoyfulDay", "House Party", "Kenya"],
     coverImage: mjdHouseParty.coverImage,
     content: mjdHouseParty.content,
@@ -1485,7 +1485,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellusjobs-salary-negotiation-kenya",
     title: "Salary Negotiation in Kenya: How to Get Paid What You're Worth",
     date: "2025-07-01",
-    excerpt: "Most Kenyan professionals accept the first offer. The ones who negotiate — using the right tactics, with the right data — consistently earn more. Here's the complete guide.",
+    excerpt: "Most Kenyan professionals accept the first offer. The ones who negotiate  -  using the right tactics, with the right data  -  consistently earn more. Here's the complete guide.",
     tags: ["TellusJobs", "Salary", "Career"],
     coverImage: tjSalary.coverImage,
     content: tjSalary.content,
@@ -1512,7 +1512,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellusjobs-resume-writing-kenya",
     title: "CV Writing for Kenya: How to Write a CV That Gets You Interviews",
     date: "2025-07-04",
-    excerpt: "Kenyan hiring managers see hundreds of CVs. Most are forgettable. Here's how to write one that stands out — what to include, what to cut, and how AI is changing the game.",
+    excerpt: "Kenyan hiring managers see hundreds of CVs. Most are forgettable. Here's how to write one that stands out  -  what to include, what to cut, and how AI is changing the game.",
     tags: ["TellusJobs", "CV", "Career"],
     coverImage: tjResume.coverImage,
     content: tjResume.content,
@@ -1521,7 +1521,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellusjobs-tech-jobs-kenya-2025",
     title: "Tech Jobs in Kenya 2025: What's Hiring, What's Paying, and How to Get In",
     date: "2025-07-05",
-    excerpt: "Kenya's tech sector is one of Africa's most active. Here's the state of tech hiring in 2025 — the roles in demand, realistic salaries, the top employers, and how to break in.",
+    excerpt: "Kenya's tech sector is one of Africa's most active. Here's the state of tech hiring in 2025  -  the roles in demand, realistic salaries, the top employers, and how to break in.",
     tags: ["TellusJobs", "Tech Jobs", "Kenya"],
     coverImage: tjTech.coverImage,
     content: tjTech.content,
@@ -1548,7 +1548,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellusjobs-linkedin-profile-kenya",
     title: "LinkedIn Profile Optimisation for Kenyan Professionals: The Complete Guide",
     date: "2025-07-08",
-    excerpt: "LinkedIn is how Kenyan professionals get found by recruiters. Here's how to optimise every section of your profile to attract the right opportunities — with Kenya-specific advice.",
+    excerpt: "LinkedIn is how Kenyan professionals get found by recruiters. Here's how to optimise every section of your profile to attract the right opportunities  -  with Kenya-specific advice.",
     tags: ["TellusJobs", "LinkedIn", "Career"],
     coverImage: tjLinkedin.coverImage,
     content: tjLinkedin.content,
@@ -1557,7 +1557,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellusjobs-entry-level-jobs-kenya",
     title: "Entry Level Jobs in Kenya: The Honest Guide for Fresh Graduates",
     date: "2025-07-09",
-    excerpt: "Breaking into the Kenyan job market without experience is genuinely hard. Here's the honest picture — where entry-level roles actually are, how to compete, and how to get your first break.",
+    excerpt: "Breaking into the Kenyan job market without experience is genuinely hard. Here's the honest picture  -  where entry-level roles actually are, how to compete, and how to get your first break.",
     tags: ["TellusJobs", "Entry Level", "Graduate"],
     coverImage: tjEntry.coverImage,
     content: tjEntry.content,
@@ -1575,7 +1575,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellusjobs-banking-finance-jobs-kenya",
     title: "Banking and Finance Jobs in Kenya: Salaries, Requirements, and How to Get Hired",
     date: "2025-07-11",
-    excerpt: "Kenya's banking sector is one of the most active employers of graduates. Here's the full picture of banking and finance careers in Kenya — roles, salaries, requirements, and hiring patterns.",
+    excerpt: "Kenya's banking sector is one of the most active employers of graduates. Here's the full picture of banking and finance careers in Kenya  -  roles, salaries, requirements, and hiring patterns.",
     tags: ["TellusJobs", "Banking", "Finance"],
     coverImage: tjBanking.coverImage,
     content: tjBanking.content,
@@ -1584,7 +1584,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellusjobs-remote-freelance-kenya",
     title: "Remote Freelancing for Kenyan Professionals: How to Earn Internationally from Kenya",
     date: "2025-07-12",
-    excerpt: "Kenyan freelancers are earning international rates from Nairobi, Mombasa, and Kisumu. Here's how to build a freelance career that crosses borders — platforms, rates, payment, and positioning.",
+    excerpt: "Kenyan freelancers are earning international rates from Nairobi, Mombasa, and Kisumu. Here's how to build a freelance career that crosses borders  -  platforms, rates, payment, and positioning.",
     tags: ["TellusJobs", "Freelance", "Remote Work"],
     coverImage: tjFreelance.coverImage,
     content: tjFreelance.content,
@@ -1623,7 +1623,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellus-mpesa-api-integration",
     title: "M-Pesa API Integration (Daraja): A Developer's Guide for Kenyan Applications",
     date: "2025-07-04",
-    excerpt: "The Daraja API is the most important payment integration any Kenyan developer can build. Here's the complete guide — from account setup through STK Push implementation and common gotchas.",
+    excerpt: "The Daraja API is the most important payment integration any Kenyan developer can build. Here's the complete guide  -  from account setup through STK Push implementation and common gotchas.",
     tags: ["Tellus", "M-Pesa", "API"],
     coverImage: tMpesa.coverImage,
     content: tMpesa.content,
@@ -1650,7 +1650,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellus-customer-support-automation",
     title: "Customer Support Automation for Kenyan Businesses: Scale Without Scaling Headcount",
     date: "2025-07-07",
-    excerpt: "Automation lets Kenyan businesses handle 3–5x the inquiry volume with the same team — because it handles repetitive inquiries while humans focus on the conversations that actually need them.",
+    excerpt: "Automation lets Kenyan businesses handle 3 - 5x the inquiry volume with the same team  -  because it handles repetitive inquiries while humans focus on the conversations that actually need them.",
     tags: ["Tellus", "Customer Support", "Automation"],
     coverImage: tCxAutomation.coverImage,
     content: tCxAutomation.content,
@@ -1659,7 +1659,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellus-ecommerce-automation-kenya",
     title: "E-Commerce Automation in Kenya: From Order to Delivery Without Manual Effort",
     date: "2025-07-08",
-    excerpt: "Manual e-commerce operations don't scale. Here's how automation transforms every stage of the Kenyan e-commerce order lifecycle — from M-Pesa payment to delivery confirmation.",
+    excerpt: "Manual e-commerce operations don't scale. Here's how automation transforms every stage of the Kenyan e-commerce order lifecycle  -  from M-Pesa payment to delivery confirmation.",
     tags: ["Tellus", "E-Commerce", "Automation"],
     coverImage: tEcommerce.coverImage,
     content: tEcommerce.content,
@@ -1668,7 +1668,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellus-ai-tools-kenyan-business",
     title: "The Best AI Tools for Kenyan Businesses in 2025: A Practical Evaluation",
     date: "2025-07-09",
-    excerpt: "A clear-eyed assessment of which AI tools are worth using for Kenyan businesses — what each does well, what it costs, and how it fits the Kenyan context.",
+    excerpt: "A clear-eyed assessment of which AI tools are worth using for Kenyan businesses  -  what each does well, what it costs, and how it fits the Kenyan context.",
     tags: ["Tellus", "AI Tools", "Kenya"],
     coverImage: tAiTools.coverImage,
     content: tAiTools.content,
@@ -1677,7 +1677,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellus-building-whatsapp-bots-business",
     title: "Building WhatsApp Bots for Business: The Complete Technical and Strategic Guide",
     date: "2025-07-10",
-    excerpt: "WhatsApp bots are the most impactful technology investment most Kenyan businesses can make. Here's everything — strategic decisions, technical approaches, and conversation design principles.",
+    excerpt: "WhatsApp bots are the most impactful technology investment most Kenyan businesses can make. Here's everything  -  strategic decisions, technical approaches, and conversation design principles.",
     tags: ["Tellus", "WhatsApp", "Chatbot"],
     coverImage: tWaBots.coverImage,
     content: tWaBots.content,
@@ -1686,7 +1686,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellus-smart-notifications-productivity",
     title: "Smart Notifications vs. Notification Overload: How Tellus Decides What You Need to Know",
     date: "2025-07-11",
-    excerpt: "The problem isn't notifications — it's undiscriminating notifications. Here's the philosophy behind Tellus's notification intelligence and the architecture that makes context-awareness work.",
+    excerpt: "The problem isn't notifications  -  it's undiscriminating notifications. Here's the philosophy behind Tellus's notification intelligence and the architecture that makes context-awareness work.",
     tags: ["Tellus", "Productivity", "Notifications"],
     coverImage: tSmartNotif.coverImage,
     content: tSmartNotif.content,
@@ -1695,7 +1695,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "tellus-startup-tech-stack-kenya",
     title: "The Kenyan Startup Tech Stack in 2025: What to Build With and Why",
     date: "2025-07-12",
-    excerpt: "Technology stack decisions made early create the foundation for everything else. Here's the stack that most Kenyan startups should use — and the principles that should guide the choice.",
+    excerpt: "Technology stack decisions made early create the foundation for everything else. Here's the stack that most Kenyan startups should use  -  and the principles that should guide the choice.",
     tags: ["Tellus", "Tech Stack", "Startup"],
     coverImage: tTechStack.coverImage,
     content: tTechStack.content,
@@ -1761,7 +1761,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "autoshine-ceramic-coating-kenya",
     title: "Ceramic Coating in Kenya: The Complete Guide to Long-Term Paint Protection",
     date: "2025-07-05",
-    excerpt: "Ceramic coating is the most significant advancement in automotive paint protection of the past two decades. Here's everything about it — what it does, what it costs, and how to get it done right in Kenya.",
+    excerpt: "Ceramic coating is the most significant advancement in automotive paint protection of the past two decades. Here's everything about it  -  what it does, what it costs, and how to get it done right in Kenya.",
     tags: ["AutoShine", "Ceramic Coating", "Detailing"],
     coverImage: asCeramic.coverImage,
     content: asCeramic.content,
@@ -1806,7 +1806,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "autoshine-start-car-wash-business-kenya",
     title: "How to Start a Car Wash Business in Kenya: A Complete Guide",
     date: "2025-07-10",
-    excerpt: "Car washing is one of Kenya's most accessible and resilient businesses. Here's the complete guide from initial planning through operation — models, costs, location, equipment, staffing, and pricing.",
+    excerpt: "Car washing is one of Kenya's most accessible and resilient businesses. Here's the complete guide from initial planning through operation  -  models, costs, location, equipment, staffing, and pricing.",
     tags: ["AutoShine", "Business", "Kenya"],
     coverImage: asStartBiz.coverImage,
     content: asStartBiz.content,
@@ -1851,7 +1851,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "autoshine-rainy-season-car-care",
     title: "Car Care During Kenya's Rainy Season: What Every Driver Needs to Know",
     date: "2025-07-15",
-    excerpt: "Rain doesn't clean your car — it deposits acidic compounds that etch paint if left to dry. Here's the complete guide to protecting your vehicle through Kenya's long and short rains.",
+    excerpt: "Rain doesn't clean your car  -  it deposits acidic compounds that etch paint if left to dry. Here's the complete guide to protecting your vehicle through Kenya's long and short rains.",
     tags: ["AutoShine", "Rainy Season", "Kenya"],
     coverImage: asRainy.coverImage,
     content: asRainy.content,
@@ -1860,7 +1860,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "autoshine-car-wash-frequency-kenya",
     title: "How Often Should You Wash Your Car in Kenya? A Practical Guide",
     date: "2025-07-16",
-    excerpt: "The answer depends on where you drive and how. Here's the specific washing frequency for every Kenyan driving situation — from daily Nairobi commuters to coastal residents to rural drivers.",
+    excerpt: "The answer depends on where you drive and how. Here's the specific washing frequency for every Kenyan driving situation  -  from daily Nairobi commuters to coastal residents to rural drivers.",
     tags: ["AutoShine", "Car Wash", "Kenya"],
     coverImage: asFrequency.coverImage,
     content: asFrequency.content,
@@ -1869,7 +1869,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "autoshine-luxury-car-detailing-kenya",
     title: "Luxury Car Detailing in Kenya: White Glove Care for High-Value Vehicles",
     date: "2025-07-17",
-    excerpt: "Luxury vehicles require specialist knowledge, techniques, and products. Here's how AutoShine's luxury detailing service handles Nairobi's most valuable vehicles — and what makes it different.",
+    excerpt: "Luxury vehicles require specialist knowledge, techniques, and products. Here's how AutoShine's luxury detailing service handles Nairobi's most valuable vehicles  -  and what makes it different.",
     tags: ["AutoShine", "Luxury", "Detailing"],
     coverImage: asLuxury.coverImage,
     content: asLuxury.content,
@@ -1878,7 +1878,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "autoshine-nairobi-car-care-traffic",
     title: "How Nairobi Traffic Affects Your Car: What to Know and How to Protect Your Vehicle",
     date: "2025-07-18",
-    excerpt: "Stop-and-go Nairobi traffic is harder on vehicles than most drivers realise — mechanically, externally, and for interior air quality. Here's what's happening and how to counteract it.",
+    excerpt: "Stop-and-go Nairobi traffic is harder on vehicles than most drivers realise  -  mechanically, externally, and for interior air quality. Here's what's happening and how to counteract it.",
     tags: ["AutoShine", "Nairobi", "Traffic"],
     coverImage: asTraffic.coverImage,
     content: asTraffic.content,
@@ -1887,7 +1887,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "autoshine-subscription-car-wash",
     title: "AutoShine Subscription Car Wash Plans: Regular Care Without the Hassle",
     date: "2025-07-19",
-    excerpt: "AutoShine subscriptions make professional car care automatic — set your frequency, set your location, and your vehicle gets washed on schedule with no booking effort required.",
+    excerpt: "AutoShine subscriptions make professional car care automatic  -  set your frequency, set your location, and your vehicle gets washed on schedule with no booking effort required.",
     tags: ["AutoShine", "Subscription", "Car Wash"],
     coverImage: asSubscription.coverImage,
     content: asSubscription.content,
@@ -1896,7 +1896,7 @@ Context is not a constraint to work around. It's a feature that, if you design f
     slug: "autoshine-best-car-wash-products-kenya",
     title: "The Best Car Wash Products in Kenya: A Professional's Guide to What Actually Works",
     date: "2025-07-20",
-    excerpt: "An honest assessment of car care products available in Kenya — what categories matter, what to look for, which brands are worth the price, and where to source professional products in Nairobi.",
+    excerpt: "An honest assessment of car care products available in Kenya  -  what categories matter, what to look for, which brands are worth the price, and where to source professional products in Nairobi.",
     tags: ["AutoShine", "Products", "Car Care"],
     coverImage: asProducts.coverImage,
     content: asProducts.content,

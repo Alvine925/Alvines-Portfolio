@@ -19,8 +19,8 @@ const capabilities = [
     title: "WhatsApp AI Bot Development",
     tagline: "Turn WhatsApp into a full product interface.",
     description:
-      "Most businesses treat WhatsApp like a notification channel. I build it as a complete interface — forms, dashboards, sign-up flows, all replaced by a conversation. I've done this at scale with Jitabi, a bot that created 50K+ events and reached 1M+ guests without a single user downloading an app.",
-    proof: "Jitabi (MyJoyfulDay) — 50K+ events created, 1M+ guests reached.",
+      "Most businesses treat WhatsApp like a notification channel. I build it as a complete interface  -  forms, dashboards, sign-up flows, all replaced by a conversation. I've done this at scale with Jitabi, a bot that created 50K+ events and reached 1M+ guests without a single user downloading an app.",
+    proof: "Jitabi (MyJoyfulDay)  -  50K+ events created, 1M+ guests reached.",
     whatYouGet: [
       "Custom conversational flows designed around your actual users",
       "Meta WhatsApp Cloud API integration and verification",
@@ -30,7 +30,7 @@ const capabilities = [
       "Ongoing bot training and flow iteration",
     ],
     whoIsThisFor:
-      "Businesses whose customers are already on WhatsApp — which in Kenya is almost everyone. If you're losing leads because your funnel requires a download or a form, this solves it.",
+      "Businesses whose customers are already on WhatsApp  -  which in Kenya is almost everyone. If you're losing leads because your funnel requires a download or a form, this solves it.",
     tools: ["Meta WhatsApp Cloud API", "OpenAI API", "n8n", "Node.js", "Supabase"],
   },
   {
@@ -38,8 +38,8 @@ const capabilities = [
     title: "Workflow Automation",
     tagline: "Eliminate the work your team does by hand every day.",
     description:
-      "I've run operations at Kisumu Hub while building products in parallel — the only way that works is ruthless automation. I've automated member onboarding, event coordination, reporting, CRM tagging, and more. If you can describe a repetitive process, I can automate it.",
-    proof: "Kisumu Hub: full member onboarding, event logistics, and weekly reporting — all automated, zero manual steps.",
+      "I've run operations at Kisumu Hub while building products in parallel  -  the only way that works is ruthless automation. I've automated member onboarding, event coordination, reporting, CRM tagging, and more. If you can describe a repetitive process, I can automate it.",
+    proof: "Kisumu Hub: full member onboarding, event logistics, and weekly reporting  -  all automated, zero manual steps.",
     whatYouGet: [
       "End-to-end workflow mapping and documentation",
       "n8n and Make (Integromat) automation builds",
@@ -57,7 +57,7 @@ const capabilities = [
     title: "Web & Platform Development",
     tagline: "Sites that work, not just sites that look good.",
     description:
-      "I build full web products — event platforms, job boards, AI-powered tools, e-commerce stores. Not templates. Not page builders that fall apart under real traffic. Platforms with real architecture, real integrations, and real users. Every project ships with domain, hosting, and payment setup included.",
+      "I build full web products  -  event platforms, job boards, AI-powered tools, e-commerce stores. Not templates. Not page builders that fall apart under real traffic. Platforms with real architecture, real integrations, and real users. Every project ships with domain, hosting, and payment setup included.",
     proof: "5 shipped products across event tech, job platforms, AI communications, and e-commerce.",
     whatYouGet: [
       "Full-stack web applications from brief to deployment",
@@ -77,7 +77,7 @@ const capabilities = [
     tagline: "Sell online, the way Kenyans actually pay.",
     description:
       "Most e-commerce setups built outside Kenya get payments wrong. M-Pesa has to be the primary flow, not an afterthought. I've built full e-commerce experiences for Kenyan retailers: product catalogs, smart filtering, combo deals, M-Pesa and card integration, all optimized for mobile-first shoppers on variable connections.",
-    proof: "Autoshine — full e-commerce storefront with M-Pesa integration, live product catalog, and combo deal engine.",
+    proof: "Autoshine  -  full e-commerce storefront with M-Pesa integration, live product catalog, and combo deal engine.",
     whatYouGet: [
       "WooCommerce and custom e-commerce builds",
       "M-Pesa STK Push and Daraja API integration",
@@ -96,7 +96,7 @@ const capabilities = [
     tagline: "Practical AI that connects to your real business operations.",
     description:
       "I don't build AI demos. I build AI pipelines that run in production: CV matching engines, cover letter generators, conversational assistants, content extraction layers. The gap between an AI proof-of-concept and something your users actually trust is engineering discipline and Kenyan market context. I bring both.",
-    proof: "TellusJobs — AI-powered CV matching and auto cover letter generation for the Kenyan job market.",
+    proof: "TellusJobs  -  AI-powered CV matching and auto cover letter generation for the Kenyan job market.",
     whatYouGet: [
       "OpenAI API integration (GPT-4, embeddings, function calling)",
       "Prompt engineering and system prompt design",
@@ -142,7 +142,7 @@ export function Capabilities() {
     <Layout>
       <SEO
         canonical="/capabilities"
-        title="Capabilities — WhatsApp Bots, Automation, Web Dev & AI Integration"
+        title="Capabilities  -  WhatsApp Bots, Automation, Web Dev & AI Integration"
         description="Six proven capabilities: WhatsApp AI bots, workflow automation with n8n, web and platform development, e-commerce with M-Pesa, AI/LLM integration, and business operations. All backed by shipped products with real users."
         keywords="WhatsApp AI bot services Kenya, workflow automation services Kenya, web development services Kisumu, M-Pesa integration developer, n8n automation Kenya, AI integration Kenya, e-commerce Kenya developer"
       />

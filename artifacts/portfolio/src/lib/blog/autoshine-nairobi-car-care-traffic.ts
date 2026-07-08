@@ -2,7 +2,7 @@ export const coverImage = "https://images.unsplash.com/photo-1449965408869-eaa3f
 
 export const content = `## How Nairobi Traffic Affects Your Car: What to Know and How to Protect Your Vehicle
 
-Nairobi's traffic is among the most severe in Africa. The city of approximately 5 million people has a road network designed for a fraction of its current vehicle population. Gridlock on Mombasa Road, Waiyaki Way, Thika Superhighway, and dozens of other arterial roads is not an occasional inconvenience — it's the daily reality for hundreds of thousands of Nairobi commuters.
+Nairobi's traffic is among the most severe in Africa. The city of approximately 5 million people has a road network designed for a fraction of its current vehicle population. Gridlock on Mombasa Road, Waiyaki Way, Thika Superhighway, and dozens of other arterial roads is not an occasional inconvenience  -  it's the daily reality for hundreds of thousands of Nairobi commuters.
 
 This daily traffic has consequences for vehicles that most Nairobi drivers don't fully consider. Stop-and-go traffic creates specific mechanical wear patterns. Nairobi's road surfaces in congested areas create exterior contamination much faster than higher-speed driving. The time vehicles spend sitting in traffic affects interior air quality in ways that accumulate over months and years.
 
@@ -14,15 +14,15 @@ This guide covers what Nairobi traffic specifically does to your vehicle and how
 
 **Engine and cooling system:**
 
-Stop-and-go traffic is the most thermally demanding driving pattern for an engine. At speed, airflow through the radiator keeps the cooling system working efficiently. At idle in congestion, the engine fan provides reduced airflow — the cooling system works harder, and engine temperatures run higher.
+Stop-and-go traffic is the most thermally demanding driving pattern for an engine. At speed, airflow through the radiator keeps the cooling system working efficiently. At idle in congestion, the engine fan provides reduced airflow  -  the cooling system works harder, and engine temperatures run higher.
 
 Nairobi's high-altitude, hot ambient temperatures compound this. An engine idling in Nairobi's afternoon traffic with a marginally degraded cooling system can reach temperatures that trigger protective measures or cause actual damage.
 
-*Maintenance response:* Ensure cooling system maintenance is current — coolant strength (checked annually), thermostat function, radiator cap pressure rating, hose condition. An engine temperature gauge that's running warmer than usual during traffic is an early warning to address before overheating occurs.
+*Maintenance response:* Ensure cooling system maintenance is current  -  coolant strength (checked annually), thermostat function, radiator cap pressure rating, hose condition. An engine temperature gauge that's running warmer than usual during traffic is an early warning to address before overheating occurs.
 
 **Transmission wear:**
 
-For automatic transmission vehicles (increasingly the majority in Nairobi), stop-and-go traffic causes the transmission to cycle continuously between drive and brake — the torque converter working to transmit and absorb power repeatedly. This generates heat in the transmission fluid that accelerates its degradation.
+For automatic transmission vehicles (increasingly the majority in Nairobi), stop-and-go traffic causes the transmission to cycle continuously between drive and brake  -  the torque converter working to transmit and absorb power repeatedly. This generates heat in the transmission fluid that accelerates its degradation.
 
 Manual transmission drivers who ride the clutch in traffic (keeping the clutch partially engaged to inch forward in slow traffic) accelerate clutch plate wear dramatically. A clutch in a traffic-intense urban environment wears faster than in a car driven primarily on open roads.
 
@@ -32,11 +32,11 @@ Manual transmission drivers who ride the clutch in traffic (keeping the clutch p
 
 Nairobi traffic requires near-constant braking. Brake pad and disc wear rates for Nairobi commuter vehicles are significantly higher than for primarily highway-driven vehicles.
 
-*Maintenance response:* More frequent brake inspection intervals — every 20,000km rather than 30,000–40,000km — for heavy Nairobi commuter use.
+*Maintenance response:* More frequent brake inspection intervals  -  every 20,000km rather than 30,000 - 40,000km  -  for heavy Nairobi commuter use.
 
 **Fuel consumption:**
 
-A vehicle idling in traffic consumes fuel without covering distance. Nairobi's notorious traffic means many commuters spend 30–60% of their journey time effectively stationary. The fuel economy figures published for your vehicle are meaningless for Nairobi conditions — real-world fuel economy in Nairobi traffic is typically 20–40% worse than rated economy.
+A vehicle idling in traffic consumes fuel without covering distance. Nairobi's notorious traffic means many commuters spend 30 - 60% of their journey time effectively stationary. The fuel economy figures published for your vehicle are meaningless for Nairobi conditions  -  real-world fuel economy in Nairobi traffic is typically 20 - 40% worse than rated economy.
 
 *Practical response:* Budget for higher fuel consumption than manufacturer figures suggest. If your commute involves known severe congestion points, route alternatives that reduce total idling time may improve fuel consumption despite longer distances.
 
@@ -46,7 +46,7 @@ Stop-and-go traffic is worse for your vehicle's exterior than highway driving. H
 
 **Brake dust accumulation:**
 
-Every vehicle in front of you (and in adjacent lanes) is braking. Braking generates brake dust — metallic particles from brake pad and disc wear. These particles are hot when generated and carry an electrostatic charge that makes them extremely adhesive to vehicle surfaces.
+Every vehicle in front of you (and in adjacent lanes) is braking. Braking generates brake dust  -  metallic particles from brake pad and disc wear. These particles are hot when generated and carry an electrostatic charge that makes them extremely adhesive to vehicle surfaces.
 
 Nairobi traffic means hours of daily exposure to brake dust from surrounding vehicles. This accumulation is particularly severe on your front bumper and bonnet (facing the vehicles in front) and on your own wheels (from your own braking).
 
@@ -56,11 +56,11 @@ Brake dust that sits on paint and alloy surfaces for extended periods becomes co
 
 **Exhaust particulate exposure:**
 
-Nairobi's traffic includes a significant proportion of older, poorly-maintained diesel vehicles — matatus, lorries, and buses with incomplete combustion producing thick exhaust emissions. Your vehicle, trapped behind or beside these vehicles in traffic, is exposed to a constant cloud of fine particulate matter.
+Nairobi's traffic includes a significant proportion of older, poorly-maintained diesel vehicles  -  matatus, lorries, and buses with incomplete combustion producing thick exhaust emissions. Your vehicle, trapped behind or beside these vehicles in traffic, is exposed to a constant cloud of fine particulate matter.
 
 These particles settle on your paint, enter your cabin through ventilation systems, and deposit on your windshield. The interior glass hazing from plastic outgassing is compounded by traffic-sourced particulate settling on interior glass while windows are open.
 
-*Response:* Set your ventilation to recirculation mode in heavy traffic to reduce particulate entry into the cabin. Change cabin air filters more frequently (every 10,000–15,000km for Nairobi commuters).
+*Response:* Set your ventilation to recirculation mode in heavy traffic to reduce particulate entry into the cabin. Change cabin air filters more frequently (every 10,000 - 15,000km for Nairobi commuters).
 
 **Paint surface etching:**
 
@@ -73,7 +73,7 @@ The combination of brake dust, diesel exhaust, and Nairobi's occasional acidic r
 Nairobi's traffic is an air quality problem for vehicle occupants:
 
 **What enters your cabin in Nairobi traffic:**
-- Diesel exhaust particulates (PM2.5 and PM10) — linked to respiratory and cardiovascular health effects
+- Diesel exhaust particulates (PM2.5 and PM10)  -  linked to respiratory and cardiovascular health effects
 - Nitrogen oxides from vehicle exhaust
 - Carbon monoxide from incomplete combustion
 - Volatile organic compounds (VOCs) from exhaust
@@ -81,9 +81,9 @@ Nairobi's traffic is an air quality problem for vehicle occupants:
 
 **Protecting your interior air quality:**
 
-*Cabin air filter:* The cabin air filter is your primary protection against particulate entry. In Nairobi's conditions, a cabin filter lasts 10,000–15,000km before becoming blocked — potentially less than 6 months for heavy commuters. A blocked cabin filter provides minimal filtration while reducing airflow.
+*Cabin air filter:* The cabin air filter is your primary protection against particulate entry. In Nairobi's conditions, a cabin filter lasts 10,000 - 15,000km before becoming blocked  -  potentially less than 6 months for heavy commuters. A blocked cabin filter provides minimal filtration while reducing airflow.
 
-*Recirculation mode:* Using recirculation mode during heavy traffic (recycling interior air rather than drawing in outside air) reduces particulate ingestion from outside, but also recirculates CO2 from occupants. Use intermittently — recirculate during the worst traffic; switch to fresh air intake on clear roads.
+*Recirculation mode:* Using recirculation mode during heavy traffic (recycling interior air rather than drawing in outside air) reduces particulate ingestion from outside, but also recirculates CO2 from occupants. Use intermittently  -  recirculate during the worst traffic; switch to fresh air intake on clear roads.
 
 *Activated carbon cabin filters:* Upgrade from standard particulate cabin filters to activated carbon filters. These capture both particulate matter and VOC/gaseous pollutants. Available for most vehicles and well worth the modest additional cost over standard filters.
 
@@ -95,11 +95,11 @@ AutoShine has developed specific service elements for Nairobi's traffic-intensiv
 
 **Brake dust decontamination:**
 
-AutoShine's standard wheel cleaning service uses dedicated iron fallout remover — a chemical decontaminant that dissolves iron particles (including brake dust) from wheel and paint surfaces. This goes beyond the visual cleaning of wheel surfaces to chemically remove the embedded metallic contamination that a standard rinse misses.
+AutoShine's standard wheel cleaning service uses dedicated iron fallout remover  -  a chemical decontaminant that dissolves iron particles (including brake dust) from wheel and paint surfaces. This goes beyond the visual cleaning of wheel surfaces to chemically remove the embedded metallic contamination that a standard rinse misses.
 
 **Paint decontamination (clay bar service):**
 
-For vehicles with embedded road contamination that washing alone doesn't remove, AutoShine's clay bar decontamination service physically removes bonded particles from the paint surface. The clay bar process removes brake dust, industrial fallout, and other embedded contaminants — restoring the smooth paint surface that protective coatings need to bond to.
+For vehicles with embedded road contamination that washing alone doesn't remove, AutoShine's clay bar decontamination service physically removes bonded particles from the paint surface. The clay bar process removes brake dust, industrial fallout, and other embedded contaminants  -  restoring the smooth paint surface that protective coatings need to bond to.
 
 **Cabin air filter inspection:**
 
@@ -107,6 +107,6 @@ AutoShine technicians check cabin filter condition during interior services for 
 
 **Interior air quality service:**
 
-For vehicles with persistent interior odour from Nairobi traffic exposure, AutoShine's interior ozone treatment eliminates trapped particulate odour compounds — a reset for interior air quality that regular vacuuming and cleaning cannot achieve.
+For vehicles with persistent interior odour from Nairobi traffic exposure, AutoShine's interior ozone treatment eliminates trapped particulate odour compounds  -  a reset for interior air quality that regular vacuuming and cleaning cannot achieve.
 
-Nairobi traffic is an unavoidable reality of Kenya's capital city. Its effects on your vehicle are manageable with appropriate maintenance and regular professional care. AutoShine's services are calibrated for the specific demands of Nairobi's traffic environment — protecting your vehicle investment in the conditions it actually faces.`;
+Nairobi traffic is an unavoidable reality of Kenya's capital city. Its effects on your vehicle are manageable with appropriate maintenance and regular professional care. AutoShine's services are calibrated for the specific demands of Nairobi's traffic environment  -  protecting your vehicle investment in the conditions it actually faces.`;

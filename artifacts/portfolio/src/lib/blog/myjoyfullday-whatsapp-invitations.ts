@@ -2,17 +2,17 @@ export const coverImage = "https://images.unsplash.com/photo-1611746872915-64382
 
 export const content = `## Why WhatsApp Invitations Have Replaced Paper and Email for Kenyan Events
 
-There is a particular kind of optimism embedded in ordering printed event invitations. The envelopes, the wax seals, the embossed cards — they feel like a commitment to a version of the event that exists in a platonic ideal. They also cost money, take time to produce, and face the practical challenge of reaching people in a country where postal addresses are not universally reliable and where the average Kenyan checks their physical mail approximately never.
+There is a particular kind of optimism embedded in ordering printed event invitations. The envelopes, the wax seals, the embossed cards  -  they feel like a commitment to a version of the event that exists in a platonic ideal. They also cost money, take time to produce, and face the practical challenge of reaching people in a country where postal addresses are not universally reliable and where the average Kenyan checks their physical mail approximately never.
 
 Email invitations solved some of these problems and created new ones. They're cheap and instant, but email open rates for personal event invitations hover at disappointing levels. An invitation to a birthday party sits in the same inbox as subscription newsletters, work emails, and promotional offers. It competes for attention in a medium that most Kenyans have been conditioned to filter aggressively.
 
-WhatsApp invitations — particularly when they include a link to a proper event page rather than just a message — solve the real problems that paper and email don't. This article explains why WhatsApp has become the dominant invitation channel for Kenyan events, what makes it work, and how MyJoyfulDay turns a WhatsApp message into a complete invitation and RSVP experience.
+WhatsApp invitations  -  particularly when they include a link to a proper event page rather than just a message  -  solve the real problems that paper and email don't. This article explains why WhatsApp has become the dominant invitation channel for Kenyan events, what makes it work, and how MyJoyfulDay turns a WhatsApp message into a complete invitation and RSVP experience.
 
 ![WhatsApp message notification on smartphone](https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=1200&q=80)
 
 ## The WhatsApp Penetration Reality
 
-Kenya has one of the highest WhatsApp penetration rates in Africa. With over 30 million monthly active internet users in Kenya and WhatsApp being the dominant communication application across virtually every demographic — urban and rural, young and old, professional and casual — it is the one channel you can be confident your guests are checking.
+Kenya has one of the highest WhatsApp penetration rates in Africa. With over 30 million monthly active internet users in Kenya and WhatsApp being the dominant communication application across virtually every demographic  -  urban and rural, young and old, professional and casual  -  it is the one channel you can be confident your guests are checking.
 
 This matters enormously for event invitations. The entire point of an invitation is that it reaches the intended recipient and they engage with it. WhatsApp delivers on both counts better than any alternative channel in the Kenyan context.
 
@@ -20,9 +20,9 @@ This matters enormously for event invitations. The entire point of an invitation
 
 **Immediacy:** A WhatsApp message is received in real time. An invitation sent at 10am on Monday is seen by most recipients by 11am on Monday. The lag between send and receive that characterises postal invitations (days) and that email has normalised (hours to be generous) disappears.
 
-**Response mechanism:** WhatsApp is already the medium through which Kenyan social responses happen. When someone receives an event invitation, their natural impulse is to reply to the message — which WhatsApp facilitates. This natural response mechanism doesn't exist for a printed card.
+**Response mechanism:** WhatsApp is already the medium through which Kenyan social responses happen. When someone receives an event invitation, their natural impulse is to reply to the message  -  which WhatsApp facilitates. This natural response mechanism doesn't exist for a printed card.
 
-**Group dynamics:** WhatsApp groups are the primary infrastructure of Kenyan social networks. Family groups, friend groups, work groups — these groups exist before any event and can receive event information instantly. Sharing an event page link in the relevant WhatsApp groups reaches exactly the right people with zero additional targeting effort.
+**Group dynamics:** WhatsApp groups are the primary infrastructure of Kenyan social networks. Family groups, friend groups, work groups  -  these groups exist before any event and can receive event information instantly. Sharing an event page link in the relevant WhatsApp groups reaches exactly the right people with zero additional targeting effort.
 
 ## The Problem with WhatsApp-Only Invitations
 
@@ -62,7 +62,7 @@ The message that accompanies your event page link matters. It's the first thing 
 - Where: venue name or area (the map is in the event page)
 - Action: click the link and RSVP
 
-**Warmth matters.** This is a personal invitation, not a formal announcement. The tone should feel like it came from a person who wants the recipient to come. WhatsApp's informal register is the right register — don't over-formalise a message that will arrive in an app people use for casual conversation.
+**Warmth matters.** This is a personal invitation, not a formal announcement. The tone should feel like it came from a person who wants the recipient to come. WhatsApp's informal register is the right register  -  don't over-formalise a message that will arrive in an app people use for casual conversation.
 
 **Sample message structure:**
 
@@ -95,7 +95,7 @@ This message is under 100 words, delivers all the essential information, provide
 
 One of the dynamics that WhatsApp event invitations create is an ongoing conversation. People respond to the group message. They ask questions in the group. They engage with the event through the thread.
 
-This can be a positive — the group excitement about an upcoming event builds momentum. It can also be demanding — fielding questions, confirming details, managing RSVPs through conversation.
+This can be a positive  -  the group excitement about an upcoming event builds momentum. It can also be demanding  -  fielding questions, confirming details, managing RSVPs through conversation.
 
 MyJoyfulDay handles the structured RSVP piece so that the conversation is about excitement and connection, not logistics. When someone asks "what time does it start?" you reply with "All the details are in the event page! Here's the link again." When someone wants to RSVP, they click the page link. The conversation stays warm; the logistics are handled by the platform.
 
@@ -107,7 +107,7 @@ MyJoyfulDay's event page handles this gracefully in two ways:
 
 **RSVP capacity limits:** You can set a maximum capacity on your event page. Once capacity is reached, new RSVPs are closed or put on a waiting list. No more awkward conversations about "who said you could invite everyone."
 
-**Private event mode:** For events where the guest list needs to be controlled, the event page can be set to private — accessible only to those with a specific access code. Share the code only with intended guests.
+**Private event mode:** For events where the guest list needs to be controlled, the event page can be set to private  -  accessible only to those with a specific access code. Share the code only with intended guests.
 
 ## From Invitation to Thank You: The Complete Communication Arc
 
@@ -129,10 +129,10 @@ This arc, handled through MyJoyfulDay, keeps your personal WhatsApp account free
 
 ## The Cultural Context: Why This Works in Kenya
 
-The success of WhatsApp as an event communication channel in Kenya isn't just about technology penetration — it's about cultural fit. WhatsApp matches how Kenyans already communicate, already coordinate, and already maintain relationships.
+The success of WhatsApp as an event communication channel in Kenya isn't just about technology penetration  -  it's about cultural fit. WhatsApp matches how Kenyans already communicate, already coordinate, and already maintain relationships.
 
-The family group where aunties check in, where cousins share updates, where celebrations are announced — this is the real infrastructure of Kenyan social life. An event invitation that lives within this infrastructure is not an intrusion into someone's life. It's a contribution to it.
+The family group where aunties check in, where cousins share updates, where celebrations are announced  -  this is the real infrastructure of Kenyan social life. An event invitation that lives within this infrastructure is not an intrusion into someone's life. It's a contribution to it.
 
-Paper invitations were always slightly foreign to this context — they assumed a postal infrastructure that Kenya doesn't have and a formal relationship structure that Kenyan social life doesn't require. Email invitations assumed a communication culture that hasn't really taken hold for personal communication in Kenya.
+Paper invitations were always slightly foreign to this context  -  they assumed a postal infrastructure that Kenya doesn't have and a formal relationship structure that Kenyan social life doesn't require. Email invitations assumed a communication culture that hasn't really taken hold for personal communication in Kenya.
 
-WhatsApp invitations with proper event pages are native to how Kenya actually works. That's why they've become standard so quickly, and why platforms like MyJoyfulDay — built specifically for this context — work as well as they do.`;
+WhatsApp invitations with proper event pages are native to how Kenya actually works. That's why they've become standard so quickly, and why platforms like MyJoyfulDay  -  built specifically for this context  -  work as well as they do.`;

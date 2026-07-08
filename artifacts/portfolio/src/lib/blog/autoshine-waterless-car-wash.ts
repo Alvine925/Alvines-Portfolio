@@ -2,7 +2,7 @@ export const coverImage = "https://images.unsplash.com/photo-1600880292203-757bb
 
 export const content = `## Waterless Car Wash: What It Is, When to Use It, and the Truth About Kenyan Roads
 
-Waterless car washing has become increasingly popular in Kenya, driven by water conservation awareness, the growing number of Nairobi apartments with parking constraints, and the appeal of car cleaning without requiring a water source. But waterless washing is also one of the most misunderstood and misused car cleaning methods — in the wrong situations, it can scratch paint rather than clean it.
+Waterless car washing has become increasingly popular in Kenya, driven by water conservation awareness, the growing number of Nairobi apartments with parking constraints, and the appeal of car cleaning without requiring a water source. But waterless washing is also one of the most misunderstood and misused car cleaning methods  -  in the wrong situations, it can scratch paint rather than clean it.
 
 This guide covers waterless car washing comprehensively for the Kenyan context: what it actually is, the science behind it, when it's appropriate (and when it's absolutely not), the best products available in Kenya, and how to perform a waterless wash safely if you choose to use one. It also explains how AutoShine incorporates waterless methods into its service offering where appropriate.
 
@@ -10,11 +10,11 @@ This guide covers waterless car washing comprehensively for the Kenyan context: 
 
 ## What is a Waterless Car Wash?
 
-A waterless car wash is a cleaning method that uses a spray-on cleaning solution and microfiber towels to clean a vehicle's exterior without water. The cleaning solution contains lubricants, surfactants, and typically some water-based content — the "waterless" refers to the absence of a hose or bucket of water in the cleaning process, not to the complete absence of liquid.
+A waterless car wash is a cleaning method that uses a spray-on cleaning solution and microfiber towels to clean a vehicle's exterior without water. The cleaning solution contains lubricants, surfactants, and typically some water-based content  -  the "waterless" refers to the absence of a hose or bucket of water in the cleaning process, not to the complete absence of liquid.
 
 **How it works:**
 
-The waterless wash solution is sprayed onto a vehicle panel. The surfactants in the solution break down and encapsulate dirt particles — surrounding them with a layer of lubricant that prevents the dirt from scratching the surface as it's removed. The now-encapsulated dirt is wiped away with a clean microfiber towel, with the lubricants in the solution providing a slick layer between the dirt and the paint during removal.
+The waterless wash solution is sprayed onto a vehicle panel. The surfactants in the solution break down and encapsulate dirt particles  -  surrounding them with a layer of lubricant that prevents the dirt from scratching the surface as it's removed. The now-encapsulated dirt is wiped away with a clean microfiber towel, with the lubricants in the solution providing a slick layer between the dirt and the paint during removal.
 
 Done correctly on a lightly soiled vehicle, a waterless wash can clean effectively without water. Done incorrectly, or on a heavily soiled vehicle, it grinds dirt particles across the paint surface, causing the swirl marks and micro-scratches that make paint look dull.
 
@@ -37,7 +37,7 @@ Done correctly on a lightly soiled vehicle, a waterless wash can clean effective
 
 **The Kenyan context problem:**
 
-Kenya's road conditions — murram, construction dust, potholed tarmac that sprays mud — mean that most Kenyan vehicles most of the time are not in the "lightly dusty" category that waterless washing handles safely. A Nairobi vehicle driven daily through the city typically has enough surface contamination that waterless washing carries genuine paint scratch risk.
+Kenya's road conditions  -  murram, construction dust, potholed tarmac that sprays mud  -  mean that most Kenyan vehicles most of the time are not in the "lightly dusty" category that waterless washing handles safely. A Nairobi vehicle driven daily through the city typically has enough surface contamination that waterless washing carries genuine paint scratch risk.
 
 This is why AutoShine does not recommend waterless washing as the primary cleaning method for most Kenyan vehicles, and uses it only for specific, appropriate situations.
 
@@ -47,7 +47,7 @@ If you're going to use a waterless wash product, the technique matters enormousl
 
 **Rule 1: Assess the soil level before starting**
 
-If you can see mud, heavy grime, or significant accumulation — don't waterless wash. Use a traditional hose and shampoo, or bring it to AutoShine.
+If you can see mud, heavy grime, or significant accumulation  -  don't waterless wash. Use a traditional hose and shampoo, or bring it to AutoShine.
 
 If the vehicle has light dust accumulation, proceed.
 
@@ -57,11 +57,11 @@ Not all waterless wash products are equal. Professional-grade products from Chem
 
 **Rule 3: Use the right microfiber towels**
 
-Standard cleaning cloths or chamois are not appropriate. Use high-pile microfiber towels — the long fibres lift and trap dirt particles away from the paint surface. Have multiple towels available and fold each towel to provide 8 clean working surfaces. When a surface becomes dirty, fold to a clean side or switch towels.
+Standard cleaning cloths or chamois are not appropriate. Use high-pile microfiber towels  -  the long fibres lift and trap dirt particles away from the paint surface. Have multiple towels available and fold each towel to provide 8 clean working surfaces. When a surface becomes dirty, fold to a clean side or switch towels.
 
 **Rule 4: Work panel by panel**
 
-Spray one panel at a time. Apply the waterless wash solution generously (don't be stingy — the lubricant is what protects the paint). Let it dwell for 15–30 seconds, then wipe with a straight (not circular) motion using your microfiber towel. One panel at a time prevents the solution from drying on the surface.
+Spray one panel at a time. Apply the waterless wash solution generously (don't be stingy  -  the lubricant is what protects the paint). Let it dwell for 15 - 30 seconds, then wipe with a straight (not circular) motion using your microfiber towel. One panel at a time prevents the solution from drying on the surface.
 
 **Rule 5: Straight-line wipes only**
 
@@ -75,13 +75,13 @@ Final dry pass if needed: ensure no streaking
 
 **Rule 7: Start with the roof and work down**
 
-Clean from top to bottom — the lowest panels (front bumper, sills) are typically the dirtiest. By starting at the top, you avoid depositing clean-panel residue onto areas you've already cleaned.
+Clean from top to bottom  -  the lowest panels (front bumper, sills) are typically the dirtiest. By starting at the top, you avoid depositing clean-panel residue onto areas you've already cleaned.
 
 ## Waterless Wash Products in Kenya
 
 Professional-grade waterless wash products are available in Kenya through automotive detailing suppliers in Nairobi:
 
-**Optimum No Rinse (ONR):** Concentrated product that can be used in multiple dilutions — as a waterless wash (1:16), a rinse-free wash (with minimal water), or a detail spray. One of the safest waterless wash products available due to its polymer content.
+**Optimum No Rinse (ONR):** Concentrated product that can be used in multiple dilutions  -  as a waterless wash (1:16), a rinse-free wash (with minimal water), or a detail spray. One of the safest waterless wash products available due to its polymer content.
 
 **Chemical Guys Ecosmart:** Waterless wash and wax combination. Provides some protection alongside cleaning. Available through Chemical Guys importers in Kenya.
 
@@ -95,12 +95,12 @@ Professional-grade waterless wash products are available in Kenya through automo
 
 AutoShine incorporates waterless methods strategically within its service offering:
 
-**Quick touch-up between full washes:** AutoShine technicians use ONR or similar products for quick touch-up when a full wash isn't required — removing a bird dropping that's appeared since the last full wash, cleaning a single panel affected by paint transfer.
+**Quick touch-up between full washes:** AutoShine technicians use ONR or similar products for quick touch-up when a full wash isn't required  -  removing a bird dropping that's appeared since the last full wash, cleaning a single panel affected by paint transfer.
 
 **Waterless detail on ceramic-coated vehicles:** Vehicles with ceramic coating have a hydrophobic surface that causes contamination to bond much less aggressively. For these vehicles, between-wash maintenance with a waterless product is safer than for unprotected vehicles.
 
-**Rinse-free wash method:** Rather than fully waterless, AutoShine uses Optimum No Rinse in rinse-free mode (with a small amount of water) as a full-vehicle wash method in situations where full water-hose washing isn't possible. This uses approximately 5 litres of water rather than 50–80 litres, providing environmental benefit without the scratch risk of a fully waterless approach on typical Kenyan road contamination.
+**Rinse-free wash method:** Rather than fully waterless, AutoShine uses Optimum No Rinse in rinse-free mode (with a small amount of water) as a full-vehicle wash method in situations where full water-hose washing isn't possible. This uses approximately 5 litres of water rather than 50 - 80 litres, providing environmental benefit without the scratch risk of a fully waterless approach on typical Kenyan road contamination.
 
-The bottom line: waterless washing is a genuine and useful tool in the right situations. It's a potentially damaging practice in the wrong ones. AutoShine's trained technicians understand the difference and apply waterless methods where appropriate — which is not for the standard twice-weekly dusty Nairobi vehicle washing need.
+The bottom line: waterless washing is a genuine and useful tool in the right situations. It's a potentially damaging practice in the wrong ones. AutoShine's trained technicians understand the difference and apply waterless methods where appropriate  -  which is not for the standard twice-weekly dusty Nairobi vehicle washing need.
 
 For most Kenyan vehicles most of the time, a proper hand wash with appropriate products and technique remains the safest and most effective cleaning method. AutoShine delivers this as a mobile service to wherever your vehicle is, making the most appropriate cleaning method also the most convenient.`;

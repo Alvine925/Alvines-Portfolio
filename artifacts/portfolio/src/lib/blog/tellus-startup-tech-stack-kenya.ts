@@ -4,7 +4,7 @@ export const content = `## The Kenyan Startup Tech Stack in 2025: What to Build 
 
 One of the most consequential early decisions a Kenyan startup makes is its technology stack. The programming languages, frameworks, databases, and infrastructure tools you choose at the beginning create the foundation on which everything else is built. Getting this right accelerates everything; getting it wrong creates technical debt that costs far more to fix later than it would have cost to choose correctly at the start.
 
-This guide covers the technology stack decisions that matter most for Kenyan startups in 2025 — drawing from experience building and advising on technology stacks for Kenyan startups across fintech, agritech, health tech, e-commerce, and B2B software. The goal is to give founders and early technical hires a framework for making defensible stack decisions that support fast development, reliable operation, and sustainable scaling.
+This guide covers the technology stack decisions that matter most for Kenyan startups in 2025  -  drawing from experience building and advising on technology stacks for Kenyan startups across fintech, agritech, health tech, e-commerce, and B2B software. The goal is to give founders and early technical hires a framework for making defensible stack decisions that support fast development, reliable operation, and sustainable scaling.
 
 ![Startup development team working on technology stack](https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80)
 
@@ -12,11 +12,11 @@ This guide covers the technology stack decisions that matter most for Kenyan sta
 
 Stack selection should be driven by principles, not by trends. The principles that should guide Kenyan startup stack decisions:
 
-**Choose boring technology:** The term "boring technology" (coined by Dan McKinley) refers to technology that is well-understood, well-supported, and widely adopted — not bleeding-edge but reliable. Boring technology has solved its major problems. It has mature tooling, large communities, and abundant hiring talent. Startups that choose bleeding-edge technology take on the complexity of the technology itself as a problem, on top of the product complexity they're already managing.
+**Choose boring technology:** The term "boring technology" (coined by Dan McKinley) refers to technology that is well-understood, well-supported, and widely adopted  -  not bleeding-edge but reliable. Boring technology has solved its major problems. It has mature tooling, large communities, and abundant hiring talent. Startups that choose bleeding-edge technology take on the complexity of the technology itself as a problem, on top of the product complexity they're already managing.
 
 **Minimise the number of technologies:** Every technology in your stack is something you need to understand, maintain, and hire for. A startup with 5 core developers using 12 different technologies is spreading expertise dangerously thin. Fewer, well-chosen technologies produce more expert depth and less coordination overhead.
 
-**Choose for the team you have, not the team you imagine:** Many technical stack decisions are made for a future scale that the startup will never reach. Choose the stack that your current team can build with reliably today. You can always migrate when you actually hit the scaling constraints — and most startups fail before they hit those constraints.
+**Choose for the team you have, not the team you imagine:** Many technical stack decisions are made for a future scale that the startup will never reach. Choose the stack that your current team can build with reliably today. You can always migrate when you actually hit the scaling constraints  -  and most startups fail before they hit those constraints.
 
 **Hire-ability matters.** The Kenyan developer talent pool is deep in some technologies and shallow in others. Choosing a technology that's widely taught and widely used in Kenya's developer community gives you access to a larger talent pool when you need to hire.
 
@@ -24,7 +24,7 @@ Stack selection should be driven by principles, not by trends. The principles th
 
 **Frontend: React (TypeScript)**
 
-React is the dominant frontend framework in Kenya's developer ecosystem. The largest developer community, the most training resources, and the most hireability of any JavaScript frontend framework. TypeScript adds type safety that prevents entire classes of runtime bugs — the additional setup cost pays dividends immediately in code quality.
+React is the dominant frontend framework in Kenya's developer ecosystem. The largest developer community, the most training resources, and the most hireability of any JavaScript frontend framework. TypeScript adds type safety that prevents entire classes of runtime bugs  -  the additional setup cost pays dividends immediately in code quality.
 
 Why not: Vue (smaller community in Kenya), Angular (heavier and slower to build with for startups), Svelte (too small a hiring pool).
 
@@ -32,13 +32,13 @@ Why not: Vue (smaller community in Kenya), Angular (heavier and slower to build 
 
 For Kenyan startups that need both web and mobile (which is most of them, given Kenya's mobile-first users), React Native allows sharing code between web and mobile when using the same React foundation. It's also one of the most hireble mobile frameworks in Kenya.
 
-Flutter is a strong alternative — particularly strong for high-performance UIs and when you need native iOS/Android features. Both are defensible choices; React Native has a slight hiring advantage in Kenya due to the overlap with React web development.
+Flutter is a strong alternative  -  particularly strong for high-performance UIs and when you need native iOS/Android features. Both are defensible choices; React Native has a slight hiring advantage in Kenya due to the overlap with React web development.
 
 **Backend: Node.js (TypeScript) or Python**
 
-Node.js with TypeScript allows sharing language expertise across frontend and backend — a significant advantage for small teams. The JavaScript/TypeScript ecosystem for backend development (Express, Fastify, NestJS) is mature and performant for most startup use cases.
+Node.js with TypeScript allows sharing language expertise across frontend and backend  -  a significant advantage for small teams. The JavaScript/TypeScript ecosystem for backend development (Express, Fastify, NestJS) is mature and performant for most startup use cases.
 
-Python is the stronger choice when your startup has significant data science, AI/ML, or scientific computing requirements — Python's libraries for these domains (pandas, scikit-learn, TensorFlow, PyTorch) have no equivalent in the Node.js ecosystem.
+Python is the stronger choice when your startup has significant data science, AI/ML, or scientific computing requirements  -  Python's libraries for these domains (pandas, scikit-learn, TensorFlow, PyTorch) have no equivalent in the Node.js ecosystem.
 
 Both are widely supported and hireable in Nairobi.
 
@@ -46,7 +46,7 @@ Both are widely supported and hireable in Nairobi.
 
 **Database: PostgreSQL (primary) + Redis (caching)**
 
-PostgreSQL is the best general-purpose relational database available. It handles the vast majority of startup data needs — transactional data, user data, content, financial records — with excellent performance, ACID compliance, and a rich feature set (JSON support, full-text search, advanced indexing).
+PostgreSQL is the best general-purpose relational database available. It handles the vast majority of startup data needs  -  transactional data, user data, content, financial records  -  with excellent performance, ACID compliance, and a rich feature set (JSON support, full-text search, advanced indexing).
 
 Redis for session storage, caching, and real-time features (queues, pub/sub). The combination of PostgreSQL + Redis covers nearly every data storage need a Kenyan startup will encounter in its first several years.
 
@@ -82,7 +82,7 @@ Africa's Talking is the most widely used SMS and USSD API provider for Kenyan st
 
 **Communication: WhatsApp Business API**
 
-As discussed in our WhatsApp Business API guide, WhatsApp is the communication channel for Kenyan users. Plan for WhatsApp integration from the architecture stage — designing your communication system around email as the primary channel and treating WhatsApp as secondary produces suboptimal user experience for a Kenyan audience.
+As discussed in our WhatsApp Business API guide, WhatsApp is the communication channel for Kenyan users. Plan for WhatsApp integration from the architecture stage  -  designing your communication system around email as the primary channel and treating WhatsApp as secondary produces suboptimal user experience for a Kenyan audience.
 
 **Authentication: Clerk or Supabase Auth**
 
@@ -96,11 +96,11 @@ For startups with small engineering teams who need to move fast, Supabase provid
 
 **Choosing a stack based on what the lead developer knows best, not what's right for the company:** The CTO who is most comfortable with Django and Python choosing that stack regardless of team composition or product requirements. Stack decisions should be justified on team and product grounds, not individual familiarity.
 
-**Microservices too early:** The microservices architecture (multiple small independent services rather than one monolithic application) is appropriate for large engineering teams managing complex products. For a 2–5 person engineering team at an early-stage Kenyan startup, a well-structured monolith is almost always the right choice. Microservices introduce distributed systems complexity that kills velocity at small scale.
+**Microservices too early:** The microservices architecture (multiple small independent services rather than one monolithic application) is appropriate for large engineering teams managing complex products. For a 2 - 5 person engineering team at an early-stage Kenyan startup, a well-structured monolith is almost always the right choice. Microservices introduce distributed systems complexity that kills velocity at small scale.
 
 **Optimising for scale you don't have yet:** "We need to handle 10 million users" is not a requirement for a startup that currently has 200. Build for your current scale. The patterns needed to handle 10 million users are very different from those that handle 200, and optimising for the former when you're at the latter is waste.
 
-**Neglecting testing:** Many Kenyan startups skip automated testing in the rush to ship features. This creates a codebase where every change risks breaking something else — the "works on my machine" problem at its worst. Even a minimal test suite (critical user flows, payment handling) provides enormous regression protection relative to the time it takes to write.
+**Neglecting testing:** Many Kenyan startups skip automated testing in the rush to ship features. This creates a codebase where every change risks breaking something else  -  the "works on my machine" problem at its worst. Even a minimal test suite (critical user flows, payment handling) provides enormous regression protection relative to the time it takes to write.
 
 **Using too many managed services too early:** Managed services (Auth0, Segment, Mixpanel, Intercom, Stripe, etc.) add cost rapidly. A startup that has implemented 12 third-party services is spending significant monthly recurring cost before achieving meaningful revenue. Choose managed services for genuinely non-core functions (authentication, email delivery, payment processing); build what's core to your product.
 
@@ -118,6 +118,6 @@ In 2025, most Kenyan startups should assume AI capability will be part of their 
 
 Tellus is built on these principles. Our product stack uses TypeScript throughout (Node.js backend, React frontend), PostgreSQL as the primary database, WhatsApp Business API for the communication layer, Daraja API for payment integration, and n8n for workflow automation.
 
-We've made boring technology choices deliberately. Our stack is not remarkable — it's reliable. And reliability, for a product that Kenyan businesses and professionals depend on for critical communication and automation, is the most important technical property we can optimise for.
+We've made boring technology choices deliberately. Our stack is not remarkable  -  it's reliable. And reliability, for a product that Kenyan businesses and professionals depend on for critical communication and automation, is the most important technical property we can optimise for.
 
 When we advise Kenyan startups on technical stack decisions, this same philosophy guides our recommendations: choose boring, choose hireable, choose for today's scale, and integrate Kenya's unique infrastructure (M-Pesa, WhatsApp) from the start.`;

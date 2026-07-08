@@ -29,7 +29,7 @@ const timeline = [
     active: true,
   },
   {
-    year: "2023–2025",
+    year: "2023 - 2025",
     title: "Hub Manager, Kisumu Hub",
     description: "Ran daily operations at one of Kisumu's most vibrant coworking spaces, while simultaneously building digital systems on the side.",
     active: false,
@@ -53,8 +53,8 @@ export function About() {
     <Layout>
       <SEO
         canonical="/about"
-        title="About Alvine Otieno — Builder & Automation Specialist, Kisumu Kenya"
-        description="Alvine Otieno is a WhatsApp AI bot developer and automation specialist based in Kisumu, Kenya. Two years running operations and building digital systems simultaneously — for businesses that want to move faster without hiring more people."
+        title="About Alvine Otieno  -  Builder & Automation Specialist, Kisumu Kenya"
+        description="Alvine Otieno is a WhatsApp AI bot developer and automation specialist based in Kisumu, Kenya. Two years running operations and building digital systems simultaneously  -  for businesses that want to move faster without hiring more people."
         keywords="Alvine Otieno, WhatsApp bot developer Kenya, automation specialist Kisumu, AI developer Kenya, business operations Kenya, Kisumu tech developer, digital systems Kenya"
       />
       <div className="max-w-5xl mx-auto px-6 py-20 md:py-32">
@@ -116,7 +116,7 @@ export function About() {
           </cite>
         </motion.div>
 
-        {/* What I do — three columns, no cards */}
+        {/* What I do  -  three columns, no cards */}
         <motion.div
           variants={fadeUp}
           initial="hidden"

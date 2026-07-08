@@ -19,7 +19,7 @@ export function Projects() {
     <Layout>
       <SEO
         canonical="/projects"
-        title="Projects — WhatsApp Bots, AI Platforms & Web Apps Built in Kenya"
+        title="Projects  -  WhatsApp Bots, AI Platforms & Web Apps Built in Kenya"
         description="Case studies of real products built by Alvine Otieno: MyJoyfulDay (50K+ events via WhatsApp AI), TellusJobs (AI job matching for Kenya), Tellus Platform, Autoshine e-commerce, and Deriv Champions."
         keywords="WhatsApp bot portfolio Kenya, AI projects Kenya, MyJoyfulDay, TellusJobs, web development portfolio Kisumu, M-Pesa e-commerce Kenya, AI developer portfolio"
       />

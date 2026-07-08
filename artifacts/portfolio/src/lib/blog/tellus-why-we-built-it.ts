@@ -2,7 +2,7 @@ export const coverImage = "https://images.unsplash.com/photo-1677442135703-1787e
 
 export const content = `# Why We Built Tellus: The Manifesto Against Productivity Theater
 
-There is a particular kind of exhaustion that knowledge workers know well. It is not the exhaustion of having done too much work. It is the exhaustion of having spent an entire day managing the *system* that is supposed to help you do work — and feeling, at 6pm, that you have nothing to show for it.
+There is a particular kind of exhaustion that knowledge workers know well. It is not the exhaustion of having done too much work. It is the exhaustion of having spent an entire day managing the *system* that is supposed to help you do work  -  and feeling, at 6pm, that you have nothing to show for it.
 
 I spent six months trying to solve this problem with tools. This is the story of what I found, what I built, and why I believe the entire productivity software category has been asking the wrong question.
 
@@ -12,7 +12,7 @@ In January, I committed to doing what every productivity writer recommends: buil
 
 Here is what I used and what I learned from each:
 
-**Notion** is genuinely impressive as a knowledge management tool. The flexibility is real. But within three weeks, I had built a second job maintaining it. Pages needed updating. Databases needed new fields. Templates needed revision. The system became a project in itself, and I found myself spending 45 minutes per day inside Notion doing metadata work — tagging, reorganising, linking — rather than actual thinking.
+**Notion** is genuinely impressive as a knowledge management tool. The flexibility is real. But within three weeks, I had built a second job maintaining it. Pages needed updating. Databases needed new fields. Templates needed revision. The system became a project in itself, and I found myself spending 45 minutes per day inside Notion doing metadata work  -  tagging, reorganising, linking  -  rather than actual thinking.
 
 **Linear** is the best project tracking tool I have used. It is fast, opinionated, and aesthetically considered. But it is a project tracker. It knows about issues and cycles. It does not know about the Slack conversation where the decision to deprioritise that issue was made, or the email thread where the deadline got moved. Linear tracks what you tell it. The gap between what Linear knows and what is actually happening is filled by meetings.
 
@@ -20,11 +20,11 @@ Here is what I used and what I learned from each:
 
 **Asana** is what you use when your team insists on a task manager that is not Linear. The task lists are fine. The timeline views are useful occasionally. But tasks in Asana age quickly. By the time a task has been sitting in a project for three weeks, it has usually either been done informally or been superseded by a conversation that happened elsewhere.
 
-**Loom** promised to replace meetings with async video. And for a narrow set of use cases — explaining a complex process, giving feedback on a design — it delivers. But watching a 7-minute Loom is still watching a 7-minute Loom. You cannot search it. You cannot skim it. You cannot link to the moment where the important thing was said.
+**Loom** promised to replace meetings with async video. And for a narrow set of use cases  -  explaining a complex process, giving feedback on a design  -  it delivers. But watching a 7-minute Loom is still watching a 7-minute Loom. You cannot search it. You cannot skim it. You cannot link to the moment where the important thing was said.
 
 **Superhuman** made email feel fast. Keyboard shortcuts, triage workflows, split inbox. The experience of processing email improved meaningfully. But processing email faster is not the same as receiving less email, and it is not the same as email being less necessary. I cleared my inbox faster. Then it filled up again.
 
-**Cron** (now Notion Calendar) is a beautiful calendar application. Scheduling links, smart time zone handling, the ability to see multiple calendars clearly. Good product. But a calendar is a reflection of your commitments, and the problem I had was not with how my commitments looked — it was with how many I had, and how much coordination work surrounded each one.
+**Cron** (now Notion Calendar) is a beautiful calendar application. Scheduling links, smart time zone handling, the ability to see multiple calendars clearly. Good product. But a calendar is a reflection of your commitments, and the problem I had was not with how my commitments looked  -  it was with how many I had, and how much coordination work surrounded each one.
 
 ![A person surrounded by multiple screens and notification panels](https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80)
 
@@ -32,7 +32,7 @@ Here is what I used and what I learned from each:
 
 By month three, I had seven premium tool subscriptions and a worse working life than when I started. The reason was not that any of these tools was bad. They are, in their domains, genuinely well-built products.
 
-The reason was that each tool created its own gravity. Each had its own inbox. Its own notification surface. Its own interface to check. Its own data model that did not speak to the others. And crucially, maintaining each tool required its own ongoing investment of time and attention — or the tool degraded into uselessness.
+The reason was that each tool created its own gravity. Each had its own inbox. Its own notification surface. Its own interface to check. Its own data model that did not speak to the others. And crucially, maintaining each tool required its own ongoing investment of time and attention  -  or the tool degraded into uselessness.
 
 I was not being more productive. I was performing productivity. I had built an elaborate stage set of organised work without actually getting more done.
 
@@ -40,7 +40,7 @@ I was not being more productive. I was performing productivity. I had built an e
 
 I want to give this a number, because it is too easy to dismiss as a feeling.
 
-Run this experiment for one week. At the end of each day, categorise how you spent your time into two buckets. Bucket one: work that directly advances the thing you are trying to build, write, decide, or create. Bucket two: coordination work — the status updates, the scheduling, the inbox triage, the tool maintenance, the searching for information, the following up, the clarifying.
+Run this experiment for one week. At the end of each day, categorise how you spent your time into two buckets. Bucket one: work that directly advances the thing you are trying to build, write, decide, or create. Bucket two: coordination work  -  the status updates, the scheduling, the inbox triage, the tool maintenance, the searching for information, the following up, the clarifying.
 
 I did this audit rigorously for a week, tracking in 15-minute increments. My split: 38% actual work, 62% coordination overhead.
 
@@ -80,17 +80,17 @@ Tellus is a context-aware, proactive assistant that lives inside your existing t
 
 Every word of that sentence is intentional.
 
-**Context-aware** means Tellus understands what you are working on — not because you told it, but because it pays attention to what you are doing. Which threads have recent activity. Which documents have been opened. Which meetings are coming up. Which tasks are overdue.
+**Context-aware** means Tellus understands what you are working on  -  not because you told it, but because it pays attention to what you are doing. Which threads have recent activity. Which documents have been opened. Which meetings are coming up. Which tasks are overdue.
 
 **Proactive** means Tellus surfaces relevant information before you ask. When you open an email about Project Horizon, you do not need to go look up the Slack channel, the relevant tasks, and the last meeting notes. Tellus brings that to you.
 
-**Lives in your existing tools** means you do not use Tellus by going to Tellus. You see it in the tools you already use — a sidebar in Slack, a panel in Gmail, a context layer in your calendar.
+**Lives in your existing tools** means you do not use Tellus by going to Tellus. You see it in the tools you already use  -  a sidebar in Slack, a panel in Gmail, a context layer in your calendar.
 
 **Reduces what you have to track** is the promise. After using Tellus, the cognitive load of staying on top of your work decreases, not because there is less work but because the system is carrying more of the overhead.
 
 ## How Tellus Differs From What Exists
 
-Microsoft Copilot is impressive. It can summarise your email, draft documents, and recap meetings. But it is a tool you use, not a system that operates. You have to ask it. It does not surface things you did not know to ask about. And it is deeply tied to the Microsoft ecosystem — it works well if everything you do is in Teams and Outlook and SharePoint. If you use Slack and Gmail and Linear, it is not for you.
+Microsoft Copilot is impressive. It can summarise your email, draft documents, and recap meetings. But it is a tool you use, not a system that operates. You have to ask it. It does not surface things you did not know to ask about. And it is deeply tied to the Microsoft ecosystem  -  it works well if everything you do is in Teams and Outlook and SharePoint. If you use Slack and Gmail and Linear, it is not for you.
 
 Notion AI is an excellent writing assistant inside Notion. But it only knows what is in Notion. It has no awareness of your Slack conversations, your Gmail threads, your Linear issues. The context it operates on is a narrow slice of where your work actually lives.
 
@@ -102,11 +102,11 @@ Claude and ChatGPT are powerful, flexible AI assistants. But they are chat inter
 
 In marketing, "context-aware" means the product knows your name and what you last clicked on.
 
-In product terms — in the terms that matter — context-aware means something harder:
+In product terms  -  in the terms that matter  -  context-aware means something harder:
 
 The system maintains a continuously-updated model of what you are working on. It knows that you are in the middle of closing a customer deal, that the deal has a specific conversation thread in Slack, that two tasks in Linear are outstanding for it, that there is a meeting on Thursday about it, and that the last email in the Gmail thread was unanswered for four days.
 
-When something new happens — a new email, a Slack message, a task status change — the system can evaluate it against that model and determine whether it is relevant, urgent, and worth surfacing.
+When something new happens  -  a new email, a Slack message, a task status change  -  the system can evaluate it against that model and determine whether it is relevant, urgent, and worth surfacing.
 
 That is context-awareness in product terms. Not memory of a single session. Not personalization based on past behavior. A live, maintained model of your current working state, continuously updated, continuously queried.
 
@@ -116,7 +116,7 @@ But the hard version is the only version that actually solves the problem.
 
 ## The Commitment
 
-Productivity theater is expensive. It wastes the most talented people's most valuable resource — their focused attention — on work that systems should be doing for them. It generates coordination overhead that compounds as teams grow. It creates the illusion of busyness while hollowing out the time available for actual thinking.
+Productivity theater is expensive. It wastes the most talented people's most valuable resource  -  their focused attention  -  on work that systems should be doing for them. It generates coordination overhead that compounds as teams grow. It creates the illusion of busyness while hollowing out the time available for actual thinking.
 
 We built Tellus because we believe the productivity software category needs to take a different direction. Not more places to put information. A system that understands the information you already have, across the tools you already use, and reduces what you personally have to carry in your head.
 

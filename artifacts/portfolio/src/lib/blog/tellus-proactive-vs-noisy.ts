@@ -2,7 +2,7 @@ export const coverImage = "https://images.unsplash.com/photo-1552664730-d307ca88
 
 export const content = `## The Line Between Helpful and Annoying: How Tellus Decides When to Interrupt You
 
-There are two ways a notification system can fail you. The first is missing something important — you find out about a client escalation three hours after it happened because the signal never reached you. The second is crying wolf so often that you start ignoring everything — you miss the real emergency because you had trained yourself to dismiss alerts.
+There are two ways a notification system can fail you. The first is missing something important  -  you find out about a client escalation three hours after it happened because the signal never reached you. The second is crying wolf so often that you start ignoring everything  -  you miss the real emergency because you had trained yourself to dismiss alerts.
 
 Both failures destroy the product. But they are not symmetric failures. Under-notification erodes trust slowly. Over-notification erodes it fast, and then makes under-notification catastrophic.
 
@@ -24,7 +24,7 @@ Tellus was designed with this failure mode as the primary thing to avoid.
 
 Every incoming signal in Tellus is evaluated against three dimensions before a surfacing decision is made.
 
-**The urgency axis:** Does this require a time-bounded action? A message asking for input before a meeting that starts in two hours scores high. A thread update on a project with no active deadline scores low. Urgency is not just about importance — it is about the cost of waiting.
+**The urgency axis:** Does this require a time-bounded action? A message asking for input before a meeting that starts in two hours scores high. A thread update on a project with no active deadline scores low. Urgency is not just about importance  -  it is about the cost of waiting.
 
 **The relevance axis:** Is this connected to work the user is actively engaged with? A message in the Slack channel for a project the user edited documents in this morning scores high. A message in a channel the user has not engaged with in two weeks scores low. Relevance is scored against the live context model.
 
@@ -52,7 +52,7 @@ The threshold calibration determines the character of the product. Too sensitive
 
 Urgency is the most objectively measurable of the three axes.
 
-A hard deadline within four hours scores maximum urgency. The same deadline four days out scores low urgency — there is time to act. A message from your most-frequently-messaged contact in the last 30 days scores higher than a message from a contact you have received one message from. A direct @mention scores higher than a channel notification.
+A hard deadline within four hours scores maximum urgency. The same deadline four days out scores low urgency  -  there is time to act. A message from your most-frequently-messaged contact in the last 30 days scores higher than a message from a contact you have received one message from. A direct @mention scores higher than a channel notification.
 
 Urgency also has a rate-of-escalation component. A thread that has generated five messages in the last 30 minutes is escalating and scores higher than a thread that has generated five messages over the last week.
 
@@ -60,7 +60,7 @@ Urgency also has a rate-of-escalation component. A thread that has generated fiv
 
 The form of the surfacing matters as much as the threshold.
 
-Tellus distinguishes between passive cards — which appear in the context sidebar of whatever tool you are currently using and can be read when your attention reaches them naturally — and active push notifications, which arrive as a notification and demand attention.
+Tellus distinguishes between passive cards  -  which appear in the context sidebar of whatever tool you are currently using and can be read when your attention reaches them naturally  -  and active push notifications, which arrive as a notification and demand attention.
 
 Passive cards are used for high-relevance, non-urgent items. You will see them when you naturally glance at the sidebar. They do not break flow.
 
@@ -68,7 +68,7 @@ Active push notifications are reserved for the all-three-high case: urgent, rele
 
 ## Deep Work Protection
 
-When a user signals focus mode — either manually or through behavioral inference (sustained typing, no tool-switching for 20+ minutes) — Tellus automatically raises the threshold for active interruptions.
+When a user signals focus mode  -  either manually or through behavioral inference (sustained typing, no tool-switching for 20+ minutes)  -  Tellus automatically raises the threshold for active interruptions.
 
 During deep work mode, only items scoring maximum on all three axes break through. Everything else is queued and presented as a batch when the focus session ends. The batch summary includes what arrived and a brief assessment of what (if anything) requires immediate attention.
 
@@ -88,7 +88,7 @@ The goal is a system that, after 30 days of use, has learned your signal-to-nois
 
 Slack notification settings are user-configured rules: all messages, @mentions only, keywords. They are static, binary, and they do not account for context. An @mention in a dormant project is not the same as an @mention in an active one.
 
-Email filters are user-configured rules applied to inbound messages. They reduce volume but not intelligently — a filter that sends newsletters to a folder is useful, but it does not know that the newsletter you subscribed to last year contains something relevant to a decision you are making today.
+Email filters are user-configured rules applied to inbound messages. They reduce volume but not intelligently  -  a filter that sends newsletters to a folder is useful, but it does not know that the newsletter you subscribed to last year contains something relevant to a decision you are making today.
 
 Calendar reminders are time-based triggers. They are good at what they do but entirely context-blind.
 

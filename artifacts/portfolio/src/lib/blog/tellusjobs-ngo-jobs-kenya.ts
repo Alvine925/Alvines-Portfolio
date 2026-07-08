@@ -2,11 +2,11 @@ export const coverImage = "https://images.unsplash.com/photo-1488521787991-ed7bb
 
 export const content = `## NGO and Development Sector Jobs in Kenya: How to Build a Career That Matters
 
-Kenya is one of Africa's most active development sector environments. Nairobi hosts the regional headquarters of the United Nations Environment Programme (UNEP) and UN-Habitat — the only UN headquarters on the African continent — alongside the East and Horn of Africa offices of the world's most significant international NGOs, bilateral development agencies, and multilateral institutions.
+Kenya is one of Africa's most active development sector environments. Nairobi hosts the regional headquarters of the United Nations Environment Programme (UNEP) and UN-Habitat  -  the only UN headquarters on the African continent  -  alongside the East and Horn of Africa offices of the world's most significant international NGOs, bilateral development agencies, and multilateral institutions.
 
 The result is a development sector job market in Kenya that is genuinely substantive. The roles available are serious professional positions with competitive compensation, meaningful work mandates, and career trajectories that can span from Nairobi to project sites across East Africa to global headquarters in Geneva, New York, or London.
 
-This guide covers everything a Kenyan professional needs to know about building a career in the development sector — from understanding the ecosystem's structure to navigating its specific hiring patterns, from learning the vocabulary to finding roles through TellusJobs.
+This guide covers everything a Kenyan professional needs to know about building a career in the development sector  -  from understanding the ecosystem's structure to navigating its specific hiring patterns, from learning the vocabulary to finding roles through TellusJobs.
 
 ![NGO development workers in a team meeting](https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1200&q=80)
 
@@ -18,7 +18,7 @@ The "development sector" is actually a collection of distinct types of organisat
 
 **Bilateral development agencies:** USAID, UK's FCDO, Germany's GIZ, Sweden's Sida, and other government development agencies operate extensively in Kenya. They typically implement programmes through grants to implementing partners (NGOs) rather than directly, which means their direct Kenya workforce is smaller than the total development ecosystem they support.
 
-**International NGOs (INGOs):** World Vision, Save the Children, Mercy Corps, Catholic Relief Services, MSF, Action Against Hunger, Oxfam, Plan International, and hundreds of other INGOs have Kenya country programmes. These are substantial employers — major INGOs employ dozens to hundreds of staff in Kenya across programme, operations, and technical functions.
+**International NGOs (INGOs):** World Vision, Save the Children, Mercy Corps, Catholic Relief Services, MSF, Action Against Hunger, Oxfam, Plan International, and hundreds of other INGOs have Kenya country programmes. These are substantial employers  -  major INGOs employ dozens to hundreds of staff in Kenya across programme, operations, and technical functions.
 
 **Local NGOs and civil society organisations:** Kenya has a large and growing domestic NGO sector. Local NGOs typically pay less than INGOs but offer Kenyan professionals the opportunity to be in leadership positions earlier in their careers and to have deeper community roots in their programme areas.
 
@@ -28,7 +28,7 @@ The "development sector" is actually a collection of distinct types of organisat
 
 ## Roles in the Kenyan Development Sector
 
-**Programme/Project Officers and Managers:** The core technical role in development organisations. Programme officers design, implement, and monitor specific interventions — health programmes, education initiatives, agricultural development projects, economic empowerment schemes. Career progression typically goes: Programme Officer → Senior Programme Officer → Programme Manager → Head of Programmes → Country Director.
+**Programme/Project Officers and Managers:** The core technical role in development organisations. Programme officers design, implement, and monitor specific interventions  -  health programmes, education initiatives, agricultural development projects, economic empowerment schemes. Career progression typically goes: Programme Officer → Senior Programme Officer → Programme Manager → Head of Programmes → Country Director.
 
 **Monitoring, Evaluation, Accountability, and Learning (MEAL):** One of the highest-demand and highest-compensated specialisations in Kenya's development sector. MEAL professionals design data collection systems, analyse programme performance, ensure accountability to affected communities, and generate learning that improves programmes. Strong quantitative and qualitative research skills are core requirements.
 
@@ -56,29 +56,29 @@ The development sector has its own professional vocabulary that is essential to 
 
 *Results Framework:* Similar to a logframe, used particularly by USAID-funded programmes. Maps programme activities to outcomes and impacts.
 
-*MEAL:* Monitoring, Evaluation, Accountability, and Learning — the function that measures whether programmes are working.
+*MEAL:* Monitoring, Evaluation, Accountability, and Learning  -  the function that measures whether programmes are working.
 
 *Beneficiaries:* The people a programme is designed to serve. Using "beneficiaries" appropriately signals development sector literacy.
 
 *Indicators:* Metrics used to measure programme progress and impact. SMART indicators (Specific, Measurable, Achievable, Relevant, Time-bound) are standard.
 
-*Capacity strengthening:* The process of building the skills, systems, and resources of partner organisations — preferred to the older term "capacity building."
+*Capacity strengthening:* The process of building the skills, systems, and resources of partner organisations  -  preferred to the older term "capacity building."
 
 *Localization:* The shift toward Kenyan-led organisations leading development work, rather than INGOs implementing directly. A significant structural shift in the sector.
 
 *Safeguarding:* Policies and procedures to prevent exploitation and abuse of programme participants, particularly children and vulnerable adults.
 
-*Donor compliance:* Meeting the specific requirements of donor funding agreements — financial reporting, activity documentation, visibility requirements.
+*Donor compliance:* Meeting the specific requirements of donor funding agreements  -  financial reporting, activity documentation, visibility requirements.
 
 ## Compensation in Kenya's Development Sector
 
 Development sector compensation in Kenya varies significantly by organisation type and funding source.
 
-**UN salaries:** The most transparent, using the UN's grade-based salary scale. Entry-level UN Professional Officer (P1) in Nairobi earns approximately USD 3,500–5,000/month before post adjustment and benefits. Senior positions (P5 and above) earn substantially more. The benefits package (health insurance, education grant for children, home leave travel) adds significant value beyond base salary.
+**UN salaries:** The most transparent, using the UN's grade-based salary scale. Entry-level UN Professional Officer (P1) in Nairobi earns approximately USD 3,500 - 5,000/month before post adjustment and benefits. Senior positions (P5 and above) earn substantially more. The benefits package (health insurance, education grant for children, home leave travel) adds significant value beyond base salary.
 
-**INGO salaries:** Large INGOs typically pay at or slightly above Kenyan market rates for equivalent positions. Programme Manager roles at major INGOs in Nairobi commonly range from KES 200,000–500,000/month depending on experience and organisation. Senior country management positions (Country Director, Head of Mission) at major INGOs can reach USD 5,000–10,000/month for internationally recruited positions.
+**INGO salaries:** Large INGOs typically pay at or slightly above Kenyan market rates for equivalent positions. Programme Manager roles at major INGOs in Nairobi commonly range from KES 200,000 - 500,000/month depending on experience and organisation. Senior country management positions (Country Director, Head of Mission) at major INGOs can reach USD 5,000 - 10,000/month for internationally recruited positions.
 
-**Local NGO salaries:** Generally below INGO levels. Mid-level programme roles at local NGOs commonly pay KES 80,000–200,000/month. The trade-off is a leadership trajectory that's more accessible and more locally rooted.
+**Local NGO salaries:** Generally below INGO levels. Mid-level programme roles at local NGOs commonly pay KES 80,000 - 200,000/month. The trade-off is a leadership trajectory that's more accessible and more locally rooted.
 
 **Consulting firms:** Project positions on USAID or FCDO contracts at consulting firms can pay very well for the most senior positions, with long-term technical advisors and team leaders commanding salaries comparable to private sector senior management.
 
@@ -86,9 +86,9 @@ Development sector compensation in Kenya varies significantly by organisation ty
 
 **The education pathway:** A first degree in a relevant discipline (public health, international development, agriculture, education, social science, economics) is the standard academic foundation. A Master's degree (particularly from a recognised institution in development studies, public health, or a relevant technical field) accelerates progression significantly. Many senior development professionals in Kenya hold advanced degrees from UK, US, or European institutions.
 
-**Volunteer and internship experience:** Entry into the development sector frequently goes through unpaid or low-paid internships and volunteer roles. This is a genuine challenge — it advantages candidates with financial resources to absorb the unpaid period. The development sector is increasingly aware of this equity problem, and internship stipends are more common than they were, but the pathway still often involves early-career financial sacrifice.
+**Volunteer and internship experience:** Entry into the development sector frequently goes through unpaid or low-paid internships and volunteer roles. This is a genuine challenge  -  it advantages candidates with financial resources to absorb the unpaid period. The development sector is increasingly aware of this equity problem, and internship stipends are more common than they were, but the pathway still often involves early-career financial sacrifice.
 
-**Local experience first:** For Kenyan professionals without established development sector networks, starting with a local NGO or community-based organisation — even at lower compensation — builds the programme experience, the vocabulary, and the professional references that open doors to INGOs and UN agencies.
+**Local experience first:** For Kenyan professionals without established development sector networks, starting with a local NGO or community-based organisation  -  even at lower compensation  -  builds the programme experience, the vocabulary, and the professional references that open doors to INGOs and UN agencies.
 
 **Language:** French is particularly valuable in the development sector given the large number of French-speaking African countries where major INGOs operate. Arabic, Swahili, and Portuguese are also valued depending on the organisation's geographic mandate.
 
@@ -107,14 +107,14 @@ Development sector compensation in Kenya varies significantly by organisation ty
 - USAID Kenya: Direct listings on USAID's implementing partners' websites
 - TellusJobs: AI-powered matching that understands development sector vocabulary and specialisations
 
-**The hidden job market:** A significant proportion of development sector roles in Kenya — particularly at the mid-to-senior level — are filled before they're publicly advertised, through internal promotions and professional networks. Having genuine relationships with hiring managers at organisations you want to work for is not just advantageous — it can be the difference between being a candidate and not being a candidate.
+**The hidden job market:** A significant proportion of development sector roles in Kenya  -  particularly at the mid-to-senior level  -  are filled before they're publicly advertised, through internal promotions and professional networks. Having genuine relationships with hiring managers at organisations you want to work for is not just advantageous  -  it can be the difference between being a candidate and not being a candidate.
 
 ## Using TellusJobs for Development Sector Job Search
 
 TellusJobs' semantic matching is particularly valuable for development sector candidates because of the vocabulary problem. Development sector CVs and job descriptions share a professional language that generic job matching systems don't understand well.
 
-"Experience in M&E frameworks for donor-funded projects" and "MEAL specialist with logframe design experience" should match strongly — and TellusJobs' embedding-based matching captures this where keyword systems fail.
+"Experience in M&E frameworks for donor-funded projects" and "MEAL specialist with logframe design experience" should match strongly  -  and TellusJobs' embedding-based matching captures this where keyword systems fail.
 
-The platform's development sector category includes roles across the full spectrum of Kenya's development ecosystem — from UN agencies to INGOs to local civil society organisations. Match scoring helps prioritise applications where your specific experience and specialisation are most relevant, rather than applying broadly and hoping.
+The platform's development sector category includes roles across the full spectrum of Kenya's development ecosystem  -  from UN agencies to INGOs to local civil society organisations. Match scoring helps prioritise applications where your specific experience and specialisation are most relevant, rather than applying broadly and hoping.
 
-A career in Kenya's development sector can be one of the most meaningful professional paths available — working on problems that matter, in communities that need solutions, with colleagues committed to genuine impact. TellusJobs is built to help you find the right place within it.`;
+A career in Kenya's development sector can be one of the most meaningful professional paths available  -  working on problems that matter, in communities that need solutions, with colleagues committed to genuine impact. TellusJobs is built to help you find the right place within it.`;

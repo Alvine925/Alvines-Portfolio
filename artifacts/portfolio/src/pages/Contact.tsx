@@ -49,7 +49,7 @@ export function Contact() {
     setFormState("loading");
     setErrorMessage("");
 
-    // Formspree endpoint — replace YOUR_FORM_ID with your Formspree form ID
+    // Formspree endpoint  -  replace YOUR_FORM_ID with your Formspree form ID
     const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
 
     try {
@@ -80,7 +80,7 @@ export function Contact() {
     <Layout>
       <SEO
         canonical="/contact"
-        title="Contact Alvine Otieno — Hire a WhatsApp Bot Developer in Kenya"
+        title="Contact Alvine Otieno  -  Hire a WhatsApp Bot Developer in Kenya"
         description="Get in touch with Alvine Otieno to discuss WhatsApp AI bots, workflow automation, web development, or any project that needs to remove friction and scale. Based in Kisumu, Kenya. Available for remote and hybrid work."
         keywords="hire WhatsApp bot developer Kenya, contact Alvine Otieno, automation consultant Kenya, web developer for hire Kisumu, AI chatbot developer Kenya, freelance developer Kenya"
       />
@@ -178,7 +178,7 @@ export function Contact() {
             </div>
           </motion.div>
 
-          {/* Right: Form — no card, just form on background */}
+          {/* Right: Form  -  no card, just form on background */}
           <motion.div
             variants={fadeUp}
             initial="hidden"

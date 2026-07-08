@@ -2,17 +2,17 @@ export const coverImage = "https://images.unsplash.com/photo-1556742031-c6961e85
 
 export const content = `## Automation for Small Businesses in Kenya: Where to Start and What to Prioritise
 
-Small businesses in Kenya face a productivity paradox. They need to do more with less — less staff, less budget, less time — but they also face the highest barriers to accessing the technology that could help them. Enterprise automation software is priced for enterprises. The implementation complexity of most automation platforms assumes dedicated IT staff.
+Small businesses in Kenya face a productivity paradox. They need to do more with less  -  less staff, less budget, less time  -  but they also face the highest barriers to accessing the technology that could help them. Enterprise automation software is priced for enterprises. The implementation complexity of most automation platforms assumes dedicated IT staff.
 
 The good news: practical, affordable, effective automation is more accessible to Kenyan SMEs in 2025 than at any point previously. A combination of accessible tools (n8n, WhatsApp Business API, Google Workspace automation, Zapier), the ubiquity of smartphones in Kenya, and the foundation that M-Pesa provides for payment automation means that a small business owner in Kisumu can implement workflows that would have required a significant IT team five years ago.
 
-This guide is specifically for Kenyan small business owners — not IT managers, not developers. It covers where automation delivers the most value for small businesses, which tools work in the Kenyan context, and how to start without getting overwhelmed.
+This guide is specifically for Kenyan small business owners  -  not IT managers, not developers. It covers where automation delivers the most value for small businesses, which tools work in the Kenyan context, and how to start without getting overwhelmed.
 
 ![Small business owner using automation tools on laptop](https://images.unsplash.com/photo-1556742031-c6961e8560b0?w=1200&q=80)
 
 ## Why Small Businesses in Kenya Need Automation More Than Anyone
 
-Large Kenyan corporations can hire people to handle repetitive tasks. SMEs can't afford to. When the owner of a Nairobi retail shop is also the customer service agent, the inventory manager, the bookkeeper, and the marketing coordinator — every hour spent on administrative work is an hour not spent on sales, supplier relationships, or business development.
+Large Kenyan corporations can hire people to handle repetitive tasks. SMEs can't afford to. When the owner of a Nairobi retail shop is also the customer service agent, the inventory manager, the bookkeeper, and the marketing coordinator  -  every hour spent on administrative work is an hour not spent on sales, supplier relationships, or business development.
 
 Automation doesn't replace the human judgment that makes a small business distinctive. It handles the mechanical, repetitive work that drains time and energy without adding proportional value.
 
@@ -20,13 +20,13 @@ The most common small business automation opportunities in Kenya:
 
 **Customer communication:** Responding to the same inquiries dozens of times per day. "What are your prices?" "Are you open on Sundays?" "Where are you located?" "Do you accept M-Pesa?" These questions, answered manually every time, consume hours that automated WhatsApp responses could handle instantly.
 
-**Payment tracking and receipts:** Manually recording M-Pesa payments, sending receipts via WhatsApp, updating a spreadsheet. Automatic payment notification handling — recognising incoming payments, sending receipts, updating records — is one of the most time-saving automations for Kenyan businesses.
+**Payment tracking and receipts:** Manually recording M-Pesa payments, sending receipts via WhatsApp, updating a spreadsheet. Automatic payment notification handling  -  recognising incoming payments, sending receipts, updating records  -  is one of the most time-saving automations for Kenyan businesses.
 
 **Appointment scheduling:** Back-and-forth WhatsApp messages to schedule a service appointment. Automated booking systems that let customers choose their slot and receive automatic confirmations eliminate this entirely.
 
 **Inventory alerts:** Manually checking stock levels and reordering when something runs low. Automated inventory monitoring that alerts you when stock hits a threshold prevents the lost sales that come from discovering you're out of stock when a customer asks.
 
-**Follow-up sequences:** Leads who inquire but don't immediately purchase, often just needing a timely follow-up. Automated follow-up sequences — a message after 24 hours, another after three days — increase conversion from inquiry to purchase without manual tracking.
+**Follow-up sequences:** Leads who inquire but don't immediately purchase, often just needing a timely follow-up. Automated follow-up sequences  -  a message after 24 hours, another after three days  -  increase conversion from inquiry to purchase without manual tracking.
 
 ## The Automation Stack for Kenyan Small Businesses
 
@@ -38,11 +38,11 @@ The foundation of most Kenyan SME digital operations. Google Workspace tools are
 
 **WhatsApp Business App (to start) or WhatsApp Business API (when you're ready):**
 
-WhatsApp is your customer communication channel. The Business App provides basic automation (away messages, quick replies) at no cost. The Business API enables full automation — chatbots, automated flows, mass messaging — but requires more setup and has usage costs.
+WhatsApp is your customer communication channel. The Business App provides basic automation (away messages, quick replies) at no cost. The Business API enables full automation  -  chatbots, automated flows, mass messaging  -  but requires more setup and has usage costs.
 
 **Zapier or n8n (workflow automation):**
 
-Zapier is the most accessible entry point — no code, visual interface, connects most apps you use. Start with Zapier's free tier; upgrade to paid as your automation volume grows. n8n is more powerful and cost-effective at scale (see our n8n guide for details).
+Zapier is the most accessible entry point  -  no code, visual interface, connects most apps you use. Start with Zapier's free tier; upgrade to paid as your automation volume grows. n8n is more powerful and cost-effective at scale (see our n8n guide for details).
 
 **M-Pesa Daraja API (payment automation):**
 
@@ -58,7 +58,7 @@ How: Using WhatsApp Business App's keyword replies (for basic queries) or WhatsA
 
 Questions to automate: business hours, location, pricing for your top products/services, delivery options, payment methods, booking process.
 
-Time savings: For businesses receiving 20+ inquiries per day, this automation saves 1–2 hours daily — an enormous return on a one-time setup investment.
+Time savings: For businesses receiving 20+ inquiries per day, this automation saves 1 - 2 hours daily  -  an enormous return on a one-time setup investment.
 
 **2. M-Pesa Payment Receipt Automation**
 
@@ -66,7 +66,7 @@ What: Automatically send a formatted receipt via WhatsApp when you receive an M-
 
 How: The Daraja C2B API sends a notification to your system when payment is received. Your system (or a Zapier webhook integration with Google Sheets) generates and sends the receipt automatically.
 
-Time savings: If you receive 30 payments per day and spend 2 minutes on each receipt — that's an hour of your day, automated.
+Time savings: If you receive 30 payments per day and spend 2 minutes on each receipt  -  that's an hour of your day, automated.
 
 **3. Customer Appointment Confirmation and Reminder**
 
@@ -82,7 +82,7 @@ What: Get notified (WhatsApp or email) when a product falls below your reorder t
 
 How: Track inventory in Google Sheets. Set a threshold column. Zapier monitors the sheet and triggers an alert when quantity falls below threshold.
 
-Impact: Never discover you're out of stock when a customer orders — you've already reordered by the time demand peaks.
+Impact: Never discover you're out of stock when a customer orders  -  you've already reordered by the time demand peaks.
 
 **5. New Customer Record Creation**
 
@@ -111,14 +111,14 @@ Here's how to implement your first small business automation without technical b
    - Keyword: "hours" or "open" → Reply with your business hours
 5. Set up an Away Message for times when you're not available
 
-**Limitation:** This requires you to type / to trigger the quick reply — it's not fully automatic. For genuine automation, you need the WhatsApp Business API.
+**Limitation:** This requires you to type / to trigger the quick reply  -  it's not fully automatic. For genuine automation, you need the WhatsApp Business API.
 
 **Using WhatsApp Business API with Tellus:**
 
 Tellus sets up and manages WhatsApp Business API integrations for Kenyan businesses. The process:
 
 1. We register your business number with Meta's WhatsApp Business API
-2. We set up your automated conversation flows — the questions your customers ask, the answers that should be provided, the escalation conditions
+2. We set up your automated conversation flows  -  the questions your customers ask, the answers that should be provided, the escalation conditions
 3. We connect your WhatsApp to your business systems (inventory, booking, payment)
 4. We train your team on managing the WhatsApp inbox for conversations that require human handling
 
@@ -142,25 +142,25 @@ Not everything should be automated. The judgment about what to automate and what
 - Relationship-critical communications (key customer check-ins, sensitive situations)
 - Anything where being wrong creates significant negative consequences
 
-The goal is not maximum automation — it's applying automation where it saves time without degrading the quality of customer experience.
+The goal is not maximum automation  -  it's applying automation where it saves time without degrading the quality of customer experience.
 
 ## The ROI of Small Business Automation in Kenya
 
-The return on investment from small business automation in Kenya is consistently higher than owners expect before implementing it. The reason: the time freed by automation in a small business is not just convenience — it's the owner's time, which is typically the most constrained and valuable resource in the business.
+The return on investment from small business automation in Kenya is consistently higher than owners expect before implementing it. The reason: the time freed by automation in a small business is not just convenience  -  it's the owner's time, which is typically the most constrained and valuable resource in the business.
 
 **A practical example:**
 
 A Nairobi boutique receives 40 WhatsApp inquiries per day. The owner spends approximately 3 minutes per inquiry responding, which is 2 hours per day of customer communication.
 
-With automated FAQ responses handling 70% of inquiries (28 of 40), the owner handles 12 conversations per day — 36 minutes vs. 2 hours. 1 hour 24 minutes saved per day. Over a 25-day business month: 35 hours saved.
+With automated FAQ responses handling 70% of inquiries (28 of 40), the owner handles 12 conversations per day  -  36 minutes vs. 2 hours. 1 hour 24 minutes saved per day. Over a 25-day business month: 35 hours saved.
 
 If the owner's time is worth KES 2,000/hour (modest estimate), that's KES 70,000/month in effective value from a one-time automation setup.
 
-This is why automation for small businesses isn't a technology luxury — it's a business investment with measurable, compounding returns.
+This is why automation for small businesses isn't a technology luxury  -  it's a business investment with measurable, compounding returns.
 
 ## Getting Started with Tellus
 
-Tellus works with Kenyan small and medium businesses to identify, design, and implement automation that delivers real business returns. We start with a process audit — understanding where your time goes and where automation can have the highest impact — then implement in order of impact.
+Tellus works with Kenyan small and medium businesses to identify, design, and implement automation that delivers real business returns. We start with a process audit  -  understanding where your time goes and where automation can have the highest impact  -  then implement in order of impact.
 
 You don't need to understand the technology. You need to understand your business. We understand the technology. The combination produces automations that work for your specific situation rather than generic templates that sort of work for any situation.
 

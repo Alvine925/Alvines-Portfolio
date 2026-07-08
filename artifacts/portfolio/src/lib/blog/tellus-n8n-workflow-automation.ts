@@ -6,13 +6,13 @@ n8n is one of the most powerful and accessible workflow automation platforms ava
 
 This guide covers what n8n is, how it works, where it fits in the Kenyan business context, and the specific automation patterns that produce the highest return for small and medium-sized Kenyan businesses.
 
-As a developer who has built n8n-based automation for multiple Kenyan businesses, I can tell you that the technology is genuinely transformative when applied to the right problems — and genuinely wasteful when applied to the wrong ones. Understanding the difference is what this guide is about.
+As a developer who has built n8n-based automation for multiple Kenyan businesses, I can tell you that the technology is genuinely transformative when applied to the right problems  -  and genuinely wasteful when applied to the wrong ones. Understanding the difference is what this guide is about.
 
 ![Workflow automation diagram on computer screen](https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&q=80)
 
 ## What is n8n and Why Does It Matter for Kenya?
 
-n8n (pronounced "n-eight-n") is a workflow automation tool that connects applications together through visual, flowchart-style workflows. Think of it as the connective tissue between apps — when something happens in App A, n8n can automatically trigger something in App B, C, and D, without any human intervention.
+n8n (pronounced "n-eight-n") is a workflow automation tool that connects applications together through visual, flowchart-style workflows. Think of it as the connective tissue between apps  -  when something happens in App A, n8n can automatically trigger something in App B, C, and D, without any human intervention.
 
 The applications it can connect include: Google Sheets, Gmail, Slack, WhatsApp (via the Business API), Airtable, Notion, PostgreSQL databases, HTTP APIs, M-Pesa's Daraja API, Salesforce, HubSpot, and hundreds more through native integrations and custom API connections.
 
@@ -20,21 +20,21 @@ The applications it can connect include: Google Sheets, Gmail, Slack, WhatsApp (
 
 *Open source and self-hostable:* Unlike Zapier or Make (formerly Integromat), n8n can be deployed on your own server. This matters for two reasons: cost (no per-task pricing for high-volume automations) and data sovereignty (your data doesn't leave your control to a US-hosted automation platform, which is relevant for some Kenyan data protection contexts).
 
-*Active community with African participation:* n8n has a growing African user community, including Kenyan developers who have built and shared templates for common Kenyan use cases — M-Pesa integration, Safaricom API workflows, local payment processing.
+*Active community with African participation:* n8n has a growing African user community, including Kenyan developers who have built and shared templates for common Kenyan use cases  -  M-Pesa integration, Safaricom API workflows, local payment processing.
 
 *Fair-code license:* n8n is free to use for personal and commercial purposes if self-hosted. This makes it accessible to Kenyan SMEs that can't afford Zapier's pricing at their automation volume.
 
-*Developer-friendly extensibility:* For custom requirements — like integrating a Kenyan payment provider not in n8n's standard connector list — n8n's HTTP Request node and Function node allow building custom integrations without leaving the platform.
+*Developer-friendly extensibility:* For custom requirements  -  like integrating a Kenyan payment provider not in n8n's standard connector list  -  n8n's HTTP Request node and Function node allow building custom integrations without leaving the platform.
 
 ## The Problems n8n Solves for Kenyan Businesses
 
-**Manual data entry between systems:** A Kenyan e-commerce business manually copying order data from their website into a Google Sheet, then into their accounting software, then into their dispatch system — this is three manual data entry steps that n8n can eliminate entirely. The workflow runs automatically when an order is placed: order data goes to Google Sheets, to accounting, to dispatch, simultaneously, without human touch.
+**Manual data entry between systems:** A Kenyan e-commerce business manually copying order data from their website into a Google Sheet, then into their accounting software, then into their dispatch system  -  this is three manual data entry steps that n8n can eliminate entirely. The workflow runs automatically when an order is placed: order data goes to Google Sheets, to accounting, to dispatch, simultaneously, without human touch.
 
-**Communication delays in multi-step processes:** A loan application received by email, forwarded to a credit officer, reviewed and approved, then needing to trigger a disbursement — each step has delay where a human has to remember to do something. n8n automation reduces each of these delays to seconds: receipt → automatic parsing → automatic credit officer notification → approval recording → automatic disbursement trigger.
+**Communication delays in multi-step processes:** A loan application received by email, forwarded to a credit officer, reviewed and approved, then needing to trigger a disbursement  -  each step has delay where a human has to remember to do something. n8n automation reduces each of these delays to seconds: receipt → automatic parsing → automatic credit officer notification → approval recording → automatic disbursement trigger.
 
-**Report generation:** Many Kenyan businesses generate the same reports manually every week — pulling data from multiple sources, combining in Excel, formatting, and sending. n8n can automate this entirely: pull data from the relevant sources, combine and format, and send the finished report to the relevant people, on schedule, without manual intervention.
+**Report generation:** Many Kenyan businesses generate the same reports manually every week  -  pulling data from multiple sources, combining in Excel, formatting, and sending. n8n can automate this entirely: pull data from the relevant sources, combine and format, and send the finished report to the relevant people, on schedule, without manual intervention.
 
-**Lead response time:** A prospect submits a contact form. The business responds 24 hours later. The prospect has already moved on. n8n can trigger an instant WhatsApp or email response the moment the form is submitted, followed by a structured follow-up sequence — all automated and personalised based on the form data.
+**Lead response time:** A prospect submits a contact form. The business responds 24 hours later. The prospect has already moved on. n8n can trigger an instant WhatsApp or email response the moment the form is submitted, followed by a structured follow-up sequence  -  all automated and personalised based on the form data.
 
 **Customer communication triggers:** Payment received → send receipt and thank you message. Subscription expiring → send renewal reminder. Appointment booked → send confirmation and preparation instructions. These are simple automations that most Kenyan businesses with customer relationships should have running but don't because nobody has built them.
 
@@ -87,7 +87,7 @@ Action 3: Mark the invoice as paid in your accounting system
 Action 4: Send a payment receipt WhatsApp message to the customer
 Action 5: Notify the finance team of the payment
 
-Impact: Manual M-Pesa reconciliation — comparing transaction messages to invoices — is eliminated entirely.
+Impact: Manual M-Pesa reconciliation  -  comparing transaction messages to invoices  -  is eliminated entirely.
 
 **Employee onboarding automation:**
 
@@ -129,7 +129,7 @@ Impact: Management starts every day with key metrics without anyone manually com
 
 **Make (formerly Integromat):** More powerful than Zapier with a visual flow editor; lower pricing per operation. Cloud-only. Best for: mid-complexity automation without the technical overhead of self-hosting.
 
-**n8n:** Most powerful; steepest learning curve; most affordable at high volume through self-hosting. Self-hosting requires a server (a VPS from Digital Ocean or Hetzner costs $6–20/month). The open-source nature means no per-task pricing beyond server costs. Best for: businesses with moderate technical capability or a developer who can set it up, who need high-volume or sensitive-data automation.
+**n8n:** Most powerful; steepest learning curve; most affordable at high volume through self-hosting. Self-hosting requires a server (a VPS from Digital Ocean or Hetzner costs $6 - 20/month). The open-source nature means no per-task pricing beyond server costs. Best for: businesses with moderate technical capability or a developer who can set it up, who need high-volume or sensitive-data automation.
 
 For most Kenyan businesses with access to a developer (even part-time), n8n's self-hosted option provides the best combination of capability and cost.
 
@@ -139,14 +139,14 @@ For most Kenyan businesses with access to a developer (even part-time), n8n's se
 n8n offers a managed cloud product with a free tier (limited workflows and executions) and paid tiers starting at $20/month. No server management required. This is the right starting point for businesses without developers.
 
 **Option 2: Self-hosted on a VPS:**
-Deploy n8n on a Virtual Private Server (Digital Ocean, Linode, Hetzner, or Kenyan provider like Safaricom Cloud). Monthly server cost for a basic VPS: $5–20. Technical requirements: Docker knowledge or comfort with basic Linux commands. Setup time: 2–4 hours for someone comfortable with servers.
+Deploy n8n on a Virtual Private Server (Digital Ocean, Linode, Hetzner, or Kenyan provider like Safaricom Cloud). Monthly server cost for a basic VPS: $5 - 20. Technical requirements: Docker knowledge or comfort with basic Linux commands. Setup time: 2 - 4 hours for someone comfortable with servers.
 
 **Option 3: Managed deployment by Tellus:**
 Tellus sets up and manages n8n deployments for Kenyan businesses as part of our automation services. We handle server setup, n8n configuration, SSL certificates, backups, and ongoing maintenance. You get the power of self-hosted n8n without the technical overhead.
 
 ## The Automation Mindset for Kenyan Businesses
 
-Automation is not a one-time project — it's a practice. The businesses that get the most from n8n are not those that set up a few workflows and stop, but those that develop an organisational habit of asking "should this be automated?" whenever they notice a repetitive manual process.
+Automation is not a one-time project  -  it's a practice. The businesses that get the most from n8n are not those that set up a few workflows and stop, but those that develop an organisational habit of asking "should this be automated?" whenever they notice a repetitive manual process.
 
 Some questions to identify automation candidates:
 
@@ -155,6 +155,6 @@ Some questions to identify automation candidates:
 - Do we generate the same reports manually on a regular schedule? Automation candidate.
 - Does information take too long to reach the person who needs it? Automation candidate.
 
-Start with the highest-impact, simplest automation — typically one trigger, one action. Build confidence and understanding. Then tackle more complex multi-step workflows.
+Start with the highest-impact, simplest automation  -  typically one trigger, one action. Build confidence and understanding. Then tackle more complex multi-step workflows.
 
 Tellus has deployed n8n automation for Kenyan businesses across e-commerce, financial services, healthcare, logistics, and NGOs. The patterns that work are consistent; the specific implementation is always context-specific. We're here to help your business identify and implement the automations that will have the greatest impact.`;

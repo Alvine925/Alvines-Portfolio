@@ -2,9 +2,9 @@ export const coverImage = "https://images.unsplash.com/photo-1586281380349-63253
 
 export const content = `## How to Write a CV That Gets You Hired in Kenya: The Complete Guide
 
-Your CV has one job: to get you an interview. Not to comprehensively document your professional history. Not to demonstrate your formatting skills. Not to impress family members. Its purpose is singular: to convince a recruiter or hiring manager to want to speak with you within the 10–30 seconds they'll spend on their first pass through your document.
+Your CV has one job: to get you an interview. Not to comprehensively document your professional history. Not to demonstrate your formatting skills. Not to impress family members. Its purpose is singular: to convince a recruiter or hiring manager to want to speak with you within the 10 - 30 seconds they'll spend on their first pass through your document.
 
-Most Kenyan CVs fail at this job — not because the candidates are under-qualified, but because the documents are structured and written in ways that bury the most relevant information, understate achievements, and look like every other CV in the pile.
+Most Kenyan CVs fail at this job  -  not because the candidates are under-qualified, but because the documents are structured and written in ways that bury the most relevant information, understate achievements, and look like every other CV in the pile.
 
 This guide covers how to write a CV that stands out in the Kenyan job market, how to optimise it for specific roles and industries, and how TellusJobs' AI matching helps your profile work harder for you across every application.
 
@@ -12,26 +12,26 @@ This guide covers how to write a CV that stands out in the Kenyan job market, ho
 
 ## Understanding How Kenyan CVs Are Actually Read
 
-Before discussing how to write your CV, it's worth understanding how it will be read — because the reading process shapes everything about how you should structure and prioritise your document.
+Before discussing how to write your CV, it's worth understanding how it will be read  -  because the reading process shapes everything about how you should structure and prioritise your document.
 
-**The 10-second first pass:** An experienced recruiter reviewing 200 applications for a role will do a first pass where they spend 10–15 seconds on each CV. In this pass, they're looking for reasons to advance the CV to the next stage or to discard it. Everything about your CV structure should serve this reality — the most important information must be immediately visible and clearly relevant.
+**The 10-second first pass:** An experienced recruiter reviewing 200 applications for a role will do a first pass where they spend 10 - 15 seconds on each CV. In this pass, they're looking for reasons to advance the CV to the next stage or to discard it. Everything about your CV structure should serve this reality  -  the most important information must be immediately visible and clearly relevant.
 
 **ATS screening:** Many large Kenyan employers, and virtually all multinationals hiring in Kenya, use Applicant Tracking Systems (ATS) that scan CVs electronically before a human ever reads them. ATS systems look for keywords from the job description in your CV. CVs that don't contain the right keywords don't reach human reviewers, regardless of the candidate's actual qualifications. This makes keyword optimisation for each role a genuine requirement, not optional.
 
-**The deep read:** CVs that pass the first pass receive a more thorough reading — 2–5 minutes where the recruiter is building a picture of your career narrative, looking for evidence that supports your candidacy, and identifying questions they want to ask in an interview.
+**The deep read:** CVs that pass the first pass receive a more thorough reading  -  2 - 5 minutes where the recruiter is building a picture of your career narrative, looking for evidence that supports your candidacy, and identifying questions they want to ask in an interview.
 
 Structuring your CV to succeed at all three stages is what great Kenyan CV writing looks like.
 
 ## The Kenyan CV Format That Works
 
-**Length:** One page for less than 5 years of experience. Two pages for 5–15 years of experience. Three pages only for very senior roles with extensive relevant history. Anything longer than three pages will not be read in full.
+**Length:** One page for less than 5 years of experience. Two pages for 5 - 15 years of experience. Three pages only for very senior roles with extensive relevant history. Anything longer than three pages will not be read in full.
 
-**Format:** Clean, professional, readable. Standard fonts (Calibri, Arial, Helvetica at 10–12pt body text). Adequate white space. Clear section headers. No photos unless specifically requested (photos introduce unconscious bias risk; their absence is increasingly standard even in Kenya). No tables or text boxes (these break ATS parsing). No graphics unless you're in a creative field where this is expected.
+**Format:** Clean, professional, readable. Standard fonts (Calibri, Arial, Helvetica at 10 - 12pt body text). Adequate white space. Clear section headers. No photos unless specifically requested (photos introduce unconscious bias risk; their absence is increasingly standard even in Kenya). No tables or text boxes (these break ATS parsing). No graphics unless you're in a creative field where this is expected.
 
 **Standard sections in order:**
 
 1. Name and contact information
-2. Professional summary (3–4 sentences)
+2. Professional summary (3 - 4 sentences)
 3. Core skills/competencies
 4. Work experience (reverse chronological)
 5. Education
@@ -46,7 +46,7 @@ The professional summary is the first thing a recruiter reads after your name. I
 **What a good Kenyan professional summary includes:**
 
 - Your professional identity (job title and seniority level)
-- Your key areas of expertise (2–3 relevant to the role)
+- Your key areas of expertise (2 - 3 relevant to the role)
 - Years of relevant experience
 - One or two specific achievements or strengths
 - A statement about what you're seeking (role type and level)
@@ -63,7 +63,7 @@ This summary is specific, achievement-oriented, and tells the recruiter exactly 
 
 ## Writing Work Experience: The Section That Makes or Breaks Applications
 
-The work experience section is where Kenyan CVs most commonly fail. The most prevalent problem is describing responsibilities rather than achievements — listing what you were supposed to do rather than what you actually did and what resulted.
+The work experience section is where Kenyan CVs most commonly fail. The most prevalent problem is describing responsibilities rather than achievements  -  listing what you were supposed to do rather than what you actually did and what resulted.
 
 **Responsibilities vs. achievements:**
 
@@ -90,11 +90,11 @@ Action verb + specific task + quantified result + timeframe/context
 
 **Degree-qualified candidates:** Include degree, institution, year of completion. Include notable academic achievements (First Class Honours, distinction, specific prizes) if within the past 5 years. Exclude specific course lists unless the course is particularly relevant to the role.
 
-**KCSE results:** Include for candidates with less than 3 years of professional experience. Cut once you have substantial professional experience — by the time you're 5+ years into your career, your KCSE results are not relevant to employers.
+**KCSE results:** Include for candidates with less than 3 years of professional experience. Cut once you have substantial professional experience  -  by the time you're 5+ years into your career, your KCSE results are not relevant to employers.
 
 **Professional qualifications:** CPA(K), ACCA, CFA, PMP, and similar professional certifications should be prominently featured. For many roles in finance, accounting, and project management, professional certification is a filtering criterion.
 
-**International qualifications:** If you have qualifications from abroad — a UK degree, a US MBA, a South African professional certification — include the institution name in full. Not all Kenyan recruiters will be familiar with international institutions; a brief parenthetical (e.g., "University of Edinburgh, Scotland") prevents ambiguity.
+**International qualifications:** If you have qualifications from abroad  -  a UK degree, a US MBA, a South African professional certification  -  include the institution name in full. Not all Kenyan recruiters will be familiar with international institutions; a brief parenthetical (e.g., "University of Edinburgh, Scotland") prevents ambiguity.
 
 ## Tailoring Your CV for Each Role
 
@@ -102,13 +102,13 @@ The biggest mistake in Kenyan job applications is submitting the same generic CV
 
 Tailoring doesn't mean rewriting your entire CV for each application. It means:
 
-**Keyword alignment:** Review the job description. Identify the key terms — specific technical skills, competencies, and role-specific language — that appear prominently. Ensure these appear in your CV naturally in the context of relevant experience.
+**Keyword alignment:** Review the job description. Identify the key terms  -  specific technical skills, competencies, and role-specific language  -  that appear prominently. Ensure these appear in your CV naturally in the context of relevant experience.
 
 **Achievement emphasis:** Bring forward the achievements most relevant to the role. A project manager applying for a construction management role emphasises different achievements than the same person applying for a tech project management role.
 
 **Summary customisation:** Adjust your professional summary to speak directly to the specific role. The role name and sector in the summary should match the role you're applying for.
 
-**Skills section adjustment:** Adjust the skills you prominently feature based on what the role requires. Not falsely — you should only list skills you actually have — but in terms of emphasis and order.
+**Skills section adjustment:** Adjust the skills you prominently feature based on what the role requires. Not falsely  -  you should only list skills you actually have  -  but in terms of emphasis and order.
 
 ## Common CV Mistakes in the Kenyan Market
 
@@ -116,21 +116,21 @@ Tailoring doesn't mean rewriting your entire CV for each application. It means:
 
 **Date of birth, marital status, religion, number of children:** These details are legally irrelevant to your professional qualifications and expose you to discriminatory screening. Do not include.
 
-**Objective statements instead of professional summaries:** "Seeking a challenging role where I can grow professionally" is not a professional summary — it tells the employer about what you want from them rather than what you offer them.
+**Objective statements instead of professional summaries:** "Seeking a challenging role where I can grow professionally" is not a professional summary  -  it tells the employer about what you want from them rather than what you offer them.
 
 **"Responsible for" throughout:** As discussed above, responsibilities are table stakes. Results are differentiators.
 
-**Typos and grammatical errors:** A single typo in a CV signals carelessness. Run spell-check, then read your CV aloud slowly, then have someone else read it. The brain reads what it expects to see — having a second pair of eyes catch errors you've stopped seeing is essential.
+**Typos and grammatical errors:** A single typo in a CV signals carelessness. Run spell-check, then read your CV aloud slowly, then have someone else read it. The brain reads what it expects to see  -  having a second pair of eyes catch errors you've stopped seeing is essential.
 
-**Font inconsistency:** Multiple fonts, inconsistent heading sizes, misaligned text — these signal sloppiness. Spend time on formatting consistency.
+**Font inconsistency:** Multiple fonts, inconsistent heading sizes, misaligned text  -  these signal sloppiness. Spend time on formatting consistency.
 
-**Functional format instead of chronological:** Functional CVs (organised by skill rather than by employer) are sometimes recommended for career changers but are viewed with suspicion by many Kenyan recruiters — they look like an attempt to hide a problematic work history. Chronological remains the standard.
+**Functional format instead of chronological:** Functional CVs (organised by skill rather than by employer) are sometimes recommended for career changers but are viewed with suspicion by many Kenyan recruiters  -  they look like an attempt to hide a problematic work history. Chronological remains the standard.
 
 **References from family:** References should be professional. Family members are never appropriate references regardless of their professional standing.
 
 ## The LinkedIn Profile: Your Digital CV
 
-Your LinkedIn profile functions as an extended, dynamic version of your CV. Recruiters in Kenya increasingly search LinkedIn before candidates apply — being findable and having a profile that matches and expands on your CV is important.
+Your LinkedIn profile functions as an extended, dynamic version of your CV. Recruiters in Kenya increasingly search LinkedIn before candidates apply  -  being findable and having a profile that matches and expands on your CV is important.
 
 **Specific LinkedIn considerations for Kenyan professionals:**
 
@@ -138,7 +138,7 @@ Your LinkedIn profile functions as an extended, dynamic version of your CV. Recr
 
 *Headline:* Beyond your current title. "Financial Analyst at [Company]" is the default but not the most findable. "FP&A Specialist | Financial Modelling | Kenyan Corporates & NGOs | CPA(K)" is both descriptive and keyword-rich.
 
-*About section:* Your professional summary expanded to 3–5 paragraphs. This is the human-readable version of who you are professionally.
+*About section:* Your professional summary expanded to 3 - 5 paragraphs. This is the human-readable version of who you are professionally.
 
 *Skills endorsements:* Ensure the skills section matches what you've listed in your CV. Request endorsements from colleagues for your key skills.
 
@@ -152,6 +152,6 @@ TellusJobs' semantic matching reads your CV and professional profile with the sa
 - Which aspects of your background are most valuable for different role categories
 - Gaps between your profile and roles you're targeting that you can address
 
-When you upload your CV to TellusJobs, the platform's embedding-based matching surfaces roles where your background genuinely fits — not just roles where the keywords happen to align. This means your applications go to roles where you're a genuine candidate, not roles where you're gaming the keyword match.
+When you upload your CV to TellusJobs, the platform's embedding-based matching surfaces roles where your background genuinely fits  -  not just roles where the keywords happen to align. This means your applications go to roles where you're a genuine candidate, not roles where you're gaming the keyword match.
 
 Your CV is your professional first impression. Make it one you'd be proud of.`;

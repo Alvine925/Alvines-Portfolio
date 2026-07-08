@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 const SITE_URL = "https://alvineotieno.com";
 const SITE_NAME = "Alvine Otieno";
 const DEFAULT_DESCRIPTION =
-  "Alvine Otieno — WhatsApp AI bot developer, workflow automation specialist, and web developer based in Kisumu, Kenya. Building products that remove friction and help businesses scale.";
+  "Alvine Otieno  -  WhatsApp AI bot developer, workflow automation specialist, and web developer based in Kisumu, Kenya. Building products that remove friction and help businesses scale.";
 const DEFAULT_KEYWORDS =
   "WhatsApp AI bot developer Kenya, workflow automation Kenya, web developer Kisumu, AI chatbot developer, M-Pesa integration, business automation Kenya, WhatsApp chatbot, n8n automation, AI developer Kenya, Kisumu web developer";
 const OG_IMAGE = `${SITE_URL}/opengraph.jpg`;
@@ -31,10 +31,10 @@ export function SEO({
   article,
   noindex = false,
 }: SEOProps) {
-  const fullTitle = title ? `${title} | Alvine Otieno` : "Alvine Otieno — WhatsApp AI Bots, Automation & Web Development · Kisumu, Kenya";
+  const fullTitle = title ? `${title} | Alvine Otieno` : "Alvine Otieno  -  WhatsApp AI Bots, Automation & Web Development · Kisumu, Kenya";
   const canonicalUrl = canonical ? `${SITE_URL}${canonical}` : SITE_URL;
 
-  // Person structured data — appears on every page
+  // Person structured data  -  appears on every page
   const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",

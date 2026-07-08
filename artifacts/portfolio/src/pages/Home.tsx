@@ -45,7 +45,7 @@ export function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/75 to-background/20" />
 
         <div className="relative z-10 max-w-6xl mx-auto px-6 py-24 md:py-36 w-full">
-          {/* Left — text */}
+          {/* Left  -  text */}
           <motion.div variants={fadeUp} initial="hidden" animate="visible" className="max-w-2xl">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-10 h-10 rounded-full overflow-hidden ring-2 ring-primary/40 flex-shrink-0">
@@ -131,7 +131,7 @@ export function Home() {
         </div>
       </section>
 
-      {/* Featured projects — editorial list */}
+      {/* Featured projects  -  editorial list */}
       <section className="max-w-6xl mx-auto px-6 py-24 md:py-32">
         <div className="flex items-baseline justify-between mb-16">
           <div>

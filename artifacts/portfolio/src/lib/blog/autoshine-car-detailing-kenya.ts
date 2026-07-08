@@ -2,13 +2,13 @@ export const coverImage = "https://images.unsplash.com/photo-1607860108855-64acf
 
 export const content = `## Car Detailing in Kenya: What It Is, Why It Matters, and What to Expect
 
-Car detailing is one of the most misunderstood services in Kenya's vehicle maintenance market. Many Kenyan car owners conflate it with a thorough car wash, assume it's only for luxury vehicles, or know they should do it but aren't sure what to ask for. This guide demystifies professional car detailing in the Kenyan context — what it actually involves, the different levels of service available, what you should expect to pay, and how AutoShine makes professional detailing accessible to more Kenyan vehicle owners.
+Car detailing is one of the most misunderstood services in Kenya's vehicle maintenance market. Many Kenyan car owners conflate it with a thorough car wash, assume it's only for luxury vehicles, or know they should do it but aren't sure what to ask for. This guide demystifies professional car detailing in the Kenyan context  -  what it actually involves, the different levels of service available, what you should expect to pay, and how AutoShine makes professional detailing accessible to more Kenyan vehicle owners.
 
 ![Professional car detailing service in Kenya](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
 
 ## What is Car Detailing?
 
-Car detailing is a comprehensive cleaning, restoration, and protection process that goes significantly beyond a standard car wash. Where a car wash focuses on removing surface dirt from the exterior and vacuuming the interior, detailing addresses the condition of every surface — paint, glass, rubber, leather, plastic, fabric — with specific products and techniques calibrated to each material.
+Car detailing is a comprehensive cleaning, restoration, and protection process that goes significantly beyond a standard car wash. Where a car wash focuses on removing surface dirt from the exterior and vacuuming the interior, detailing addresses the condition of every surface  -  paint, glass, rubber, leather, plastic, fabric  -  with specific products and techniques calibrated to each material.
 
 **The distinction from a car wash:**
 
@@ -16,12 +16,12 @@ A car wash: water, soap, rinse, dry. Removes dirt from the exterior. Vacuum remo
 
 Detailing: systematic cleaning of every surface, correction of paint imperfections (swirl marks, light scratches, oxidation), protection of cleaned surfaces against future damage, and restoration of interior surfaces to as-new condition.
 
-A well-executed detail can make a 5-year-old vehicle look almost new. That's not hyperbole — it's the expected outcome of thorough professional detailing.
+A well-executed detail can make a 5-year-old vehicle look almost new. That's not hyperbole  -  it's the expected outcome of thorough professional detailing.
 
 ## The Detailing Spectrum: What's Available in Kenya
 
 **Full Detail (Interior + Exterior):**
-The comprehensive service. Typically takes 4–8 hours for a standard vehicle. Includes:
+The comprehensive service. Typically takes 4 - 8 hours for a standard vehicle. Includes:
 - Pre-wash (fallout remover, wheel decontamination)
 - Hand wash with two-bucket method
 - Paint decontamination (clay bar treatment to remove embedded contaminants)
@@ -36,13 +36,13 @@ Focuses on the vehicle's exterior surfaces. Wash, decontamination, correction (i
 Full interior cleaning without the exterior correction and protection work. Appropriate when the exterior condition is acceptable but the interior needs serious attention.
 
 **Express/Maintenance Detail:**
-For vehicles that are already in good condition and maintained regularly. A high-quality wash plus protection maintenance — quicker and lower cost than a full detail.
+For vehicles that are already in good condition and maintained regularly. A high-quality wash plus protection maintenance  -  quicker and lower cost than a full detail.
 
 ## Why Kenyan Vehicles Need Professional Detailing
 
 Kenya's operating environment is particularly demanding on vehicles:
 
-**Road dust and red murram:** Construction and unpaved roads produce fine particulate matter that embeds in paint surfaces. This embedded contamination (felt as roughness when you run your fingers across a clean paint surface) cannot be removed by washing alone — it requires clay bar decontamination as part of a proper detail.
+**Road dust and red murram:** Construction and unpaved roads produce fine particulate matter that embeds in paint surfaces. This embedded contamination (felt as roughness when you run your fingers across a clean paint surface) cannot be removed by washing alone  -  it requires clay bar decontamination as part of a proper detail.
 
 **Equatorial UV radiation:** Nairobi's high-altitude equatorial sun is more intense than UV exposure at lower altitudes. UV radiation oxidises paint (causing chalky, faded appearance) and dries rubber and plastic. Regular UV protection (wax, sealant, or ceramic coating) significantly slows this deterioration.
 
@@ -60,13 +60,13 @@ Many Kenyan "interior detailing" services are thorough vacuums with a surface wi
 
 **Carpet and floor mat extraction:** Carpet shampoo applied, agitated, and extracted with a wet vacuum. This removes embedded dirt and odours that surface vacuuming can't address.
 
-**Fabric upholstery cleaning:** Fabric seats and headlining (the fabric on the ceiling) are shampooed, agitated, and extracted — the same process as carpet cleaning.
+**Fabric upholstery cleaning:** Fabric seats and headlining (the fabric on the ceiling) are shampooed, agitated, and extracted  -  the same process as carpet cleaning.
 
 **Leather conditioning:** Leather seats cleaned with pH-neutral leather cleaner, then conditioned with a penetrating conditioner that prevents drying and cracking. Kenyan heat makes leather conditioning particularly important.
 
 **Plastic and trim treatment:** All plastic and vinyl surfaces (dashboard, door cards, pillars) cleaned and treated with a product that restores their appearance and provides UV protection.
 
-**Glass cleaning (interior):** Interior glass cleaning requires different products than exterior — the interior collects outgassing from plastic components and human breath, which deposits an oily film that creates glare and impairs visibility.
+**Glass cleaning (interior):** Interior glass cleaning requires different products than exterior  -  the interior collects outgassing from plastic components and human breath, which deposits an oily film that creates glare and impairs visibility.
 
 **Air vent cleaning:** Dashboard air vents accumulate significant dust. Dedicated brushes and compressed air are used to clear them.
 
@@ -103,21 +103,21 @@ What paint correction cannot fix:
 After correction, the corrected paint surface needs protection. The three main options in Kenya:
 
 **Carnauba Wax:**
-Natural wax from the carnauba palm. Provides excellent depth and warmth to the paint's appearance. Lasts 2–4 months before needing reapplication. Appropriate as maintenance protection for regularly-serviced vehicles.
+Natural wax from the carnauba palm. Provides excellent depth and warmth to the paint's appearance. Lasts 2 - 4 months before needing reapplication. Appropriate as maintenance protection for regularly-serviced vehicles.
 
-Price range in Kenya: KES 1,500–3,000 applied during a detail.
+Price range in Kenya: KES 1,500 - 3,000 applied during a detail.
 
 **Paint Sealant:**
-Synthetic polymer protection. Harder than wax and more durable — lasts 6–12 months. Slightly less depth than carnauba but significantly longer-lasting protection.
+Synthetic polymer protection. Harder than wax and more durable  -  lasts 6 - 12 months. Slightly less depth than carnauba but significantly longer-lasting protection.
 
-Price range in Kenya: KES 2,000–5,000 applied during a detail.
+Price range in Kenya: KES 2,000 - 5,000 applied during a detail.
 
 **Ceramic Coating:**
-The most advanced protection available. A semi-permanent coating that bonds chemically with the paint surface, creating a hard, hydrophobic barrier. Lasts 2–5+ years. Makes washing significantly easier (dirt doesn't bond to the surface as readily). Provides superior UV, chemical, and scratch resistance.
+The most advanced protection available. A semi-permanent coating that bonds chemically with the paint surface, creating a hard, hydrophobic barrier. Lasts 2 - 5+ years. Makes washing significantly easier (dirt doesn't bond to the surface as readily). Provides superior UV, chemical, and scratch resistance.
 
-Requires significant paint preparation (proper detail, often including paint correction) before application. Application is a specialist skill — poorly applied ceramic coating is very difficult to remove.
+Requires significant paint preparation (proper detail, often including paint correction) before application. Application is a specialist skill  -  poorly applied ceramic coating is very difficult to remove.
 
-Price range in Kenya: KES 15,000–60,000+ depending on the product tier and vehicle size.
+Price range in Kenya: KES 15,000 - 60,000+ depending on the product tier and vehicle size.
 
 ## Finding Professional Detailing Services in Kenya
 
@@ -129,7 +129,7 @@ The quality difference between good and poor detailing is significant, and the K
 
 **Equipment:** Machine polishing requires proper professional polishers. A detailer offering "machine polish" without visible professional polishing equipment is overstating their capability.
 
-**Time investment:** A proper full detail takes 4–8 hours for a standard vehicle. A business quoting 2 hours for a "full detail" is either doing an abbreviated service or has a very large team.
+**Time investment:** A proper full detail takes 4 - 8 hours for a standard vehicle. A business quoting 2 hours for a "full detail" is either doing an abbreviated service or has a very large team.
 
 **AutoShine's verified provider network** eliminates this evaluation burden. Every AutoShine-listed detailer has been assessed for product quality, equipment, staff training, and work quality. You're choosing between verified professionals.
 
@@ -137,10 +137,10 @@ The quality difference between good and poor detailing is significant, and the K
 
 AutoShine offers a structured range of detailing services bookable online:
 
-- **Maintenance Detail** (monthly maintenance for already-good vehicles): KES 2,500–4,000
-- **Full Detail** (comprehensive interior and exterior): KES 4,000–8,000
-- **Paint Correction Detail** (includes machine polishing): KES 6,000–12,000
-- **Ceramic Coating Package** (correction plus ceramic application): KES 20,000–50,000
+- **Maintenance Detail** (monthly maintenance for already-good vehicles): KES 2,500 - 4,000
+- **Full Detail** (comprehensive interior and exterior): KES 4,000 - 8,000
+- **Paint Correction Detail** (includes machine polishing): KES 6,000 - 12,000
+- **Ceramic Coating Package** (correction plus ceramic application): KES 20,000 - 50,000
 
 Booking through AutoShine includes a vehicle assessment, service recommendation, and price confirmation before work begins. No surprises, no upsells at the gate.
 

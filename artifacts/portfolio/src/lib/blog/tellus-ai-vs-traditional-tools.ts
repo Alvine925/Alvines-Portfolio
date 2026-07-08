@@ -2,7 +2,7 @@ export const coverImage = "https://images.unsplash.com/photo-1531297484001-80022
 
 export const content = `## AI Tools vs. Traditional Business Software: What Kenyan Businesses Should Actually Use
 
-"Should we use AI for this?" has become a question Kenyan businesses ask about almost every workflow. The question is often poorly formed — the real question is "which tool is best for this specific problem?" — and AI is not always the answer.
+"Should we use AI for this?" has become a question Kenyan businesses ask about almost every workflow. The question is often poorly formed  -  the real question is "which tool is best for this specific problem?"  -  and AI is not always the answer.
 
 Traditional business software (CRMs, project management tools, accounting software, spreadsheets, communication platforms) solved real business problems effectively before AI existed. These tools haven't become worse because AI exists. In many cases, a well-configured traditional tool is still better than an AI tool for the same job.
 
@@ -14,7 +14,7 @@ This guide takes a clear-eyed view of where AI tools genuinely outperform tradit
 
 Evaluating AI tools against traditional tools requires looking at several dimensions:
 
-**Accuracy and reliability:** Does the tool produce correct outputs consistently? AI tools can hallucinate — produce confident-sounding incorrect outputs. Traditional tools, within their design scope, produce consistent outputs.
+**Accuracy and reliability:** Does the tool produce correct outputs consistently? AI tools can hallucinate  -  produce confident-sounding incorrect outputs. Traditional tools, within their design scope, produce consistent outputs.
 
 **Speed and efficiency:** How much time does the tool save relative to the alternative?
 
@@ -30,13 +30,13 @@ Evaluating AI tools against traditional tools requires looking at several dimens
 
 **Unstructured text generation and drafting:**
 
-Traditional tools don't generate text — a word processor is a blank page with formatting tools. AI drafts, edits, and improves written content. For any knowledge worker who spends significant time writing — proposals, reports, emails, documentation, marketing content — AI writing assistance produces unambiguous efficiency gains.
+Traditional tools don't generate text  -  a word processor is a blank page with formatting tools. AI drafts, edits, and improves written content. For any knowledge worker who spends significant time writing  -  proposals, reports, emails, documentation, marketing content  -  AI writing assistance produces unambiguous efficiency gains.
 
 *Verdict: AI wins*
 
 **Synthesis of large volumes of information:**
 
-Summarising a 50-page report, identifying themes across 100 customer reviews, extracting key information from a collection of documents — these are tasks that traditional tools cannot perform and that consume hours of human time. AI performs these tasks in seconds.
+Summarising a 50-page report, identifying themes across 100 customer reviews, extracting key information from a collection of documents  -  these are tasks that traditional tools cannot perform and that consume hours of human time. AI performs these tasks in seconds.
 
 *Verdict: AI wins*
 
@@ -48,7 +48,7 @@ Asking "what were our top three products by margin last month?" in plain English
 
 **Customer-facing conversation at scale:**
 
-Handling hundreds of WhatsApp customer inquiries with consistent quality, 24 hours a day, 7 days a week — traditional software (a shared inbox, a ticketing system) handles routing and tracking but requires humans for the responses. AI chatbots provide the responses. This is precisely the gap Tellus fills for Kenyan businesses.
+Handling hundreds of WhatsApp customer inquiries with consistent quality, 24 hours a day, 7 days a week  -  traditional software (a shared inbox, a ticketing system) handles routing and tracking but requires humans for the responses. AI chatbots provide the responses. This is precisely the gap Tellus fills for Kenyan businesses.
 
 *Verdict: AI wins where volume exceeds human capacity*
 
@@ -62,15 +62,15 @@ GitHub Copilot and similar tools materially change what a Kenyan developer can a
 
 **Structured data management and transactions:**
 
-A database (PostgreSQL, MySQL) stores, retrieves, and manages structured data with ACID compliance — accuracy guarantees that AI tools cannot provide. An accounting system records transactions with precision that matters when KSRA is involved. A CRM tracks customer interactions in a queryable, auditable format.
+A database (PostgreSQL, MySQL) stores, retrieves, and manages structured data with ACID compliance  -  accuracy guarantees that AI tools cannot provide. An accounting system records transactions with precision that matters when KSRA is involved. A CRM tracks customer interactions in a queryable, auditable format.
 
 For all of these, the structured, rules-based nature of traditional software is an advantage, not a limitation. AI hallucinations in a financial ledger are catastrophically costly; traditional accounting software doesn't hallucinate.
 
-*Verdict: Traditional tools win — do not replace structured data management with AI*
+*Verdict: Traditional tools win  -  do not replace structured data management with AI*
 
 **Project management and task tracking:**
 
-Asana, Jira, Trello, and similar tools provide structured workflow management — clear task assignment, dependency tracking, progress visibility, deadline management. AI tools can assist with these (generating task lists, summarising project status) but the underlying tracking and accountability function is better served by structured project management tools.
+Asana, Jira, Trello, and similar tools provide structured workflow management  -  clear task assignment, dependency tracking, progress visibility, deadline management. AI tools can assist with these (generating task lists, summarising project status) but the underlying tracking and accountability function is better served by structured project management tools.
 
 *Verdict: Traditional tools win for the tracking function; AI can assist with planning and summarisation*
 
@@ -88,7 +88,7 @@ A CRM like HubSpot, Salesforce, or Freshsales provides structured customer data 
 
 **Process automation for defined, rules-based workflows:**
 
-If a workflow follows explicit rules — when X happens, do Y, then notify Z — traditional automation (n8n, Zapier, or custom code) is more reliable than AI for executing it. AI adds value for the judgment-requiring parts; pure rule-following is better handled by traditional automation.
+If a workflow follows explicit rules  -  when X happens, do Y, then notify Z  -  traditional automation (n8n, Zapier, or custom code) is more reliable than AI for executing it. AI adds value for the judgment-requiring parts; pure rule-following is better handled by traditional automation.
 
 *Verdict: Traditional tools win for pure rule execution; AI adds value for judgment-requiring decisions within workflows*
 
@@ -102,11 +102,11 @@ Your CRM (traditional tool) is the system of record for customer data, deal stag
 
 **Accounting software + AI analysis:**
 
-QuickBooks or Sage records your transactions accurately. AI tools help you interpret the data — "what does this mean for our cash flow?" "draft a narrative for this month's financial summary" — and communicate financial information to non-finance stakeholders.
+QuickBooks or Sage records your transactions accurately. AI tools help you interpret the data  -  "what does this mean for our cash flow?" "draft a narrative for this month's financial summary"  -  and communicate financial information to non-finance stakeholders.
 
 **n8n automation + AI decision nodes:**
 
-A rules-based automation workflow (traditional automation) handles the defined, predictable steps of a business process. AI classification or judgment nodes within the workflow handle the steps that require judgment — classifying inquiry type, determining appropriate response, assessing priority.
+A rules-based automation workflow (traditional automation) handles the defined, predictable steps of a business process. AI classification or judgment nodes within the workflow handle the steps that require judgment  -  classifying inquiry type, determining appropriate response, assessing priority.
 
 **WhatsApp Business API + AI chatbot:**
 
@@ -118,11 +118,11 @@ The WhatsApp Business API (a traditional integration point) handles message deli
 
 **Decision rule 1: For system of record functions, use traditional tools.**
 
-Any data that needs to be accurate, auditable, and reliably queryable for business decisions or compliance should live in traditional structured tools — databases, accounting software, CRM. AI tools are not reliable systems of record.
+Any data that needs to be accurate, auditable, and reliably queryable for business decisions or compliance should live in traditional structured tools  -  databases, accounting software, CRM. AI tools are not reliable systems of record.
 
 **Decision rule 2: For communication and content generation, use AI.**
 
-Any function where the output is text — emails, reports, proposals, customer responses, documentation — AI assistance is almost always beneficial. The draft-and-edit workflow (AI drafts, human edits) is faster and often higher quality than writing from scratch.
+Any function where the output is text  -  emails, reports, proposals, customer responses, documentation  -  AI assistance is almost always beneficial. The draft-and-edit workflow (AI drafts, human edits) is faster and often higher quality than writing from scratch.
 
 **Decision rule 3: For high-volume repetitive tasks, automate with the right tool for the task type.**
 
@@ -140,8 +140,8 @@ If your CRM already provides email templates and basic automation, adding a sepa
 
 ## Tellus as the AI Layer in a Balanced Stack
 
-Tellus occupies a specific position in the technology stack of Kenyan businesses — the AI layer for customer communication, workflow intelligence, and notification management, operating alongside (not replacing) the traditional tools that handle structured data, accounting, and project management.
+Tellus occupies a specific position in the technology stack of Kenyan businesses  -  the AI layer for customer communication, workflow intelligence, and notification management, operating alongside (not replacing) the traditional tools that handle structured data, accounting, and project management.
 
-The businesses that get the most from Tellus are those that use it for what it does best: automating WhatsApp communication, intelligently routing notifications, and providing AI-powered responses to customer inquiries — while continuing to use their CRM, accounting software, and project management tools for what those do best.
+The businesses that get the most from Tellus are those that use it for what it does best: automating WhatsApp communication, intelligently routing notifications, and providing AI-powered responses to customer inquiries  -  while continuing to use their CRM, accounting software, and project management tools for what those do best.
 
-The goal is not maximum AI in your business. It's the right tool for each job. That combination — traditional tools where their reliability and structure are the asset, AI where flexibility and language capability are the asset — produces technology stacks that genuinely improve how Kenyan businesses operate.`;
+The goal is not maximum AI in your business. It's the right tool for each job. That combination  -  traditional tools where their reliability and structure are the asset, AI where flexibility and language capability are the asset  -  produces technology stacks that genuinely improve how Kenyan businesses operate.`;

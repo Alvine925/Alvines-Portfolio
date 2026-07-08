@@ -25,7 +25,7 @@ A WhatsApp bot is premature when:
 
 **What should the bot do?**
 
-This is the most important strategic decision in bot design. A bot that tries to do everything does everything mediocrely. A bot designed around the 5–7 things your customers most commonly ask delivers excellent results on those cases.
+This is the most important strategic decision in bot design. A bot that tries to do everything does everything mediocrely. A bot designed around the 5 - 7 things your customers most commonly ask delivers excellent results on those cases.
 
 To identify what your bot should do, analyse your last 200 WhatsApp messages:
 - What categories of inquiry are most common?
@@ -44,7 +44,7 @@ The categories that consistently top Kenyan businesses' inquiry lists:
 
 **Defining the escalation policy:**
 
-Your bot design must include explicit escalation logic — when does the bot hand off to a human? This is not just a technical decision but a customer experience decision.
+Your bot design must include explicit escalation logic  -  when does the bot hand off to a human? This is not just a technical decision but a customer experience decision.
 
 Design your escalation triggers:
 - After N rounds of conversation without resolution
@@ -62,7 +62,7 @@ The WhatsApp Business App (the free mobile app) allows you to set up:
 - Greeting messages (automatic reply to new contacts)
 - Quick replies (saved responses triggered by keyboard shortcuts)
 
-This is not a bot in the full sense — you still need to manually respond to most messages. But it provides basic automation at zero cost.
+This is not a bot in the full sense  -  you still need to manually respond to most messages. But it provides basic automation at zero cost.
 
 Best for: Very small businesses with low inquiry volumes wanting basic automation.
 
@@ -80,7 +80,7 @@ Several platforms provide bot-building tools on top of the WhatsApp Business API
 
 *Manychat:* Popular with digital marketers; WhatsApp integration maturing. Good for sales-focused bot flows.
 
-These platforms provide visual interfaces for building conversation flows, managing contacts, and monitoring performance — without writing code.
+These platforms provide visual interfaces for building conversation flows, managing contacts, and monitoring performance  -  without writing code.
 
 Best for: SMEs that want full bot capability without a developer.
 
@@ -93,7 +93,7 @@ Building a WhatsApp bot directly on the WhatsApp Business API through custom dev
 - M-Pesa payment integration within the conversation
 - Custom data handling and privacy controls
 
-This approach requires developer investment but produces bots that are genuinely differentiated — not limited by what a generic platform supports.
+This approach requires developer investment but produces bots that are genuinely differentiated  -  not limited by what a generic platform supports.
 
 This is the approach Tellus takes for client implementations. The result is a bot that behaves exactly as the business needs, integrates deeply with business systems, and can handle complex flows that platform limitations don't allow.
 
@@ -127,7 +127,7 @@ For developers building custom WhatsApp bots on the Daraja + WhatsApp Business A
 
 *Webhook handler:* Receives incoming WhatsApp messages from Meta's servers. Validates the request, parses the message content, and routes to the appropriate handler.
 
-*Conversation state management:* Tracks the state of each user's conversation — what stage of the flow they're in, what data has been collected. This is typically stored in Redis (for speed) or a database.
+*Conversation state management:* Tracks the state of each user's conversation  -  what stage of the flow they're in, what data has been collected. This is typically stored in Redis (for speed) or a database.
 
 *Message router:* Determines which handler should process the message based on the current conversation state and the message content.
 
@@ -135,7 +135,7 @@ For developers building custom WhatsApp bots on the Daraja + WhatsApp Business A
 
 *Response generator:* Produces the appropriate response based on the handler's output and the user's context.
 
-*Business logic layer:* The actual business logic — checking inventory, retrieving order status, initiating M-Pesa payments, booking appointments.
+*Business logic layer:* The actual business logic  -  checking inventory, retrieving order status, initiating M-Pesa payments, booking appointments.
 
 *WhatsApp API client:* Sends messages back to the user through the WhatsApp Business API.
 
@@ -147,7 +147,7 @@ State management ensures that a user who started a multi-step flow (like an orde
 
 ## AI Integration: Making Your Bot Smarter
 
-Rule-based bots handle defined flows well but fail gracefully only when they're well-designed. AI-powered bots — using language models like GPT-4 or Claude — can handle natural language inputs that don't fit predefined patterns.
+Rule-based bots handle defined flows well but fail gracefully only when they're well-designed. AI-powered bots  -  using language models like GPT-4 or Claude  -  can handle natural language inputs that don't fit predefined patterns.
 
 The architecture for AI-powered WhatsApp bots:
 
@@ -159,21 +159,21 @@ The architecture for AI-powered WhatsApp bots:
 
 The AI layer handles the unpredictability of human language; the handler layer ensures business logic is correct; the WhatsApp API layer handles delivery.
 
-For most Kenyan business use cases, the AI doesn't need to be fully autonomous — it can classify intent and extract key information, leaving the business logic and response generation to structured handlers. This provides the language flexibility of AI without the hallucination risks of a fully autonomous AI agent.
+For most Kenyan business use cases, the AI doesn't need to be fully autonomous  -  it can classify intent and extract key information, leaving the business logic and response generation to structured handlers. This provides the language flexibility of AI without the hallucination risks of a fully autonomous AI agent.
 
 ## Tellus's WhatsApp Bot Building Approach
 
 Tellus builds WhatsApp bots for Kenyan businesses using custom development on the WhatsApp Business API. Our approach:
 
-**Discovery:** We spend time understanding your business — your products, your customers, your inquiry patterns, your operational systems. The bot design emerges from this understanding, not from a generic template.
+**Discovery:** We spend time understanding your business  -  your products, your customers, your inquiry patterns, your operational systems. The bot design emerges from this understanding, not from a generic template.
 
 **Conversation design first:** Before any code, we design and iterate on conversation flows. We show you the conversation paths visually so you can identify gaps, errors, and improvements before implementation.
 
-**Integration with your systems:** Your bot connects to your actual business data — inventory, order records, customer database, booking system. Responses reflect real business state, not cached or approximate information.
+**Integration with your systems:** Your bot connects to your actual business data  -  inventory, order records, customer database, booking system. Responses reflect real business state, not cached or approximate information.
 
 **M-Pesa integration:** For Kenyan businesses where WhatsApp interactions lead to transactions, we integrate M-Pesa payments directly into the conversation flow.
 
-**Testing with real conversations:** Before launch, we test the bot with real business scenarios — common inquiries, edge cases, escalation situations — and iterate based on what the testing reveals.
+**Testing with real conversations:** Before launch, we test the bot with real business scenarios  -  common inquiries, edge cases, escalation situations  -  and iterate based on what the testing reveals.
 
 **Ongoing improvement:** Bot performance improves with use. We monitor the conversations your bot handles, identify where customers are falling through to humans unnecessarily, and update the conversation design accordingly.
 

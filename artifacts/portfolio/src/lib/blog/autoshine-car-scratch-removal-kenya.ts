@@ -2,7 +2,7 @@ export const coverImage = "https://images.unsplash.com/photo-1580273916550-e323b
 
 export const content = `## Car Scratch Removal in Kenya: What Can Be Fixed, What Can't, and How to Fix It
 
-Scratches are the most common paint damage on Kenyan vehicles. Nairobi's congested parking, narrow roads where vehicles scrape past each other, shopping mall multi-storey car parks with their tight turns, and the prevalence of hawkers and pedestrians in close proximity to vehicles — these create a constant low-level risk of paint contact that most Nairobi drivers experience regularly.
+Scratches are the most common paint damage on Kenyan vehicles. Nairobi's congested parking, narrow roads where vehicles scrape past each other, shopping mall multi-storey car parks with their tight turns, and the prevalence of hawkers and pedestrians in close proximity to vehicles  -  these create a constant low-level risk of paint contact that most Nairobi drivers experience regularly.
 
 The good news: many scratches that look serious are actually surface-level and can be significantly improved or entirely removed through polishing. The bad news: some scratches are through the paint to bare metal and require professional respray work that polishing cannot address.
 
@@ -20,21 +20,21 @@ Modern vehicle paint (on vehicles manufactured since the 1980s) has a multi-laye
 
 **Base coat (colour coat):** The layer that gives the car its colour. Thicker on darker colours, thinner on lighter ones.
 
-**Clear coat:** A transparent protective layer on top of the base coat. This is what you see when you look at the paint surface — the glossy, transparent top layer that protects the colour underneath. On most vehicles, clear coat is 30–50 microns thick.
+**Clear coat:** A transparent protective layer on top of the base coat. This is what you see when you look at the paint surface  -  the glossy, transparent top layer that protects the colour underneath. On most vehicles, clear coat is 30 - 50 microns thick.
 
-**Total paint thickness:** Including primer, base coat, and clear coat, a typical modern vehicle has approximately 100–180 microns of total paint depth.
+**Total paint thickness:** Including primer, base coat, and clear coat, a typical modern vehicle has approximately 100 - 180 microns of total paint depth.
 
 ## The Four Types of Scratch
 
 **Type 1: Clear coat scratches (surface scratches)**
 
-These scratches are within the clear coat layer — they haven't reached the colour layer underneath. Visually, they appear white or light-coloured (you're seeing the disturbed clear coat, not an absence of paint). When you look at the scratch at an angle, you can see it disappears or reduces when the viewing angle changes.
+These scratches are within the clear coat layer  -  they haven't reached the colour layer underneath. Visually, they appear white or light-coloured (you're seeing the disturbed clear coat, not an absence of paint). When you look at the scratch at an angle, you can see it disappears or reduces when the viewing angle changes.
 
 **Can polishing fix these?** Yes. Machine polishing removes the microscopic high points of the scratch, levelling the surface. Light to moderate clear coat scratches can be completely removed by machine polishing. Very deep clear coat scratches can be significantly improved.
 
 **Type 2: Through clear coat to base coat**
 
-These scratches have penetrated through the clear coat and disturbed the colour layer. You can see colour in the scratch — the base coat colour, sometimes with the clear coat edges visible around it.
+These scratches have penetrated through the clear coat and disturbed the colour layer. You can see colour in the scratch  -  the base coat colour, sometimes with the clear coat edges visible around it.
 
 **Can polishing fix these?** Polishing can minimise the visibility by cleaning up the edges of the scratch and improving the surrounding paint appearance, but cannot fill or remove the scratch itself. The disturbed colour coat is visible regardless of how much you polish.
 
@@ -46,15 +46,15 @@ These penetrate through both clear coat and base coat to reach the primer layer.
 
 **Type 4: Through to bare metal**
 
-The scratch penetrates all paint layers to reach bare metal. Worst case — the metal is exposed to moisture and atmospheric oxygen, which initiates rust. In Kenya's climate, rust progression from a bare metal scratch is faster than in cooler climates.
+The scratch penetrates all paint layers to reach bare metal. Worst case  -  the metal is exposed to moisture and atmospheric oxygen, which initiates rust. In Kenya's climate, rust progression from a bare metal scratch is faster than in cooler climates.
 
-**Can polishing fix these?** No. Professional repair is urgent — rust prevention is the priority.
+**Can polishing fix these?** No. Professional repair is urgent  -  rust prevention is the priority.
 
 ## The Fingernail Test
 
 A simple but effective field test to assess scratch depth:
 
-Run your fingernail gently across the scratch. If your fingernail doesn't catch in the scratch — it glides smoothly over it — the scratch is likely in the clear coat only and may be polishable. If your fingernail catches and drops into the scratch, the scratch is deeper and involves the colour coat or below.
+Run your fingernail gently across the scratch. If your fingernail doesn't catch in the scratch  -  it glides smoothly over it  -  the scratch is likely in the clear coat only and may be polishable. If your fingernail catches and drops into the scratch, the scratch is deeper and involves the colour coat or below.
 
 This is a rough guide, not a precise diagnostic, but it's useful for quickly assessing whether polishing is likely to help.
 
@@ -68,7 +68,7 @@ Products like Meguiar's ScratchX, Turtle Wax scratch removers, or AutoGlym Super
 
 Technique matters: apply the product to a clean microfiber cloth, work it into the scratch area with straight-line motions (not circular), build up to three passes, then clean off the residue with a separate clean cloth. Assess the result in natural light.
 
-For moderate Type 1 scratches, a machine polisher produces significantly better results than hand application. But incorrect use of a machine polisher can cause paint thinning or burning — if you're not experienced with machine polishing, professional treatment is the safer choice.
+For moderate Type 1 scratches, a machine polisher produces significantly better results than hand application. But incorrect use of a machine polisher can cause paint thinning or burning  -  if you're not experienced with machine polishing, professional treatment is the safer choice.
 
 **For Type 2, 3, and 4 scratches:**
 
@@ -97,7 +97,7 @@ Our technicians assess each scratch under directional light to determine:
 - Appropriate treatment method
 - Expected improvement from treatment
 
-We provide an honest assessment — if a scratch requires body shop work rather than polishing, we'll tell you so rather than take your money for a service that can't help.
+We provide an honest assessment  -  if a scratch requires body shop work rather than polishing, we'll tell you so rather than take your money for a service that can't help.
 
 **Step 2: Machine polishing for clear coat scratches**
 
@@ -107,7 +107,7 @@ For Type 1 scratches confirmed to be in the clear coat, our machine polishing se
 - Full panel polish: if the scratch is on a panel with broader swirl marks or other imperfections, a full panel correction addresses all of them simultaneously
 - Machine polishing: dual action polisher with appropriate compound for scratch depth, followed by finishing polish to restore maximum gloss
 
-Expected results: complete removal of light clear coat scratches; significant improvement (80–95% reduction in visibility) of moderate clear coat scratches.
+Expected results: complete removal of light clear coat scratches; significant improvement (80 - 95% reduction in visibility) of moderate clear coat scratches.
 
 **Step 3: Protection**
 
@@ -118,18 +118,18 @@ After polishing, the corrected area (and ideally the full vehicle) is protected 
 The best scratch treatment is scratch prevention:
 
 **Paint Protection Film (PPF):**
-A transparent polyurethane film applied to vulnerable areas (bonnet, bumpers, door edge areas) that absorbs minor contact damage. Self-healing properties (heat causes light surface marks to disappear). Expensive (KES 50,000–200,000 for full coverage) but the best prevention available.
+A transparent polyurethane film applied to vulnerable areas (bonnet, bumpers, door edge areas) that absorbs minor contact damage. Self-healing properties (heat causes light surface marks to disappear). Expensive (KES 50,000 - 200,000 for full coverage) but the best prevention available.
 
 **Ceramic coating:**
-Harder than clearcoat — provides resistance to light contact scratching, though not against sharp objects or significant force. Also makes cleaning easier (less risk of washing-induced scratches).
+Harder than clearcoat  -  provides resistance to light contact scratching, though not against sharp objects or significant force. Also makes cleaning easier (less risk of washing-induced scratches).
 
 **Door edge protectors:**
-Rubber or plastic strips on door edges that take the impact of door-to-door contact in tight car parks. A KES 1,000 solution that prevents KES 5,000–20,000 in scratch repair.
+Rubber or plastic strips on door edges that take the impact of door-to-door contact in tight car parks. A KES 1,000 solution that prevents KES 5,000 - 20,000 in scratch repair.
 
 **Parking camera awareness:**
 Rear cameras show you obstacles behind the vehicle; front parking sensors protect against the front impacts that are a common source of panel contact in Nairobi's tight parking environments.
 
 **Being selective about car washes:**
-The single biggest source of cumulative scratch damage for most Kenyan vehicles is poor car washing technique at informal operators. Choosing quality car washes — or AutoShine's mobile service — that use proper technique and products prevents the ongoing scratch accumulation that makes paint look dull over time.
+The single biggest source of cumulative scratch damage for most Kenyan vehicles is poor car washing technique at informal operators. Choosing quality car washes  -  or AutoShine's mobile service  -  that use proper technique and products prevents the ongoing scratch accumulation that makes paint look dull over time.
 
 For scratch assessment or professional polishing service, book with AutoShine through WhatsApp or our website.`;

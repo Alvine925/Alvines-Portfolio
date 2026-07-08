@@ -1,6 +1,6 @@
 import type { Variants } from "framer-motion";
 
-// Cubic bezier ease — typed correctly for framer-motion
+// Cubic bezier ease  -  typed correctly for framer-motion
 const ease = [0.22, 1, 0.36, 1] as [number, number, number, number];
 
 export const fadeUp: Variants = {

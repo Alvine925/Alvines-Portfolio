@@ -2,17 +2,17 @@ export const coverImage = "https://images.unsplash.com/photo-1556742049-0cfed4f6
 
 export const content = `## M-Pesa API Integration (Daraja): A Developer's Guide for Kenyan Applications
 
-M-Pesa's Daraja API is the most important payment integration any Kenyan developer can build. With over 30 million active M-Pesa users in Kenya transacting over $200 billion annually, M-Pesa is not just a payment option for Kenyan products — it's the payment option. Applications that don't integrate M-Pesa exclude the majority of Kenya's transacting population.
+M-Pesa's Daraja API is the most important payment integration any Kenyan developer can build. With over 30 million active M-Pesa users in Kenya transacting over $200 billion annually, M-Pesa is not just a payment option for Kenyan products  -  it's the payment option. Applications that don't integrate M-Pesa exclude the majority of Kenya's transacting population.
 
 The Daraja API (daraja means "bridge" in Kiswahili) is Safaricom's developer platform for M-Pesa integration. It's mature, well-documented relative to its complexity, and supported by an active Kenyan developer community that has solved most integration challenges and shared those solutions publicly.
 
-This guide covers M-Pesa Daraja API integration comprehensively — from account setup through the most common integration patterns, with practical code examples and the gotchas that cost developers hours of debugging.
+This guide covers M-Pesa Daraja API integration comprehensively  -  from account setup through the most common integration patterns, with practical code examples and the gotchas that cost developers hours of debugging.
 
 ![M-Pesa mobile payment on smartphone Kenya](https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80)
 
 ## Understanding the M-Pesa Daraja API Ecosystem
 
-Daraja isn't a single API — it's a collection of APIs for different M-Pesa transaction types.
+Daraja isn't a single API  -  it's a collection of APIs for different M-Pesa transaction types.
 
 **STK Push (Lipa na M-Pesa Online / C2B via STK):**
 The most commonly integrated API. Initiates a payment request from your server that appears as a push notification on the customer's phone. The customer enters their M-Pesa PIN to confirm the payment. The flow is:
@@ -228,11 +228,11 @@ const getCachedAccessToken = async () => {
 };
 \`\`\`
 
-**Result code 1032 (cancelled by user):** Users who receive the STK push and don't confirm in time, or who actively cancel, generate ResultCode 1032. Handle this gracefully — don't retry automatically; present the customer with the option to try again.
+**Result code 1032 (cancelled by user):** Users who receive the STK push and don't confirm in time, or who actively cancel, generate ResultCode 1032. Handle this gracefully  -  don't retry automatically; present the customer with the option to try again.
 
 **Duplicate transaction handling:** A customer might accidentally initiate two STK pushes. Your callback handler should check whether the MpesaReceiptNumber has already been processed before updating your database.
 
-**Production go-live process:** Moving from sandbox to production requires Safaricom's go-live process — submitting your application, integrating their production credentials, and potentially a review. Allow 1–2 weeks for this process; don't build timeline assumptions on same-day production access.
+**Production go-live process:** Moving from sandbox to production requires Safaricom's go-live process  -  submitting your application, integrating their production credentials, and potentially a review. Allow 1 - 2 weeks for this process; don't build timeline assumptions on same-day production access.
 
 ## Handling Unreliable Callback Delivery
 
@@ -240,7 +240,7 @@ The Daraja callback is the mechanism by which you learn whether a payment succee
 
 **Implement STK Push query as a fallback:**
 
-After initiating an STK push, you can query its status using the STK Push Query API. Implement a polling mechanism that queries the status if your callback hasn't been received within a reasonable timeframe (60–120 seconds):
+After initiating an STK push, you can query its status using the STK Push Query API. Implement a polling mechanism that queries the status if your callback hasn't been received within a reasonable timeframe (60 - 120 seconds):
 
 \`\`\`javascript
 const queryStkPushStatus = async (checkoutRequestId) => {
@@ -283,8 +283,8 @@ Store the \`CheckoutRequestID\` returned when you initiate the STK push, and use
 
 ## Integrating M-Pesa with n8n Automation
 
-One of the highest-value combinations for Kenyan businesses is M-Pesa integration through the Daraja API connected to n8n automation workflows. Payment received → trigger fulfilment → update inventory → send receipt → update accounts → notify operations — all automated from a single M-Pesa callback.
+One of the highest-value combinations for Kenyan businesses is M-Pesa integration through the Daraja API connected to n8n automation workflows. Payment received → trigger fulfilment → update inventory → send receipt → update accounts → notify operations  -  all automated from a single M-Pesa callback.
 
-Tellus has built this pattern for multiple Kenyan businesses. The result is a payment experience that is instantaneous and a post-payment process that is fully automated — no manual reconciliation, no manual receipt sending, no manual order processing.
+Tellus has built this pattern for multiple Kenyan businesses. The result is a payment experience that is instantaneous and a post-payment process that is fully automated  -  no manual reconciliation, no manual receipt sending, no manual order processing.
 
-If you need M-Pesa integration for your Kenyan business application — whether building it yourself or engaging Tellus to build it for you — the foundation is solid and the capability is comprehensive. M-Pesa is Kenya's payment infrastructure. Build on it.`;
+If you need M-Pesa integration for your Kenyan business application  -  whether building it yourself or engaging Tellus to build it for you  -  the foundation is solid and the capability is comprehensive. M-Pesa is Kenya's payment infrastructure. Build on it.`;

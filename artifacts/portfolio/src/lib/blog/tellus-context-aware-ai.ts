@@ -10,21 +10,21 @@ This is the problem Tellus is built to solve. Not reactive assistance. Proactive
 
 ## The Reactive-to-Proactive Spectrum
 
-Think of AI assistance as a spectrum. At one end is a search bar — you provide the query, the system retrieves results. One step forward is an FAQ bot — it answers a defined set of questions, and the interaction is still fully user-initiated. Further still is a reactive assistant — it handles open-ended queries, uses reasoning, returns thoughtful responses, but still waits to be asked. At the far end is a proactive assistant — it monitors, it maintains a model of your context, and it surfaces relevant information before you have formulated a question.
+Think of AI assistance as a spectrum. At one end is a search bar  -  you provide the query, the system retrieves results. One step forward is an FAQ bot  -  it answers a defined set of questions, and the interaction is still fully user-initiated. Further still is a reactive assistant  -  it handles open-ended queries, uses reasoning, returns thoughtful responses, but still waits to be asked. At the far end is a proactive assistant  -  it monitors, it maintains a model of your context, and it surfaces relevant information before you have formulated a question.
 
-The first three points on that spectrum describe most AI products on the market today. ChatGPT, Claude, Gemini, Copilot — these are reactive assistants of varying capability. They are powerful. They are useful. They are not proactive.
+The first three points on that spectrum describe most AI products on the market today. ChatGPT, Claude, Gemini, Copilot  -  these are reactive assistants of varying capability. They are powerful. They are useful. They are not proactive.
 
 Tellus is designed to occupy the proactive end of the spectrum. This is not a marketing distinction. It is a fundamental architectural difference that changes what the system can do for you.
 
 ## What Maintaining a Context Model Requires
 
-Building a proactive assistant means building and maintaining a model of what the user is currently working on — not a historical record, but a live, continuously updated representation of the present state of their work.
+Building a proactive assistant means building and maintaining a model of what the user is currently working on  -  not a historical record, but a live, continuously updated representation of the present state of their work.
 
 This requires three things technically.
 
 **State persistence across sessions.** A reactive assistant can be stateless. Each conversation is its own context window. A proactive assistant cannot be stateless. It needs to remember, across days and sessions, which projects are active, which threads are in-progress, which decisions are pending. The context model is a persistent data structure, not a conversation history.
 
-**Event-driven updates.** The context model goes stale the moment it stops being updated. Tellus receives event signals from integrated tools — a new email, a Slack message, a calendar event created, a task status changed — and processes each against the existing context model to determine whether the model should be updated and whether something should be surfaced.
+**Event-driven updates.** The context model goes stale the moment it stops being updated. Tellus receives event signals from integrated tools  -  a new email, a Slack message, a calendar event created, a task status changed  -  and processes each against the existing context model to determine whether the model should be updated and whether something should be surfaced.
 
 **Relevance scoring.** Not every event is equally relevant. A new email from a regular correspondent about an active project is highly relevant. A marketing newsletter is not. A Slack message in a channel you have not engaged with in three weeks is low signal. Relevance scoring determines what enters the context model and what is filtered out.
 
@@ -50,15 +50,15 @@ Context is time-sensitive. A project that dominated your attention three weeks a
 
 Tellus implements a context decay function. Each signal in the context model carries a recency weight that decreases over time following an exponential decay curve. A document edited this morning has full weight. A document edited five days ago has partial weight. A document not touched in three weeks has near-zero weight unless a new signal refreshes it.
 
-The time constants are calibrated empirically. Most active work cycles have a relevant horizon of about 72 hours for daily signals — things that matter today are usually things that have been active in the last three days. Slower-moving projects have a longer relevant horizon, which the model learns from engagement patterns.
+The time constants are calibrated empirically. Most active work cycles have a relevant horizon of about 72 hours for daily signals  -  things that matter today are usually things that have been active in the last three days. Slower-moving projects have a longer relevant horizon, which the model learns from engagement patterns.
 
-When a new signal arrives — a new email mentioning a project name, a Slack message in a channel associated with an initiative — it acts as a refresh, restoring weight to that context. The model continuously learns which signals are refresh-worthy and which are noise.
+When a new signal arrives  -  a new email mentioning a project name, a Slack message in a channel associated with an initiative  -  it acts as a refresh, restoring weight to that context. The model continuously learns which signals are refresh-worthy and which are noise.
 
 ## Connecting Information Across Silos
 
 The most valuable thing the context model enables is not better responses to your questions. It is the automatic connection of information across tools that live in separate silos.
 
-Here is the specific pattern. You receive an email about Project Horizon. In isolation, that email is one data point. But in the context model, Project Horizon has associated entities — a Slack channel where the team communicates, three Linear tasks that are outstanding, a meeting on Thursday, and a Google Doc that is the current working spec.
+Here is the specific pattern. You receive an email about Project Horizon. In isolation, that email is one data point. But in the context model, Project Horizon has associated entities  -  a Slack channel where the team communicates, three Linear tasks that are outstanding, a meeting on Thursday, and a Google Doc that is the current working spec.
 
 When the email arrives, Tellus surfaces all of this. Not because you asked. Because the system knows the connection exists and knows you are about to need it.
 
@@ -74,7 +74,7 @@ Without Tellus: Open Slack, scan 12 channels, read 47 unread messages. Open Gmai
 
 With Tellus: Open your laptop. Tellus has been monitoring since Friday. It presents a briefing: three items need your attention today. First, the Q3 planning document has a comment from the head of engineering that requires a decision before Thursday's meeting. Second, a client email from Friday remains unanswered and the client has a meeting with your CEO on Wednesday. Third, a Slack thread in the product channel reached a decision yesterday that affects an overdue task in your name.
 
-Everything else — the 47 Slack messages, the 31 emails — is visible if you want it, but Tellus has determined it does not require your attention.
+Everything else  -  the 47 Slack messages, the 31 emails  -  is visible if you want it, but Tellus has determined it does not require your attention.
 
 This is what proactive assistance looks like. Not answering questions better. Changing what you have to do to stay informed.
 
@@ -82,9 +82,9 @@ This is what proactive assistance looks like. Not answering questions better. Ch
 
 Proactive monitoring raises an obvious question: what is being read, and by whom?
 
-Tellus operates on a clear privacy model. The system monitors metadata and structure — who sent what, when, in which thread, referencing which project — more heavily than content. It does read content to determine relevance and surface summaries, but the goal is minimum necessary access.
+Tellus operates on a clear privacy model. The system monitors metadata and structure  -  who sent what, when, in which thread, referencing which project  -  more heavily than content. It does read content to determine relevance and surface summaries, but the goal is minimum necessary access.
 
-Specifically: Tellus never reads personal emails marked as personal in your email client. It never monitors direct messages between individuals unless you explicitly grant that integration scope. It processes content to extract signals, and those signals are stored in your personal context model — they are never used to train shared models or shared with other Tellus users.
+Specifically: Tellus never reads personal emails marked as personal in your email client. It never monitors direct messages between individuals unless you explicitly grant that integration scope. It processes content to extract signals, and those signals are stored in your personal context model  -  they are never used to train shared models or shared with other Tellus users.
 
 Data lives in your account's context store. Tellus employees do not have access to your message content. The context model is yours and remains yours.
 
@@ -94,7 +94,7 @@ A proactive system that interrupts constantly is worse than no proactive system.
 
 Tellus maintains relevance thresholds. If an incoming signal does not score above threshold on the combined relevance model, it is not surfaced. It is logged, and remains accessible if you query for it, but it does not interrupt.
 
-During deep work mode — which you can signal manually or which Tellus can infer from a period of sustained focused activity — the threshold is raised further. Only urgent, high-relevance items break through.
+During deep work mode  -  which you can signal manually or which Tellus can infer from a period of sustained focused activity  -  the threshold is raised further. Only urgent, high-relevance items break through.
 
 During user-set quiet hours, Tellus does not surface anything. Items are queued and presented as a batch summary when quiet hours end.
 

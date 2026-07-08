@@ -18,7 +18,7 @@ export function Blog() {
     <Layout>
       <SEO
         canonical="/blog"
-        title="Writing — WhatsApp Bots, Automation & Building in Kenya"
+        title="Writing  -  WhatsApp Bots, Automation & Building in Kenya"
         description="Alvine Otieno writes about WhatsApp AI bots, workflow automation, product development in Kenya, and what it actually takes to build and ship. No fluff. Just things worth reading."
         keywords="WhatsApp automation blog Kenya, AI developer writing Kenya, building products Kenya, tech blog Kisumu, workflow automation tips, WhatsApp bot development guide"
       />

@@ -16,7 +16,7 @@ Graduate trainee programmes offer several advantages over direct entry into a st
 
 **Structured training:** Most formal graduate programmes include weeks to months of structured training before trainees take up their full responsibilities. This training builds foundational professional skills, product/service knowledge, and sector understanding that junior hires in non-programme roles have to pick up on the job without support.
 
-**Rotation opportunities:** Many Kenyan graduate programmes include rotations across different functions — finance, operations, commercial, supply chain — that provide a breadth of experience unusual at the entry level. This breadth accelerates career development by creating an understanding of how an organisation functions as a whole.
+**Rotation opportunities:** Many Kenyan graduate programmes include rotations across different functions  -  finance, operations, commercial, supply chain  -  that provide a breadth of experience unusual at the entry level. This breadth accelerates career development by creating an understanding of how an organisation functions as a whole.
 
 **Mentorship:** Programme structures typically include assigned mentors who are senior professionals in the organisation. Access to experienced mentors at the beginning of a career is genuinely valuable for navigating the political and cultural dynamics of professional organisations.
 
@@ -30,7 +30,7 @@ Graduate trainee programmes offer several advantages over direct entry into a st
 
 **Banking Sector:**
 
-*Equity Bank Group Graduate Trainee Programme:* One of Kenya's most prominent graduate programmes, Equity's trainee programme recruits broadly from Kenyan universities annually. Trainees rotate through banking functions including retail, business banking, operations, and digital banking. The programme is competitive — Equity's size and training reputation attract thousands of applicants.
+*Equity Bank Group Graduate Trainee Programme:* One of Kenya's most prominent graduate programmes, Equity's trainee programme recruits broadly from Kenyan universities annually. Trainees rotate through banking functions including retail, business banking, operations, and digital banking. The programme is competitive  -  Equity's size and training reputation attract thousands of applicants.
 
 *KCB Bank Group:* Kenya's largest bank by total assets runs graduate intake programmes that recruit across business, finance, IT, and operations functions. KCB's network across East Africa creates opportunities for regional exposure.
 
@@ -40,7 +40,7 @@ Graduate trainee programmes offer several advantages over direct entry into a st
 
 **FMCG and Manufacturing:**
 
-*Unilever Kenya:* One of the most coveted graduate programmes in Kenya. Unilever's Future Leaders Programme provides intensive commercial, marketing, and supply chain training with a fast track for exceptional performers. Unilever's programme is more selective than most — academic performance, leadership evidence, and assessment centre performance all matter.
+*Unilever Kenya:* One of the most coveted graduate programmes in Kenya. Unilever's Future Leaders Programme provides intensive commercial, marketing, and supply chain training with a fast track for exceptional performers. Unilever's programme is more selective than most  -  academic performance, leadership evidence, and assessment centre performance all matter.
 
 *British American Tobacco Kenya (BAT):* The BAT Graduate Talent Programme in Kenya offers exposure to marketing, operations, and commercial functions in an FMCG with a strong regional presence.
 
@@ -52,7 +52,7 @@ Graduate trainee programmes offer several advantages over direct entry into a st
 
 *Deloitte East Africa:* Deloitte Kenya's audit and tax practices run structured graduate recruitment annually. Entrants typically start with ACCA or CPA studies supported by the firm. The Big Four training reputation is one of the strongest in Kenya's professional services market.
 
-*KPMG Kenya:* Similar structure to Deloitte — graduate recruitment into audit, tax, and advisory with professional qualification support.
+*KPMG Kenya:* Similar structure to Deloitte  -  graduate recruitment into audit, tax, and advisory with professional qualification support.
 
 *PwC Kenya:* PricewaterhouseCoopers' Kenya practice runs graduate intakes across audit, assurance, tax, and consulting.
 
@@ -74,25 +74,25 @@ Graduate trainee programmes offer several advantages over direct entry into a st
 
 ## Selection Criteria: What Graduate Programmes Look For
 
-**Academic performance:** Most Kenyan graduate programmes have minimum academic requirements — typically Second Class Upper (equivalent to a CGPA of 3.0+) or equivalent. Meeting this threshold is necessary but not sufficient; it puts you in the pool but doesn't distinguish you within it.
+**Academic performance:** Most Kenyan graduate programmes have minimum academic requirements  -  typically Second Class Upper (equivalent to a CGPA of 3.0+) or equivalent. Meeting this threshold is necessary but not sufficient; it puts you in the pool but doesn't distinguish you within it.
 
-**Leadership and extracurricular experience:** Graduate programmes in Kenya consistently look for evidence of leadership outside the classroom. Student union leadership, sports team captaincy, club presidency, community project leadership — these demonstrate the interpersonal, organisational, and motivational capabilities that academic performance alone cannot.
+**Leadership and extracurricular experience:** Graduate programmes in Kenya consistently look for evidence of leadership outside the classroom. Student union leadership, sports team captaincy, club presidency, community project leadership  -  these demonstrate the interpersonal, organisational, and motivational capabilities that academic performance alone cannot.
 
 **Communication skills:** Written and verbal communication assessment is part of virtually every major graduate programme selection process in Kenya. Essay questions, group discussion performance, and interview clarity are all assessed.
 
-**Analytical capability:** Many programmes assess numerical and analytical reasoning through psychometric tests — tests of logical reasoning, numerical reasoning, and verbal reasoning. These are standardised assessments that can be meaningfully improved through practice.
+**Analytical capability:** Many programmes assess numerical and analytical reasoning through psychometric tests  -  tests of logical reasoning, numerical reasoning, and verbal reasoning. These are standardised assessments that can be meaningfully improved through practice.
 
 **Cultural fit and values alignment:** Increasingly, Kenyan graduate programmes assess whether candidates align with the organisation's stated values. Research the organisation's values specifically and be prepared to speak to them with genuine examples.
 
 ## The Selection Process: What to Expect
 
-**Online application:** Most graduate programmes accept online applications through their career portals. Application quality matters — tailored applications that demonstrate knowledge of the specific programme and organisation outperform generic ones.
+**Online application:** Most graduate programmes accept online applications through their career portals. Application quality matters  -  tailored applications that demonstrate knowledge of the specific programme and organisation outperform generic ones.
 
 **Online assessments:** Psychometric tests (numerical, verbal, logical reasoning) are typically part of the first screening stage. Many candidates underperform at this stage not because they lack capability but because they've never practised the test format. Practice resources are widely available online.
 
 **Video interview:** Increasingly common as a second-stage filter. Typically pre-recorded (you answer questions on screen without a live interviewer). Clear, confident, concise answers to competency-based questions.
 
-**Assessment centre:** The definitive stage for most major Kenyan graduate programmes. A half- or full-day process involving group exercises, case studies, individual presentations, and face-to-face interviews. Assessment centres are designed to be hard to game — they observe how you naturally behave in realistic scenarios.
+**Assessment centre:** The definitive stage for most major Kenyan graduate programmes. A half- or full-day process involving group exercises, case studies, individual presentations, and face-to-face interviews. Assessment centres are designed to be hard to game  -  they observe how you naturally behave in realistic scenarios.
 
 **Final interview:** For candidates who survive the assessment centre, a final interview with senior managers or HR leadership before offers are made.
 
@@ -100,22 +100,22 @@ Graduate trainee programmes offer several advantages over direct entry into a st
 
 Kenyan graduate programme recruitment is primarily annual, with most programmes recruiting between September and March for positions that begin between April and September.
 
-**Banking programmes:** Typically recruit from October–February.
-**FMCG programmes:** Often recruit from August–December.
+**Banking programmes:** Typically recruit from October - February.
+**FMCG programmes:** Often recruit from August - December.
 **Professional services (Big Four):** Recruit continuously through the year, with peak intakes typically starting in January.
 **Telecommunications:** Variable by company; Safaricom typically recruits annually with intake in Q1.
 
-Applications submitted late in the recruitment window are sometimes evaluated from a smaller remaining pool — but more importantly, many programmes use rolling admissions, closing the programme when sufficient high-quality candidates have been secured. Apply early.
+Applications submitted late in the recruitment window are sometimes evaluated from a smaller remaining pool  -  but more importantly, many programmes use rolling admissions, closing the programme when sufficient high-quality candidates have been secured. Apply early.
 
 ## For Graduates Not Yet in Formal Employment
 
 If you've graduated and are searching for your first role without access to structured programmes, the direct application route is the reality. Here's what maximises success:
 
-**TellusJobs for targeted discovery:** TellusJobs surfaces graduate-appropriate roles from Kenya's full employment market — not just advertised graduate programmes, but the broad range of junior roles that don't come with a formal programme label but offer genuine professional development.
+**TellusJobs for targeted discovery:** TellusJobs surfaces graduate-appropriate roles from Kenya's full employment market  -  not just advertised graduate programmes, but the broad range of junior roles that don't come with a formal programme label but offer genuine professional development.
 
 **Professional certification as a bridge:** For graduates struggling to break into formal employment, short professional certification programmes (ACCA, CPA, PMP foundation, specific software certifications) can provide the credential that differentiates your application in a competitive pool.
 
-**SME first, corporate after:** Large corporates and multinationals attract the most applicants. SMEs — smaller Kenyan companies with genuine growth — hire fewer applicants, offer more direct responsibility, and provide the professional experience that makes subsequent corporate applications stronger.
+**SME first, corporate after:** Large corporates and multinationals attract the most applicants. SMEs  -  smaller Kenyan companies with genuine growth  -  hire fewer applicants, offer more direct responsibility, and provide the professional experience that makes subsequent corporate applications stronger.
 
 **Freelance work to build credibility:** For certain fields (writing, design, development, accounting), freelance work builds a portfolio that substitutes for employment experience in application materials.
 

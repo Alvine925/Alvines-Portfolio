@@ -2,9 +2,9 @@ export const coverImage = "https://images.unsplash.com/photo-1563986768494-4dee2
 
 export const content = `## Data Privacy in Africa: What Kenyan Businesses and Professionals Need to Know
 
-Data privacy has moved from a niche legal concern to a mainstream business requirement across Africa. Kenya's Data Protection Act, enacted in 2019 and implemented by the Office of the Data Protection Commissioner (ODPC), places clear legal obligations on organisations that process personal data in Kenya. Similar frameworks are active or in development across the continent — Nigeria's NDPR, South Africa's POPIA, Uganda's Data Protection and Privacy Act — reflecting a regional convergence toward stronger data protection standards.
+Data privacy has moved from a niche legal concern to a mainstream business requirement across Africa. Kenya's Data Protection Act, enacted in 2019 and implemented by the Office of the Data Protection Commissioner (ODPC), places clear legal obligations on organisations that process personal data in Kenya. Similar frameworks are active or in development across the continent  -  Nigeria's NDPR, South Africa's POPIA, Uganda's Data Protection and Privacy Act  -  reflecting a regional convergence toward stronger data protection standards.
 
-For Kenyan businesses using AI and automation tools — including tools like Tellus — understanding data privacy obligations is not optional. The ODPC has investigative and enforcement authority, the penalties for non-compliance are meaningful, and customer trust in data handling is increasingly a competitive factor in Kenyan markets.
+For Kenyan businesses using AI and automation tools  -  including tools like Tellus  -  understanding data privacy obligations is not optional. The ODPC has investigative and enforcement authority, the penalties for non-compliance are meaningful, and customer trust in data handling is increasingly a competitive factor in Kenyan markets.
 
 This guide covers the data privacy landscape for Kenyan businesses: the legal framework, the specific obligations for organisations using AI and automation, how to assess your compliance position, and how Tellus is built to support rather than complicate your data privacy responsibilities.
 
@@ -12,7 +12,7 @@ This guide covers the data privacy landscape for Kenyan businesses: the legal fr
 
 ## Kenya's Data Protection Act: The Core Framework
 
-The Data Protection Act (DPA), enacted in November 2019, is Kenya's primary data protection legislation. It is modelled significantly on the EU's General Data Protection Regulation (GDPR) — sharing its core concepts, principles, and structure — while adapted to Kenya's context.
+The Data Protection Act (DPA), enacted in November 2019, is Kenya's primary data protection legislation. It is modelled significantly on the EU's General Data Protection Regulation (GDPR)  -  sharing its core concepts, principles, and structure  -  while adapted to Kenya's context.
 
 **Key definitions:**
 
@@ -20,9 +20,9 @@ The Data Protection Act (DPA), enacted in November 2019, is Kenya's primary data
 
 *Data controller:* An organisation or individual that determines the purposes and means of processing personal data. If your business decides what customer data to collect and why, you are a data controller.
 
-*Data processor:* An organisation that processes personal data on behalf of a data controller. Technology vendors — including SaaS providers, cloud services, AI tools — that process your customer data are typically data processors.
+*Data processor:* An organisation that processes personal data on behalf of a data controller. Technology vendors  -  including SaaS providers, cloud services, AI tools  -  that process your customer data are typically data processors.
 
-*Processing:* Any operation performed on personal data — collection, storage, retrieval, use, sharing, deletion.
+*Processing:* Any operation performed on personal data  -  collection, storage, retrieval, use, sharing, deletion.
 
 **The data protection principles:**
 
@@ -46,7 +46,7 @@ The DPA establishes seven core principles that all personal data processing must
 
 Under the DPA, every instance of personal data processing must have a legal basis. The DPA recognises several:
 
-**Consent:** The individual has given specific, informed, unambiguous consent to processing. In Kenya, this means opt-in consent — pre-ticked boxes do not count. Consent must be as easy to withdraw as to give.
+**Consent:** The individual has given specific, informed, unambiguous consent to processing. In Kenya, this means opt-in consent  -  pre-ticked boxes do not count. Consent must be as easy to withdraw as to give.
 
 **Contract:** Processing is necessary to perform a contract with the individual, or to take steps before entering a contract.
 
@@ -60,7 +60,7 @@ Under the DPA, every instance of personal data processing must have a legal basi
 
 Most B2C Kenyan businesses process personal data (customer name, phone number, purchase history, location) under a combination of contract (processing needed to fulfil orders) and legitimate interests (marketing to existing customers). B2B businesses typically rely on contract and legitimate interests.
 
-If your business sends marketing communications via WhatsApp, you need explicit consent for those marketing messages — contract and legitimate interests do not cover unsolicited marketing.
+If your business sends marketing communications via WhatsApp, you need explicit consent for those marketing messages  -  contract and legitimate interests do not cover unsolicited marketing.
 
 ## ODPC Registration and Compliance Requirements
 
@@ -72,7 +72,7 @@ ODPC registration is not optional for businesses processing customer data. Penal
 
 **Data Protection Policy:**
 
-Registered controllers must maintain a Data Protection Policy — a document describing how the organisation processes personal data, the bases for processing, how data subjects can exercise their rights, and how the organisation protects data.
+Registered controllers must maintain a Data Protection Policy  -  a document describing how the organisation processes personal data, the bases for processing, how data subjects can exercise their rights, and how the organisation protects data.
 
 **Data subject rights:**
 
@@ -100,7 +100,7 @@ If your WhatsApp bot (powered by an AI model) processes customer messages, that 
 
 **The third-country transfer issue:**
 
-Most global AI tools (OpenAI, Anthropic, Google) process data on servers outside Kenya — typically in the US or EU. The DPA restricts transfer of personal data outside Kenya to countries with adequate data protection (similar standards to Kenya's DPA) or with appropriate safeguards (such as contractual clauses).
+Most global AI tools (OpenAI, Anthropic, Google) process data on servers outside Kenya  -  typically in the US or EU. The DPA restricts transfer of personal data outside Kenya to countries with adequate data protection (similar standards to Kenya's DPA) or with appropriate safeguards (such as contractual clauses).
 
 In practice, Kenya's ODPC has not published a formal adequacy list, but the US-EU situation suggests that contracts with appropriate data protection clauses (standard contractual clauses) can provide the required safeguards for cross-border transfers.
 
@@ -140,7 +140,7 @@ For each category of processing identified in your data inventory, confirm the l
 
 **Step 3: Privacy notice**
 
-Draft or update your privacy notice — the customer-facing document that explains your data processing. This must be provided to customers when you collect their data.
+Draft or update your privacy notice  -  the customer-facing document that explains your data processing. This must be provided to customers when you collect their data.
 
 **Step 4: Data subject rights procedures**
 
@@ -154,4 +154,4 @@ Register with the ODPC if you haven't already. The registration process is avail
 
 For every third-party vendor that processes personal data on your behalf (cloud storage, CRM, marketing tools, AI tools), confirm they operate under adequate data protection terms and have appropriate security measures.
 
-Data privacy compliance is a continuous process, not a one-time project. The landscape evolves — ODPC guidance develops, new processing activities arise, vendor relationships change. Building data privacy consideration into your ongoing business operations, rather than treating it as a periodic audit exercise, is the approach that genuinely protects both your customers and your business.`;
+Data privacy compliance is a continuous process, not a one-time project. The landscape evolves  -  ODPC guidance develops, new processing activities arise, vendor relationships change. Building data privacy consideration into your ongoing business operations, rather than treating it as a periodic audit exercise, is the approach that genuinely protects both your customers and your business.`;

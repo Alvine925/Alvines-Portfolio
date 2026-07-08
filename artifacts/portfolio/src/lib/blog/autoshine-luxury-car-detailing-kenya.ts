@@ -2,11 +2,11 @@ export const coverImage = "https://images.unsplash.com/photo-1503376780353-7e669
 
 export const content = `## Luxury Car Detailing in Kenya: White Glove Care for High-Value Vehicles
 
-Kenya's growing affluent class has produced a significant and growing population of luxury vehicles on Nairobi's roads. Mercedes-Benz, BMW, Porsche, Audi, Land Rover, Lexus, and increasingly exotic brands — Bentley, Ferrari, Lamborghini — are visible in Nairobi's affluent suburbs. These vehicles represent investments of KES 6 million to KES 60 million or more. Their care requirements are proportionally more demanding.
+Kenya's growing affluent class has produced a significant and growing population of luxury vehicles on Nairobi's roads. Mercedes-Benz, BMW, Porsche, Audi, Land Rover, Lexus, and increasingly exotic brands  -  Bentley, Ferrari, Lamborghini  -  are visible in Nairobi's affluent suburbs. These vehicles represent investments of KES 6 million to KES 60 million or more. Their care requirements are proportionally more demanding.
 
 Luxury vehicle care is not simply premium car washing at higher prices. The paint finishes, materials, and engineering of luxury vehicles require specific knowledge, techniques, and products to care for correctly. A generic car wash that damages the clearcoat on a KES 1.5 million Toyota Corolla causes a problem. The same treatment on a KES 15 million Mercedes S-Class causes a significantly more expensive problem.
 
-AutoShine's luxury vehicle detailing service is built around the specific requirements of high-value vehicles — from the products used to the technique applied to the handling of the vehicle during service.
+AutoShine's luxury vehicle detailing service is built around the specific requirements of high-value vehicles  -  from the products used to the technique applied to the handling of the vehicle during service.
 
 ![Luxury car being detailed with professional equipment](https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&q=80)
 
@@ -16,7 +16,7 @@ AutoShine's luxury vehicle detailing service is built around the specific requir
 
 Luxury vehicles often feature paint types that require specific handling:
 
-*Matte finishes:* Increasingly common on high-end vehicles — both factory matte (Porsche, BMW M series, Mercedes AMG) and matte vinyl wraps. Matte finishes are extremely sensitive to incorrect treatment. Traditional polishing products cannot be used (they create shiny spots in the matte finish). Many standard waxes cannot be used. Specific matte-safe cleaning and protection products are required.
+*Matte finishes:* Increasingly common on high-end vehicles  -  both factory matte (Porsche, BMW M series, Mercedes AMG) and matte vinyl wraps. Matte finishes are extremely sensitive to incorrect treatment. Traditional polishing products cannot be used (they create shiny spots in the matte finish). Many standard waxes cannot be used. Specific matte-safe cleaning and protection products are required.
 
 *Ceramic and crystalline paint finishes:* Some luxury vehicles (notably certain Rolls-Royce and Bentley models) feature specialist paint finishes with specific care requirements. These are not standard paint that can be treated like any other vehicle.
 
@@ -24,9 +24,9 @@ Luxury vehicles often feature paint types that require specific handling:
 
 **Higher paint defect visibility:**
 
-Luxury vehicle paint is typically applied to higher standards with more layers than mass-market vehicles. Ironically, this makes swirl marks and scratches more visible rather than less — the deeper, glossier finish provides a higher-contrast background against which surface imperfections stand out more clearly.
+Luxury vehicle paint is typically applied to higher standards with more layers than mass-market vehicles. Ironically, this makes swirl marks and scratches more visible rather than less  -  the deeper, glossier finish provides a higher-contrast background against which surface imperfections stand out more clearly.
 
-A professional luxury detailer working on a new Mercedes GLE 53 must be more precise, more deliberate, and more thorough in defect removal than working on a standard saloon — because every remaining imperfection is more visible.
+A professional luxury detailer working on a new Mercedes GLE 53 must be more precise, more deliberate, and more thorough in defect removal than working on a standard saloon  -  because every remaining imperfection is more visible.
 
 **Interior material requirements:**
 
@@ -38,7 +38,7 @@ A professional luxury detailer working on a new Mercedes GLE 53 must be more pre
 
 **Wheel finish sensitivity:**
 
-Diamond-cut alloy wheels (polished face with colour infill), high-gloss black wheels, and other premium wheel finishes require non-acidic wheel cleaners — strong acid-based wheel cleaners that are acceptable on standard alloys can damage diamond-cut finishes permanently.
+Diamond-cut alloy wheels (polished face with colour infill), high-gloss black wheels, and other premium wheel finishes require non-acidic wheel cleaners  -  strong acid-based wheel cleaners that are acceptable on standard alloys can damage diamond-cut finishes permanently.
 
 ## AutoShine's Luxury Detailing Process
 
@@ -67,13 +67,13 @@ Before machine polishing any luxury vehicle, we measure paint thickness with an 
 - The safest correction depth for this specific vehicle
 - Whether any panels have had bodywork (filled or resprayed areas have different paint depth)
 
-This step protects against the irreversible consequence of over-polishing — removing clearcoat down to the colour layer.
+This step protects against the irreversible consequence of over-polishing  -  removing clearcoat down to the colour layer.
 
 **Two-stage correction on perfect surfaces:**
 
 For luxury vehicles with minimal paint defects, AutoShine uses a less aggressive approach than might be used on a neglected vehicle:
-- Stage 1: Light cutting compound on a softer pad — just enough aggression to address what's present
-- Stage 2: Fine finishing polish on a polishing pad — refines the surface to maximum gloss
+- Stage 1: Light cutting compound on a softer pad  -  just enough aggression to address what's present
+- Stage 2: Fine finishing polish on a polishing pad  -  refines the surface to maximum gloss
 
 For more defected paint, additional compounding stages are appropriate, with full documentation of each stage's approach.
 
@@ -87,7 +87,7 @@ For luxury vehicles, AutoShine recommends and applies only premium protection:
 
 *IGL Coatings Kenzo/Premier:* Professional ceramic coatings with specific application procedures and long-term protection warranties.
 
-These products are not available to consumers — they're supplied only to trained and certified applicators. Their performance significantly exceeds consumer-grade ceramic products.
+These products are not available to consumers  -  they're supplied only to trained and certified applicators. Their performance significantly exceeds consumer-grade ceramic products.
 
 **Interior luxury service:**
 
@@ -105,13 +105,13 @@ AutoShine's luxury interior service addresses every material appropriately:
 AutoShine's luxury vehicle detailing pricing reflects the additional time, skill, and premium products required:
 
 **Luxury Maintenance Detail:**
-For well-maintained luxury vehicles with existing protection. Light correction where needed, protection maintenance, thorough interior. Duration: 4–5 hours. Price range: KES 8,000–15,000.
+For well-maintained luxury vehicles with existing protection. Light correction where needed, protection maintenance, thorough interior. Duration: 4 - 5 hours. Price range: KES 8,000 - 15,000.
 
 **Luxury Full Correction Detail:**
-Two-stage paint correction including paint thickness measurement, machine polishing to address swirls and scratches, followed by premium ceramic coating application. Duration: 8–12 hours (typically two-day service). Price range: KES 25,000–60,000 depending on vehicle size and paint condition.
+Two-stage paint correction including paint thickness measurement, machine polishing to address swirls and scratches, followed by premium ceramic coating application. Duration: 8 - 12 hours (typically two-day service). Price range: KES 25,000 - 60,000 depending on vehicle size and paint condition.
 
 **New Car Protection:**
-For newly acquired luxury vehicles, applied before the paint accumulates any defects. Light decontamination, paint enhancement polish, and full ceramic coating. Duration: 6–8 hours. Price range: KES 20,000–50,000.
+For newly acquired luxury vehicles, applied before the paint accumulates any defects. Light decontamination, paint enhancement polish, and full ceramic coating. Duration: 6 - 8 hours. Price range: KES 20,000 - 50,000.
 
 **Note:** Pricing for very large vehicles (Bentley Flying Spur, Rolls-Royce, large SUVs) is at the top of or above these ranges given the additional surface area and time required.
 

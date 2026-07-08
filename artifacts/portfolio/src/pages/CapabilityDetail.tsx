@@ -44,29 +44,41 @@ export function CapabilityDetail() {
       />
 
       {/* Hero */}
-      <div className="w-full border-b border-border/30 bg-muted/20 py-24 md:py-32">
-        <div className="max-w-5xl mx-auto px-6">
+      <div className="w-full relative overflow-hidden border-b border-border/30" style={{ minHeight: "480px" }}>
+        {/* Background image */}
+        <div className="absolute inset-0">
+          <img
+            src={cap.heroImage}
+            alt={cap.heroImageAlt}
+            className="w-full h-full object-cover"
+          />
+          {/* Gradient overlay — dark at bottom, semi-dark at top */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/55 to-black/80" />
+        </div>
+
+        {/* Content on top of image */}
+        <div className="relative z-10 max-w-5xl mx-auto px-6 py-24 md:py-36">
           <motion.div variants={fadeUp} initial="hidden" animate="visible">
             <Link
               href="/capabilities"
-              className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider mb-10 text-muted-foreground hover:text-foreground transition-colors"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider mb-10 text-white/60 hover:text-white transition-colors"
             >
               <ArrowLeft size={13} /> All Capabilities
             </Link>
-            <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-5">
+            <p className="text-xs font-semibold tracking-[0.2em] text-emerald-400 uppercase mb-5">
               Capability {cap.number}
             </p>
-            <h1 className="font-serif text-2xl md:text-4xl font-bold leading-snug mb-5 max-w-3xl">
+            <h1 className="font-serif text-2xl md:text-4xl font-bold leading-snug mb-5 max-w-3xl text-white">
               {cap.title}
             </h1>
-            <p className="text-lg md:text-xl text-primary font-medium italic mb-6 max-w-2xl">
+            <p className="text-lg md:text-xl text-white/75 font-medium italic mb-8 max-w-2xl">
               {cap.tagline}
             </p>
-            <div className="flex flex-wrap gap-2 mt-6">
+            <div className="flex flex-wrap gap-2">
               {cap.tools.map((tool) => (
                 <span
                   key={tool}
-                  className="text-xs text-muted-foreground border border-border/60 rounded px-2.5 py-1 font-medium"
+                  className="text-xs text-white/70 border border-white/20 rounded px-2.5 py-1 font-medium backdrop-blur-sm bg-white/5"
                 >
                   {tool}
                 </span>

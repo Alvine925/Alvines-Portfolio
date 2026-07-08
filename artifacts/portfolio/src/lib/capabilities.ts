@@ -8,6 +8,8 @@ export interface Capability {
   whatYouGet: string[];
   whoIsThisFor: string;
   tools: string[];
+  heroImage: string;
+  heroImageAlt: string;
   // Detail page fields
   overview: string;
   process: { step: string; title: string; detail: string }[];
@@ -35,6 +37,8 @@ export const capabilities: Capability[] = [
     whoIsThisFor:
       "Businesses whose customers are already on WhatsApp — which in Kenya is almost everyone. If you're losing leads because your funnel requires a download or a form, this solves it.",
     tools: ["Meta WhatsApp Cloud API", "OpenAI API", "n8n", "Node.js", "Supabase"],
+    heroImage: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=1600&q=80",
+    heroImageAlt: "Person using WhatsApp on a smartphone to interact with a business bot",
     overview:
       "WhatsApp is Kenya's operating system for business. With over 97% smartphone penetration on WhatsApp in Kenya's urban markets, your customers are already there — the question is whether your business is actually present in a useful way, or just sending broadcast messages into the void. I build WhatsApp bots that function as complete product interfaces: sign-up flows, booking systems, dashboards, event creation tools, and transactional pipelines — all driven entirely through conversation, without your users needing to visit a website, download an app, or fill in a form.",
     process: [
@@ -114,6 +118,8 @@ export const capabilities: Capability[] = [
     whoIsThisFor:
       "Teams doing the same tasks manually every week. Founders spending hours on admin instead of growth. Operations managers who know something is automatable but don't know how to start.",
     tools: ["n8n", "Make / Integromat", "OpenAI API", "Zapier", "Airtable", "Google Workspace"],
+    heroImage: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1600&q=80",
+    heroImageAlt: "Interconnected gears representing automated workflow systems and business process automation",
     overview:
       "The most expensive thing in a growing business is not software — it is the time your best people spend on tasks that a well-designed system could do automatically. I map your operations, identify every repetitive step, and replace manual work with trigger-based automations that run without human input. The automations I build aren't fragile Zapier chains that break on the first edge case — they're robust pipelines with error handling, retry logic, and monitoring that your team can actually rely on.",
     process: [
@@ -193,6 +199,8 @@ export const capabilities: Capability[] = [
     whoIsThisFor:
       "Businesses with no online presence, or businesses whose current site isn't converting. Founders who need a real product built, not a landing page dressed up as one.",
     tools: ["React", "Next.js", "WordPress", "Wix", "Tailwind CSS", "Supabase", "Vercel"],
+    heroImage: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=1600&q=80",
+    heroImageAlt: "Developer working on a web platform with multiple screens showing code and design",
     overview:
       "Every digital product I've built has gone through the same crucible: real users, real traffic, real edge cases. I don't build demos. I build platforms that handle the messy reality of production — variable network conditions, unexpected user behaviour, payment failures, and scale. Whether you need a polished marketing site that converts, a complex platform with user accounts and data pipelines, or something in between, I bring the same approach: understand the problem first, then build the right solution for it.",
     process: [
@@ -272,6 +280,8 @@ export const capabilities: Capability[] = [
     whoIsThisFor:
       "Kenyan retailers with offline sales who want to sell online. Businesses losing customers because their checkout doesn't support M-Pesa. Anyone who needs a Kenyan-market e-commerce setup that actually converts.",
     tools: ["WooCommerce", "M-Pesa Daraja API", "Flutterwave", "WordPress", "Stripe"],
+    heroImage: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1600&q=80",
+    heroImageAlt: "Person making a mobile payment on a smartphone in Kenya",
     overview:
       "E-commerce in Kenya has a distinct set of requirements that most international platforms and most Kenyan developers trained on international tutorials get wrong. M-Pesa must be the primary payment method, not an add-on. The checkout must work on a KES 15,000 Android phone on a Safaricom 4G connection. The product experience must handle the specific purchasing behaviours of Kenyan consumers — price sensitivity, trust signals, and the expectation of negotiation. I've built e-commerce for the Kenyan market specifically, and the difference shows in the conversion numbers.",
     process: [
@@ -351,6 +361,8 @@ export const capabilities: Capability[] = [
     whoIsThisFor:
       "Businesses who've tried AI tools and found them too generic. Founders who want to add intelligence to an existing product without starting from scratch. Anyone who needs AI that understands Kenyan context.",
     tools: ["OpenAI API", "LangChain", "Supabase pgvector", "n8n", "Python", "Node.js"],
+    heroImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600&q=80",
+    heroImageAlt: "Abstract visualization of artificial intelligence and large language model neural networks",
     overview:
       "Every business is experimenting with AI. Most of those experiments are either ChatGPT wrappers that could be replaced by a direct ChatGPT subscription, or proof-of-concepts that work beautifully in demos and collapse when exposed to real user data. I build the third thing: AI integrations that are genuinely connected to your business logic, trained on your context, and engineered to handle the variance of real-world inputs. The difference is prompt engineering discipline, retrieval-augmented generation, output validation, and an understanding of what Kenyan users actually need from an AI system.",
     process: [
@@ -430,6 +442,8 @@ export const capabilities: Capability[] = [
     whoIsThisFor:
       "Founders who are busy but not growing. Teams where everyone is working hard but the business isn't moving. Operators who want someone who understands both business and technology in the same sentence.",
     tools: ["Notion", "Airtable", "Google Workspace", "n8n", "Slack", "HubSpot"],
+    heroImage: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1600&q=80",
+    heroImageAlt: "Business professional reviewing operational systems and workflow documentation",
     overview:
       "Most businesses that bring me in for technology work have a process problem disguised as a technology problem. The new software they want built won't fix the issue because the issue is that no one has agreed on how the process should work in the first place. I bring an operations lens to every engagement — mapping how work actually flows through your business, identifying where value is being lost, and designing the process before selecting the tools to run it. This is what separates systems that transform a business from tools that collect dust.",
     process: [
@@ -509,6 +523,8 @@ export const capabilities: Capability[] = [
     whoIsThisFor:
       "Founders who are great at building products but struggle to build the commercial relationships that turn a product into a business. Teams with good market traction who need to formalise and scale the sales process. Businesses entering a new market or segment in Kenya who need strategic guidance on how to approach it.",
     tools: ["HubSpot", "Notion", "LinkedIn Sales Navigator", "Google Workspace", "Apollo.io"],
+    heroImage: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1600&q=80",
+    heroImageAlt: "Two business professionals shaking hands after closing a partnership deal",
     overview:
       "Most founders in Kenya's tech ecosystem are excellent builders and poor sellers — not because they lack ambition, but because business development is a discipline that requires a different skillset and a different operating cadence than product development. Good business development is systematic: it identifies the right targets, builds genuine relationships over time, creates compelling value propositions, and converts interest into signed contracts. It is not a one-time pitch campaign or a LinkedIn connection request. I've built BD functions from scratch in the Kenyan market and understand both the relationship norms and the commercial realities that determine whether an approach succeeds or falls flat.",
     process: [
@@ -588,6 +604,8 @@ export const capabilities: Capability[] = [
     whoIsThisFor:
       "Aspiring founders who have a general direction but haven't found the specific idea worth building. Entrepreneurs with multiple ideas who need to choose the right one. Existing businesses exploring a new product line or market segment. Anyone who wants to reduce the risk of starting before they're sure.",
     tools: ["Notion", "Typeform", "Figma", "Google Trends", "Meta Ads Manager", "Airtable"],
+    heroImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&q=80",
+    heroImageAlt: "Entrepreneurs brainstorming business ideas at a whiteboard with sticky notes",
     overview:
       "The most important decision in any venture is what to build. Everything that comes after — the team, the funding, the execution — is downstream of whether the fundamental idea is sound. Yet most founders spend enormous energy validating execution (can we build this?) while under-validating the market (does anyone want this enough to pay for it?). I run structured validation processes that stress-test the core assumptions behind a business idea — the problem severity, the solution fit, the willingness to pay, and the competitive dynamics — and produce a clear evidence-based recommendation on whether to proceed, pivot, or pursue a different opportunity.",
     process: [
@@ -667,6 +685,8 @@ export const capabilities: Capability[] = [
     whoIsThisFor:
       "Entrepreneurs preparing to approach investors, banks, or grant bodies. Founders who've written their first business plan and want an honest assessment before it's in front of decision-makers. Business owners seeking formal credit who need a plan that meets lender requirements. Anyone who wants a critical read from someone with actual operating experience in Kenya.",
     tools: ["Google Workspace", "Excel / Google Sheets", "Notion", "Pitch", "PowerPoint"],
+    heroImage: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=1600&q=80",
+    heroImageAlt: "Business professional carefully reviewing a detailed business plan document",
     overview:
       "Most business plans have the same weaknesses: market sizing that mistakes TAM for addressable market, financial projections built on optimistic assumptions with no sensitivity analysis, competitive analysis that lists competitors without honestly assessing their strengths, and operational plans that describe what the business will do without explaining how it will actually do it. I review business plans the way a sharp investor or an experienced banker would — with specific, direct feedback on every section, a line-by-line challenge of the financial model's assumptions, and a clear prioritised list of what needs to change before the plan is ready to put in front of the people whose yes you need.",
     process: [

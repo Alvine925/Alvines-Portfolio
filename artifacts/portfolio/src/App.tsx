@@ -13,6 +13,7 @@ import { BlogPost } from "@/pages/BlogPost";
 import { Contact } from "@/pages/Contact";
 import { Capabilities } from "@/pages/Capabilities";
 import { CapabilityDetail } from "@/pages/CapabilityDetail";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +39,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
+          <ScrollToTop />
           <Router />
         </WouterRouter>
         <Toaster />

@@ -172,5 +172,4 @@ Kenya's dry seasons bring their own set of challenges that are often underestima
 **Paint UV protection:** The dry season coincides with reduced cloud cover and therefore maximum UV intensity. This is the period during which unprotected paint fades, oxidises, and develops chalky patches fastest. A fresh wax or sealant application at the start of the dry season provides protection through the highest-intensity months.
 
 AutoShine's maintenance reminder service, available through the app, sends monthly prompts covering the checks most relevant to the current season. Subscribing to this reminder service is free and ensures that seasonal maintenance tasks are not overlooked during busy periods.
-
 `;

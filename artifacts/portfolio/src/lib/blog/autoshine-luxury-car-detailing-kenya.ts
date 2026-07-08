@@ -170,5 +170,4 @@ The higher the purchase price of the vehicle, the more valuable comprehensive pr
 **Regular detail maintenance:** Even the best protection requires maintenance. AutoShine's luxury maintenance programme covers a professional wash and protection top-up every month, with a full detail and protection refresh twice per year, keeping the vehicle at peak condition throughout the year.
 
 Contact AutoShine's luxury department directly to arrange a vehicle assessment and personalised care plan.
-
 `;

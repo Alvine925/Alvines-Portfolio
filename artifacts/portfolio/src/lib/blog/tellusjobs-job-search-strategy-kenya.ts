@@ -93,4 +93,14 @@ Use TellusJobs' sector data to answer strategic questions: What skills are being
 A job search strategy that answers these questions, and then invests in the preparation required to be genuinely competitive for those future roles, produces better career outcomes than one focused exclusively on finding the next position as quickly as possible.
 
 The best time to build the skills, network, and profile for your next career step is while you're employed in your current role — not when you've been made redundant and have three months to find something. TellusJobs' continuous market intelligence makes this forward-looking career management accessible regardless of your current employment status.
+
+## Staying Resilient in Kenya's Evolving Job Market
+
+Kenya's professional job market in 2025 is more dynamic than at any previous point. Sectors that were stable for decades are experiencing rapid disruption — financial services through fintech, retail through e-commerce, logistics through last-mile tech platforms. New roles are appearing faster than traditional professional development pathways can respond.
+
+Job search strategy in this environment requires adaptability as a core skill. The professionals advancing fastest are those who combine deep expertise in their core discipline with adjacent skills in data analysis, digital tools, and cross-functional collaboration. TellusJobs' market intelligence continuously surfaces which adjacent skills are increasing in employer demand within specific Kenyan sectors, allowing professionals to make informed decisions about where to invest learning time.
+
+Resilience also means maintaining an active professional network even when not actively job seeking. The Kenyan professional market remains relationship-driven — many of the best opportunities circulate within networks before they are publicly listed. TellusJobs' networking and referral features support ongoing professional relationship maintenance, not just active search periods.
+
+Finally, resilience means understanding your market value. Professionals who know their salary market value, understand which of their skills are in highest demand, and have a clear picture of their career trajectory are better positioned to negotiate, better positioned to evaluate opportunities, and better equipped to make confident decisions about when to stay and when to move. TellusJobs provides this intelligence as a continuous service — the foundation of a career managed strategically rather than reactively.
 `;

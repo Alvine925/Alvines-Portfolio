@@ -160,5 +160,4 @@ A significant advantage of quality waterless wash products is that most formulat
 AutoShine's recommended waterless product for Kenyan customers is a UV-rated formulation specifically selected for performance in equatorial light conditions. The UV inhibitors in this product degrade more slowly in Kenya's sun than standard formulations, meaning the protective layer it deposits remains active for longer between applications.
 
 For customers who do their own interim cleaning between AutoShine professional services, a good waterless product plus correct microfibre technique is the most effective home care option. AutoShine's team can demonstrate the correct technique at any service visit, and the product is available for purchase through the AutoShine app.
-
 `;

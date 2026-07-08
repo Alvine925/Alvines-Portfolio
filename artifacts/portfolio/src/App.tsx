@@ -12,6 +12,7 @@ import { Blog } from "@/pages/Blog";
 import { BlogPost } from "@/pages/BlogPost";
 import { Contact } from "@/pages/Contact";
 import { Capabilities } from "@/pages/Capabilities";
+import { CapabilityDetail } from "@/pages/CapabilityDetail";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ function Router() {
       <Route path="/blog" component={Blog} />
       <Route path="/blog/:slug" component={BlogPost} />
       <Route path="/capabilities" component={Capabilities} />
+      <Route path="/capabilities/:slug" component={CapabilityDetail} />
       <Route path="/contact" component={Contact} />
       <Route component={NotFound} />
     </Switch>

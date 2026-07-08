@@ -127,4 +127,11 @@ AI applications designed for the Kenyan market need to account for this network 
 
 Tellus's architecture accounts for the Kenyan network context. The platform is optimised for sub-second perceived response time even on standard Kenyan 4G connections — not just on the high-bandwidth connections that characterise international benchmark testing.
 
+## Practical Implications for Kenyan AI Deployment
+
+For businesses and developers building AI-powered products in Kenya, the latency problem is not theoretical — it directly shapes which architectures succeed and which frustrate users enough to abandon the product.
+
+The practical heuristic is to treat every AI call as if it will take 2-4 seconds in the Kenyan environment, then design the user experience around that expectation. Applications that assume sub-second AI responses — because that is what they observed during testing from a European or American office — will disappoint Kenyan users and see abandonment rates that appear puzzling when reviewed against global benchmarks.
+
+The good news is that this is a solvable problem. Developers who understand the constraint and design for it — through streaming, optimistic UI, local pre-computation, and intelligent caching — can deliver excellent AI experiences to Kenyan users on standard mobile connections. Tellus provides both the AI infrastructure and the latency-aware integration patterns that make this achievable for development teams building on the platform.
 `;

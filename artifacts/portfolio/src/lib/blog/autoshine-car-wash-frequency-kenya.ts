@@ -160,5 +160,4 @@ A full paint correction service to remove the scratch marks, oxidation, and etch
 > The single most expensive car care mistake Kenyan owners make is treating the paint as something to fix when it fails rather than something to protect before it does.
 
 Booking through the AutoShine app takes under 60 seconds and allows you to set recurring appointments that match your vehicle's specific frequency needs. The app also tracks your wash history, which is useful documentation if you are maintaining a vehicle under a manufacturer warranty that requires evidence of proper care.
-
 `;

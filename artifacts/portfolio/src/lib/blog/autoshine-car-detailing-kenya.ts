@@ -189,5 +189,4 @@ AutoShine's detailing packages are priced by vehicle size and service level with
 The detailing bay at AutoShine is a covered, dust-controlled indoor workspace - essential for polishing work, which cannot be done correctly in open-air conditions with ambient dust settling on wet paint surfaces. LED detailing lights are used throughout the process to reveal defects that are invisible under standard lighting. All work is photographed at each stage.
 
 Customers are given an estimated collection time at drop-off and receive a WhatsApp notification when their vehicle is ready. For full detail services taking a full day, AutoShine can arrange transport to and from the facility on request.
-
 `;

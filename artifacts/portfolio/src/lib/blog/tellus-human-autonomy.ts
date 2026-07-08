@@ -104,4 +104,15 @@ This framing — AI as the platform for everything that doesn't require judgment
 
 Building toward greater AI capability is not a reason to reduce human oversight. It is a reason to design more sophisticated oversight mechanisms — to keep the human genuinely in the loop as AI becomes better at producing outputs that look correct even when they aren't. Tellus is built for that future.
 
+## Practical Autonomy Design for Kenyan Professionals
+
+The question for Kenyan professionals adopting AI tools is not whether to use AI — that decision is already settled by competitive reality. The question is how to integrate AI in ways that augment rather than replace professional judgment, and how to build habits that keep the human genuinely in control even as AI handles increasing volumes of work.
+
+Three principles guide effective autonomy design. First, maintain clear decision ownership: know which decisions in your workflow you are delegating to AI for drafting, which you are reviewing before acting, and which you are making independently. Ambiguity about this distinction is where professional accountability erodes unintentionally.
+
+Second, build review habits that match risk levels. A routine email drafted by AI requires a quick read before sending. A client proposal, a legal document, or a financial recommendation requires substantive review regardless of how well-written the AI output appears. The temptation to reduce review on high-stakes outputs as AI quality improves is the specific risk to manage.
+
+Third, treat AI errors as your errors. In a professional context, you are accountable for everything that goes out under your name or your organisation's name regardless of which tool generated the first draft. This accountability is not a burden — it is the structure that makes professional work meaningful. AI handles the volume; you own the quality.
+
+Tellus is designed to operate within these principles — providing productivity gains while keeping control, accountability, and professional judgment firmly with the Kenyan professionals using the platform.
 `;

@@ -181,19 +181,4 @@ This is why a professional ceramic coating service always includes a full paint 
 Only after the paint passes inspection does coating application begin. This preparation is what makes the difference between a ceramic coating that enhances an already excellent paint surface and one that permanently seals in existing problems.
 
 ![Vehicle paint correction and inspection before ceramic coating at AutoShine Kenya](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
-
-## Maintaining a Ceramic-Coated Vehicle
-
-A common misconception about ceramic coating is that it requires no maintenance. The coating dramatically reduces the maintenance requirement compared to unprotected or waxed paint, but some maintenance is still necessary to maximise the coating's performance and lifespan.
-
-**Regular washing is still required.** Contamination that sits on the coating long enough can bond to it, particularly in Kenya's conditions. The difference is that the contamination does not bond to the coating nearly as readily as to unprotected paint, and when contamination does accumulate, it releases more easily during washing. The correct wash interval with a ceramic coating is no longer than weekly for daily commuter vehicles.
-
-**Use pH-neutral car shampoo.** This was important for unprotected paint and remains important for ceramic-coated paint. Alkaline shampoos degrade the coating over time, reducing its hydrophobic performance and shortening its life.
-
-**Annual ceramic coating maintenance service.** Once per year, AutoShine's coating maintenance service involves a thorough inspection of the coating condition, chemical decontamination to remove any bonded contamination, and application of a ceramic top coat (a lighter coating layer applied over the cured base coating) to restore optimal hydrophobic performance and add another layer of protection. This service is far cheaper than the original application and significantly extends the coating's effective life.
-
-**Avoid automated car washes with brushes.** Rotating brush systems apply significant abrasive force to the coating surface. Touchless automated washes are acceptable. Hand washing by trained professionals (like AutoShine's team) is optimal.
-
-AutoShine includes a free 12-month inspection and coating assessment with every ceramic coating service, scheduled for one year after application. This provides a documented coating condition report and a recommendation for the appropriate level of annual maintenance.
-
 `;

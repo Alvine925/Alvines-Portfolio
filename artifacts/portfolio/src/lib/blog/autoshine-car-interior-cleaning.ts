@@ -164,5 +164,4 @@ Cleaning removes existing contamination. Protection prevents the next round of c
 **Plastic UV protectant:** Applied to all dashboard and trim plastics, a UV protectant extends the life of these surfaces by blocking the photodegradation that causes cracking and chalking. AutoShine uses water-based, non-greasy formulations that protect without creating a reflective glare on the windshield from dashboard surfaces.
 
 **Odour treatment:** After a deep clean, an ozone treatment can be used for vehicles with persistent odours that enzyme cleaners have not fully resolved. This should be done by a professional as it requires all occupants and organic materials to be removed from the vehicle.
-
 `;

@@ -194,4 +194,15 @@ M-Pesa is not just a payment method in Kenya — it is the infrastructure around
 
 Tellus provides M-Pesa integration support as part of its e-commerce automation services — from Daraja API setup through payment matching logic and downstream automation. The goal is an e-commerce operation that processes from order to fulfillment with minimal manual intervention.
 
+## Inventory and Supplier Automation
+
+Beyond the customer-facing order flow, e-commerce automation in Kenya extends to inventory management and supplier coordination — two areas where manual processes create significant operational risk.
+
+**Automated stock alerts:** When inventory falls below a defined threshold, automated alerts to procurement responsible parties — via WhatsApp or email — prevent the stockout situations that create order cancellations and customer service crises. The alert can include current stock levels, average daily sales velocity, and the calculated days of stock remaining, giving the recipient the information needed to make a purchase decision without additional research.
+
+**Supplier communication automation:** Routine supplier interactions — order placement, delivery confirmation, invoice reconciliation — can be partially automated using structured WhatsApp or email templates that reduce the manual communication burden on operations staff. For businesses with multiple suppliers, this coordination overhead is substantial.
+
+**Returns and refund processing:** Defining a clear automated workflow for returns and refunds — with defined triggers, customer communication templates, and M-Pesa reversal processes where applicable — eliminates one of the most labour-intensive customer service functions in Kenyan e-commerce.
+
+The cumulative effect of automating across these layers — customer communication, payment processing, fulfillment coordination, inventory management, supplier communication — is an e-commerce operation that scales revenue without a proportional increase in operations headcount. This is how small Kenyan e-commerce businesses grow efficiently. Tellus builds and maintains these automation systems so that the operational infrastructure keeps pace with business growth.
 `;

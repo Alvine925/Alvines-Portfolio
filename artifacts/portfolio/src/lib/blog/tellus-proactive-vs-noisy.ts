@@ -130,4 +130,13 @@ Beyond direct feedback, users can set focus modes that suppress all but the most
 
 The goal is a notification system that, through a combination of intelligent defaults and responsive personalisation, eventually requires no manual management at all — one that has learned enough about the user's priorities to handle the filtering autonomously while the user maintains confidence that genuinely important things won't be missed.
 
+## The Business Case for Getting This Right
+
+Organisations that successfully implement intelligent notification filtering see measurable productivity improvements that go beyond the obvious reduction in interruptions. When professionals trust that their notification system is filtering intelligently, they can enter deep work states with confidence — knowing they will be alerted if something genuinely urgent arrives and that silence means they can focus.
+
+This trust is the hardest thing to establish and the most valuable thing the system can provide. It requires a track record of correct filtering — genuinely important notifications delivered promptly, genuinely unimportant ones filtered — over a long enough period that the user has stopped second-guessing the system.
+
+For Kenyan professionals operating across multiple communication channels simultaneously — WhatsApp, email, Slack, SMS, LinkedIn — the problem is acute. The volume of incoming messages across these channels during a typical Nairobi work day is high enough that manual filtering is itself a significant time cost. Tellus's cross-channel notification intelligence reduces this cognitive load in a way that single-channel tools cannot.
+
+The competitive advantage of deep, uninterrupted focus work — the kind that produces the highest-quality outputs — is available to professionals who solve this notification problem. Tellus is built to make that advantage accessible.
 `;

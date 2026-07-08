@@ -255,5 +255,4 @@ The programme is structured to suit partners at different entry points - from fu
 For operators who have existing car wash facilities and want to upgrade their quality positioning, AutoShine's operations team provides an assessment and improvement programme that brings the operation to AutoShine's service standards without requiring a full franchise commitment.
 
 Contact AutoShine's business development team through the website to request a partnership information pack and arrange an introductory call.
-
 `;

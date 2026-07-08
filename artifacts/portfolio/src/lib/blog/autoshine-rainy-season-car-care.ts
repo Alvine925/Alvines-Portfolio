@@ -157,5 +157,4 @@ The period after Kenya's rainy seasons ends is an important time for a thorough 
 **Fresh protection application:** After post-rain decontamination, apply a fresh layer of paint protection before the next dry season begins. This ensures the paint enters the period of maximum UV intensity with maximum protection in place.
 
 AutoShine's post-rainy-season package covers all of these services and is bookable as a complete bundle through the AutoShine app.
-
 `;

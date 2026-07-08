@@ -159,5 +159,4 @@ AutoShine's tyre service covers cleaning, inspection, and dressing as part of an
 The tyre dressing applied after cleaning is a water-based formula selected specifically for durability in Kenya's UV environment. It conditions the rubber and applies UV protection, slowing the photodegradation that causes sidewall cracking. The finish is a natural-looking matte rather than the wet plastic appearance of older silicone-based dressings.
 
 Tyre pressure checking and inflation is available at AutoShine locations and is included in the Pro subscription tier. Bringing a tyre gauge to every AutoShine visit to verify inflation is not needed for subscribers - the team checks and corrects pressure at each service.
-
 `;

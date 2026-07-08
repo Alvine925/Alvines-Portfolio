@@ -175,5 +175,4 @@ AutoShine's professional service uses products specifically matched to Kenya's e
 The difference between a professional product application and a home application is not just the product quality. It is the preparation steps - proper decontamination before polishing, panel wiping with isopropyl alcohol before wax application, correct buffing pressure and technique. These preparation steps are what determine whether a product achieves its rated performance.
 
 Booking an assessment with AutoShine's product specialist - available as part of a full detail service or as a standalone 30-minute consultation - helps owners understand exactly what their vehicle needs and what products will perform best for their specific use case.
-
 `;

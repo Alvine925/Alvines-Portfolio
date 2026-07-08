@@ -155,5 +155,4 @@ Booking through the AutoShine app shows real-time availability at all locations,
 The AutoShine WhatsApp line (accessible through the app or website) is staffed during service hours for booking assistance, service questions, and quality feedback. Response time is under five minutes during operating hours. For fleet inquiries, the fleet team line handles all commercial account queries.
 
 Service hours extend from 7 AM to 7 PM Monday through Saturday, with Sunday service at select locations. Holiday hours are updated in the app and on the AutoShine WhatsApp Business account. Emergency mobile service outside standard hours is available by prior arrangement for fleet customers and Pro-tier subscribers.
-
 `;

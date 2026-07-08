@@ -176,5 +176,4 @@ AutoShine's wash service includes inspection of the windshield exterior for chip
 The windshield cleaning process at AutoShine uses a dedicated glass cleaner and lint-free glass cloths for both interior and exterior glass. The interior glass surface - often more contaminated than the exterior due to off-gassing from interior materials and fingerprints - receives dedicated cleaning rather than being wiped with the same microfibre cloths used on paint surfaces.
 
 AutoShine partners with windshield repair specialists for chip repair referrals when inspection flags an issue. The referral process takes under five minutes and the repair can typically be scheduled on the same day.
-
 `;

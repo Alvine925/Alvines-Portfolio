@@ -175,5 +175,4 @@ AutoShine's fleet platform was built specifically for the needs of Kenyan fleet 
 - **Dedicated account manager:** A single point of contact for scheduling questions, service changes, and billing queries
 
 Fleet accounts require a minimum of three registered vehicles and a monthly spend commitment of KES 5,000. For fleets below this threshold, AutoShine's subscription plans for individual vehicles are a more appropriate option. Contact the fleet team through the AutoShine website or app to schedule an onboarding call and site assessment.
-
 `;

@@ -173,5 +173,4 @@ Beyond the environmental argument, there are practical reasons to prefer eco-fri
 **Corporate responsibility requirements.** For businesses maintaining fleet vehicles, an increasing number of corporate environmental policies require that service suppliers demonstrate environmental responsibility. Using AutoShine's documented eco-friendly service supports compliance with these policies and is documentable in supplier ESG reports.
 
 The environmental choice and the quality choice align at AutoShine. Making the right decision for the planet does not require compromising on the quality of the service your vehicle receives.
-
 `;

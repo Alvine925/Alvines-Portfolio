@@ -159,5 +159,4 @@ A common concern about mobile car wash services is quality consistency - will th
 The completion photo documentation that AutoShine uses for all services - photos of the vehicle before and after service - is particularly important for mobile service, where no physical location manager is overseeing the work. These photos are shared with the client on the same day and stored in the client's account history. Any quality issue can be raised via the app and the team will return to address it.
 
 AutoShine's mobile service has maintained the same Net Promoter Score as the fixed locations in satisfaction surveys, indicating that the quality concern, while reasonable, does not reflect the actual service standard in practice. The most important variable is not location fixed vs mobile but whether the team has professional equipment, professional products, and proper training - all of which AutoShine's mobile teams have.
-
 `;

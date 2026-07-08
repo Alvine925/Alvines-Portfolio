@@ -183,5 +183,4 @@ Light surface scratch removal on a single panel: KES 2,500 to 5,000 depending on
 Work is not started without written customer approval of the quote. A before photo is taken as standard documentation. On completion, a final photo is taken alongside the before image and shared with the customer.
 
 AutoShine's scratch removal service includes one month of follow-up - if the treated area shows any quality issue within 30 days of service, the team will inspect and address it at no additional cost.
-
 `;

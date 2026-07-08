@@ -156,5 +156,4 @@ AutoShine's facility locations are deliberately chosen to be convenient for comm
 The AutoShine app shows real-time availability at each location, so you can book a slot that fits around your schedule rather than waiting in a queue. Most wash services are completed within 30 to 45 minutes for standard vehicles, and the app sends a notification when your vehicle is ready for collection.
 
 For vehicles that cannot leave the owner's location - vehicles parked at offices, residences in gated communities, or vehicles with mobility limitations - AutoShine's mobile service comes to you. The mobile team carries a self-contained water supply and professional equipment, delivering the same quality standard as a fixed location service.
-
 `;

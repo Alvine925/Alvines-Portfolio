@@ -164,5 +164,4 @@ The value of a professional polish and wax service extends significantly longer 
 **Every two to three months:** Apply a fresh coat of liquid or paste wax. This is the step most owners skip, and it is the most important. A fresh wax coat before Kenya's long rains, when acidic rainfall is highest, is particularly important protection for your paint.
 
 **Once or twice a year:** Have a professional polish and wax done by AutoShine's detailing team. This resets the paint to a high standard, corrects any defects that have accumulated, and applies a fresh base protection that your own spray wax maintenance builds on top of. The cost is a fraction of what a full paint correction requires if the car is neglected.
-
 `;

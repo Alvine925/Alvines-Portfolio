@@ -208,5 +208,4 @@ That difference in frequency compounds into a significant difference in vehicle 
 > Consistency in car care is not about any single wash. It is about never letting contamination accumulate long enough to start doing permanent damage.
 
 Setting up a subscription through the AutoShine app takes three minutes and includes a vehicle intake assessment where your vehicle's current condition is documented with photos. This serves as a baseline for tracking improvement over time and is useful documentation for insurance and resale purposes.
-
 `;

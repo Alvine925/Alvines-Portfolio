@@ -295,11 +295,11 @@ The official Safaricom Daraja API documentation covers the technical steps accur
 
 **Sandbox vs production differences:** The sandbox environment is permissive in ways production is not. Sandbox accepts requests with missing parameters that production will reject. Sandbox always returns success for STK Push requests regardless of whether the target phone number is real or the number format is valid. Testing in sandbox does not fully validate your production readiness. Always test with a real Safaricom number before claiming integration is complete.
 
-**Phone number normalisation is essential:** Safaricom's API requires phone numbers in the format `254XXXXXXXXX` — not `+254XXXXXXXXX`, not `0XXXXXXXXX`. If your application accepts phone numbers in any format (which it should, for user experience), you must normalise before passing to the API. Every API call with an incorrectly formatted number will fail, and the error messages are not always intuitive about the cause.
+**Phone number normalisation is essential:** Safaricom's API requires phone numbers in the format \`254XXXXXXXXX\` — not \`+254XXXXXXXXX\`, not \`0XXXXXXXXX\`. If your application accepts phone numbers in any format (which it should, for user experience), you must normalise before passing to the API. Every API call with an incorrectly formatted number will fail, and the error messages are not always intuitive about the cause.
 
 **Callback URL requirements:** Your callback URL must be publicly accessible via HTTPS with a valid SSL certificate. During development, you cannot use localhost. Tools like ngrok create temporary public tunnels for local development. In production, your callback endpoint must be reliably available — a Daraja callback that can't reach your endpoint will not retry in a way that allows you to recover missed payment notifications.
 
-**Idempotency and duplicate handling:** Daraja can deliver the same callback multiple times. Your callback handler must be idempotent — processing the same payment notification twice should produce the same result as processing it once. Implement deduplication on the `MpesaReceiptNumber` field that Daraja includes in every successful payment callback.
+**Idempotency and duplicate handling:** Daraja can deliver the same callback multiple times. Your callback handler must be idempotent — processing the same payment notification twice should produce the same result as processing it once. Implement deduplication on the \`MpesaReceiptNumber\` field that Daraja includes in every successful payment callback.
 
 ![M-Pesa Daraja API integration showing STK Push flow and callback handling architecture](https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80)
 

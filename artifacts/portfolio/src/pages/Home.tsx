@@ -111,9 +111,7 @@ export function Home() {
       <section className="border-t border-b border-border/40">
         <div className="max-w-6xl mx-auto px-6 py-8 flex flex-wrap gap-12 md:gap-20">
           {[
-            { num: "1M+", label: "People reached across projects" },
             { num: "50K+", label: "Events on MyJoyfulDay" },
-            { num: "500+", label: "Traders trained via Deriv Champions" },
             { num: "5", label: "Products shipped" },
           ].map(({ num, label }, i) => (
             <motion.div
@@ -124,8 +122,8 @@ export function Home() {
               viewport={{ once: true }}
               custom={i * 0.08}
             >
-              <p className="font-serif text-3xl md:text-4xl font-bold text-foreground">{num}</p>
-              <p className="text-sm text-muted-foreground mt-1 max-w-[140px] leading-snug">{label}</p>
+              <p className="font-serif text-xl md:text-2xl font-bold text-foreground">{num}</p>
+              <p className="text-xs text-muted-foreground mt-1 max-w-[140px] leading-snug">{label}</p>
             </motion.div>
           ))}
         </div>

@@ -19,9 +19,30 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
 import { FaXTwitter, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
 
+const SERVICES = [
+  "WhatsApp Bot Development",
+  "Workflow Automation (n8n / Make)",
+  "Website Design & Development",
+  "E-commerce Store Setup",
+  "AI Integration",
+  "Business Operations Consulting",
+  "Other / Not sure yet",
+] as const;
+
+const CONTACT_METHODS = ["Email", "Phone Call", "WhatsApp"] as const;
+
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
   email: z.string().email({ message: "Please enter a valid email address." }),
+  phone: z
+    .string()
+    .regex(/^[+\d\s\-()]+$/, { message: "Phone number can only contain digits, +, spaces, or hyphens." })
+    .refine(
+      (val) => val.replace(/\D/g, "").length >= 7,
+      { message: "Please enter a valid phone number with at least 7 digits." }
+    ),
+  service: z.string().min(1, { message: "Please select a service." }),
+  contactMethod: z.string().min(1, { message: "Please choose how you'd like to be contacted." }),
   message: z.string().min(10, { message: "Message must be at least 10 characters." }),
 });
 
@@ -36,13 +57,25 @@ const fadeUp = {
   }),
 };
 
+const inputClass =
+  "bg-transparent border-0 border-b border-border/60 rounded-none px-0 h-12 text-base focus-visible:ring-0 focus-visible:border-primary transition-colors placeholder:text-muted-foreground/50";
+
+const labelClass = "text-xs font-semibold tracking-[0.15em] uppercase text-muted-foreground";
+
 export function Contact() {
   const [formState, setFormState] = useState<FormState>("idle");
   const [errorMessage, setErrorMessage] = useState("");
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
-    defaultValues: { name: "", email: "", message: "" },
+    defaultValues: {
+      name: "",
+      email: "",
+      phone: "",
+      service: "",
+      contactMethod: "",
+      message: "",
+    },
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
@@ -55,16 +88,24 @@ export function Contact() {
       const res = await fetch(FORMSPREE_ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({ name: values.name, email: values.email, message: values.message }),
+        body: JSON.stringify({
+          name: values.name,
+          email: values.email,
+          phone: values.phone,
+          service: values.service,
+          preferred_contact: values.contactMethod,
+          message: values.message,
+        }),
       });
 
       if (res.ok) {
         setFormState("success");
         form.reset();
       } else {
-        // Fallback to mailto if Formspree not yet configured
         const subject = encodeURIComponent(`Portfolio contact from ${values.name}`);
-        const body = encodeURIComponent(`Name: ${values.name}\nEmail: ${values.email}\n\nMessage:\n${values.message}`);
+        const body = encodeURIComponent(
+          `Name: ${values.name}\nEmail: ${values.email}\nPhone: ${values.phone}\nService: ${values.service}\nPreferred contact: ${values.contactMethod}\n\nMessage:\n${values.message}`
+        );
         window.open(`mailto:otienoalvine925@gmail.com?subject=${subject}&body=${body}`);
         setFormState("success");
         form.reset();
@@ -177,7 +218,7 @@ export function Contact() {
             </div>
           </motion.div>
 
-          {/* Right: Form  -  no card, just form on background */}
+          {/* Right: Form */}
           <motion.div
             variants={fadeUp}
             initial="hidden"
@@ -207,19 +248,18 @@ export function Contact() {
                   className="space-y-8"
                   data-testid="form-contact"
                 >
+                  {/* Name */}
                   <FormField
                     control={form.control}
                     name="name"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-xs font-semibold tracking-[0.15em] uppercase text-muted-foreground">
-                          Your name
-                        </FormLabel>
+                        <FormLabel className={labelClass}>Your name</FormLabel>
                         <FormControl>
                           <Input
                             placeholder="What should I call you?"
                             {...field}
-                            className="bg-transparent border-0 border-b border-border/60 rounded-none px-0 h-12 text-base focus-visible:ring-0 focus-visible:border-primary transition-colors placeholder:text-muted-foreground/50"
+                            className={inputClass}
                             data-testid="input-name"
                           />
                         </FormControl>
@@ -227,35 +267,132 @@ export function Contact() {
                       </FormItem>
                     )}
                   />
+
+                  {/* Email + Phone side by side */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    <FormField
+                      control={form.control}
+                      name="email"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel className={labelClass}>Email address</FormLabel>
+                          <FormControl>
+                            <Input
+                              placeholder="your@email.com"
+                              type="email"
+                              {...field}
+                              className={inputClass}
+                              data-testid="input-email"
+                            />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+                    <FormField
+                      control={form.control}
+                      name="phone"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel className={labelClass}>Phone number</FormLabel>
+                          <FormControl>
+                            <Input
+                              placeholder="+254 700 000 000"
+                              type="tel"
+                              {...field}
+                              className={inputClass}
+                              data-testid="input-phone"
+                            />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+                  </div>
+
+                  {/* Service interest */}
                   <FormField
                     control={form.control}
-                    name="email"
+                    name="service"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-xs font-semibold tracking-[0.15em] uppercase text-muted-foreground">
-                          Email address
-                        </FormLabel>
+                        <FormLabel className={labelClass}>Service you're interested in</FormLabel>
                         <FormControl>
-                          <Input
-                            placeholder="your@email.com"
-                            type="email"
+                          <select
                             {...field}
-                            className="bg-transparent border-0 border-b border-border/60 rounded-none px-0 h-12 text-base focus-visible:ring-0 focus-visible:border-primary transition-colors placeholder:text-muted-foreground/50"
-                            data-testid="input-email"
-                          />
+                            data-testid="select-service"
+                            className="w-full bg-transparent border-0 border-b border-border/60 rounded-none px-0 h-12 text-base text-foreground focus:outline-none focus:border-primary transition-colors cursor-pointer"
+                          >
+                            <option value="" disabled className="bg-background text-muted-foreground">
+                              Select a service…
+                            </option>
+                            {SERVICES.map((s) => (
+                              <option key={s} value={s} className="bg-background text-foreground">
+                                {s}
+                              </option>
+                            ))}
+                          </select>
                         </FormControl>
                         <FormMessage />
                       </FormItem>
                     )}
                   />
+
+                  {/* Preferred contact method */}
+                  <FormField
+                    control={form.control}
+                    name="contactMethod"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel className={labelClass} id="contact-method-label">
+                          How would you like me to reach you?
+                        </FormLabel>
+                        <FormControl>
+                          <div
+                            role="radiogroup"
+                            aria-labelledby="contact-method-label"
+                            aria-required="true"
+                            className="flex gap-3 pt-2 flex-wrap"
+                          >
+                            {CONTACT_METHODS.map((method) => {
+                              const isSelected = field.value === method;
+                              return (
+                                <label
+                                  key={method}
+                                  className={`h-9 px-5 rounded-full border text-sm font-medium transition-all cursor-pointer flex items-center ${
+                                    isSelected
+                                      ? "border-primary bg-primary text-primary-foreground"
+                                      : "border-border text-muted-foreground hover:border-primary hover:text-primary"
+                                  }`}
+                                >
+                                  <input
+                                    type="radio"
+                                    name="contactMethod"
+                                    value={method}
+                                    checked={isSelected}
+                                    onChange={() => field.onChange(method)}
+                                    onBlur={field.onBlur}
+                                    className="sr-only"
+                                    aria-checked={isSelected}
+                                  />
+                                  {method}
+                                </label>
+                              );
+                            })}
+                          </div>
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+
+                  {/* Message */}
                   <FormField
                     control={form.control}
                     name="message"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-xs font-semibold tracking-[0.15em] uppercase text-muted-foreground">
-                          What's on your mind?
-                        </FormLabel>
+                        <FormLabel className={labelClass}>What's on your mind?</FormLabel>
                         <FormControl>
                           <Textarea
                             placeholder="Tell me what you're building, thinking, or stuck on..."

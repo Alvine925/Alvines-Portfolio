@@ -11,6 +11,22 @@ const fadeUp = {
   }),
 };
 
+const H2 = ({ children }: { children: React.ReactNode }) => (
+  <h2 className="font-serif text-base font-bold text-foreground mb-3 mt-10 first:mt-0">{children}</h2>
+);
+
+const H3 = ({ children }: { children: React.ReactNode }) => (
+  <h3 className="text-sm font-bold text-foreground mb-2 mt-6">{children}</h3>
+);
+
+const P = ({ children }: { children: React.ReactNode }) => (
+  <p className="text-sm text-muted-foreground leading-relaxed mb-3">{children}</p>
+);
+
+const UL = ({ children }: { children: React.ReactNode }) => (
+  <ul className="list-disc pl-5 space-y-1.5 mb-3 text-sm text-muted-foreground">{children}</ul>
+);
+
 export function Terms() {
   const lastUpdated = "8 July 2025";
 
@@ -34,91 +50,250 @@ export function Terms() {
           <p className="text-sm text-muted-foreground">Last updated: {lastUpdated}</p>
         </motion.div>
 
-        <motion.div
-          variants={fadeUp}
-          initial="hidden"
-          animate="visible"
-          custom={0.08}
-          className="prose prose-sm max-w-none text-muted-foreground space-y-8"
-        >
-          <section>
-            <h2 className="font-serif text-base font-bold text-foreground mb-2">1. Acceptance of terms</h2>
-            <p>
-              By accessing <strong className="text-foreground">alvineotieno.com</strong> you agree to these
-              terms. If you do not agree, please do not use this site.
-            </p>
-          </section>
+        <motion.div variants={fadeUp} initial="hidden" animate="visible" custom={0.08}>
 
-          <section>
-            <h2 className="font-serif text-base font-bold text-foreground mb-2">2. Intellectual property</h2>
-            <p>
-              All content on this site — including text, images, project descriptions, and code — is the
-              intellectual property of Alvine Otieno unless otherwise stated. You may not reproduce, distribute,
-              or commercially exploit any content without prior written permission. Sharing links to the site is
-              always welcome.
-            </p>
-          </section>
+          <H2>1. Agreement to Terms</H2>
+          <P>
+            These Terms of Use ("Terms") govern your access to and use of{" "}
+            <strong className="text-foreground">alvineotieno.com</strong> (the "Website"), operated by{" "}
+            <strong className="text-foreground">Alvine Otieno</strong>, a freelance developer and automation
+            specialist based in Kisumu, Kenya ("I", "me", or "my").
+          </P>
+          <P>
+            By accessing or using this Website, you confirm that you have read, understood, and agree to be bound
+            by these Terms and my{" "}
+            <a href="/privacy" className="text-primary hover:underline">Privacy Policy</a>. If you do not agree to
+            these Terms, please stop using the Website immediately.
+          </P>
+          <P>
+            I reserve the right to update or modify these Terms at any time. The "last updated" date above will
+            reflect the most recent changes. Continued use of the Website after changes are posted constitutes
+            acceptance of the revised Terms.
+          </P>
 
-          <section>
-            <h2 className="font-serif text-base font-bold text-foreground mb-2">3. Use of the contact form</h2>
-            <p>
-              The contact form is provided for legitimate professional enquiries. You agree not to use it to
-              send spam, unsolicited marketing, or any content that is unlawful, defamatory, or harmful.
-            </p>
-          </section>
+          <H2>2. About This Website</H2>
+          <P>
+            This Website is a personal portfolio and professional profile. Its purpose is to:
+          </P>
+          <UL>
+            <li>Showcase my work, projects, and professional capabilities</li>
+            <li>Provide information about the services I offer</li>
+            <li>Allow prospective clients and collaborators to contact me</li>
+            <li>Share articles and insights on topics including automation, web development, and AI</li>
+          </UL>
+          <P>
+            The Website is not a marketplace, e-commerce platform, or SaaS application. No transactions or
+            purchases take place on this Website itself.
+          </P>
 
-          <section>
-            <h2 className="font-serif text-base font-bold text-foreground mb-2">4. Accuracy of information</h2>
-            <p>
-              I make reasonable efforts to keep information on this site accurate and up-to-date. However, I
-              make no warranties — express or implied — about the completeness, accuracy, or fitness for any
-              particular purpose of the content.
-            </p>
-          </section>
+          <H2>3. Intellectual Property Rights</H2>
 
-          <section>
-            <h2 className="font-serif text-base font-bold text-foreground mb-2">5. External links</h2>
-            <p>
-              This site links to third-party websites for context. I have no control over their content and
-              accept no responsibility for them. Links do not imply endorsement.
-            </p>
-          </section>
+          <H3>3.1 My Content</H3>
+          <P>
+            All content on this Website — including but not limited to text, articles, project descriptions,
+            case studies, images, graphics, logos, code snippets, and design elements — is the intellectual
+            property of Alvine Otieno unless otherwise explicitly stated, and is protected by applicable
+            copyright, trademark, and intellectual property laws.
+          </P>
+          <P>
+            You may not reproduce, duplicate, copy, sell, resell, modify, distribute, publicly display,
+            or commercially exploit any content from this Website without obtaining prior written permission
+            from me. This includes content generated by AI tools that I have commissioned, edited, and published.
+          </P>
 
-          <section>
-            <h2 className="font-serif text-base font-bold text-foreground mb-2">6. Limitation of liability</h2>
-            <p>
-              To the maximum extent permitted by law, Alvine Otieno shall not be liable for any direct,
-              indirect, incidental, or consequential loss arising from your use of this site or the information
-              on it.
-            </p>
-          </section>
+          <H3>3.2 Permitted Uses</H3>
+          <P>You may, without prior permission:</P>
+          <UL>
+            <li>Share links to pages on this Website on social media or in personal communications</li>
+            <li>Quote brief excerpts from my blog posts for commentary or criticism, provided you clearly
+              attribute the source and link back to the original article</li>
+            <li>Print individual pages for personal, non-commercial reference</li>
+          </UL>
 
-          <section>
-            <h2 className="font-serif text-base font-bold text-foreground mb-2">7. Governing law</h2>
-            <p>
-              These terms are governed by the laws of the Republic of Kenya. Any disputes shall be subject to
-              the exclusive jurisdiction of the courts of Kenya.
-            </p>
-          </section>
+          <H3>3.3 Client and Third-Party Logos</H3>
+          <P>
+            Logos, trademarks, and brand assets of third parties (including client companies) shown on this
+            Website are the property of their respective owners and are used for identification and portfolio
+            purposes only. No endorsement is implied.
+          </P>
 
-          <section>
-            <h2 className="font-serif text-base font-bold text-foreground mb-2">8. Changes</h2>
-            <p>
-              I reserve the right to update these terms at any time. The "last updated" date at the top will
-              reflect the most recent revision. Continued use of the site constitutes acceptance.
-            </p>
-          </section>
+          <H3>3.4 Open Source Code</H3>
+          <P>
+            Where I reference open source libraries or tools, the respective licences of those projects apply.
+            Any code I share in blog posts is shared for educational purposes. If a specific licence is indicated,
+            that licence governs. Otherwise, do not reproduce code from this site in commercial products without
+            contacting me first.
+          </P>
 
-          <section>
-            <h2 className="font-serif text-base font-bold text-foreground mb-2">9. Contact</h2>
-            <p>
-              Questions about these terms? Email{" "}
+          <H2>4. Use of the Contact Form</H2>
+          <P>
+            The contact form is provided exclusively for legitimate professional enquiries. By submitting the form,
+            you represent and warrant that:
+          </P>
+          <UL>
+            <li>The information you provide is accurate and not misleading</li>
+            <li>You are at least 18 years of age, or are submitting with the consent of a parent or guardian</li>
+            <li>You will not use the form to send spam, unsolicited commercial messages, or bulk communications</li>
+            <li>You will not submit content that is unlawful, defamatory, threatening, offensive, or infringing
+              of any third-party rights</li>
+            <li>You will not attempt to impersonate another person or misrepresent your affiliation</li>
+          </UL>
+          <P>
+            I reserve the right to ignore, block, or report any misuse of the contact form.
+          </P>
+
+          <H2>5. Services and Freelance Engagements</H2>
+
+          <H3>5.1 No Contract on the Website</H3>
+          <P>
+            Browsing this Website or submitting the contact form does not create a contract between us.
+            A professional engagement only begins when both parties have agreed to a written proposal, scope
+            of work, or service agreement (whether by email, WhatsApp, or a formal contract document).
+          </P>
+
+          <H3>5.2 Service Descriptions</H3>
+          <P>
+            Descriptions of services on this Website (WhatsApp bot development, workflow automation, web
+            development, etc.) are for general information only. Specific deliverables, timelines, and pricing
+            are agreed individually for each project. I do not guarantee that any described service will be
+            available at any particular time or at any particular price.
+          </P>
+
+          <H3>5.3 Project-Specific Terms</H3>
+          <P>
+            Each freelance project is governed by its own scope of work and agreement. Where a conflict exists
+            between these Terms and a specific project agreement, the project agreement takes precedence.
+          </P>
+
+          <H2>6. Accuracy of Information</H2>
+          <P>
+            I make reasonable efforts to keep the content on this Website accurate, current, and complete.
+            However, I make no warranty — express or implied — that the information on this Website is:
+          </P>
+          <UL>
+            <li>Complete or free from errors</li>
+            <li>Up to date (portfolio items, pricing, availability, or technology stacks may change)</li>
+            <li>Suitable for any particular purpose</li>
+          </UL>
+          <P>
+            Project statistics, client outcomes, and results described on this Website reflect past performance
+            and are not guarantees of future results for any engagement.
+          </P>
+
+          <H2>7. Availability and Uptime</H2>
+          <P>
+            I make reasonable efforts to keep this Website available and accessible, but I do not guarantee
+            uninterrupted availability. The Website may be temporarily unavailable due to maintenance, hosting
+            issues, or circumstances beyond my control. I am not liable for any loss resulting from the
+            Website being unavailable.
+          </P>
+
+          <H2>8. External Links</H2>
+          <P>
+            This Website contains links to external websites including but not limited to LinkedIn, Twitter/X,
+            Facebook, GitHub, client project websites, and third-party service providers. These links are
+            provided for convenience and informational purposes only. I:
+          </P>
+          <UL>
+            <li>Do not control or endorse any external website or its content</li>
+            <li>Am not responsible for the accuracy, legality, or privacy practices of any linked site</li>
+            <li>Do not accept any liability for damage or loss caused by your use of an external site</li>
+          </UL>
+          <P>
+            The inclusion of a link does not imply my endorsement of that website, its operator, or its products
+            or services.
+          </P>
+
+          <H2>9. Disclaimer of Warranties</H2>
+          <P>
+            This Website and all its content are provided on an{" "}
+            <strong className="text-foreground">"as is" and "as available"</strong> basis, without any warranties
+            of any kind, either express or implied, including but not limited to implied warranties of
+            merchantability, fitness for a particular purpose, or non-infringement.
+          </P>
+          <P>
+            I do not warrant that this Website will be error-free, secure, or free of viruses or other harmful
+            components.
+          </P>
+
+          <H2>10. Limitation of Liability</H2>
+          <P>
+            To the fullest extent permitted by applicable law, Alvine Otieno shall not be liable for any:
+          </P>
+          <UL>
+            <li>Direct, indirect, incidental, special, consequential, or punitive damages</li>
+            <li>Loss of profits, revenue, data, goodwill, or business opportunities</li>
+            <li>Damages arising from reliance on information contained on this Website</li>
+            <li>Damages arising from any interruption, suspension, or termination of the Website</li>
+          </UL>
+          <P>
+            This limitation applies regardless of the theory of liability (contract, tort, negligence, strict
+            liability, or otherwise), even if I have been advised of the possibility of such damages.
+          </P>
+          <P>
+            In jurisdictions that do not allow the exclusion of certain warranties or the limitation of liability,
+            my liability is limited to the maximum extent permitted by law.
+          </P>
+
+          <H2>11. Indemnification</H2>
+          <P>
+            You agree to indemnify, defend, and hold harmless Alvine Otieno from and against any claims,
+            liabilities, damages, losses, and expenses (including reasonable legal fees) arising out of or
+            relating to your use of this Website, your violation of these Terms, or your infringement of any
+            third-party rights.
+          </P>
+
+          <H2>12. Privacy</H2>
+          <P>
+            Your use of this Website is also governed by my{" "}
+            <a href="/privacy" className="text-primary hover:underline">Privacy Policy</a>, which is incorporated
+            into these Terms by reference. By using this Website, you consent to the collection and use of your
+            personal data as described in the Privacy Policy.
+          </P>
+
+          <H2>13. Governing Law and Dispute Resolution</H2>
+          <P>
+            These Terms are governed by and construed in accordance with the laws of the{" "}
+            <strong className="text-foreground">Republic of Kenya</strong>, without regard to conflict of law principles.
+          </P>
+          <P>
+            Any dispute, claim, or controversy arising out of or relating to these Terms or the use of this
+            Website shall first be attempted to be resolved through good-faith negotiation. If negotiation fails
+            within 30 days, the dispute shall be subject to the exclusive jurisdiction of the courts of Kenya.
+          </P>
+
+          <H2>14. Severability</H2>
+          <P>
+            If any provision of these Terms is found to be unlawful, void, or unenforceable by a court of
+            competent jurisdiction, that provision shall be deemed severed from these Terms without affecting
+            the validity and enforceability of the remaining provisions.
+          </P>
+
+          <H2>15. Entire Agreement</H2>
+          <P>
+            These Terms, together with the Privacy Policy, constitute the entire agreement between you and
+            Alvine Otieno regarding your use of this Website, and supersede all prior understandings or
+            agreements relating to the same subject matter.
+          </P>
+
+          <H2>16. Contact</H2>
+          <P>
+            If you have any questions about these Terms, please contact me:
+          </P>
+          <UL>
+            <li><strong className="text-foreground">Email:</strong>{" "}
               <a href="mailto:otienoalvine925@gmail.com" className="text-primary hover:underline">
                 otienoalvine925@gmail.com
               </a>
-              .
-            </p>
-          </section>
+            </li>
+            <li><strong className="text-foreground">WhatsApp:</strong>{" "}
+              <a href="https://wa.me/254110486677" className="text-primary hover:underline">
+                +254 110 486 677
+              </a>
+            </li>
+            <li><strong className="text-foreground">Location:</strong> Kisumu, Kenya</li>
+          </UL>
+
         </motion.div>
       </div>
     </Layout>

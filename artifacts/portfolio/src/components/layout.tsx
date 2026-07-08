@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ReactNode } from "react";
 import { Link, useLocation } from "wouter";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
-import { FaXTwitter, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
+import { Menu, X, Mail, MapPin } from "lucide-react";
+import { FaXTwitter, FaLinkedinIn, FaFacebookF, FaWhatsapp } from "react-icons/fa6";
 
 const socialLinks = [
   {
@@ -24,11 +24,26 @@ const socialLinks = [
     icon: FaFacebookF,
     testId: "facebook",
   },
+  {
+    href: "https://wa.me/254700000000",
+    label: "WhatsApp",
+    icon: FaWhatsapp,
+    testId: "whatsapp",
+  },
 ];
 
 export function Navbar() {
   const [location] = useLocation();
   const [open, setOpen] = useState(false);
+
+  // Close sidebar on route change
+  useEffect(() => { setOpen(false); }, [location]);
+
+  // Lock body scroll when sidebar is open
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [open]);
 
   const links = [
     { href: "/about", label: "About" },
@@ -39,102 +54,195 @@ export function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border/50">
-      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link
-          href="/"
-          className="font-serif text-lg font-bold tracking-tight text-foreground hover:text-primary transition-colors"
-          data-testid="link-home"
-        >
-          Alvine.
-        </Link>
+    <>
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border/50">
+        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+          <Link
+            href="/"
+            className="font-serif text-lg font-bold tracking-tight text-foreground hover:text-primary transition-colors"
+            data-testid="link-home"
+          >
+            Alvine.
+          </Link>
 
-        <div className="hidden md:flex items-center gap-8">
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              data-testid={`link-nav-${link.label.toLowerCase()}`}
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                location.startsWith(link.href)
-                  ? "text-primary"
-                  : "text-muted-foreground"
-              }`}
-            >
-              {link.label}
-            </Link>
-          ))}
-          {/* Social icons in nav */}
-          <div className="flex items-center gap-3 pl-4 border-l border-border/50">
-            {socialLinks.map(({ href, label, icon: Icon, testId }) => (
-              <a
-                key={testId}
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={label}
-                data-testid={`link-nav-${testId}`}
-                className="text-primary hover:text-primary/70 transition-colors"
+          <div className="hidden md:flex items-center gap-8">
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                data-testid={`link-nav-${link.label.toLowerCase()}`}
+                className={`text-sm font-medium transition-colors hover:text-primary ${
+                  location.startsWith(link.href)
+                    ? "text-primary"
+                    : "text-muted-foreground"
+                }`}
               >
-                <Icon size={14} />
-              </a>
+                {link.label}
+              </Link>
             ))}
+            <div className="flex items-center gap-3 pl-4 border-l border-border/50">
+              {socialLinks.map(({ href, label, icon: Icon, testId }) => (
+                <a
+                  key={testId}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  data-testid={`link-nav-${testId}`}
+                  className="text-primary hover:text-primary/70 transition-colors"
+                >
+                  <Icon size={14} />
+                </a>
+              ))}
+            </div>
           </div>
+
+          <button
+            className="md:hidden text-foreground p-1"
+            onClick={() => setOpen(true)}
+            data-testid="button-mobile-menu"
+            aria-label="Open menu"
+          >
+            <Menu size={22} />
+          </button>
         </div>
+      </nav>
 
-        <button
-          className="md:hidden text-foreground"
-          onClick={() => setOpen(!open)}
-          data-testid="button-mobile-menu"
-          aria-label="Toggle menu"
-        >
-          {open ? <X size={20} /> : <Menu size={20} />}
-        </button>
-      </div>
-
+      {/* Mobile sidebar */}
       <AnimatePresence>
         {open && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden border-t border-border/50 bg-background"
-          >
-            <div className="flex flex-col px-6 py-4 gap-4">
-              {links.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
+          <>
+            {/* Backdrop */}
+            <motion.div
+              key="backdrop"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.25 }}
+              className="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm md:hidden"
+              onClick={() => setOpen(false)}
+            />
+
+            {/* Sidebar panel */}
+            <motion.div
+              key="sidebar"
+              initial={{ x: "100%" }}
+              animate={{ x: 0 }}
+              exit={{ x: "100%" }}
+              transition={{ type: "spring", stiffness: 320, damping: 32 }}
+              className="fixed top-0 right-0 z-50 h-full w-[80vw] max-w-xs bg-background border-l border-border/50 flex flex-col md:hidden"
+            >
+              {/* Top bar */}
+              <div className="flex items-center justify-between px-6 h-16 border-b border-border/50 flex-shrink-0">
+                <span className="font-serif text-base font-bold text-foreground">Menu</span>
+                <button
                   onClick={() => setOpen(false)}
-                  className={`text-sm font-medium transition-colors hover:text-primary py-1 ${
-                    location.startsWith(link.href)
-                      ? "text-primary"
-                      : "text-muted-foreground"
-                  }`}
+                  aria-label="Close menu"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  {link.label}
-                </Link>
-              ))}
-              <div className="flex gap-5 pt-2 border-t border-border/40">
-                {socialLinks.map(({ href, label, icon: Icon, testId }) => (
-                  <a
-                    key={testId}
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={label}
-                    data-testid={`link-mobile-${testId}`}
-                    className="text-primary hover:text-primary/70 transition-colors"
-                  >
-                    <Icon size={16} />
-                  </a>
-                ))}
+                  <X size={20} />
+                </button>
               </div>
-            </div>
-          </motion.div>
+
+              {/* Nav links */}
+              <div className="flex-1 overflow-y-auto px-6 py-8 flex flex-col gap-1">
+                {links.map((link, i) => (
+                  <motion.div
+                    key={link.href}
+                    initial={{ opacity: 0, x: 24 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.05 + i * 0.06, duration: 0.3 }}
+                  >
+                    <Link
+                      href={link.href}
+                      onClick={() => setOpen(false)}
+                      className={`flex items-center justify-between py-3.5 border-b border-border/30 text-base font-medium transition-colors hover:text-primary group ${
+                        location.startsWith(link.href)
+                          ? "text-primary"
+                          : "text-foreground"
+                      }`}
+                    >
+                      <span>{link.label}</span>
+                      {location.startsWith(link.href) && (
+                        <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                      )}
+                    </Link>
+                  </motion.div>
+                ))}
+
+                {/* Contact info */}
+                <motion.div
+                  initial={{ opacity: 0, x: 24 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.38, duration: 0.3 }}
+                  className="mt-8"
+                >
+                  <p className="text-[10px] font-bold tracking-[0.18em] text-muted-foreground uppercase mb-4">
+                    Contact
+                  </p>
+                  <div className="flex flex-col gap-3">
+                    <a
+                      href="mailto:otienoalvine925@gmail.com"
+                      className="flex items-center gap-3 text-sm text-foreground hover:text-primary transition-colors"
+                    >
+                      <Mail size={14} className="text-primary flex-shrink-0" />
+                      otienoalvine925@gmail.com
+                    </a>
+                    <div className="flex items-center gap-3 text-sm text-muted-foreground">
+                      <MapPin size={14} className="text-primary flex-shrink-0" />
+                      Kisumu, Kenya
+                    </div>
+                  </div>
+                </motion.div>
+
+                {/* Social links */}
+                <motion.div
+                  initial={{ opacity: 0, x: 24 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.46, duration: 0.3 }}
+                  className="mt-8"
+                >
+                  <p className="text-[10px] font-bold tracking-[0.18em] text-muted-foreground uppercase mb-4">
+                    Follow
+                  </p>
+                  <div className="flex flex-col gap-3">
+                    {socialLinks.map(({ href, label, icon: Icon, testId }) => (
+                      <a
+                        key={testId}
+                        href={href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-testid={`link-mobile-${testId}`}
+                        className="flex items-center gap-3 text-sm text-foreground hover:text-primary transition-colors"
+                      >
+                        <Icon size={14} className="text-primary flex-shrink-0" />
+                        {label}
+                      </a>
+                    ))}
+                  </div>
+                </motion.div>
+              </div>
+
+              {/* Bottom CTA */}
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.5 }}
+                className="px-6 py-6 border-t border-border/50 flex-shrink-0"
+              >
+                <Link
+                  href="/contact"
+                  onClick={() => setOpen(false)}
+                  className="flex items-center justify-center w-full h-11 bg-primary text-primary-foreground text-sm font-semibold rounded-md hover:bg-primary/90 transition-colors"
+                >
+                  Get in touch
+                </Link>
+              </motion.div>
+            </motion.div>
+          </>
         )}
       </AnimatePresence>
-    </nav>
+    </>
   );
 }
 

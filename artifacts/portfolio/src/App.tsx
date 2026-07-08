@@ -13,6 +13,9 @@ import { BlogPost } from "@/pages/BlogPost";
 import { Contact } from "@/pages/Contact";
 import { Capabilities } from "@/pages/Capabilities";
 import { CapabilityDetail } from "@/pages/CapabilityDetail";
+import { Resume } from "@/pages/Resume";
+import { PrivacyPolicy } from "@/pages/PrivacyPolicy";
+import { Terms } from "@/pages/Terms";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 const queryClient = new QueryClient();
@@ -29,6 +32,9 @@ function Router() {
       <Route path="/capabilities" component={Capabilities} />
       <Route path="/capabilities/:slug" component={CapabilityDetail} />
       <Route path="/contact" component={Contact} />
+      <Route path="/resume" component={Resume} />
+      <Route path="/privacy" component={PrivacyPolicy} />
+      <Route path="/terms" component={Terms} />
       <Route component={NotFound} />
     </Switch>
   );

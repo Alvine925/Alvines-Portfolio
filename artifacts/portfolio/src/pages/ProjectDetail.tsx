@@ -41,6 +41,16 @@ export function ProjectDetail() {
         title={`${project.title}  -  Case Study`}
         description={project.shortDescription}
         keywords={`${project.title}, ${project.tech.join(", ")}, web developer Kenya, AI developer Kenya, case study`}
+        breadcrumb={[
+          { label: "Home", href: "/" },
+          { label: "Projects", href: "/projects" },
+          { label: project.title, href: `/projects/${project.slug}` },
+        ]}
+        project={{
+          name: project.title,
+          description: project.shortDescription,
+          url: `https://alvineotieno.com/projects/${project.slug}`,
+        }}
       />
       {/* Hero  -  colored band without card */}
       <div

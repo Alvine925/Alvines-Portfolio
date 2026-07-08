@@ -41,6 +41,26 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Resume, legal -->
+  <url>
+    <loc>https://alvineotieno.com/resume</loc>
+    <lastmod>2025-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alvineotieno.com/privacy</loc>
+    <lastmod>2025-07-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://alvineotieno.com/terms</loc>
+    <lastmod>2025-07-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
   <!-- Capability detail pages -->
   <url>
     <loc>https://alvineotieno.com/capabilities/whatsapp-ai-bot-development</loc>

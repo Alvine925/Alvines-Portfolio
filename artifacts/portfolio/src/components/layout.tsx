@@ -25,7 +25,7 @@ const socialLinks = [
     testId: "facebook",
   },
   {
-    href: "https://wa.me/254700000000",
+    href: "https://wa.me/254110486677",
     label: "WhatsApp",
     icon: FaWhatsapp,
     testId: "whatsapp",
@@ -50,6 +50,7 @@ export function Navbar() {
     { href: "/projects", label: "Projects" },
     { href: "/capabilities", label: "Capabilities" },
     { href: "/blog", label: "Writing" },
+    { href: "/resume", label: "Resume" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -249,27 +250,45 @@ export function Navbar() {
 export function Footer() {
   return (
     <footer className="border-t border-border/50 py-10 mt-20">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
-        <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Alvine. Built from scratch, shipped with pride.
-        </p>
-        <div className="flex items-center gap-5">
-          {socialLinks.map(({ href, label, icon: Icon, testId }) => (
-            <a
-              key={testId}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={label}
-              data-testid={`link-footer-${testId}`}
-              className="flex items-center gap-2 text-primary hover:text-primary/70 transition-colors group"
-            >
-              <Icon size={16} />
-              <span className="text-xs font-medium text-muted-foreground group-hover:text-primary transition-colors hidden sm:inline">
-                {label}
-              </span>
-            </a>
-          ))}
+      <div className="max-w-6xl mx-auto px-6 flex flex-col gap-6">
+        {/* Top row: brand + socials */}
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          <p className="text-sm text-muted-foreground">
+            © {new Date().getFullYear()} Alvine Otieno. Built from scratch, shipped with pride.
+          </p>
+          <div className="flex items-center gap-5">
+            {socialLinks.map(({ href, label, icon: Icon, testId }) => (
+              <a
+                key={testId}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                data-testid={`link-footer-${testId}`}
+                className="flex items-center gap-2 text-primary hover:text-primary/70 transition-colors group"
+              >
+                <Icon size={16} />
+                <span className="text-xs font-medium text-muted-foreground group-hover:text-primary transition-colors hidden sm:inline">
+                  {label}
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+        {/* Bottom row: legal links */}
+        <div className="flex flex-wrap items-center justify-center md:justify-start gap-x-5 gap-y-2 border-t border-border/30 pt-5">
+          <Link href="/privacy" className="text-xs text-muted-foreground hover:text-primary transition-colors">
+            Privacy Policy
+          </Link>
+          <Link href="/terms" className="text-xs text-muted-foreground hover:text-primary transition-colors">
+            Terms of Use
+          </Link>
+          <Link href="/resume" className="text-xs text-muted-foreground hover:text-primary transition-colors">
+            Resume
+          </Link>
+          <a href="mailto:otienoalvine925@gmail.com" className="text-xs text-muted-foreground hover:text-primary transition-colors">
+            otienoalvine925@gmail.com
+          </a>
         </div>
       </div>
     </footer>

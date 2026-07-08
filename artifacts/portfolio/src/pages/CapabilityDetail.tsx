@@ -41,6 +41,16 @@ export function CapabilityDetail() {
         title={`${cap.title} — Capability`}
         description={cap.description}
         keywords={`${cap.title}, ${cap.tools.join(", ")}, Kenya, Alvine`}
+        breadcrumb={[
+          { label: "Home", href: "/" },
+          { label: "Capabilities", href: "/capabilities" },
+          { label: cap.title, href: `/capabilities/${cap.slug}` },
+        ]}
+        service={{
+          name: cap.title,
+          description: cap.description,
+          url: `https://alvineotieno.com/capabilities/${cap.slug}`,
+        }}
       />
 
       {/* Hero */}

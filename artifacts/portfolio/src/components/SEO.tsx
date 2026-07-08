@@ -13,6 +13,7 @@ interface SEOProps {
   description?: string;
   keywords?: string;
   canonical?: string;
+  ogImage?: string;
   type?: "website" | "article";
   article?: {
     publishedTime: string;
@@ -20,6 +21,19 @@ interface SEOProps {
     author?: string;
   };
   noindex?: boolean;
+  breadcrumb?: { label: string; href: string }[];
+  service?: {
+    name: string;
+    description: string;
+    url: string;
+    provider?: string;
+  };
+  project?: {
+    name: string;
+    description: string;
+    url: string;
+    dateCreated?: string;
+  };
 }
 
 export function SEO({
@@ -27,26 +41,35 @@ export function SEO({
   description = DEFAULT_DESCRIPTION,
   keywords = DEFAULT_KEYWORDS,
   canonical,
+  ogImage,
   type = "website",
   article,
   noindex = false,
+  breadcrumb,
+  service,
+  project,
 }: SEOProps) {
-  const fullTitle = title ? `${title} | Alvine Otieno` : "Alvine Otieno  -  WhatsApp AI Bots, Automation & Web Development · Kisumu, Kenya";
+  const fullTitle = title
+    ? `${title} | Alvine Otieno`
+    : "Alvine Otieno  -  WhatsApp AI Bots, Automation & Web Development · Kisumu, Kenya";
   const canonicalUrl = canonical ? `${SITE_URL}${canonical}` : SITE_URL;
+  const resolvedOgImage = ogImage ? `${SITE_URL}${ogImage}` : OG_IMAGE;
 
-  // Person structured data  -  appears on every page
+  // Person structured data — appears on every page
   const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Alvine Otieno",
     url: SITE_URL,
-    image: `${SITE_URL}/alvine-otieno.jpg`,
+    image: `${SITE_URL}/opengraph.jpg`,
     jobTitle: "WhatsApp AI Bot Developer & Automation Specialist",
     description: DEFAULT_DESCRIPTION,
+    telephone: "+254110486677",
     email: "otienoalvine925@gmail.com",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Kisumu",
+      addressRegion: "Kisumu County",
       addressCountry: "KE",
     },
     sameAs: [
@@ -74,6 +97,7 @@ export function SEO({
           "@type": "BlogPosting",
           headline: title,
           description,
+          image: resolvedOgImage,
           author: {
             "@type": "Person",
             name: article.author || "Alvine Otieno",
@@ -107,6 +131,58 @@ export function SEO({
     },
   };
 
+  // Breadcrumb schema
+  const breadcrumbSchema = breadcrumb && breadcrumb.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: breadcrumb.map((item, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: item.label,
+          item: `${SITE_URL}${item.href}`,
+        })),
+      }
+    : null;
+
+  // Service schema for capability pages
+  const serviceSchema = service
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        name: service.name,
+        description: service.description,
+        url: service.url,
+        provider: {
+          "@type": "Person",
+          name: service.provider || "Alvine Otieno",
+          url: SITE_URL,
+        },
+        areaServed: {
+          "@type": "Country",
+          name: "Kenya",
+        },
+        serviceType: service.name,
+      }
+    : null;
+
+  // CreativeWork schema for project pages
+  const projectSchema = project
+    ? {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        name: project.name,
+        description: project.description,
+        url: project.url,
+        author: {
+          "@type": "Person",
+          name: "Alvine Otieno",
+          url: SITE_URL,
+        },
+        ...(project.dateCreated ? { dateCreated: project.dateCreated } : {}),
+      }
+    : null;
+
   return (
     <Helmet>
       {/* Core */}
@@ -122,7 +198,9 @@ export function SEO({
       <meta property="og:description" content={description} />
       <meta property="og:type" content={type} />
       <meta property="og:url" content={canonicalUrl} />
-      <meta property="og:image" content={OG_IMAGE} />
+      <meta property="og:image" content={resolvedOgImage} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
       <meta property="og:site_name" content={SITE_NAME} />
       <meta property="og:locale" content="en_KE" />
       {type === "article" && article && (
@@ -138,7 +216,7 @@ export function SEO({
       <meta name="twitter:creator" content="@AlvineOtieno14" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={OG_IMAGE} />
+      <meta name="twitter:image" content={resolvedOgImage} />
 
       {/* Geo / Local SEO */}
       <meta name="geo.region" content="KE-300" />
@@ -151,6 +229,15 @@ export function SEO({
       <script type="application/ld+json">{JSON.stringify(websiteSchema)}</script>
       {articleSchema && (
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
+      )}
+      {breadcrumbSchema && (
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+      )}
+      {serviceSchema && (
+        <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
+      )}
+      {projectSchema && (
+        <script type="application/ld+json">{JSON.stringify(projectSchema)}</script>
       )}
     </Helmet>
   );

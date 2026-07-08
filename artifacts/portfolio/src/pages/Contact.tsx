@@ -49,8 +49,7 @@ export function Contact() {
     setFormState("loading");
     setErrorMessage("");
 
-    // Formspree endpoint  -  replace YOUR_FORM_ID with your Formspree form ID
-    const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+    const FORMSPREE_ENDPOINT = "https://formspree.io/f/mzdlqqok";
 
     try {
       const res = await fetch(FORMSPREE_ENDPOINT, {

@@ -4,6 +4,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { Layout } from "@/components/layout";
 import { SEO } from "@/components/SEO";
 import { capabilities } from "@/lib/capabilities";
+import alvinePhoto from "@assets/713531308_2391480708041703_8942490288083047707_n_1783423380935.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -34,17 +35,32 @@ export function Capabilities() {
 
         {/* Header */}
         <motion.div variants={fadeUp} initial="hidden" animate="visible" className="mb-20">
-          <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-6">
-            What I actually do
-          </p>
-          <h1 className="font-serif text-2xl md:text-3xl font-bold leading-snug mb-6 max-w-2xl">
-            Nine capabilities. All proven in practice.<br />
-            <span className="text-muted-foreground font-normal">Technology, operations, and business strategy — in one person.</span>
-          </h1>
-          <p className="text-base text-muted-foreground leading-relaxed max-w-xl">
-            Every capability listed here is backed by something I've actually built, advised, or run. I don't pitch
-            services I haven't delivered. If you see it here, I've done it for real.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-10 md:gap-16 items-center">
+            {/* Text */}
+            <div className="md:col-span-3">
+              <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-6">
+                What I actually do
+              </p>
+              <h1 className="font-serif text-2xl md:text-3xl font-bold leading-snug mb-6">
+                Nine capabilities. All proven in practice.<br />
+                <span className="text-muted-foreground font-normal">Technology, operations, and business strategy — in one person.</span>
+              </h1>
+              <p className="text-base text-muted-foreground leading-relaxed">
+                Every capability listed here is backed by something I've actually built, advised, or run. I don't pitch
+                services I haven't delivered. If you see it here, I've done it for real.
+              </p>
+            </div>
+            {/* Image */}
+            <div className="md:col-span-2">
+              <div className="overflow-hidden rounded-2xl aspect-[3/4] w-full max-w-xs mx-auto md:max-w-none">
+                <img
+                  src={alvinePhoto}
+                  alt="Alvine Otieno"
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+            </div>
+          </div>
         </motion.div>
 
         {/* Proof strip */}

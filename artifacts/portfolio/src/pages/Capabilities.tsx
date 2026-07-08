@@ -4,7 +4,6 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { Layout } from "@/components/layout";
 import { SEO } from "@/components/SEO";
 import { capabilities } from "@/lib/capabilities";
-import alvinePhoto from "@assets/713531308_2391480708041703_8942490288083047707_n_1783423380935.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -33,32 +32,32 @@ export function Capabilities() {
       />
       <div className="max-w-5xl mx-auto px-6 py-20 md:py-28">
 
-        {/* Header */}
-        <motion.div variants={fadeUp} initial="hidden" animate="visible" className="mb-20">
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-10 md:gap-16 items-center">
-            {/* Text */}
-            <div className="md:col-span-3">
+        {/* Hero */}
+        <motion.div variants={fadeUp} initial="hidden" animate="visible" className="mb-20 -mx-6 -mt-20 md:-mt-28">
+          <div
+            className="relative w-full min-h-[60vh] flex items-center overflow-hidden"
+            style={{
+              backgroundImage: `url(/capabilities-hero.jpg)`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          >
+            {/* Gradient overlay */}
+            <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/30" />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
+
+            <div className="relative z-10 max-w-5xl mx-auto px-6 py-24 md:py-36 w-full">
               <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-6">
                 What I actually do
               </p>
-              <h1 className="font-serif text-2xl md:text-3xl font-bold leading-snug mb-6">
+              <h1 className="font-serif text-2xl md:text-4xl font-bold leading-snug mb-6 max-w-2xl">
                 Nine capabilities. All proven in practice.<br />
                 <span className="text-muted-foreground font-normal">Technology, operations, and business strategy — in one person.</span>
               </h1>
-              <p className="text-base text-muted-foreground leading-relaxed">
+              <p className="text-base text-muted-foreground leading-relaxed max-w-xl">
                 Every capability listed here is backed by something I've actually built, advised, or run. I don't pitch
                 services I haven't delivered. If you see it here, I've done it for real.
               </p>
-            </div>
-            {/* Image */}
-            <div className="md:col-span-2">
-              <div className="overflow-hidden rounded-2xl aspect-[3/4] w-full max-w-xs mx-auto md:max-w-none">
-                <img
-                  src={alvinePhoto}
-                  alt="Alvine Otieno"
-                  className="w-full h-full object-cover object-top"
-                />
-              </div>
             </div>
           </div>
         </motion.div>

@@ -89,11 +89,11 @@ export function Capabilities() {
                   alt=""
                   aria-hidden="true"
                   className="w-full h-full object-cover"
-                  style={{ opacity: 0.055 }}
+                  style={{ opacity: 0.18 }}
                 />
                 {/* Fade edges so the image blends into the page */}
-                <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-background" />
-                <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-transparent to-background/60" />
+                <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-transparent to-background/80" />
+                <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-transparent to-background/70" />
               </div>
 
               {/* Content above image */}

@@ -79,10 +79,25 @@ export function Capabilities() {
               whileInView="visible"
               viewport={{ once: true }}
               custom={i * 0.05}
-              className="py-16"
+              className="relative overflow-hidden py-16"
               data-testid={`capability-${cap.number}`}
             >
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-16">
+              {/* Subtle background image */}
+              <div className="absolute inset-0 pointer-events-none">
+                <img
+                  src={cap.heroImage}
+                  alt=""
+                  aria-hidden="true"
+                  className="w-full h-full object-cover"
+                  style={{ opacity: 0.055 }}
+                />
+                {/* Fade edges so the image blends into the page */}
+                <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-background" />
+                <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-transparent to-background/60" />
+              </div>
+
+              {/* Content above image */}
+              <div className="relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-16">
 
                 {/* Left: number + title */}
                 <div className="lg:col-span-1">

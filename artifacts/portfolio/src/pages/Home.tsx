@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { capabilities } from "@/lib/capabilities";
 
 function WhatsAppIcon({ size = 16 }: { size?: number }) {
   return (
@@ -129,8 +130,85 @@ export function Home() {
         </div>
       </section>
 
+      {/* Services teaser */}
+      <section className="max-w-6xl mx-auto px-6 py-20 md:py-28">
+        <div className="flex items-baseline justify-between mb-12">
+          <div>
+            <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-3">What I do</p>
+            <h2 className="font-serif text-xl md:text-2xl font-bold">How I can help</h2>
+          </div>
+          <Link
+            href="/capabilities"
+            className="hidden md:flex items-center gap-1 text-sm text-muted-foreground hover:text-primary transition-colors"
+          >
+            All capabilities <ArrowRight size={13} />
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-border/30 rounded-xl overflow-hidden border border-border/30">
+          {capabilities.slice(0, 4).map((cap, i) => (
+            <motion.div
+              key={cap.slug}
+              variants={fadeUp}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              custom={i * 0.07}
+            >
+              <Link
+                href={`/capabilities/${cap.slug}`}
+                className="group flex flex-col h-full bg-background p-6 hover:bg-muted/50 transition-colors"
+              >
+                <span className="font-serif text-3xl font-bold text-border/60 group-hover:text-primary/30 transition-colors mb-4 leading-none select-none">
+                  {cap.number}
+                </span>
+                <h3 className="font-serif text-base font-bold text-foreground mb-2 group-hover:text-primary transition-colors leading-snug">
+                  {cap.title}
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed flex-1 mb-5">
+                  {cap.tagline}
+                </p>
+                <div className="flex flex-wrap gap-1.5 mb-5">
+                  {cap.tools.slice(0, 3).map((tool) => (
+                    <span
+                      key={tool}
+                      className="text-[10px] font-medium text-muted-foreground bg-muted/80 px-2 py-0.5 rounded-full"
+                    >
+                      {tool}
+                    </span>
+                  ))}
+                </div>
+                <span className="inline-flex items-center gap-1 text-xs font-semibold text-primary">
+                  Learn more <ArrowRight size={11} className="group-hover:translate-x-0.5 transition-transform" />
+                </span>
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+
+        <div className="mt-6 flex items-center justify-between">
+          <p className="text-sm text-muted-foreground">
+            Also:{" "}
+            {capabilities.slice(4).map((cap, i) => (
+              <span key={cap.slug}>
+                <Link href={`/capabilities/${cap.slug}`} className="hover:text-primary transition-colors underline underline-offset-2">
+                  {cap.title}
+                </Link>
+                {i < capabilities.slice(4).length - 1 && ", "}
+              </span>
+            ))}
+          </p>
+          <Link
+            href="/capabilities"
+            className="md:hidden flex items-center gap-1 text-sm text-muted-foreground hover:text-primary transition-colors"
+          >
+            All <ArrowRight size={13} />
+          </Link>
+        </div>
+      </section>
+
       {/* Featured projects  -  editorial list */}
-      <section className="max-w-6xl mx-auto px-6 py-24 md:py-32">
+      <section className="max-w-6xl mx-auto px-6 py-24 md:py-32 border-t border-border/40">
         <div className="flex items-baseline justify-between mb-16">
           <div>
             <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-3">Selected Work</p>

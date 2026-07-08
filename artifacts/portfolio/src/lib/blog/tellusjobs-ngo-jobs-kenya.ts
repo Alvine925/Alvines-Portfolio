@@ -117,4 +117,56 @@ TellusJobs' semantic matching is particularly valuable for development sector ca
 
 The platform's development sector category includes roles across the full spectrum of Kenya's development ecosystem  -  from UN agencies to INGOs to local civil society organisations. Match scoring helps prioritise applications where your specific experience and specialisation are most relevant, rather than applying broadly and hoping.
 
-A career in Kenya's development sector can be one of the most meaningful professional paths available  -  working on problems that matter, in communities that need solutions, with colleagues committed to genuine impact. TellusJobs is built to help you find the right place within it.`;
+A career in Kenya's development sector can be one of the most meaningful professional paths available  -  working on problems that matter, in communities that need solutions, with colleagues committed to genuine impact. TellusJobs is built to help you find the right place within it.
+
+## Kenya's Development Sector: Scale, Salary, and Structure
+
+Kenya hosts one of the largest concentrations of international development and NGO organisations in sub-Saharan Africa. Nairobi serves as a regional hub for numerous UN agencies (UNEP, UNHABITAT, UNHCR, UNICEF, WFP, ILO, FAO, and others), bilateral donors and their implementing partners, international NGOs (Save the Children, ActionAid, Oxfam, IRC, and dozens more), and a large domestic NGO sector funded by international and local sources.
+
+The total employment in Kenya's formal development sector is estimated at 50,000 to 70,000 positions, with compensation that is structurally higher than equivalent private sector roles at junior and middle levels and substantially higher at senior levels for international organisations. A programme officer at a UN agency earns significantly more than an equivalent-seniority manager in Kenya's private sector, with the salary advantage growing substantially at P3 level and above for international professional posts.
+
+This salary premium exists for real reasons: international development organisations face a global competition for talent and must offer internationally competitive compensation, particularly for internationally mobile roles. The premium diminishes for national professional posts, which are compensated on local salary scales, but still tends to be above the private sector median for comparable roles.
+
+![NGO and development sector jobs in Kenya showing United Nations agency campus in Nairobi Gigiri](https://images.unsplash.com/photo-1611348524140-53c9a25263d6?w=1200&q=80)
+
+## The Vocabulary and Conventions of Development Sector Applications
+
+The development sector has a specific vocabulary, application convention, and organisational culture that is genuinely different from private sector conventions. Understanding these differences before applying significantly improves application quality.
+
+**Results-based management language:** Development organisations use results frameworks and log frames to structure programme design, implementation, and reporting. Applications for programme roles should demonstrate fluency in this language: outcomes vs outputs, indicators, baseline and target setting, monitoring and evaluation frameworks. Candidates who understand RBM language signal insider knowledge that generic management vocabulary does not.
+
+**Donor relationship awareness:** Applications for roles with significant financial management or programme management responsibility should acknowledge donor reporting requirements where relevant. USAID partners operate under Federal Acquisition Regulations and specific programmatic requirements. DFID/FCDO, EU, GIZ, and other bilateral donors each have distinct compliance and reporting frameworks. Demonstrating awareness of your target organisation's primary donors - and the implications for the role - strengthens your application.
+
+**The UN competency framework:** UN system recruitment (all agencies) uses a specific competency framework for staff. Applications to UN positions must demonstrate these competencies explicitly. The UN competency framework includes core competencies (communication, teamwork, planning and organising) and managerial competencies for supervisory roles. Reviewing the UN competency framework before applying to any UN position and reflecting these competencies in your application is basic preparation.
+
+**Thematic technical knowledge:** Development sector roles typically have a thematic specialisation (health, education, agriculture, financial inclusion, governance, climate, gender) that requires genuine content knowledge, not just general management skills. Applications for thematic roles that do not demonstrate specific knowledge of the sector's debates, evidence base, and key actors are identified as generic applications and rated accordingly.
+
+## Where to Find Development Sector Roles in Kenya
+
+Beyond Reliefweb and Devex (which are covered in TellusJobs' NGO/development section), sector-specific resources significantly expand coverage.
+
+**OCHA Financial Tracking Service and Humanitarian Response platforms:** For roles in the humanitarian sector specifically (emergency response, refugee operations, disaster preparedness), the humanitarian networks operate distinct recruitment channels.
+
+**Alliance of USAID implementing partners:** USAID-funded programmes in Kenya are implemented through a network of US and local NGOs. Following the implementing partner organisations for major USAID programmes in Kenya (health, democracy and governance, economic growth) and monitoring their career pages covers a significant portion of US government-funded development employment.
+
+**Bilateral donor implementing organisations:** GIZ Kenya, AFD implementing partners, EU implementing partners, DFID programmes implemented through international NGOs. Each bilateral donor has a distinct implementing partner landscape in Kenya that is navigable once you understand the donor's programme portfolio.
+
+**Coordination forums and networks:** The Kenya INGO Forum, various sector coordination bodies (Health Cluster, Food Security Cluster), and professional networks like the East Africa Development Practitioners Network circulate roles informally through their membership communications.
+
+TellusJobs aggregates all of these sources for its NGO/development vertical, creating a single feed that covers what would otherwise require monitoring 20+ separate channels.
+
+![Development sector job search resources showing multiple NGO portal sources aggregated in TellusJobs](https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80)
+
+## Building a Development Sector Career in Kenya
+
+For Kenyan nationals entering or advancing in the development sector, the career structure differs from private sector in ways that affect how to plan your trajectory.
+
+**National professional officer vs international professional:** Most UN and large international NGO positions in Kenya are available to Kenyan nationals at the National Professional Officer (NPO) level (NO-A through NO-D) with compensation on local salary scales, and at the international professional level (P1 through P5 for UN) with substantially higher compensation for nationals who compete internationally. Competing at the P-level requires an international graduate degree and demonstrated programme management experience - achievable but a deliberate multi-year investment.
+
+**The NGO career ladder:** Entry through programme officer or project coordinator roles, progression to senior programme officer, then programme manager managing multiple projects, then head of department or country director for domestic NGOs and regional positions for international NGOs. The progression requires demonstrating M&E competency, financial management capability (managing donor budgets), and staff management experience at each level.
+
+**The secondment and attachments route:** Several UN agencies and large international NGOs offer secondment programmes, junior professional officer schemes, and UN volunteer assignments that provide development sector experience to strong candidates who lack the specific sector history to compete directly for mid-level positions. These pathways are worth knowing about and applying for strategically as an entry point.
+
+TellusJobs' career planning tool for the development sector includes a role progression map specific to Kenya's NGO and development employment landscape, helping candidates understand what experience is needed for the next level and what roles build toward it.
+
+`;

@@ -117,4 +117,52 @@ AutoShine's signature service combining the complete interior deep clean with th
 
 All AutoShine interior services are available as mobile services  -  at your home, your office parking, or wherever your vehicle is. No need to leave your vehicle at a facility and arrange alternative transport.
 
-Book your interior service through AutoShine's WhatsApp or website. A clean interior is not just comfortable  -  it's how you protect the upholstery and surfaces that contribute significantly to your vehicle's resale value.`;
+Book your interior service through AutoShine's WhatsApp or website. A clean interior is not just comfortable  -  it's how you protect the upholstery and surfaces that contribute significantly to your vehicle's resale value.
+
+## Why Interior Cleaning Is Different From Interior Tidying
+
+Most car owners associate interior cleaning with removing rubbish, vacuuming the floor mats, and wiping the dashboard with a cloth. This covers about twenty percent of what a proper interior clean involves. The remaining eighty percent - deep fabric cleaning, leather conditioning, vent decontamination, door jamb cleaning, glass decontamination inside, and treating plastic and rubber to prevent degradation - is what separates a maintained interior from one that ages rapidly.
+
+Kenya's interior environment is particularly challenging. The combination of high UV radiation heating interiors to 70 to 80 degrees Celsius when parked in sun, high dust penetration through window gaps and ventilation systems, and frequent passenger traffic in family vehicles creates conditions that degrade interior materials faster than the vehicle ages in other markets. A Nairobi car used as a family vehicle for five years often has an interior that looks older than the vehicle based on the environmental stress it has endured.
+
+A proper interior detail addresses each surface category with the right product and technique. Attacking the whole interior with a single all-purpose cleaner is a common mistake that leaves some surfaces under-cleaned and others over-treated.
+
+![Professional car interior cleaning at AutoShine Kenya showing dashboard and seat treatment](https://images.unsplash.com/photo-1567818735868-e71b99932e29?w=1200&q=80)
+
+## Kenya-Specific Interior Challenges
+
+Kenyan vehicle interiors face some contamination types that are less common in other markets.
+
+**Red laterite dust penetration:** Murram roads produce a fine red-orange iron-rich dust that penetrates into fabric fibres, carpet pile, and vent systems deeply. Standard vacuuming removes surface particles but leaves embedded dust in fabric. This dust is visually obvious on light-coloured fabrics and causes long-term fibre degradation in any colour. Proper extraction cleaning is needed to remove deeply embedded laterite dust.
+
+**Matatu and bus usage residue:** Vehicles used as or having been used as public service vehicles carry a particularly heavy contamination load from high passenger turnover. Fabric seats absorb skin oils, food, and other organic residue from hundreds of passengers. This residue becomes a source of persistent odour if not treated with enzyme-based cleaners that break down organic compounds rather than simply masking them.
+
+**Imported vehicles with damp histories:** Many second-hand vehicles imported from Japan, UK, or UAE have been exposed to different humidity conditions than Kenya's. Some arrive with mould in carpet backing or foam padding that does not become apparent until Kenya's rains activate it. A proper deep clean on import including steam treatment of carpet underlay addresses this before it becomes a health and smell problem.
+
+**UV degradation of unprotected plastics:** Dashboard plastics, door cards, and pillar trims that have been parked in sun without UV protection for years become chalky and cracked. While this cannot be fully reversed, UV protectant products slow further degradation significantly and improve the appearance of affected surfaces.
+
+## Deep Cleaning vs Maintenance Cleaning
+
+Interior care exists on two levels that serve different purposes and should be done at different frequencies.
+
+**Maintenance cleaning** (weekly to fortnightly) covers: removing loose items, vacuuming carpets and seats, wiping hard surfaces with a damp microfibre, glass cleaning inside, and applying a dashboard protectant. This level of cleaning is achievable at home in thirty to forty minutes and prevents contamination from building to levels requiring a deep clean.
+
+**Deep cleaning** (every three to four months) covers: extraction cleaning of fabric surfaces, leather conditioning, vent cleaning, treating door jambs and sill plates, carpet shampooing, deodorising with enzyme treatments, and detailing all plastic and rubber surfaces. This level requires professional equipment and expertise to do properly and takes two to four hours on a standard vehicle.
+
+AutoShine's interior detail service covers all deep cleaning categories and is available as a standalone service or as part of a full detail package. For clients on a maintenance subscription, a quarterly interior deep clean is included in the Pro tier.
+
+![Car interior steam cleaning and extraction equipment used at AutoShine Kenya](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## Protecting Interior Materials After Cleaning
+
+Cleaning removes existing contamination. Protection prevents the next round of contamination from bonding as readily and makes future cleaning easier.
+
+**Leather protection:** Apply a dedicated leather protectant after conditioning. This creates a barrier that prevents dye transfer from clothing, blocks UV-induced colour fading, and makes surface cleaning much easier at the next maintenance session.
+
+**Fabric protection:** A professional fabric guard spray applied after extraction cleaning creates a hydrophobic barrier that causes liquid spills to bead on the surface rather than immediately soaking in. This gives you time to blot up a spill before it becomes a stain.
+
+**Plastic UV protectant:** Applied to all dashboard and trim plastics, a UV protectant extends the life of these surfaces by blocking the photodegradation that causes cracking and chalking. AutoShine uses water-based, non-greasy formulations that protect without creating a reflective glare on the windshield from dashboard surfaces.
+
+**Odour treatment:** After a deep clean, an ozone treatment can be used for vehicles with persistent odours that enzyme cleaners have not fully resolved. This should be done by a professional as it requires all occupants and organic materials to be removed from the vehicle.
+
+`;

@@ -98,4 +98,50 @@ When you do travel to Kisumu for final venue confirmations and vendor meetings, 
 
 Send a WhatsApp message to MyJoyfulDay with your Kisumu event details. Whether you're in Kisumu or planning remotely from Nairobi or further afield, the process is the same: one message to begin, a live event page within minutes, and a platform that handles your guest management while you focus on the planning.
 
-Kisumu deserves more of the recognition as an event destination that Nairobi has long monopolised. The city's natural beauty, cultural warmth, and growing event infrastructure make it one of Kenya's most compelling places to celebrate. MyJoyfulDay is proud to serve the Kisumu events community.`;
+Kisumu deserves more of the recognition as an event destination that Nairobi has long monopolised. The city's natural beauty, cultural warmth, and growing event infrastructure make it one of Kenya's most compelling places to celebrate. MyJoyfulDay is proud to serve the Kisumu events community.
+
+## Kisumu as a Platform Origin Story
+
+MyJoyfulDay was built in Kisumu, which is not an accident or an irrelevance. It shapes every design decision in the product. Building from Kisumu rather than Nairobi meant building for the real constraints of Kenya's second-tier cities before optimising for the most resource-rich market.
+
+Kisumu has a smartphone penetration and WhatsApp usage rate comparable to Nairobi, but it has a different vendor ecosystem, a different event culture rooted in Luo traditions, and significantly lower average event budgets than Nairobi's middle-class events. A product built for Kisumu first learns humility about infrastructure assumptions and learns to make the core product work with less.
+
+Data connectivity in Kisumu is adequate for WhatsApp but less reliable than Nairobi's denser network infrastructure. MyJoyfulDay's event pages were designed from the start to load on 3G connections in under three seconds - a constraint that came from real testing in Kisumu conditions. This constraint produced pages that are not just fast in Kisumu but extremely fast in Nairobi, which is a competitive advantage in a market where page performance affects SEO and user experience.
+
+The vendor ecosystem in Kisumu is smaller than Nairobi's but has its own character. Kisumu's event photography market, for example, has several excellent photographers who cover the Rift Valley and Western Kenya regions. Caterers specialising in Luo cuisine - fish, ugali, traditional preparations for family occasions - are well-represented in the Kisumu marketplace.
+
+![Kisumu city showing Lake Victoria setting and local event culture context for MyJoyfulDay](https://images.unsplash.com/photo-1611348524140-53c9a25263d6?w=1200&q=80)
+
+## Luo Event Culture and Platform Features
+
+Building the platform from within the Luo community of Western Kenya meant designing features that reflected Luo cultural event practices, some of which are not well-represented in generic event planning tools.
+
+**The Chiro system and community events:** Luo communal events involve contributions from the wider community - not just the immediate family but clan members, neighbours, and community groups. The contribution tracking feature in MyJoyfulDay (allowing multiple contributors to be recorded with their contribution amounts and M-Pesa references) was initially built to serve this community contribution pattern.
+
+**Extended family integration:** Luo family structures involve significant extended family obligations, and major life events (births, coming-of-age ceremonies, funerals, weddings) require communicating with and coordinating extended family networks that can span Kisumu, Nairobi, Mombasa, and international diaspora. The multi-organiser and multi-network coordination features were refined through use cases from Kisumu's Luo community event planners.
+
+**Memorials and community gatherings:** As noted in the platform's history, the first funeral event created on MyJoyfulDay came from the Kisumu area. The sensitivity features around non-celebration event types (tone calibration, suppression of celebratory language) were built in direct response to this Kisumu use case.
+
+## What Kisumu Teaches About Scaling to Secondary Cities
+
+The Kisumu experience provides a template for how MyJoyfulDay approaches expansion to other secondary cities: Nakuru, Eldoret, Mombasa secondary zones, Thika, Nyeri. The template has three phases.
+
+**Phase one: Organic event creation.** Before any intentional expansion activity, monitor the platform for event creation in the target city. When a city shows consistent self-initiated event creation (users finding the platform without active marketing), the market is signalling readiness. Kisumu reached this threshold before any Kisumu-specific marketing was done.
+
+**Phase two: Vendor seeding.** Identify the highest-demand vendor categories in the city based on event types being created. Reach out manually to vendors in those categories with the demand data as the pitch. The goal is to have at least three vendors in each of the top four categories before promoting the marketplace in the city.
+
+**Phase three: Local presence and community engagement.** A local representative who understands the specific event culture, vendor community, and communication norms in the city accelerates marketplace development significantly. The Kisumu representative's knowledge of Luo event culture was irreplaceable by any amount of remote research.
+
+![MyJoyfulDay expanding from Kisumu to secondary cities across Kenya showing growth map](https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1200&q=80)
+
+## For Event Creators in Kisumu: Using MyJoyfulDay
+
+For Kisumu residents planning events, MyJoyfulDay offers the same core features as the Nairobi version of the platform with vendor recommendations specific to the Kisumu market.
+
+Creating an event through Jitabi (WhatsApp number available through the MyJoyfulDay website) takes under 10 seconds. Send a message describing your event - "Achola's graduation party next Saturday in Milimani" - and Jitabi returns a live event page URL within ten seconds.
+
+The Kisumu vendor marketplace covers photography, catering (including traditional Luo cuisine specialists), decoration, entertainment, venue hire (indoor and outdoor spaces near Lake Victoria are popular), and cake making. All vendors in the Kisumu marketplace have been individually assessed by the local team and meet MyJoyfulDay's quality standards.
+
+For events in Kisumu that need Nairobi-based vendors (some high-end photography and decoration teams travel for premium events), the platform can facilitate cross-city bookings with travel cost transparency.
+
+`;

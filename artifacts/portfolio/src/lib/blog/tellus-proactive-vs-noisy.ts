@@ -93,4 +93,41 @@ Email filters are user-configured rules applied to inbound messages. They reduce
 Calendar reminders are time-based triggers. They are good at what they do but entirely context-blind.
 
 Tellus is the only layer in a standard knowledge worker tool stack that makes notification decisions based on a live model of current work context. That is not a small difference. It is the difference between a system that interrupts you based on rules and a system that interrupts you based on judgment.
+
+## The Notification Crisis in Modern Work
+
+The average knowledge worker in 2025 receives notification stimuli every few minutes across email, messaging platforms, mobile apps, and now AI systems. The majority of these notifications do not require immediate attention. But each one arrives with the same urgency signal — a banner, a sound, a badge — creating an environment where workers are perpetually interrupted by stimuli that rarely justify the interruption.
+
+Research on cognitive performance consistently shows that deep work — the focused, uninterrupted thinking that produces the most valuable knowledge work outputs — is inversely correlated with notification frequency. Each notification has a cost beyond the time it takes to read it: the disruption of concentration and the time required to re-establish the cognitive state that the interruption broke.
+
+This creates the central design challenge for Tellus: the system needs to surface important information proactively, but doing so creates notification overhead that itself degrades the productivity it's designed to improve. Getting this balance wrong — in either direction — undermines the product's core value.
+
+**Too few notifications:** Important things are missed. Urgent deadlines are overlooked. Critical messages go unread. The AI assistant fails its most basic function.
+
+**Too many notifications:** The user starts ignoring all notifications. The AI becomes another noise source. The false alarm rate causes real alarms to be missed. The cognitive overhead cancels the productivity gain.
+
+![Notification frequency graph showing sweet spot between too few and too many alerts for productivity](https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=1200&q=80)
+
+## Machine Learning in Notification Relevance
+
+Static rules for notification relevance — "notify if urgent, don't notify if not urgent" — fail because urgency is contextual and personal. A message marked high priority from a client is urgent on a Monday before a meeting, less urgent on a Friday afternoon after deliverables are submitted.
+
+Tellus approaches notification relevance as a machine learning problem. The system observes which notifications the user responds to immediately and which they defer or ignore, building a model of what this specific user treats as genuinely urgent. Over time, the notification relevance model becomes personalised — calibrated not to a generic definition of urgency but to this user's observed priority pattern.
+
+The model factors:
+- **Sender relationship:** Messages from frequent contacts whose messages are consistently acted on quickly score higher relevance.
+- **Content signals:** References to upcoming deadlines, financial amounts above threshold, explicit urgency language, and names of projects currently in active status all increase relevance scores.
+- **Timing context:** A message at 8am on a Monday before a project deadline has different relevance than the same message at 6pm on a Friday.
+- **Current activity:** Notifications arriving during detected focus time (when the user hasn't switched applications or sent any outbound messages for an extended period) are held until focus time ends unless they exceed a high relevance threshold.
+
+## User Control as a Core Feature
+
+No machine learning model is perfect. Users need meaningful control over notification behaviour — not buried in settings menus, but surfaced in the natural interaction flow.
+
+Telling Tellus "I don't need to be notified about this type of thing" should immediately update the model. Telling it "this was important and I shouldn't have missed it" should update in the other direction. These direct feedback signals are incorporated into the personalised model in real time.
+
+Beyond direct feedback, users can set focus modes that suppress all but the most critical notifications during designated work periods. They can configure specific senders or projects as always-high-priority. They can view a queue of held notifications that can be reviewed in a batch at a chosen time rather than as individual interruptions.
+
+The goal is a notification system that, through a combination of intelligent defaults and responsive personalisation, eventually requires no manual management at all — one that has learned enough about the user's priorities to handle the filtering autonomously while the user maintains confidence that genuinely important things won't be missed.
+
 `;

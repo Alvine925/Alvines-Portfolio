@@ -125,4 +125,50 @@ AutoShine understands that owners of high-value vehicles have legitimate securit
 
 **Team vetting:** All AutoShine detailing team members working on luxury vehicles are personally known to management, background-checked, and have worked with AutoShine for a minimum period before being assigned to luxury vehicle service.
 
-Your luxury vehicle represents a significant investment and personal expression. AutoShine's luxury detailing service treats it accordingly.`;
+Your luxury vehicle represents a significant investment and personal expression. AutoShine's luxury detailing service treats it accordingly.
+
+## What Luxury Car Detailing Actually Means
+
+The term detailing is used loosely in the Kenyan car care market to describe anything from a thorough car wash to a full multi-day paint restoration. For luxury vehicles, genuine detailing means something specific: a systematic process of cleaning, correcting, and protecting every surface of the vehicle to a standard that maintains or restores the vehicle to its optimal condition.
+
+A luxury car detail is distinct from a thorough wash in several critical ways. Washing removes surface contamination. Detailing corrects the damage that contamination has caused, treats surfaces with products appropriate for premium materials, and applies protection that is calibrated to the specific finish of the vehicle. A Porsche Cayenne, a Range Rover Defender, and a Mercedes E-Class share the general requirement for regular washing but require fundamentally different treatment when detailed.
+
+The stakes for getting it wrong are higher on luxury vehicles. Paint correction work on a BMW with specialised Individual paint or a Ferrari with factory-applied satin finish requires different compounds, different pad types, and different polishing speeds than work on a standard white Toyota. Applying the wrong compound or the wrong technique can permanently damage a rare or expensive finish in ways that are extremely costly to correct.
+
+![Luxury vehicle detailing at AutoShine Kenya showing professional multi-stage paint correction](https://images.unsplash.com/photo-1547899949-f6d99b4d7dab?w=1200&q=80)
+
+## Paint Correction for Luxury Vehicles in Kenya
+
+Kenya's environment is particularly challenging for premium paint finishes. Nairobi's altitude (1,700 metres above sea level) means more intense UV radiation than at sea level. The combination of dust, acidic rain, and intense sun creates conditions that degrade paint faster than most factory warranty documentation accounts for.
+
+Paint correction for luxury vehicles follows a systematic process at AutoShine. The first step is a full paint thickness measurement using a digital paint depth gauge. This establishes a baseline and identifies panels that may have been previously repaired, have had spray paint applied, or have panels thin enough that aggressive polishing would be risky. Panels flagged in this assessment receive different treatment than standard panels.
+
+The correction stage uses a dual-action orbital polisher rather than a rotary polisher. For most luxury vehicle finishes, the orbital is the correct tool because it cannot create the heat-induced holograms and buffer trails that a rotary can leave if used incorrectly. AutoShine's detailers are trained on both tools but use the orbital as the default for vehicles where finish quality is paramount.
+
+After correction, the paint is inspected under high-intensity LED detailing lights at multiple angles to identify any remaining defects. This inspection process catches swirl marks that appear invisible in normal lighting but would be obvious on a shiny car in direct sunlight.
+
+## Interior Care for Premium Materials
+
+Luxury vehicle interiors use materials that require different care from standard interiors. Leather, Alcantara, carbon fibre, aluminium, piano black trim, and natural wood veneers are all common in premium vehicles and all require specific products and techniques.
+
+**Leather:** Full-grain leather in premium vehicles should be cleaned with a pH-neutral leather cleaner and conditioned with a leather conditioner that matches the leather's finish (smooth leather, perforated leather, and nappa leather have different porosity and absorb conditioner differently). AutoShine uses Colourlock leather care products for BMW, Mercedes, Audi, and Land Rover vehicles, which are the same products recommended by several European manufacturers.
+
+**Alcantara:** This suede-like fabric, used on steering wheels, headliners, and seat inserts in many performance vehicles, attracts and holds dust and lint aggressively. It requires dry brushing, specialist Alcantara cleaner, and drying in a specific direction to prevent nap reversal. Standard fabric cleaners can cause permanent staining.
+
+**Piano black and gloss trim:** These surfaces scratch instantly under any cloth contact. AutoShine's team cleans these surfaces only with dedicated foam applicators and products specifically designed for high-gloss plastics. Never wipe piano black trim with a regular cloth.
+
+![Luxury car interior detailing showing careful cleaning of premium leather and trim materials](https://images.unsplash.com/photo-1567818735868-e71b99932e29?w=1200&q=80)
+
+## Protection Options for Luxury Vehicles
+
+The higher the purchase price of the vehicle, the more valuable comprehensive protection becomes - not because more expensive cars need more protection, but because the cost of correcting damage is proportionally higher.
+
+**Ceramic coating for luxury vehicles:** A professional ceramic coating applied after a full paint correction creates a semi-permanent protective layer that reduces the frequency and cost of future paint correction work. On a KES 8 million vehicle, the KES 40,000 to 80,000 cost of a professional ceramic coating represents less than one percent of vehicle value and can protect against paint damage that would cost several times that to repair.
+
+**Paint protection film for high-impact areas:** Stone chips from Kenya's highways are a particular concern for luxury vehicle front bumpers, bonnets, and mirror housings. A clear paint protection film applied to these areas provides physical impact protection that no coating can deliver. AutoShine partners with certified film installers for this service.
+
+**Regular detail maintenance:** Even the best protection requires maintenance. AutoShine's luxury maintenance programme covers a professional wash and protection top-up every month, with a full detail and protection refresh twice per year, keeping the vehicle at peak condition throughout the year.
+
+Contact AutoShine's luxury department directly to arrange a vehicle assessment and personalised care plan.
+
+`;

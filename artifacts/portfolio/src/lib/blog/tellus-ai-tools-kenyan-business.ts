@@ -151,4 +151,34 @@ The tools with the highest ROI for most Kenyan businesses:
 
 Start with the highest-ROI tool for your specific situation. Measure the impact. Expand your stack deliberately based on demonstrated value rather than tool FOMO.
 
-Tellus helps Kenyan businesses navigate AI tool selection and implementation, particularly for the automation and WhatsApp integration use cases that have the highest impact in the Kenyan business context.`;
+Tellus helps Kenyan businesses navigate AI tool selection and implementation, particularly for the automation and WhatsApp integration use cases that have the highest impact in the Kenyan business context.
+
+## Evaluating AI Tools for the Kenyan Business Context
+
+Most AI tool reviews are written for the US or European market. Pricing assumes USD salaries. Use cases assume high-bandwidth connections, credit card access to subscriptions, and business contexts that don't always map to Kenya's reality. This guide covers the evaluation framework that works for Kenyan businesses.
+
+**Connectivity requirements:** Some AI tools are bandwidth-heavy. Constant cloud sync, high-resolution image processing, and video analysis require reliable high-speed connections that are not universally available across Kenyan business locations. Evaluate tools for offline capability and data efficiency before committing.
+
+**Payment method:** Most AI tools price in USD and require credit card payment. For Kenyan businesses without a company credit card, this creates friction. Identify early whether a tool supports PayPal, M-Pesa (increasingly offered by some platforms), or local payment aggregators. Annual payment in USD may require a bank transfer that carries transaction costs.
+
+**Local language support:** Swahili support varies significantly across AI tools. For businesses serving Kenyan consumers directly, a tool that understands and generates Swahili content is meaningfully more useful than one that doesn't. Evaluate this specifically if your customer-facing content is bilingual.
+
+**Data residency:** Kenya's Data Protection Act requires attention to where data is stored and processed. AI tools that process business data on international servers require a data processing agreement that many SMEs haven't formalised. Larger Kenyan businesses and those handling personal data should evaluate data residency before adopting AI tools.
+
+![AI tools evaluation matrix showing features relevant to Kenyan business context](https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80)
+
+## The Right Tool for Each Business Function
+
+Different business functions have different AI tool needs. A single "best AI tool for business" recommendation ignores this variation.
+
+**Customer service:** WhatsApp-first tools win in Kenya. Customers expect to communicate via WhatsApp. An AI customer service tool that operates through WhatsApp — with the ability to handle common queries, route complex ones to human agents, and maintain conversation history — is more valuable than a sophisticated chatbot that lives on a website few customers visit.
+
+**Sales and marketing:** AI writing tools that understand Kenyan market context, local competitor landscape, and appropriate tone for different Kenyan audiences are more useful than generic content generators. Tools with Swahili capability add significant value for businesses targeting mass-market Kenyan consumers.
+
+**Finance and accounting:** AI features embedded in accounting platforms like QuickBooks and Sage — anomaly detection, expense categorisation, cash flow forecasting — provide value without requiring a separate AI tool purchase. For most Kenyan SMEs, the AI built into their existing accounting software is the most practical starting point.
+
+**Operations:** n8n and Zapier provide AI-augmented automation that connects the tools Kenyan businesses already use. These are not AI tools per se but become significantly more powerful when combined with AI nodes that can classify, extract, and interpret data as part of automated workflows.
+
+The most successful AI adopters among Kenyan businesses are not those using the most tools. They are those who have identified the one or two highest-impact use cases in their specific business and deployed the right tool for those cases with genuine organisational commitment.
+
+`;

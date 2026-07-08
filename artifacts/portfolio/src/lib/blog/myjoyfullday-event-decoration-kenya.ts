@@ -133,4 +133,48 @@ MyJoyfulDay's vendor marketplace includes verified event decorators across Kenya
 
 Each decorator listing includes portfolio images from past events, verified client reviews, pricing ranges, and service capabilities. Direct inquiry from the platform means your first contact with the decorator is efficient and specific.
 
-Your event page, vendor contacts, and event coordination all live in MyJoyfulDay  -  one place for all of your planning, from the first WhatsApp message to the final RSVP count.`;
+Your event page, vendor contacts, and event coordination all live in MyJoyfulDay  -  one place for all of your planning, from the first WhatsApp message to the final RSVP count.
+
+## The Decoration Market in Kenya's Event Industry
+
+Event decoration in Kenya is one of the fastest-growing segments of the events vendor market. What was once limited to balloon arrangements and basic floral pieces has expanded to elaborate themed installations, LED lighting rigs, custom backdrop designs, and floral walls that have become the visual signature of premium Kenyan events.
+
+This growth is driven partly by social media. The "Instagram moment" has become a planning category in its own right - event creators specifically allocate budget for a backdrop, photo opportunity, or installation that will generate shareable images. A well-designed decoration setup is no longer just an aesthetic choice but a content creation investment.
+
+The vendor market for decoration in Nairobi and other major Kenyan cities has professionalised significantly. Where five years ago, decoration was often handled by a cousin or family member with fabric and a talent for arrangement, today's decoration market includes specialist businesses with catalogs of rental inventory, trained installation teams, and capability to execute complex themed designs.
+
+For MyJoyfulDay's vendor marketplace, decoration is one of the two highest-variance vendor categories by price (alongside photography). A basic setup might cost KES 15,000 while an elaborate themed installation for the same event can cost KES 150,000. The decoration brief given to the vendor is the primary driver of this cost, and MyJoyfulDay's decoration planning tool is designed to help event creators develop a clear brief before approaching vendors.
+
+![Professional Kenyan event decoration setup showing balloon installation, floral backdrop, and LED lighting](https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80)
+
+## How to Brief a Decoration Vendor in Kenya
+
+One of the most common frustrations between event creators and decoration vendors in Kenya is misaligned expectations. The event creator has a vision; the vendor executes something different. This gap is almost always a brief quality problem rather than a vendor quality problem.
+
+An effective decoration brief covers five elements. First, the venue and its existing aesthetic - a garden venue with natural greenery needs different decoration choices than a hotel ballroom with blank walls. Second, the colour palette, with specific colour names and ideally reference images rather than subjective descriptions like "warm colours" or "elegant". Third, the focal point - the one decoration element that must be outstanding (typically the backdrop, the dessert table, or the entrance), with other elements at a secondary priority. Fourth, the guest experience - where will most guests spend time, what is the flow through the space, and which decorations will they interact with versus admire from a distance. Fifth, the installation and breakdown requirements - when the vendor needs access to set up, when the event ends, and who is responsible for breakdown and collection.
+
+MyJoyfulDay's decoration briefing tool walks event creators through these five elements, producing a brief document that can be sent directly to vendors via WhatsApp. The structured brief reduces vendor quoting time (less clarification required before pricing) and sets documented expectations that protect both parties.
+
+## Decoration Trends Driving the Kenyan Market in 2025
+
+Understanding what decoration styles are in demand helps event creators set realistic expectations and helps vendors stay current. Based on MyJoyfulDay's event photography (with permission from event creators) and vendor conversations, the following trends are dominant in 2025.
+
+**Balloon art evolution:** Simple balloon pillars and arches have given way to organic balloon installations - asymmetric, textured arrangements that incorporate dried flowers, foliage, and mixed balloon sizes and finishes (matte, chrome, and pearl mixing). These organic arrangements photograph beautifully and have become a signature for quality event decoration.
+
+**Flower walls and floral installations:** Artificial flower walls for backdrop photography are now standard at mid-range and above events. Real floral installations for premium weddings and corporate events have grown significantly. The key constraint is timing - real flowers have a limited display window in Kenya's heat, making installation timing and air conditioning critical considerations.
+
+**LED and neon light elements:** Custom LED neon signs with event-specific text ("Amara turns 30", "The Kariukis", hashtags) have become a popular personal touch. These signs are rented from several specialist suppliers in Nairobi and Mombasa.
+
+**Sustainable decoration:** Reusable and returnable decoration elements, natural materials (dried grasses, palm leaves, natural raffia), and biodegradable balloon alternatives are growing in demand, particularly for corporate events with ESG reporting requirements.
+
+![Kenyan event decoration trends showing balloon art, flower wall, and LED neon sign installations](https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80)
+
+## Booking Decoration Vendors Through MyJoyfulDay
+
+MyJoyfulDay's decoration vendor listings include galleries of completed work, availability calendars, package descriptions, and the vendor's preferred communication channel. Most decoration vendors in the marketplace prefer initial enquiries via WhatsApp, which the platform facilitates through a direct contact button on the vendor profile.
+
+For events more than six weeks away, the decoration brief can be submitted through the platform before direct vendor contact, with the vendor responding to the brief with an initial concept and quotation. This documentation creates a record of the initial agreement that protects both parties if expectations shift during planning.
+
+The vendor review system for decoration vendors includes a photo requirement - clients are prompted to upload an event photo showing the decoration in use when they leave a review. This makes decoration vendor reviews significantly more useful than text reviews alone, giving prospective clients a real representation of the vendor's work rather than just a star rating.
+
+`;

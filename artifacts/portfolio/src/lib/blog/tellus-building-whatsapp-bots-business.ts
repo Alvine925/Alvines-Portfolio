@@ -177,4 +177,38 @@ Tellus builds WhatsApp bots for Kenyan businesses using custom development on th
 
 **Ongoing improvement:** Bot performance improves with use. We monitor the conversations your bot handles, identify where customers are falling through to humans unnecessarily, and update the conversation design accordingly.
 
-Building a WhatsApp bot is one of the highest-ROI investments available to Kenyan businesses with meaningful WhatsApp inquiry volume. Tellus makes the implementation straightforward so that business owners can focus on defining what they need rather than figuring out how to build it.`;
+Building a WhatsApp bot is one of the highest-ROI investments available to Kenyan businesses with meaningful WhatsApp inquiry volume. Tellus makes the implementation straightforward so that business owners can focus on defining what they need rather than figuring out how to build it.
+
+## Architecture Decisions That Determine WhatsApp Bot Performance
+
+Before writing a single line of code for a WhatsApp business bot, several architecture decisions determine long-term performance, cost, and maintainability.
+
+**Cloud API vs. Business Solution Provider:** Meta's WhatsApp Cloud API is the direct integration — lowest cost, highest control, more technical setup. Business Solution Providers (BSPs) like 360dialog, Vonage, and Twilio add an abstraction layer with higher per-message cost but easier implementation. For businesses expecting high message volumes or requiring close integration with other systems, Cloud API is the better long-term choice. For businesses wanting a fast start with lower technical investment, BSPs reduce initial friction significantly.
+
+**Conversation state management:** Every meaningful business bot needs to maintain conversation state — remembering what the user said earlier in the same conversation to provide coherent responses. This requires a database (Supabase, Firebase, or a traditional Postgres database) that stores conversation context keyed by the user's phone number. Stateless bots that respond to each message in isolation produce frustrating user experiences.
+
+**Human handoff design:** Every production WhatsApp bot needs a clear, reliable mechanism for escalating to a human agent when the bot cannot handle a query. The escalation must be immediate (the user should not wait more than a few seconds for acknowledgment), clear (the user should know a human will respond), and tracked (the escalating conversation must be visible to the human agent team). Businesses that deploy bots without a tested human handoff path consistently receive complaints about unanswered inquiries.
+
+![WhatsApp bot architecture diagram showing message flow from user to bot to human agent](https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=1200&q=80)
+
+## Conversation Design Principles for Kenyan Audiences
+
+WhatsApp bot conversation design for Kenyan audiences has specific considerations that generic chatbot design guides don't address.
+
+**Language mixing is common:** Kenyan users frequently switch between English, Swahili, and Sheng in the same conversation. A bot that can only handle English will frustrate users who naturally shift to Swahili when a concept is easier to express that way. At minimum, ensure your bot handles common Swahili customer service phrases correctly.
+
+**Informal language is the norm:** Unlike formal web interfaces where users often conform to expected language patterns, WhatsApp users write conversationally. "Nisaidie" (help me), "Nitumie price" (send me prices), "nishow options" (show me options) are typical inputs. Bot training must cover informal language patterns.
+
+**Quick replies reduce frustration:** Providing quick-reply buttons for common responses dramatically improves bot completion rates. Asking open-ended questions ("What would you like to know?") produces a wider distribution of responses that the bot may not handle. Offering structured choices ("What can I help you with? 1. Prices 2. Orders 3. Delivery 4. Other") produces predictable inputs the bot handles correctly.
+
+**Response timing expectations:** Kenyan WhatsApp users expect responses within seconds — the same expectation they have for human agents on WhatsApp. Bots that take more than 3-4 seconds to respond feel broken. Optimise every part of the response pipeline for latency: fast LLM inference, efficient database queries, minimal external API calls in the critical path.
+
+## Testing and Iteration
+
+WhatsApp bots require real-world testing that sandbox environments cannot fully replicate. Meta's test environment does not reproduce the full range of message types, delivery edge cases, and user behaviour patterns that production traffic generates.
+
+The recommended testing approach: a limited internal pilot with 10-20 staff members using the bot as if they were customers, followed by a controlled external pilot with a subset of real customers. Collect every escalation and failure, categorise the causes, and iterate on the conversation design before full launch.
+
+Tellus provides end-to-end WhatsApp bot development for Kenyan businesses — from API setup and conversation design through deployment and ongoing iteration support.
+
+`;

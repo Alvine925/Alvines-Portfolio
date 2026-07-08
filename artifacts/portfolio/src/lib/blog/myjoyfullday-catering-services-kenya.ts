@@ -143,4 +143,52 @@ After thousands of events coordinated through MyJoyfulDay, the catering non-nego
 
 **Backup communication.** Ensure you have the caterer's personal mobile number, not just the business number. On event day, you need direct access.
 
-The food at your event is the experience your guests will carry home with them. Give it the attention and budget allocation it deserves.`;
+The food at your event is the experience your guests will carry home with them. Give it the attention and budget allocation it deserves.
+
+## The Kenyan Catering Market: Structure and Opportunity
+
+Kenya's catering sector is one of the most dynamic in East Africa, serving everything from 20-person garden parties to 2,000-person corporate galas. The market is structured across several distinct tiers, and understanding where each tier delivers appropriate value helps event creators make informed vendor choices.
+
+**The informal tier** consists primarily of home-based caterers and small-team operations working from temporary or shared kitchen facilities. These caterers typically specialise in specific cuisines (Swahili coastal food, traditional Kikuyu dishes, Western-style party food) and operate best at events under 80 people. Quality in this tier varies significantly, but the best informal caterers produce excellent, authentic food at price points that formal caterers cannot match.
+
+**The mid-tier catering operations** have dedicated commercial kitchens, employed staff beyond the owner, and can handle 80 to 300 people reliably. These caterers are the sweet spot for most MyJoyfulDay events in terms of quality, reliability, and price.
+
+**The formal catering companies** have multiple kitchen locations, fleet vehicles for delivery, and the operational infrastructure to handle large-scale events at multiple locations simultaneously. These operations are appropriate for corporate events and large formal occasions but represent significant overcapacity and cost for small and medium personal events.
+
+**Hotel and venue-based catering** is mandatory at some venues as part of the venue booking (exclusive catering arrangements) and optional at others. Hotel catering is reliable and professional but typically the most expensive option per head for a given quality level.
+
+![Professional Kenyan catering setup at an outdoor event showing food stations and service team](https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80)
+
+## Building a Menu That Works for a Kenyan Crowd
+
+Menu planning for Kenyan events requires balancing several factors that a caterer unfamiliar with the local market might not anticipate. The following framework reflects the real preferences and constraints observed across thousands of MyJoyfulDay catering-supported events.
+
+**Provide rice and chapati as default starches.** Regardless of whether the menu is described as buffet, plated, or cocktail style, the presence of rice and chapati satisfies the starch expectation that most Kenyan guests bring to an event. An event that serves only pasta, potatoes, or bread as starches will generate comments about the food regardless of its quality.
+
+**Include non-alcoholic beverages that are not just water and soda.** Fresh fruit juices, mango, passion, or watermelon at an outside catering event, or a mocktail station at a more formal occasion, are consistently the most commented-on beverage elements in event reviews. They signal thought and care in a way that sodas alone do not.
+
+**Account for dietary requirements with specificity.** Kenya's event crowd includes a growing number of vegetarians (driven partly by the growing diaspora influence and partly by urban health consciousness), individuals avoiding pork (Muslim guests), and increasingly people avoiding gluten or specific allergens. A standard catering menu that is entirely meat-based with no clear vegetarian alternative creates visible awkwardness at the event.
+
+**Timing of service matters as much as food quality.** Kenyan events have a strong cultural norm of serving food at a designated time in the programme. A caterer who serves food late - causing guests to wait visibly - generates negative feedback regardless of the food quality when it arrives. Confirm with the caterer exactly when their team will be set up and ready to serve, and build the programme timing around this commitment.
+
+## How MyJoyfulDay Simplifies Catering Coordination
+
+The logistical complexity of catering coordination - confirming guest counts, finalising menus, coordinating setup timing with the venue and other vendors - is the single most common source of event planning stress reported by MyJoyfulDay users who have planned events with catering.
+
+MyJoyfulDay's catering coordination tool addresses this through a structured communication timeline. Thirty days before the event: caterer confirms the menu and receives a preliminary guest count from the RSVP system. Fourteen days before: caterer receives the confirmed guest count (or as close to confirmed as the RSVP system allows at that point). Seven days before: final head count and any last dietary requirement changes are communicated. Twenty-four hours before: venue access time confirmed.
+
+This structured timeline, facilitated through the platform, replaces the ad hoc phone calls and WhatsApp messages that characterise informal catering coordination. The caterer has what they need when they need it. The event creator is not juggling multiple unstructured conversations simultaneously.
+
+For catering vendors on the MyJoyfulDay marketplace, the coordination tool reduces their administrative overhead significantly. A vendor managing eight events simultaneously can track all coordination requirements from a single dashboard rather than maintaining separate message threads for each event.
+
+![Catering vendor coordination dashboard on MyJoyfulDay showing event timeline and guest count tracking](https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80)
+
+## After-Event Feedback and Catering Quality Improvement
+
+MyJoyfulDay's catering vendor reviews are collected through a structured post-event survey sent to event creators 48 hours after the event. The survey asks specifically about food quality, service professionalism, timeliness, and whether the vendor delivered on the brief provided before the event.
+
+Catering reviews on MyJoyfulDay have the highest completion rate of any vendor category - 67% of catering-related events generate a review, compared to 45% for photography and 38% for decoration. This reflects the strong opinions that food quality generates - both positive and negative experiences motivate people to record their response.
+
+For catering vendors, this review data is genuinely useful quality improvement information. The structured survey format allows vendors to identify specific areas of feedback (consistently high scores on food quality but lower scores on service timing, for example) that guide operational improvements. Vendors who respond to reviews and demonstrate quality improvement are featured in platform communications as partner vendors.
+
+`;

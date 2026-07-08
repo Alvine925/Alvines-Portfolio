@@ -112,4 +112,56 @@ TellusJobs' AI matching works for entry-level candidates through a different mec
 
 The platform's Kenyan job market focus means the entry-level roles surfaced are realistic and specific to the market  -  not generic "graduate positions" but specific opportunities from Kenyan employers across the sectors and locations where you're genuinely competitive.
 
-Your first job matters. Find it with the tools built for the Kenyan market.`;
+Your first job matters. Find it with the tools built for the Kenyan market.
+
+## The Entry-Level Job Market in Kenya: What Graduates Are Actually Facing
+
+Kenya produces approximately 150,000 university graduates annually. The formal sector creates significantly fewer entry-level positions than this number, creating a highly competitive entry market where credentials alone are insufficient to stand out.
+
+The competition is further complicated by credential inflation in Kenya's formal employment market. Roles that required a diploma five years ago now require a degree. Roles that required a degree now frequently prefer a master's qualification. This inflation is partly genuine (roles have become more complex) and partly a screening mechanism in a high-volume applicant market.
+
+What this means practically: a fresh graduate with a good degree from a good Kenyan university is table stakes for most formal sector entry-level roles. The differentiating factors are internship experience, demonstrated practical skills, and network connections. A candidate who did three internships during their studies and can demonstrate specific project outcomes is in a different competitive tier from one who finished university with only coursework to show.
+
+TellusJobs' entry-level matching is specifically designed for candidates with limited work history. The matching model weights coursework relevance, internship and volunteer experience, and explicitly stated skills more heavily than it does for experienced candidates where work history is the dominant signal.
+
+![Entry level job market in Kenya showing graduate candidates at recruitment event](https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=1200&q=80)
+
+## Internship-to-Permanent: Kenya's Primary Entry Pathway
+
+The most reliable pathway from university to formal sector employment in Kenya is the internship-to-permanent conversion. Major employers across banking, telecoms, FMCG, and technology run structured internship programmes that function as extended trial periods. Interns who perform well are offered permanent positions at the end of the programme, often before the role is advertised externally.
+
+The competitive advantage of understanding this pathway: applying to internship programmes rather than graduate roles is a strategically better use of application effort in the first 12 months after graduation. The competition for internships is lower than for permanent roles, the time investment required is smaller, and the conversion rate from internship to permanent offer at organisations with established programmes is significant.
+
+TellusJobs tracks internship and graduate programme postings alongside permanent roles and tags them specifically. The search can be filtered to show internship opportunities exclusively, making it easy to build an internship application pipeline separate from a permanent role search.
+
+For candidates completing an internship and seeking to convert it to a permanent role, TellusJobs' matching can identify what permanent roles the employer has currently open that match the candidate's developed skills - helping the intern make a targeted internal case for conversion rather than waiting for an offer or applying externally.
+
+## Writing a CV With Limited Experience That Still Gets Noticed
+
+The entry-level CV challenge is presenting limited professional history in a way that demonstrates genuine capability. The most common mistake is a thin CV padded with generic descriptions that tells the recruiter nothing distinguishing.
+
+The most effective approach for a fresh Kenyan graduate:
+
+**Lead with education, but make it substantive.** The education section should include: institution, degree, graduation year, grade (if second class upper or above), and three to five specific courses that are directly relevant to the role being applied for. "Relevant coursework: Financial Accounting, Corporate Finance, Econometrics, Business Statistics" is more useful than "Bachelor of Commerce (Finance)".
+
+**Internship and project experience treated with same rigour as work experience.** A three-month internship where you contributed to a specific project should be described with the same specificity as a full-time job. What was the project? What was your contribution? What was the outcome? "Finance intern: assisted in monthly reconciliation process and contributed to a working capital optimisation project that identified KES 2.3 million in unnecessary vendor payment delays" is far more compelling than "Finance intern: assisted the finance team with various tasks".
+
+**Academic projects and final year research.** If your final year project or dissertation addressed a topic relevant to your target roles, describe it specifically. The methodology, the findings, and the analytical skills demonstrated are all relevant evidence.
+
+**Skills section with specificity.** "Microsoft Office" is not a skill worth listing. "Advanced Excel (VLOOKUP, Pivot Tables, financial modelling)" is. "Data analysis using Python (pandas, matplotlib)" is. Specificity turns a generic skill claim into verifiable evidence.
+
+![Entry level CV writing workshop for Kenyan graduates showing specific experience documentation techniques](https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80)
+
+## Using TellusJobs to Build an Application Strategy
+
+TellusJobs recommends a specific application approach for entry-level candidates that differs from the experienced professional strategy.
+
+**Volume with targeting:** Entry-level candidates should apply to more roles than experienced professionals because individual application conversion rates are lower. Target 15 to 25 relevant applications per month, focusing on roles where the match score is 60 or above. Below 60, the fit is weak enough that time is better spent improving qualifications or building experience than applying.
+
+**Internship and graduate programme pipeline first:** Identify all internship and graduate programme applications due in the next three months and prioritise these before permanent role applications. The programme application typically requires more effort (assessment centre preparation, motivational essays) but converts at a higher rate.
+
+**Network building in parallel:** Identify 10 to 15 alumni from your university who are in the sectors and organisations you are targeting. Send LinkedIn connection requests with a brief, genuine personalised note. Follow up three to four weeks after connecting with a request for a 20-minute conversation. This networking activity is done in parallel with the application activity, not instead of it.
+
+**Track and learn from rejections:** TellusJobs' application tracker allows you to record application outcomes and notes. Over three to six months, patterns emerge: which sectors respond more vs less, which application elements generate interview invitations, which cover letter approaches work better. This data-driven iteration improves your application effectiveness over time in ways that simply submitting more applications does not.
+
+`;

@@ -128,4 +128,52 @@ Jumia Kenya carries a range of automotive care products. The quality is variable
 
 AutoShine customers who want to purchase the specific products we use in our professional service can ask our team for current supplier referrals. We're transparent about what we use and happy to point customers toward quality sources.
 
-The right products make the difference between a car wash that protects your vehicle and one that gradually damages it. Investing in professional-quality products  -  even for DIY washing between AutoShine services  -  is how Kenyan car owners protect their vehicles in one of East Africa's most demanding vehicle environments.`;
+The right products make the difference between a car wash that protects your vehicle and one that gradually damages it. Investing in professional-quality products  -  even for DIY washing between AutoShine services  -  is how Kenyan car owners protect their vehicles in one of East Africa's most demanding vehicle environments.
+
+## What Makes a Car Wash Product Good for Kenya's Conditions
+
+Most car care products available in Kenya are designed for markets with significantly different environmental conditions. Understanding what to look for - and what to avoid - saves money and protects your vehicle better.
+
+**pH balance matters more than most owners realise.** A car shampoo should be pH-neutral (pH 6 to 8). Most cheap shampoos sold in Kenya are alkaline (pH 9 to 12) because alkaline solutions are cheap to produce and clean grease effectively. The problem is that alkaline products strip wax and sealant protection, meaning you are cleaning the car and simultaneously removing the protection you applied last time. After six months of washing with alkaline shampoo, your car has essentially no paint protection.
+
+**UV protection is non-negotiable in Kenya.** Any product applied to paint - wax, sealant, or tyre dressing - should include UV inhibitors. Kenya's equatorial sun degrades unprotected surfaces rapidly. Tyre rubber that looks pristine after treatment with a non-UV-protective dressing will crack and fade within two months. Wax without UV protection has no meaningful effect in Nairobi's sun.
+
+**Concentration matters for value.** Many premium professional concentrates, when diluted correctly, cost less per wash than cheaper pre-diluted products. AutoShine's detailing team uses professional-grade concentrates that cost significantly more per litre but produce six to ten litres of working solution. This is the same economics that makes buying a 5-litre jerrycan of cooking oil more efficient than buying single-use sachets.
+
+![Professional car wash products and equipment used at AutoShine Kenya](https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200&q=80)
+
+## Where to Source Quality Car Care Products in Kenya
+
+The Kenyan car care market has improved significantly in the past five years. Products that were previously only available through grey imports can now be found at specialist retailers.
+
+**For professional-grade products:** Automotive specialty shops in Nairobi's Industrial Area and along Kirinyaga Road carry professional concentrates and detailing supplies. These are the same products used by detailing businesses. They require more knowledge to use correctly but deliver better results.
+
+**For consumer products:** Major supermarkets carry basic car care ranges. Carrefour, Naivas, and QuickMart stock Turtle Wax, Meguiar's, and Armor All products that are genuine and appropriate for home use. Avoid car care products from informal markets where counterfeiting and dilution are common.
+
+**For specialist products (clay bars, iron removers, paint sealants):** Online ordering through Jumia or direct import is currently the most reliable source for specialist products that are not yet widely available in Kenya. AutoShine can advise on current availability for specific products.
+
+**AutoShine's own product range:** AutoShine stocks a curated range of professional products available for retail purchase alongside service bookings. Products in this range are specifically tested for performance in Kenya's climate and come with application guidance from the detailing team.
+
+## Products That Kenyan Car Owners Consistently Misuse
+
+These are the most common product misuse patterns observed by AutoShine's service team.
+
+**Dish soap as shampoo:** Extremely common. Dish soap is effective at removing grease and therefore effective at removing wax, sealant, and protective coatings from paint. It is fine for an emergency clean when nothing else is available. It should not be used as a regular car shampoo.
+
+**Silicone-heavy tyre dressings:** These products make tyres look extremely shiny immediately but accelerate rubber degradation over time because silicone prevents the tyre's own UV protectants from reaching the surface. Water-based tyre dressings provide a less dramatic shine but genuinely protect the rubber.
+
+**Applying wax in direct sun:** Wax applied to a hot surface in direct sunlight dries before it bonds properly, leaving white residue that is difficult to remove and providing minimal protection. Always wax in shade or indoors and allow the surface to cool first.
+
+**Wiping with dry cloths:** Even microfibre cloths dragged across a dry, dusty car surface cause micro-scratches. Always use a proper wash and lubrication before wiping any surface. The two-bucket wash method - one bucket for shampoo solution and one for rinsing the wash mitt - is the minimum standard for avoiding swirl marks.
+
+![Correct car washing technique using two-bucket method to prevent paint scratches](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## The AutoShine Professional Advantage
+
+AutoShine's professional service uses products specifically matched to Kenya's environmental conditions. The shampoo used in AutoShine's wash process is a pH-neutral professional concentrate. The wax and sealant products are UV-rated for equatorial conditions. The interior products are formulated for Kenya's dust and humidity combination.
+
+The difference between a professional product application and a home application is not just the product quality. It is the preparation steps - proper decontamination before polishing, panel wiping with isopropyl alcohol before wax application, correct buffing pressure and technique. These preparation steps are what determine whether a product achieves its rated performance.
+
+Booking an assessment with AutoShine's product specialist - available as part of a full detail service or as a standalone 30-minute consultation - helps owners understand exactly what their vehicle needs and what products will perform best for their specific use case.
+
+`;

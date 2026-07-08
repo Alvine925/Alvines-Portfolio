@@ -164,4 +164,34 @@ Tellus has built e-commerce automation for Kenyan businesses across multiple sec
 
 The economics of e-commerce automation in Kenya are compelling. A business processing 50 orders per day that reduces manual handling from 15 minutes per order to 3 minutes per order saves 10 hours of operational time daily  -  enabling either significant growth without additional headcount, or redeployment of existing staff to higher-value activities.
 
-The ceiling on your Kenyan e-commerce business doesn't have to be your current operational capacity. With proper automation, it can be whatever the market will support.`;
+The ceiling on your Kenyan e-commerce business doesn't have to be your current operational capacity. With proper automation, it can be whatever the market will support.
+
+## The Full Automation Map for Kenyan E-Commerce
+
+E-commerce operations in Kenya span a pipeline that begins at product discovery and ends at post-delivery follow-up. Automation opportunities exist at every stage. Understanding the full map allows e-commerce operators to prioritise where automation delivers the most value in their specific situation.
+
+**Stage 1 — Discovery and marketing:** AI-powered content generation for product descriptions, ad copy, and social media posts. Automated social media scheduling. Retargeting automation that identifies website visitors who didn't purchase and reaches them with relevant content.
+
+**Stage 2 — Ordering:** Chat-based ordering via WhatsApp for businesses that sell through conversational commerce. Automated order confirmation messages with payment instructions sent immediately after order submission. M-Pesa payment monitoring that detects payments and confirms orders automatically.
+
+**Stage 3 — Fulfillment coordination:** Automatic generation of packing lists and dispatch instructions when payment is confirmed. Integration with delivery partners (Fargo, Wells Fargo, G4S, Glovo, Sendy) to create dispatch orders automatically. Inventory management that updates stock levels and triggers reorder alerts when stock falls below threshold.
+
+**Stage 4 — Delivery communication:** Automated dispatch notification to customers when orders are sent. Delivery tracking updates via WhatsApp. Delivery confirmation requests and feedback collection when delivery is completed.
+
+**Stage 5 — Post-delivery:** Review request messages sent 2-3 days after confirmed delivery. Return and exchange request handling for standard cases. Repurchase reminders for consumable products at appropriate intervals.
+
+![E-commerce automation pipeline showing each stage from order to delivery confirmation in Kenya](https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80)
+
+## M-Pesa Integration: The Core of Kenyan E-Commerce Automation
+
+M-Pesa is not just a payment method in Kenya — it is the infrastructure around which most SME e-commerce automation must be built. Effective M-Pesa integration enables the automation of payment confirmation, reconciliation, and the downstream processes that depend on confirmed payment.
+
+**Daraja API integration:** The Safaricom Daraja API provides programmatic access to M-Pesa's services. STK Push (Lipa Na M-Pesa Online) allows e-commerce platforms to initiate payment requests that go directly to the customer's phone — significantly better than instructing customers to send a manual payment. C2B (Customer to Business) allows businesses to receive notifications when customers send payments to their M-Pesa number or Paybill.
+
+**Payment matching automation:** When customers send M-Pesa payments without using STK Push, matching payments to orders requires automation logic. The most reliable approach uses the customer's phone number as the matching key — the same number that placed the order is the number from which payment arrives. Automated payment matching eliminates the manual reconciliation that consumes significant time in businesses with high payment volumes.
+
+**Receipt generation:** Automatic receipt generation and delivery via WhatsApp or SMS immediately after payment confirmation provides customers with instant confirmation, builds trust, and creates a digital paper trail for both parties.
+
+Tellus provides M-Pesa integration support as part of its e-commerce automation services — from Daraja API setup through payment matching logic and downstream automation. The goal is an e-commerce operation that processes from order to fulfillment with minimal manual intervention.
+
+`;

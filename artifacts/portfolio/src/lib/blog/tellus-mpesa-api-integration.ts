@@ -287,4 +287,34 @@ One of the highest-value combinations for Kenyan businesses is M-Pesa integratio
 
 Tellus has built this pattern for multiple Kenyan businesses. The result is a payment experience that is instantaneous and a post-payment process that is fully automated  -  no manual reconciliation, no manual receipt sending, no manual order processing.
 
-If you need M-Pesa integration for your Kenyan business application  -  whether building it yourself or engaging Tellus to build it for you  -  the foundation is solid and the capability is comprehensive. M-Pesa is Kenya's payment infrastructure. Build on it.`;
+If you need M-Pesa integration for your Kenyan business application  -  whether building it yourself or engaging Tellus to build it for you  -  the foundation is solid and the capability is comprehensive. M-Pesa is Kenya's payment infrastructure. Build on it.
+
+## Daraja API Setup for Production: What the Documentation Doesn't Tell You
+
+The official Safaricom Daraja API documentation covers the technical steps accurately. What it doesn't cover are the practical experience patterns that distinguish developers who go live smoothly from those who spend weeks debugging.
+
+**Sandbox vs production differences:** The sandbox environment is permissive in ways production is not. Sandbox accepts requests with missing parameters that production will reject. Sandbox always returns success for STK Push requests regardless of whether the target phone number is real or the number format is valid. Testing in sandbox does not fully validate your production readiness. Always test with a real Safaricom number before claiming integration is complete.
+
+**Phone number normalisation is essential:** Safaricom's API requires phone numbers in the format `254XXXXXXXXX` — not `+254XXXXXXXXX`, not `0XXXXXXXXX`. If your application accepts phone numbers in any format (which it should, for user experience), you must normalise before passing to the API. Every API call with an incorrectly formatted number will fail, and the error messages are not always intuitive about the cause.
+
+**Callback URL requirements:** Your callback URL must be publicly accessible via HTTPS with a valid SSL certificate. During development, you cannot use localhost. Tools like ngrok create temporary public tunnels for local development. In production, your callback endpoint must be reliably available — a Daraja callback that can't reach your endpoint will not retry in a way that allows you to recover missed payment notifications.
+
+**Idempotency and duplicate handling:** Daraja can deliver the same callback multiple times. Your callback handler must be idempotent — processing the same payment notification twice should produce the same result as processing it once. Implement deduplication on the `MpesaReceiptNumber` field that Daraja includes in every successful payment callback.
+
+![M-Pesa Daraja API integration showing STK Push flow and callback handling architecture](https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80)
+
+## Building Reliable Payment Flow User Experience
+
+The technical API integration is one component of M-Pesa payment UX. The user-facing experience — from initiating payment to confirmation — is where most Kenyan users will judge whether your integration is trustworthy.
+
+**STK Push timing:** The STK Push prompt appears on the user's phone within 2-5 seconds of the API call. Design your UI to reflect this delay without alarming the user. A "payment request sent to your phone" message immediately after the API call, followed by a loading state while waiting for callback, produces better UX than either immediate success messaging (premature) or nothing (alarming).
+
+**Timeout handling:** STK Push requests time out after 90 seconds if the user doesn't respond. Your application must handle this timeout gracefully — detecting it from the callback or from polling the transaction status API, and presenting the user with a clear "payment timed out, please try again" option.
+
+**Partial payment prevention:** Daraja's API does not prevent a user from paying an incorrect amount. If your business requires exact payment amounts, implement validation on the callback that checks the received amount against the expected amount and handles mismatches explicitly — either refunding or flagging for manual reconciliation.
+
+**Receipt communication:** Send the M-Pesa receipt number to the user immediately after confirmed payment. For Kenyan users, the M-Pesa receipt is the authoritative proof of payment. An application that accepts an M-Pesa payment without echoing the receipt number back to the user creates doubt.
+
+Tellus provides Daraja API implementation support — from initial Safaricom business account registration through production integration, callback handling, and payment reconciliation automation.
+
+`;

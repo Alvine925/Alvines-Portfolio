@@ -127,4 +127,48 @@ Send a WhatsApp message to MyJoyfulDay with your event details. Company name, ev
 
 For recurring events like annual company celebrations, your previous event setup can serve as a template for the next one  -  reducing setup time and ensuring consistency.
 
-Corporate events are an investment in your organisation. Make that investment count.`;
+Corporate events are an investment in your organisation. Make that investment count.
+
+## Why Corporate Events in Kenya Are Different
+
+Corporate event planning in Kenya has distinct characteristics from both the consumer event market and corporate events in Western markets. Understanding these characteristics shapes the product features and vendor marketplace design for MyJoyfulDay's corporate segment.
+
+Kenyan corporate events are predominantly relationship-driven rather than attendance-driven. The goal of a Kenyan corporate event is rarely pure information transfer (a conference or product launch) - it is usually strengthening relationships with clients, motivating staff, or marking milestones in ways that build culture and community. This means the experience quality and the impression created matter as much as the logistics.
+
+Corporate events in Kenya typically involve a mix of formal and informal elements. A conference might be half structured sessions and half networking activities with food and entertainment. A team-building event almost always incorporates a social meal. An end-of-year celebration for staff may include awards, entertainment, and an extended social period. This hybrid format requires vendors who can handle both formal and informal elements seamlessly.
+
+The budget range for Kenyan corporate events is large: a small team meeting might be KES 50,000, a full department conference might be KES 500,000, and a large corporate gala for 500+ people might be KES 3 million or more. MyJoyfulDay's corporate segment is currently strongest in the KES 200,000 to KES 800,000 range - well-resourced but not the enterprise level that has dedicated event management companies on retainer.
+
+![Corporate event setup in Nairobi Kenya showing professional venue, catering, and branding](https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80)
+
+## Corporate RSVP Challenges Specific to Kenya
+
+Corporate event RSVP management in Kenya faces a specific challenge: the formal corporate email culture required for record-keeping conflicts with the WhatsApp-first communication culture where actual confirmation happens.
+
+Most Kenyan corporate event coordinators send formal email invitations to meet corporate process requirements, but they know that actual RSVPs will come through WhatsApp personal messages, verbal confirmations in the corridor, and last-minute phone calls. The official RSVP system collects a fraction of confirmations; the real guest count is managed through the coordinator's personal network.
+
+MyJoyfulDay bridges this gap by allowing corporate event coordinators to accept confirmations through multiple channels. The event page serves as the official RSVP record. The WhatsApp RSVP shortlink can be shared through corporate WhatsApp groups (department groups, team groups, company-wide announcement channels). And a QR code on physical or digital invitations links directly to the RSVP page for guests who prefer this format.
+
+The result is a single confirmed guest list that captures confirmations arriving through different channels, eliminates manual reconciliation, and produces the clean count the coordinator needs for catering orders and seating arrangements.
+
+## Branding and White-Label Options for Corporate Events
+
+For corporate events where the employer brand is paramount, MyJoyfulDay offers event page customisation that incorporates the company's branding. A corporate event page for a banking conference can carry the bank's logo and colour palette rather than the default MyJoyfulDay branding.
+
+This white-label feature is available for Pro-tier corporate accounts and covers: logo placement, primary and secondary brand colours, custom domain option (so the URL reads companyname.events/conference rather than myjoyfullday.com/events/...), and custom confirmation messages that use the company's communication style.
+
+For companies with existing brand guidelines, the MyJoyfulDay design team can build the event page template to match the brand guide - a service available as a paid add-on to corporate accounts.
+
+![Corporate event branding customisation on MyJoyfulDay showing company logo and colours](https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=1200&q=80)
+
+## Post-Event Analytics for Corporate Accounts
+
+Corporate event coordinators have reporting requirements that consumer event creators do not. Finance needs cost-per-head calculations. HR wants attendance data for team engagement tracking. Marketing wants social sharing metrics to evaluate the event's brand impact.
+
+MyJoyfulDay's corporate analytics dashboard provides: final confirmed versus attended guest counts (attendance tracked through check-in), demographic breakdown of attendees by department or function (for events where this data was collected during RSVP), vendor cost summary (for events where vendors were booked through the platform), social sharing metrics for the event page, and comparison to the organisation's previous events on the platform.
+
+These analytics are exportable to PDF for reporting purposes and to CSV for import into HR or financial management systems. For recurring corporate events (quarterly town halls, annual galas), year-over-year comparison data is available to track changes in attendance patterns and engagement over time.
+
+The corporate analytics feature has been a key driver of MyJoyfulDay adoption in larger Kenyan organisations, where event coordinators need to justify the cost and effort of events to senior management and benefit from clean, professional data to support that justification.
+
+`;

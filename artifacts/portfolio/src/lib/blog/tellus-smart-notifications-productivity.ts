@@ -132,4 +132,36 @@ Across a 20-person team: 33 hours of productive capacity lost daily to unnecessa
 
 This is not a hypothetical. It's a measurement-based estimate of a real cost that most organisations are not paying attention to.
 
-Tellus's notification intelligence is designed to recover as much of this lost productive capacity as possible. Not through notification minimisation, but through notification precision: making sure the right information reaches you at the right time, and the wrong information doesn't reach you at all.`;
+Tellus's notification intelligence is designed to recover as much of this lost productive capacity as possible. Not through notification minimisation, but through notification precision: making sure the right information reaches you at the right time, and the wrong information doesn't reach you at all.
+
+## From Notification Inbox to Attention Management System
+
+The dominant mental model for notifications is inbox-like: things arrive, you process them, you move on. This model fails for one fundamental reason: the rate of arrival exceeds the cognitive capacity to process each item as it arrives. The result is a permanent backlog — a growing list of things you've acknowledged but not acted on.
+
+Tellus is designed around a different mental model: attention management. Rather than delivering all notifications to a single inbox for the user to process, Tellus routes items to three distinct queues based on their attention requirement:
+
+**Immediate attention required:** Items that genuinely cannot wait — an urgent client message, a deadline that expires today, a payment that requires authorisation. These surface immediately regardless of what the user is doing. The bar for this queue is deliberately high; items in it should always justify the interruption.
+
+**Requires attention today:** Items that need to be addressed before the day ends but don't require interrupting current work. These are held and presented at the next natural break in the user's focus pattern — typically when they complete a task or switch contexts.
+
+**When you have a moment:** Items that have no time pressure but represent genuine work that needs to be done eventually — emails to reply to, documents to review, decisions to make. These are batched and presented as a curated work queue at intervals the user configures, removing them from the ambient distraction space entirely.
+
+This routing structure is the practical implementation of the proactive-without-noisy design principle. The user is never overwhelmed by a single notification stream; instead, they interact with a system that has already sorted the incoming by urgency and presents each category at the appropriate moment.
+
+![Smart notification routing showing three-queue system for immediate, daily, and deferred attention items](https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80)
+
+## Integration With the Kenyan Professional's Work Pattern
+
+Kenyan professional work patterns have specific characteristics that smart notification systems need to accommodate.
+
+**Unpredictable availability windows:** Nairobi traffic, frequent meetings, and variable connectivity create work patterns that are less regular than the 9-to-5 structure that most productivity tools assume. Smart notifications need to adapt to actual availability rather than assuming a fixed daily schedule.
+
+**WhatsApp as the primary professional communication channel:** Many Kenyan professionals manage significant professional communication through personal WhatsApp, not through enterprise messaging platforms. A notification system that doesn't integrate with WhatsApp misses a substantial portion of the communications that require attention management.
+
+**Cross-device usage patterns:** Kenyan professionals often switch frequently between mobile and desktop, using whichever is most accessible at a given moment. Notification delivery needs to be device-aware — not duplicating notifications across all devices simultaneously, but routing to the device the user is currently active on.
+
+**Connectivity variability:** Standard Wi-Fi in Kenyan offices is reliable for most users in Nairobi. But field work, travel between cities, and meetings in buildings with poor signal create connectivity gaps. A notification system that loses notifications during connectivity gaps — rather than queuing and delivering when connection is restored — creates gaps in attention management that undermine its value.
+
+Tellus's mobile application is designed specifically for this Kenyan professional context: WhatsApp integration that monitors professional channels, smart device routing, offline-capable notification queuing, and attention management that fits the irregular availability patterns of a professional working in Nairobi's real environment rather than in a controlled productivity-lab setting.
+
+`;

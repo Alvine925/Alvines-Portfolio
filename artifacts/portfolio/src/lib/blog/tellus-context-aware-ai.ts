@@ -101,4 +101,39 @@ During user-set quiet hours, Tellus does not surface anything. Items are queued 
 The chief of staff analogy is apt here. A great chief of staff does not interrupt the CEO with every piece of information that comes in. They carry the information, filter it continuously, and interrupt only when the interruption is genuinely necessary. The rest, they handle or hold.
 
 That is the model Tellus is built on.
+
+## Why Context Is the Most Underrated AI Capability
+
+Most discussions of AI capability focus on language fluency, factual accuracy, and reasoning ability. Context awareness — the ability to use knowledge about the specific situation, user, and history to produce more relevant responses — is rarely foregrounded in product marketing, but it drives more of the practical value difference between AI tools than any other capability.
+
+A context-unaware AI assistant gives the same answer to "what should I do about the delayed project?" regardless of whether the project is a small internal report or a major client deliverable, regardless of the relationship with the stakeholder, and regardless of what was discussed about this project yesterday. A context-aware AI gives a different, more useful answer in each of these situations.
+
+Building genuine context awareness requires three components: memory of relevant history, understanding of the user's role and priorities, and the ability to weight that context appropriately when generating responses. Each component is technically non-trivial. Getting all three right is what separates genuinely useful AI assistants from expensive autocomplete.
+
+![Context-aware AI assistant showing personalised response based on user history and role](https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80)
+
+## How Tellus Builds Context Over Time
+
+Tellus approaches context as an accumulated asset that grows with usage. From the first interaction, Tellus begins building a model of the user's priorities, communication style, key relationships, and recurring challenges. This model shapes every subsequent interaction.
+
+**Priority calibration:** Through observed patterns — what the user acts on immediately versus what they defer, what they escalate versus what they handle independently — Tellus builds a model of relative priority that informs which information to surface proactively.
+
+**Communication style adaptation:** Users vary significantly in how they prefer information delivered. Some want bullet points, others prefer narrative. Some want all options, others want a single recommendation. Tellus adapts to observed preferences rather than forcing users to specify their style in settings.
+
+**Relationship awareness:** Professional communication is deeply relationship-specific. An update to a long-term client requires different framing than the same update to a new one. A message to a direct report requires a different register than the same content to a senior stakeholder. Context-aware AI recognises these relationship dimensions from conversation history.
+
+**Project and thread continuity:** For professionals managing multiple parallel projects, maintaining thread-level context is essential. Tellus maintains the ability to pick up project-related conversations from where they left off, without requiring the user to re-establish context at the start of each interaction.
+
+## The Privacy Architecture of Context Collection
+
+Context accumulation requires data collection, which raises legitimate privacy questions. Tellus's privacy architecture addresses these directly.
+
+All context data is stored under the user's control. Users can inspect what Tellus knows about them — the priority model, relationship notes, communication preferences — at any time through the context management interface. Any component of the context model can be edited or deleted.
+
+Context data is never shared across users or organisations without explicit consent. Each user's context model is isolated. In team settings, shared context — project information, client histories — is governed by permission settings that the team's administrator controls.
+
+The context model is used exclusively to improve the relevance of Tellus's responses for the individual user. It is not used for advertising, training general AI models, or any purpose outside the product's direct function of improving professional productivity.
+
+Tellus's approach to context is the practical foundation of its value proposition: an AI assistant that gets more useful over time because it genuinely learns what matters to you.
+
 `;

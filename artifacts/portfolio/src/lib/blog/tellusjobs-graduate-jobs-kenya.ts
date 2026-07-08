@@ -119,4 +119,62 @@ If you've graduated and are searching for your first role without access to stru
 
 **Freelance work to build credibility:** For certain fields (writing, design, development, accounting), freelance work builds a portfolio that substitutes for employment experience in application materials.
 
-Your first professional role shapes your career trajectory. Invest the preparation it deserves, use TellusJobs to find the right opportunities, and bring your full capability to the selection process. The effort pays returns for decades.`;
+Your first professional role shapes your career trajectory. Invest the preparation it deserves, use TellusJobs to find the right opportunities, and bring your full capability to the selection process. The effort pays returns for decades.
+
+## The Graduate Talent Market in Kenya's Formal Sector
+
+Kenya's graduate talent market sits at an interesting intersection. The country's tertiary education sector has grown rapidly, producing graduates in numbers the formal employment sector cannot fully absorb. Simultaneously, specific graduate skills - particularly in technology, data, and business analysis - are in genuine undersupply. The graduate talent market is both oversupplied and undersupplied, depending on the discipline and sector.
+
+University and graduate programme hiring in Kenya follows predictable patterns that informed job seekers can use strategically. Most large formal sector employers (banks, telcos, insurance, FMCG, professional services) run annual or biannual graduate intake programmes with fixed application windows. Missing these windows means waiting a full cycle - often six to twelve months.
+
+The peak application season for graduate programmes in Kenya is August to November, when organisations prepare intakes for the January to March start period. The secondary window is February to April, for July to August starters. Graduate candidates who are proactively monitoring these windows and preparing applications months in advance are in a materially stronger position than those who apply reactively when programmes are already partially subscribed.
+
+TellusJobs' graduate programme tracker specifically monitors and alerts for these fixed-window programmes, which do not always appear on general job portals because they are not continuous openings.
+
+![Kenyan graduate recruitment programme showing assessment centre and selection process](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80)
+
+## Assessment Centres: Kenya's Graduate Selection Standard
+
+Major Kenyan employers use assessment centres as the primary selection tool for graduate programmes. Understanding what assessment centres test - and how to prepare specifically - is one of the highest-return investments a graduate job seeker can make.
+
+A typical Kenyan corporate assessment centre covers:
+
+**Numerical reasoning tests:** Quantitative assessments testing the ability to interpret data, calculate percentages, and make numerical inferences. These are not IQ tests - they are coachable. Familiarity with the format and sufficient practice (15 to 20 timed practice tests) dramatically improves performance for most candidates.
+
+**Verbal reasoning tests:** Reading comprehension and logical deduction from written passages. Again, coachable with practice. The pace of the test is the main challenge - practice timed specifically for the speed required.
+
+**Group exercises:** Candidates work in groups on a case study or discussion exercise while assessors observe collaboration, communication, and analytical reasoning. The assessment is of your process and your contribution to the group's output, not just the output itself.
+
+**Individual presentations:** A short prepared or impromptu presentation on a business case or industry question. The assessment covers structure, clarity, confidence, and the ability to respond to questions.
+
+**Competency interviews:** Structured behavioural interviews based on specific competencies (analytical thinking, client focus, collaboration, drive for results). These require STAR format responses (Situation, Task, Action, Result) drawn from specific experience examples.
+
+TellusJobs' graduate preparation resources include practice tests, interview preparation guides, and assessment centre simulation frameworks specifically tailored for Kenya's major graduate employers.
+
+## Which Graduate Programmes Are Worth Prioritising
+
+Not all graduate programmes offer equivalent value as a career starting point. The following represents the consensus view from TellusJobs' data on where graduates who started in specific programmes ended up three to five years later.
+
+**High long-term value programmes:** Banking sector graduate programmes (Equity, KCB, Standard Chartered, Absa Kenya) provide strong financial services foundations with clear progression paths. The Big Four professional services programmes (PwC, Deloitte, KPMG, EY) provide technical accounting and consulting skills that transfer across sectors and carry strong market recognition.
+
+**Strong sector-specific value:** Telecom graduate programmes (Safaricom, Airtel Kenya) provide technology and business skills in Kenya's most sophisticated commercial organisations. FMCG programmes (Unilever, Procter and Gamble, Diageo) provide commercial sales and marketing skills that command premium salaries in the Kenya market.
+
+**High growth potential:** Technology startup and scale-up programmes (Andela, Twiga Foods, M-Pesa/Safaricom digital) offer less structured development but faster learning and equity upside exposure. The growth of Kenya's technology sector means these early-stage career paths can produce significantly above-average outcomes for candidates who choose well.
+
+**Development sector entry:** NGO and development organisation internship and junior professional programmes (UNHABITAT, UN Women, UNICEF Kenya, major bilateral donor implementing partners) provide international experience, mission-driven work, and access to the development sector network that is difficult to build from outside. The career ceiling is lower than private sector but the floor is higher, with predictable salary progression.
+
+![Graduate programme comparison chart showing Kenyan employer programmes and career progression data](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80)
+
+## Starting Your Career in the Right Direction
+
+The first role after graduation disproportionately influences career trajectory in Kenya's formal sector. Three dynamics make the early career choice particularly consequential.
+
+**First employer brand carries.** In Kenya's professional community, early employer brand is a quality signal that follows candidates for five to ten years. A first employer from the top tier in your sector opens doors that require less justification than a first employer from the middle tier. This does not mean lower-tier employers do not produce excellent professionals - it means that the signaling value of the first employer choice is significant enough to consider deliberately.
+
+**Technical skills windows close.** The period immediately after graduation is the easiest time to develop deep technical skills that build the foundation for career progression. The workload and flexibility to invest significantly in skill development decreases as career seniority increases. A first role that offers genuine technical skill development (not just exposure) is worth prioritising even at a lower starting salary than an equivalent role in a less technically intensive environment.
+
+**Network formation happens early.** The peers who are your professional cohort at your first employer are likely to be your professional network for decades. A cohort of high-calibre peers across Kenya's formal sector creates relationship capital that compounds over time.
+
+TellusJobs' graduate career guidance module helps candidates evaluate these dimensions when comparing programme offers, not just comparing starting salaries. The salary-only comparison commonly leads to choices that optimise a short-term outcome at the expense of a longer-term trajectory.
+
+`;

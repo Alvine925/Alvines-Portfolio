@@ -109,4 +109,56 @@ Your subscription sets the frequency (weekly, bi-weekly, or custom schedule) and
 
 Subscription pricing provides additional savings over individual booking rates  -  typically 15 - 20%  -  making the economics compelling compared to ad-hoc booking.
 
-Visit AutoShine's website or WhatsApp to explore subscription programmes appropriate for your driving situation. The right washing frequency, automatically maintained, is the simplest way to protect your vehicle investment in Kenya's demanding environment.`;
+Visit AutoShine's website or WhatsApp to explore subscription programmes appropriate for your driving situation. The right washing frequency, automatically maintained, is the simplest way to protect your vehicle investment in Kenya's demanding environment.
+
+## How Vehicle Type Changes Everything About Washing Frequency
+
+Not all cars in Kenya face the same conditions. A Probox or Toyota Noah that does 80 kilometres of city driving through Nairobi's Industrial Area every day accumulates contamination far faster than a weekend family vehicle that mostly sits in a compound. Picking the right frequency means understanding your vehicle's actual use pattern.
+
+**Daily commuter vehicles** running Nairobi routes like Thika Superhighway, Mombasa Road, or Ngong Road pick up brake dust, exhaust particulates, and fine road dust constantly. These vehicles benefit from a wash every four to five days. The brake dust alone, which bonds to wheel surfaces within hours and begins etching if left, is reason enough for this cadence.
+
+**Weekend and light-use vehicles** that sit mostly in a covered compound and drive occasionally can push to ten to fourteen days between washes during dry season. During long rains or short rains, bring this back to seven days because contaminated rainwater deposits are more damaging than dust and work faster.
+
+**Commercial and fleet vehicles** face the most aggressive conditions. A construction site delivery vehicle in Ruiru or Athi River that encounters murram roads daily should be washed every two to three days. The fine red laterite dust of Central Kenya's murram network is extremely abrasive and chemically active in ways that standard grey tarmac dust is not.
+
+![Professional car wash for a Kenyan SUV showing full exterior clean](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80)
+
+## The Signs Your Car Needs Washing Right Now
+
+Beyond schedules, there are physical indicators that your car's paint is under active threat and needs attention regardless of when it was last washed.
+
+**The finger test on the hood:** Drag your finger across the bonnet surface. If it leaves a clear trail through a layer of fine dust or grit, the surface is covered in abrasive particles that will cause micro-scratches every time rain falls or anyone touches the paint. Wash immediately.
+
+**White or yellow residue after rain:** If your car shows white patches or a film after rain dries, that is mineral-rich water or acidic rain deposit. Kenya's rainfall in industrial areas carries dissolved sulphur compounds from vehicle exhaust that become mildly acidic when they dry. These deposits begin etching clearcoat within 24 to 48 hours at Nairobi temperatures. Do not wait for the next scheduled wash.
+
+**Sticky or tacky feel on horizontal surfaces:** The bonnet, roof, and boot lid accumulate tree sap, industrial fallout, and insect residue that bonds to paint surfaces. Once this contamination becomes sticky, a standard wash will not remove it - you need a clay bar treatment or targeted decontamination.
+
+**Black streaks below door handles and mirror joints:** These are water channels carrying dissolved road contamination. When they become visible as dark streaks, the vehicle has been in this state for too long and the paint underneath these streaks may already be affected.
+
+## Building a Practical Washing Calendar
+
+The most reliable approach is a tiered schedule that accounts for Kenya's two distinct seasons and your specific driving conditions.
+
+**Dry season (January to February, July to September):** Dust accumulation is highest. Stick to the aggressive end of your vehicle-type recommendation. Apply a spray wax or quick detailer after every second wash to maintain the protective barrier as dust strips it away.
+
+**Long rains (March to May):** Wash within 24 hours of any significant rainfall that leaves visible deposits. Pre-treat wheel arches and lower body panels weekly with a dedicated fallout remover.
+
+**Short rains (October to December):** Similar to long rains protocol. Particularly important to maintain clean drainage channels around door seals and sunroof channels to prevent water ingress.
+
+**Between season transitions:** Do a full exterior decontamination and fresh wax application at the start of each dry season and each rainy season. This resets the protective layer before the conditions that strip it most aggressively.
+
+AutoShine's subscription plans are designed around these seasonal patterns. Members receive automatic scheduling recommendations based on their vehicle profile and current season, with reminders sent via WhatsApp when conditions suggest their vehicle needs attention.
+
+![AutoShine car care team performing professional wash service in Nairobi](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## The Cost of Getting the Frequency Wrong
+
+Under-washing is the more common and more expensive mistake. The real cost is not the KES 500 to 1,500 per wash that frequent cleaning costs. The real cost is in what happens to unprotected paint over six to twelve months.
+
+A full paint correction service to remove the scratch marks, oxidation, and etch marks that accumulate on a neglected vehicle costs between KES 15,000 and KES 40,000 depending on vehicle size and paint condition. A ceramic coating applied to properly maintained paint lasts three to five years. The same coating applied over neglected paint lasts twelve to eighteen months before the underlying damage telegraphs through. The maths strongly favour frequent washing.
+
+> The single most expensive car care mistake Kenyan owners make is treating the paint as something to fix when it fails rather than something to protect before it does.
+
+Booking through the AutoShine app takes under 60 seconds and allows you to set recurring appointments that match your vehicle's specific frequency needs. The app also tracks your wash history, which is useful documentation if you are maintaining a vehicle under a manufacturer warranty that requires evidence of proper care.
+
+`;

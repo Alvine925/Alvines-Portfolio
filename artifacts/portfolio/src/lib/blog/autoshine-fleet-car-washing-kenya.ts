@@ -129,4 +129,51 @@ With AutoShine fleet programme:
 
 For a fleet that represents your brand to Kenyan clients and partners, professional fleet care at this scale is not a luxury  -  it's a managed brand asset investment with clear returns.
 
-Contact AutoShine to discuss a fleet programme designed for your specific fleet size, location, and service requirements.`;
+Contact AutoShine to discuss a fleet programme designed for your specific fleet size, location, and service requirements.
+
+## The True Cost of Fleet Washing Done Informally
+
+Many Kenyan businesses with company vehicles manage washing informally - drivers take vehicles to whichever roadside car wash is convenient, pay from petty cash, and no one tracks the total spend. This approach is common and expensive. A fleet of ten vehicles washing at an average of KES 700 each, twice per week, costs KES 14,000 per week or KES 728,000 per year - almost three quarters of a million shillings with no visibility, no quality control, and no documentation.
+
+Formalising this through a fleet washing contract changes the economics and the management challenge simultaneously. AutoShine's fleet accounts provide centralised billing (monthly invoice or M-Pesa auto-debit), digital wash records for each vehicle, quality consistency across locations, and a dedicated fleet account manager.
+
+For businesses where company vehicles represent the brand - insurance firms, delivery companies, corporate transport operators, NGOs with field vehicles - maintaining consistent vehicle presentation is part of reputation management. An informal washing arrangement cannot guarantee this consistency.
+
+![Fleet of corporate vehicles being cleaned at AutoShine professional facility](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## Setting Up a Fleet Washing Programme That Actually Works
+
+An effective fleet washing programme needs three things: a clear schedule matched to vehicle use intensity, a mechanism for tracking compliance, and a quality standard that covers what an acceptable wash means.
+
+**Scheduling by vehicle type and use:** Not all fleet vehicles need the same frequency. An executive saloon used for client visits should wash twice per week. A field vehicle doing rural routes should wash at the end of every day in the field. A low-use reserve vehicle can wash weekly. Set schedules by vehicle category rather than applying a single frequency to the whole fleet.
+
+**Driver versus centralised washing:** Some fleet operations prefer drivers to take vehicles to a wash individually on their schedule. Others batch vehicles for washing at a set time each week. The batch approach delivers better cost control and quality consistency. AutoShine's fleet service can accommodate both models and provides recommendations based on fleet size and geographic distribution.
+
+**Defining the service standard:** A company car should arrive clean at a client site. What does clean mean? Define it specifically: exterior wash including wheels and wheel arches, interior vacuum, windows clean inside and out, no visible water spots, tyres dressed. This standard, written into the fleet washing agreement, gives you a basis for quality review and feedback.
+
+## Tracking Fleet Washing as a Business Expense
+
+Fleet washing is a vehicle maintenance expense that should be tracked and budgeted like fuel or insurance. Several benefits flow from treating it this way.
+
+For businesses with a VAT-registered fleet washing provider, the cost is an eligible input VAT claim - a direct reduction in tax liability. AutoShine provides proper tax invoices for all fleet accounts. For businesses doing informal petty cash payments at roadside washes, this VAT recovery is being left on the table.
+
+For fleet managers reporting to finance, digital records of every wash - date, vehicle registration, service performed, cost - provide clean documentation for expense reports and budget reconciliation. The AutoShine fleet dashboard shows this data in real time, exportable to CSV for monthly expense processing.
+
+For insurance claims involving vehicle condition, documented regular washing and maintenance history strengthens the claim. If a vehicle develops paint damage and the owner can demonstrate a history of proper care, the argument that the damage is pre-existing is harder to make.
+
+![Fleet vehicle maintenance records and washing schedule management system](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80)
+
+## AutoShine Fleet Management Features
+
+AutoShine's fleet platform was built specifically for the needs of Kenyan fleet operators. Key features include:
+
+- **Vehicle registry:** All fleet vehicles entered with registration number, make, model, year, and designated service level
+- **Booking system:** Fleet administrator books all vehicles centrally, or drivers book individually through the app using their company account
+- **Real-time status:** See which vehicles are currently at AutoShine, which have been washed today, and which are overdue for their scheduled wash
+- **Quality photos:** Before and after photos taken for every fleet vehicle wash, accessible through the fleet dashboard
+- **Monthly reporting:** Automatic monthly summary of wash frequency, spend per vehicle, and any condition notes raised by the AutoShine team
+- **Dedicated account manager:** A single point of contact for scheduling questions, service changes, and billing queries
+
+Fleet accounts require a minimum of three registered vehicles and a monthly spend commitment of KES 5,000. For fleets below this threshold, AutoShine's subscription plans for individual vehicles are a more appropriate option. Contact the fleet team through the AutoShine website or app to schedule an onboarding call and site assessment.
+
+`;

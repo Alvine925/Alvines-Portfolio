@@ -128,4 +128,68 @@ TellusJobs' job matching provides specific intelligence about which roles you ma
 
 The platform's job details also surface specific requirements and responsibilities that inform your STAR example selection. If a role emphasises stakeholder management, you prepare your stakeholder management examples more thoroughly. If it emphasises analytical capability, your quantitative examples go to the front.
 
-Preparing well is not gaming the interview  -  it's giving yourself a fair opportunity to demonstrate what you're actually capable of. The candidates who succeed in Kenyan interviews are the ones who walk in knowing exactly what they're going to say, why they're the right fit, and what questions they want answered. TellusJobs helps you build that clarity before you walk in the door.`;
+Preparing well is not gaming the interview  -  it's giving yourself a fair opportunity to demonstrate what you're actually capable of. The candidates who succeed in Kenyan interviews are the ones who walk in knowing exactly what they're going to say, why they're the right fit, and what questions they want answered. TellusJobs helps you build that clarity before you walk in the door.
+
+## How Kenyan Interview Culture Differs From Global Expectations
+
+Job interview expectations in Kenya reflect a specific cultural blend of formality, relationship orientation, and professional convention that differs enough from global (particularly Western) interview advice to be worth discussing specifically.
+
+**Formality is expected, particularly at first round.** Kenyan corporate interviews are formal occasions. Formal dress is expected even when company culture is casual. Addressing interviewers as Mr., Mrs., or Dr. with their surname is appropriate unless explicitly invited to use first names. Arriving early (10 to 15 minutes before the interview time) is expected; arriving at the exact time is considered late.
+
+**Relationship building at the start of the interview matters.** Kenyan professional culture places significant weight on personal connection before business discussion. The small talk at the beginning of an interview - greetings, acknowledgement of the journey to the office, brief personal exchanges - is not purely social. It is an assessment of your social intelligence and cultural fit. Rushing past this phase to "get to the point" signals either nervousness or cultural incompatibility.
+
+**Deference to seniority is appropriate but should not prevent substance.** Interviewers in Kenya expect candidates to speak respectfully and to acknowledge expertise. This does not mean being passive or failing to demonstrate your own expertise. The appropriate balance is responsive engagement - answering questions directly and substantively while reading the interviewer's cues about depth and direction.
+
+**Panel interviews are common in the formal sector.** Many Kenyan corporate first and second round interviews use panels of two to four interviewers. Making eye contact with all panel members when answering questions, not just the one who asked, demonstrates panel awareness.
+
+![Professional job interview preparation in Kenya showing formal setting and interview panel format](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80)
+
+## STAR Format for Kenyan Competency Interviews
+
+Competency-based interviews are the most common format for mid-level and senior roles in Kenya's formal sector. Questions follow the pattern of "Tell me about a time when...", "Give me an example of...", and "Describe a situation where...". These require structured responses that most candidates do not prepare specifically for.
+
+The STAR format (Situation, Task, Action, Result) is the standard framework for answering these questions, and it works as well in Kenya as globally. The Kenya-specific calibration is in what types of situations, tasks, and results resonate most strongly in different sectors.
+
+**For banking and financial services:** Situations involving risk management, client relationship challenges, and process improvement under resource constraints resonate strongly. Results should be quantified in financial terms where possible.
+
+**For NGO and development:** Situations involving coordination across multiple stakeholder groups, community engagement, and adaptive programme management. Results framed in terms of beneficiary reach, programme output delivery, or system-level change.
+
+**For technology sector:** Situations involving problem-solving under ambiguity, technical learning under time pressure, and cross-functional collaboration. Results framed around system performance improvements, user adoption metrics, or delivery against technical specifications.
+
+**For FMCG and commercial roles:** Situations involving competitive pressure, sales target achievement, and channel relationship management. Results in revenue, market share, or distribution coverage terms.
+
+Preparing six to eight strong STAR stories that cover the most common competency themes (problem-solving, collaboration, leadership or influence, resilience, client/beneficiary focus) provides coverage for most first and second round interview questions.
+
+## Questions to Ask Your Interviewer in Kenya
+
+The moment when the interviewer asks "Do you have any questions for us?" is evaluated as carefully as the rest of the interview. Not having questions signals disengagement. Having generic questions signals that you did not research the role thoroughly. Having well-considered questions signals genuine interest and preparation.
+
+Effective questions for Kenyan corporate interviews:
+
+**On the role:** "How does success in this role look at 6 months and at 12 months?" This question demonstrates that you are thinking about how to contribute, not just about getting the role.
+
+**On the team:** "How would you describe the team culture and how the team approaches challenges together?" This is appropriate at both interview rounds and gives you genuine information about the working environment.
+
+**On the organisation's priorities:** "What is the most important challenge the department is focused on right now, and how does this role contribute to addressing it?" This shows strategic thinking and a contribution orientation.
+
+**On development:** "What professional development opportunities exist for someone in this role?" This signals ambition and interest in growth.
+
+**Questions to avoid:** Questions about salary and benefits before an offer is made (unless the interviewer raises compensation). Questions suggesting the role is a stepping stone to something else immediately. Questions about office politics or interpersonal dynamics.
+
+![Interview preparation resources at TellusJobs showing question preparation and STAR format coaching](https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1200&q=80)
+
+## Following Up After a Kenyan Interview
+
+Post-interview follow-up is expected in professional Kenyan settings but must be calibrated correctly. Too aggressive follow-up signals anxiety; no follow-up can signal disinterest.
+
+The appropriate follow-up sequence:
+
+Within 24 hours of the interview: A brief thank-you email (or WhatsApp message if the recruiter or HR contact gave you their number) thanking the interviewers for their time and briefly restating your interest in the role. This message should be short (three to four sentences), genuine, and not repeat content from the interview.
+
+After the stated decision timeline without contact: If the interviewer indicated a decision timeline (e.g. "we will contact shortlisted candidates within two weeks") and that period has passed without contact, a single polite follow-up enquiry is appropriate. More than one follow-up after the stated timeline signals pressure that most Kenyan recruiters respond to by deprioritising.
+
+If you receive no decision after two follow-ups: Continue your job search. In Kenya's formal sector, roles sometimes go on hold, hiring freezes are applied, or internal candidates emerge after external interviews begin. None of this reflects on the quality of your interview. Continuing active search in parallel with any pending decision is always the right strategy.
+
+TellusJobs' application tracker includes follow-up reminder functionality that prompts users when stated decision timelines pass and when second follow-ups are appropriate, ensuring that active candidates manage their pipeline without over-following-up on any single application.
+
+`;

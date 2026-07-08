@@ -167,4 +167,72 @@ LinkedIn and TellusJobs serve different parts of your job search:
 
 The combination  -  a strong LinkedIn profile for passive discovery and TellusJobs for active matching  -  covers both dimensions of professional visibility. Your LinkedIn presence tells the story; TellusJobs finds the roles where that story is most relevant.
 
-Build both. Use both. Let your profile work for you while you work.`;
+Build both. Use both. Let your profile work for you while you work.
+
+## Why Your LinkedIn Profile Performs Differently in Kenya Than Globally
+
+LinkedIn's search algorithm surfaces profiles to recruiters based on relevance scoring that combines keyword matching, network proximity, engagement signals, and completeness. Understanding how these factors interact specifically in the Kenyan market helps optimise your profile for the actual searches that Kenya-based recruiters and hiring managers are running.
+
+Network proximity is the most important variable that most Kenyan LinkedIn users underestimate. A recruiter at a Nairobi financial services firm searching for candidates will see profiles of first-degree connections first, second-degree connections next, and beyond-network profiles last. Being connected to people at your target employers - even indirectly - significantly improves your visibility to their HR teams. Building your network to include people at five to ten target employers is a direct investment in profile visibility, not just a networking activity.
+
+Keyword optimisation for Kenyan recruiter search patterns differs from global patterns. Kenyan recruiters search with Kenya-specific terminology: "KCB", "Equity Bank", "Safaricom", "USAID", "BrighterMonday" as employer or platform signals; "CPA-K", "ACCA", "CIPS" for professional certifications; and sector-specific terms like "M-Pesa integration", "Kenyan regulatory environment", "Kenya Revenue Authority". Including these Kenya-specific terms in your headline, summary, and experience descriptions improves visibility to recruiters searching for Kenya-market-specific candidates.
+
+![LinkedIn profile optimisation for Kenyan professionals showing keyword strategy and network building](https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80)
+
+## Crafting a Headline That Actually Gets You Found
+
+The LinkedIn headline is 220 characters of prime SEO real estate that most Kenyan users waste with job title alone. A headline optimised for Kenyan recruiter searches includes your functional area, your sector, and a distinctive descriptor.
+
+Weak headline (job title only): "Finance Manager at ABC Company"
+
+Stronger headline: "Finance Manager | Banking & Financial Services | ACCA | 8 Years Commercial Finance Experience | Nairobi, Kenya"
+
+The stronger headline includes: the functional role, the sector, a credential signal, a seniority indicator, and a location. Any Kenyan recruiter searching for a finance manager with banking experience will see this profile in their results. The job-title-only version will be seen only by recruiters who already know to search for this specific person.
+
+For candidates who are actively seeking: "Open to Opportunities | Finance Manager | Banking & Financial Services | CPA-K | Nairobi"
+
+The "Open to Opportunities" signal activates LinkedIn's Open to Work feature and flags the profile to recruiters using LinkedIn Recruiter who filter specifically for active candidates.
+
+## The LinkedIn Summary Section for Kenyan Professionals
+
+The LinkedIn summary is the only section of the profile where you write in first person and tell your professional story directly. Most Kenyan professionals either leave this blank or write a generic paragraph that adds no value to the rest of the profile.
+
+An effective summary for the Kenyan market does three things: establishes your professional identity clearly, demonstrates sector-specific credibility, and signals the type of opportunity you are interested in.
+
+Structure that works:
+
+Opening paragraph (two to three sentences): Who you are, what you do, and what makes you distinctive. "Finance professional with eight years of experience in commercial lending and credit risk at Kenya's top-tier banks. I specialise in SME credit portfolio management and have built and managed credit portfolios exceeding KES 2 billion."
+
+Middle paragraph (three to four sentences): Your most significant professional achievements and the specific areas where you have deep expertise. Include numbers where possible. Reference sector-specific context where relevant ("during Kenya's post-COVID economic recovery period" creates a specific time anchor that Kenyan readers will understand).
+
+Closing paragraph (one to two sentences): What you are interested in and what kind of opportunities align with your career direction. This is particularly important for passive candidates who want recruiter outreach: "I am interested in senior credit risk and portfolio management roles in banks and financial technology companies that are expanding their SME lending capabilities in East Africa."
+
+## Skills and Endorsements: What Matters and What Doesn't
+
+LinkedIn's skills section influences search ranking but is evaluated critically by experienced recruiters. Having 50 endorsed skills, many of which are generic, signals less than having 15 specific, relevant skills that are endorsed by credible connections.
+
+For Kenyan professionals, the skills that carry the most weight with sector-specific recruiters:
+
+**Finance sector:** Financial modelling, credit risk management, Treasury operations, regulatory reporting, IFRS, SAP Financial Accounting, Oracle Financial Services. Generic skills like "Microsoft Excel" are expected baseline and add no differentiation.
+
+**Technology sector:** Specific programming languages and frameworks (Python, React, Node.js), cloud platforms (AWS, Azure, GCP), specific database systems, specific DevOps tools. Generic "software development" is meaningless.
+
+**NGO and development:** Monitoring and evaluation, log frame design, USAID reporting, institutional donor compliance, beneficiary data management, specific thematic areas (WASH, SRH, food security). Generic "project management" adds little.
+
+**FMCG and commercial:** Trade marketing, distributor management, route-to-market development, demand planning, SAP SD. Generic "sales" is baseline.
+
+Request endorsements strategically from colleagues who can credibly vouch for specific skills in professional contexts. An endorsement from a colleague you worked directly with on financial analysis is worth significantly more than an endorsement from a casual acquaintance.
+
+![LinkedIn skills section optimisation for Kenyan professionals showing sector-specific skill strategy](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80)
+
+## Activity and Engagement as a Career Investment
+
+Beyond profile completeness, LinkedIn rewards active engagement with improved visibility. Kenyan professionals who regularly engage with sector-relevant content are seen by significantly more potential employers and recruiters than those who maintain a static profile.
+
+The minimum effective engagement pattern: like or comment on three to five pieces of content per week from your network, share one piece of sector-relevant news or insight per week with a brief comment explaining why it matters, and publish at least one original article or long post per month on a professional topic in your area.
+
+This consistency, maintained over six to twelve months, builds a recognisable professional presence in your sector. Kenyan professional communities on LinkedIn are small enough that consistent, quality engagement creates genuine recognition among the people who will eventually be involved in hiring decisions relevant to you.
+
+TellusJobs integrates with LinkedIn to show role-level connection data alongside job listings, helping users identify which current roles have first or second-degree connections they can leverage for a referral or a warm introduction. This connection data turns TellusJobs from a job discovery tool into a job network tool.
+
+`;

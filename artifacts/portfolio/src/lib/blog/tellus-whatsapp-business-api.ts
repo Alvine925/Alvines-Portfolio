@@ -156,4 +156,34 @@ The business case for WhatsApp Business API investment in Kenya is strong for bu
 
 For businesses that meet these criteria, WhatsApp API investment produces measurable returns through improved customer satisfaction, reduced customer service cost, and enabled automation of previously manual processes.
 
-Contact Tellus to assess whether your business is ready for WhatsApp Business API integration.`;
+Contact Tellus to assess whether your business is ready for WhatsApp Business API integration.
+
+## The Difference Between WhatsApp Business App and WhatsApp Business API
+
+The confusion between these two products is one of the most common sources of misplaced expectations among Kenyan businesses exploring WhatsApp for business communication.
+
+**WhatsApp Business App:** Free, available to any business, runs on a phone, manageable by one or two people. Supports quick replies, automated greeting messages, business profiles, and product catalogues. Limited to one device (or multiple devices via WhatsApp Business multi-device, with limitations). Not programmable. Appropriate for micro-businesses managing their own customer communication manually.
+
+**WhatsApp Business API (now WhatsApp Cloud API):** Requires application and approval from Meta, connects to your backend systems via API, scalable to unlimited concurrent conversations, fully programmable, supports automated message flows and chatbot integration, can be managed by multiple agents simultaneously. Appropriate for businesses that need to send high-volume messages, build automated flows, or integrate WhatsApp into their business software.
+
+The key practical distinctions: the Business App cannot send messages to new customers without first receiving a message from them — it cannot initiate conversations. The Business API can initiate conversations with customers who have opted in, using pre-approved message templates. For businesses that need to send appointment reminders, payment confirmations, delivery updates, or marketing messages at scale, only the Business API is appropriate.
+
+**Applying for access:** Meta has simplified API access significantly. Most Kenyan businesses can now access the WhatsApp Cloud API by creating a Meta for Business account, creating a WhatsApp Business Account, and connecting a phone number. The verification process varies by country and business type. Kenyan businesses with valid business registration documentation and a legitimate business use case typically receive access within one to five business days.
+
+![WhatsApp Business API setup showing Meta Business account configuration and phone number verification](https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=1200&q=80)
+
+## Template Messages: Strategy and Approval
+
+The WhatsApp Business API's template system is both its most important feature and its most misunderstood constraint. Template messages are pre-approved message formats that businesses use to initiate conversations with customers. Understanding how to write, submit, and use templates effectively determines whether your WhatsApp API deployment achieves its objectives.
+
+**Template categories and pricing:** Meta classifies templates as Utility (transactional — order confirmations, delivery updates, appointment reminders), Authentication (OTP messages), and Marketing (promotional). Utility templates are priced lower than Marketing templates. Marketing templates require explicit customer opt-in and are subject to Meta's marketing message quality review. Many businesses that intend to send Utility messages accidentally submit Marketing templates, creating approval delays.
+
+**Writing templates that get approved:** Meta approves templates that are specific, value-adding, and non-deceptive. Templates that include excessive promotional language ("LIMITED TIME OFFER! BUY NOW!"), vague calls to action, or unclear opt-out mechanisms are rejected. Templates should read like professional business communications: clear, specific, and appropriate to the relationship.
+
+**Variable handling:** Templates support variables (`{{1}}`, `{{2}}`) that are replaced with customer-specific values when messages are sent. Plan your variable structure carefully — you cannot modify a template's variable structure after submission without creating a new template. Common mistakes include insufficient variables (requiring a new template for slight content variations) and overly generic variables (reducing the personalisation value of the template).
+
+**Opt-in requirements:** Marketing templates require documented opt-in from the recipient before you can send. This means your website, app, or in-store process must capture WhatsApp opt-in specifically — consent to email marketing does not cover WhatsApp marketing under Meta's policies or Kenya's DPA. Build your opt-in collection mechanism before seeking Marketing template approval.
+
+Tellus provides WhatsApp Business API implementation support for Kenyan businesses — from initial Meta account setup through template strategy, chatbot development, and agent management integration.
+
+`;

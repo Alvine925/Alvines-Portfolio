@@ -129,4 +129,52 @@ Finding a photographer through the marketplace means you're starting from a base
 
 Once you've booked your photographer through the marketplace, their details are linked to your event on MyJoyfulDay  -  your event page, your vendor list, and your budget tracking are all in one place.
 
-Your event deserves to be documented by someone who can do it justice. Take the time to find that person.`;
+Your event deserves to be documented by someone who can do it justice. Take the time to find that person.
+
+## What Makes Event Photography in Kenya Different
+
+Kenya's event photography market has distinct characteristics that both reflect Kenyan culture and shape the brief event photographers receive. Understanding these characteristics helps event creators set appropriate expectations and select vendors whose work matches their specific needs.
+
+**Group photos are essential, not optional.** Kenyan event culture places enormous importance on photographically documenting group compositions - the immediate family, the extended family, the friends group, the work colleagues. Unlike Western events where group photography has declined in favour of candid documentary work, Kenyan clients expect deliberately composed group photographs at every type of event. An event photographer in Kenya who does not proactively organise and shoot group compositions will receive negative feedback regardless of the quality of their candid work.
+
+**Family generations matter.** Photographs of grandparents with grandchildren, parents with adult children, and multi-generational family groups are consistently the most emotionally significant photographs from Kenyan events. A photographer who understands this and creates space for these compositions without being asked is providing an important service.
+
+**Colour and exposure for darker skin tones.** Kenya's event photography market has historically been served by photographers trained on equipment and post-processing workflows calibrated for lighter skin tones. Excellent Kenyan event photographers have mastered the exposure settings and colour grading workflows that represent dark skin beautifully in high-contrast event lighting. This is a genuine technical skill that differentiates quality event photographers and is worth asking about specifically when reviewing photographer portfolios.
+
+**Phone photography competition:** Many guests will be photographing the event with modern smartphone cameras that produce excellent images. Professional photographers who cannot produce work that is clearly superior to a well-held smartphone have a difficult value proposition. The best Kenyan event photographers have moved to lighting, composition, and editing quality that creates a clearly professional product.
+
+![Professional event photography at a Kenyan birthday celebration showing quality lighting and composition](https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1200&q=80)
+
+## Packages and What They Actually Include
+
+Event photography packages in Kenya vary significantly in what is included. Common points of confusion when comparing photographers:
+
+**Hours vs event coverage:** Some packages specify a number of hours (e.g. "4-hour coverage"). Others specify event coverage (e.g. "full event coverage"). For events with variable durations, the hours-based package can create conflict if the event runs long. Ask specifically whether the price includes extended coverage or whether additional hours are charged separately.
+
+**Edited vs unedited delivery:** Raw and unedited images delivered via Google Drive are not the same product as professionally edited images. The editing phase - colour correction, exposure adjustment, skin tone calibration, light retouching - typically takes two to four times the shoot duration to complete properly. Photographers offering very fast turnaround (same day or next day) are typically delivering lightly edited or unedited images, which may be appropriate for some events but inappropriate for others.
+
+**Print rights vs digital rights:** Most modern Kenyan photographers deliver digitally with print rights included. Confirm this explicitly if you intend to print the photographs commercially (on merchandise, in newspapers, or for business promotional use) as these uses may require different licensing arrangements.
+
+**Videography add-on:** Photography and videography are typically different skills and often different people. Some photography packages offer videography as an add-on at a bundled rate. The quality of bundled videography varies - some photographers partner with excellent videographers, others pair with whoever is available. Ask to see specific video samples from the photographer's events, not just the photography portfolio.
+
+## Booking Timeline for Kenyan Events
+
+Photography is one of the vendor categories with the highest booking lead time requirement in Kenya's event market. Quality photographers at all price points are fully booked 3 to 6 months in advance for peak event months (December, January, April, August).
+
+MyJoyfulDay's vendor availability system shows real-time photographer availability for any given event date, eliminating the time wasted contacting photographers who are unavailable before discovering this. For events planned less than 6 weeks away, the available photographer pool at any given price point is significantly smaller than at full planning lead times.
+
+The platform's photographer discovery tool shows photographers by event date availability first, then by price range, then by style (documentary, traditional, or hybrid). This sequencing ensures that the photographers shown first are actually bookable, not just impressive in portfolio.
+
+![MyJoyfulDay photography vendor marketplace showing availability calendar and portfolio preview](https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80)
+
+## After the Event: Photo Delivery and Sharing
+
+The post-event photo delivery experience is an extension of the event itself. How photographs are delivered, how quickly they arrive, and how easily they can be shared shapes the final impression of both the event and the photographer.
+
+MyJoyfulDay's photographer profile includes the vendor's typical delivery timeline (how many days after the event until edited photos are delivered). This is now a standard piece of information in the marketplace listing because it was the most common complaint in early photographer reviews: unclear or missed delivery timelines.
+
+The platform's photo sharing feature allows event creators to upload their photographer's delivered gallery to the MyJoyfulDay event page, creating a single shareable destination for event photos. Guests who RSVPed to the event receive a notification when the photo gallery is live - driving additional engagement with the event page and, by association, with the vendor who shot it.
+
+For photographers on the MyJoyfulDay marketplace, the post-event gallery feature creates an organic marketing opportunity: their work is presented on a platform being actively browsed by potential clients planning similar events.
+
+`;

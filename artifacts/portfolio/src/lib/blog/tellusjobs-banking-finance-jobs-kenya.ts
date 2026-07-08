@@ -103,4 +103,60 @@ Finance is one of TellusJobs' strongest matching categories in Kenya because fin
 
 Whether you're a CPA(K) qualified accountant looking for your next corporate finance role, an experienced relationship manager seeking a move to a larger bank, or a quantitatively-oriented analyst targeting investment management  -  TellusJobs' matching finds the right opportunities across Kenya's full financial services landscape.
 
-The finance sector is fundamental to Kenya's economic development. Building a career within it is one of the most substantive professional paths available.`;
+The finance sector is fundamental to Kenya's economic development. Building a career within it is one of the most substantive professional paths available.
+
+## Kenya's Banking and Financial Services Employment Market
+
+Kenya's banking sector is among the most developed in sub-Saharan Africa. Forty-three commercial banks, numerous microfinance institutions, a growing insurance sector, a capital markets ecosystem, and the dominant mobile money infrastructure collectively make financial services one of the largest formal employment markets in Kenya.
+
+The career opportunities in Kenyan banking range from entry-level customer service and teller roles to C-suite positions, with a well-developed middle-management layer that provides genuine career progression for qualified professionals. The sector's strength is the stability and professionalism of the employment environment - Kenya's commercial banks have HR functions and career development programmes that match the quality of equivalent roles in more developed markets.
+
+The sector is also undergoing significant transformation. Digital banking has restructured the teller and branch operations workforce, with routine transaction roles declining while digital product, data analytics, and cybersecurity roles grow. The banks that have invested most heavily in digital transformation - Equity, KCB, Co-operative Bank - have built technology talent pools that are genuinely competitive with Kenya's technology startup sector for compensation and capability.
+
+Mobile money, dominated by M-Pesa (Safaricom/Vodafone) but with growing competitors (Airtel Money, Fuliza, various bank-linked mobile products), has created an entirely new set of career tracks sitting at the intersection of banking and technology. These roles require both financial services understanding and technology capability, and they command premium compensation in Kenya's market.
+
+![Kenyan banking and financial services careers showing commercial bank and fintech opportunity landscape](https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80)
+
+## Career Tracks in Kenyan Banking: Where to Start and Where It Leads
+
+Banking careers in Kenya follow several distinct tracks that require different initial positioning and lead to different outcomes.
+
+**Retail and commercial banking track:** Entry through relationship officer, customer service, or teller roles, progression to relationship manager, branch manager, then regional manager or product head roles. This track is the most accessible entry point for graduates without specialised financial credentials. The ceiling is relatively high for strong performers - branch managers and regional managers at Kenya's top-tier banks earn substantially above Kenya's median professional salary.
+
+**Credit and risk track:** Entry through credit analyst roles (requiring strong quantitative skills and ideally a credit-focused MBA or CPA qualification), progression to credit manager, credit risk manager, head of credit, and CRO for very high performers. This track is highly valued and commands premium compensation at every level. Kenya's banking sector expansion into SME and microfinance lending has increased demand for credit professionals significantly.
+
+**Finance and treasury track:** Entry through finance analyst or management accounting roles, progression to finance manager, treasury manager, CFO for very senior roles. The CPA-K or ACCA qualification is effectively mandatory for this track above analyst level.
+
+**Technology and digital banking track:** Entry through developer, analyst, or product roles, progression to technology lead, digital product manager, head of digital, and CTO. This track has the highest salary growth trajectory but the narrowest initial entry pathway.
+
+**Operations and compliance track:** Entry through operations analyst or compliance officer roles, progression to operations manager or compliance manager, head of compliance or COO. The regulatory compliance track is growing in importance as Kenya's banking regulation becomes more complex and more actively enforced.
+
+## Specific Employers and Their Hiring Patterns
+
+**Tier one banks (Equity, KCB, Standard Chartered, Absa, NCBA, Co-operative):** These banks run structured graduate programmes and have the most professional HR functions. Applications to formal programmes are the preferred entry pathway. Mid-level recruitment uses a mix of internal promotion, recruitment agencies (primarily Deloitte Human Capital and other executive search firms for senior roles), and career page advertising.
+
+**Mid-tier Kenyan banks (NIC, I&M, Stanbic, Family Bank):** Less structured graduate programmes, more responsive to direct applications through career pages. Lateral entry at mid-level is more accessible than at tier-one banks. Professional credentials (CPA-K, ACCA, CIPS) are valued and sometimes preferred over tier-one bank experience for specialist roles.
+
+**Microfinance institutions (Faulu, SMEP, Kenya Women Finance Trust):** Entry-level salaries are lower than commercial banks but the sector offers genuine mission-oriented work and good development for candidates interested in financial inclusion. Career progression is faster for capable candidates than in large commercial banks.
+
+**Mobile money and fintech (Safaricom Financial Services, Cellulant, Tala, Branch, Pezesha):** These employers compete for talent across banking and technology. Compensation is competitive, work is innovative, and the international exposure is high. Application pathways use LinkedIn and direct career page applications heavily.
+
+![Kenya banking sector employer comparison showing tier one mid tier and fintech employer profiles](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80)
+
+## Professional Credentials That Matter in Kenya's Financial Services Market
+
+The professional credential landscape in Kenya's financial services market is well-defined and genuinely matters for career progression beyond junior roles.
+
+**CPA-K (Certified Public Accountant Kenya):** The primary accounting qualification for Kenya's private sector, administered by ICPAK. Practically mandatory for accounting and finance roles above entry level at major employers. Part one and two are achievable while working. Part three (the final examination) has a reputation for difficulty. Completion demonstrates professional commitment and technical competence.
+
+**ACCA:** The international accounting qualification, highly valued at multinational-linked employers and professional services firms. Recognised globally and particularly valued at Standard Chartered, Absa, and professional services employers in Kenya.
+
+**CFA (Chartered Financial Analyst):** The global investment management qualification. Not widely held in Kenya but commands significant premium for roles in asset management, treasury, and investment banking. A Kenya CFA charterholder is immediately identifiable as exceptional given the examination difficulty.
+
+**CISA and CISSP:** Information systems audit and cybersecurity certifications. Both are in growing demand at Kenyan banks and command salary premiums of 20 to 40% over non-certified peers in relevant roles.
+
+**IIB (Institute of Internal Auditors) CIA:** Highly valued in internal audit roles at major Kenyan employers. The CIA designation is required at some employers for senior internal audit positions.
+
+TellusJobs' credential impact analysis shows the salary premium associated with each credential at different career levels in Kenya's financial services market, helping candidates prioritise credential investments based on the actual compensation return in the Kenya market specifically.
+
+`;

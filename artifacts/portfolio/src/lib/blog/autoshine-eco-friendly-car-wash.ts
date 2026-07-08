@@ -126,4 +126,52 @@ For car wash operators who rely on municipal water, supply unreliability is an o
 
 For car wash customers, this context means that the water used in washing your car has genuine scarcity value in the Nairobi context. Choosing a service provider that uses water efficiently  -  and choosing low-water service options where appropriate  -  is a meaningful contribution to responsible water use.
 
-AutoShine's commitment to water efficiency is not just good environmental practice  -  it's a response to the real water context of the Kenyan cities we operate in.`;
+AutoShine's commitment to water efficiency is not just good environmental practice  -  it's a response to the real water context of the Kenyan cities we operate in.
+
+## Water Consumption and Why It Matters More in Kenya Than Elsewhere
+
+Traditional car washing is extremely water-intensive. A standard home hose wash uses 150 to 300 litres of water. A tunnel car wash uses 80 to 150 litres per vehicle. A professional hand wash without water recycling uses 50 to 100 litres. In a country where water scarcity affects a significant portion of the population, the environmental cost of car washing is not abstract.
+
+Nairobi faces water stress year-round, with rationing a regular feature for many residents. Mombasa, Kisumu, and most secondary towns are in a similar position. The water used to wash vehicles competes directly with water needed for drinking, cooking, agriculture, and sanitation. This makes water efficiency in car care an ethical question, not just an environmental marketing point.
+
+AutoShine's water recycling system reduces per-vehicle water consumption to under 25 litres by treating, filtering, and recirculating wash water rather than sending it to drainage. This represents an 80 to 85 percent reduction compared to a standard hand wash operation. The recycling system removes solids, oils, and chemical residue from the waste water before recirculating, meaning the recycled water is clean enough to wash with.
+
+![Water recycling system at AutoShine eco-friendly car wash in Nairobi Kenya](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## Biodegradable Products and Chemical Safety
+
+The chemicals that run off from a car wash enter the drainage system and eventually reach watercourses. In Nairobi, much of this ends up in the Nairobi River system, which flows through densely populated areas and is already significantly contaminated. Traditional commercial car wash detergents contain phosphates, surfactants, and solvents that are toxic to aquatic life and contribute to eutrophication of rivers and lakes.
+
+AutoShine uses exclusively biodegradable, phosphate-free cleaning products. These products break down in the environment rather than accumulating and are safe for the drainage systems they enter. The shampoos, degreasers, and interior cleaners used are certified to European Union environmental standards for biodegradability and aquatic toxicity.
+
+The practical difference for the customer is zero - biodegradable professional products clean as effectively as conventional ones. The cleaning chemistry has matured to the point where the environmental cost no longer requires a trade-off in performance.
+
+## What to Look for When Choosing an Eco-Friendly Car Wash
+
+Not every car wash that claims to be environmentally friendly has made genuine investments in sustainability. These are the indicators that distinguish genuine eco-commitment from marketing language.
+
+**Water recycling infrastructure is visible and specific.** A genuine water recycling operation has tanks, filtration units, and treatment equipment that are physically present and in use. Ask to see the system. If the car wash cannot describe how their recycling works, they likely are not doing it.
+
+**Product certification is documentable.** Eco-friendly product claims should be backed by biodegradability certifications from recognised bodies. Ask what products are used and whether they are certified.
+
+**Waste disposal is tracked.** Oils, solvents, and non-recyclable waste from car washing require proper disposal through licensed waste management operators. Responsible operators have documented waste disposal records.
+
+**Solar or renewable energy use.** Some car washes in Kenya have invested in solar panels to reduce grid electricity consumption. This is a meaningful environmental contribution beyond the water and chemical aspects.
+
+AutoShine's eco-certification covers all four of these criteria and the documentation is available for inspection.
+
+![Solar panels and eco-friendly systems at AutoShine Kenya car wash facility](https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200&q=80)
+
+## The Business Case for Choosing an Eco-Friendly Car Wash
+
+Beyond the environmental argument, there are practical reasons to prefer eco-friendly car wash services.
+
+**Gentler chemistry is better for your car.** The pH-neutral, low-VOC products used by certified eco-friendly washes are consistently gentler on paint, rubber seals, plastic trim, and interior materials than the industrial-strength detergents used by many conventional washes. Choosing an eco-friendly wash is also choosing a wash that is less likely to damage your vehicle.
+
+**Water scarcity resilience.** Car wash operations that rely on recycled water are more resilient during water rationing periods than operations that require fresh water for every vehicle. AutoShine's recycling capability means service continuity during the water rationing events that affect Nairobi periodically.
+
+**Corporate responsibility requirements.** For businesses maintaining fleet vehicles, an increasing number of corporate environmental policies require that service suppliers demonstrate environmental responsibility. Using AutoShine's documented eco-friendly service supports compliance with these policies and is documentable in supplier ESG reports.
+
+The environmental choice and the quality choice align at AutoShine. Making the right decision for the planet does not require compromising on the quality of the service your vehicle receives.
+
+`;

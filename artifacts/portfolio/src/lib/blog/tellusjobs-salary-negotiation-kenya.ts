@@ -139,4 +139,54 @@ TellusJobs provides Kenyan professionals with several tools specifically designe
 
 **Industry tracking:** Following salary trends in your sector over time helps you identify when your current compensation has fallen behind market, informing when to initiate a salary review conversation with your current employer.
 
-Your compensation should reflect the value you bring. TellusJobs gives you the information to know what that value is  -  and the clarity to ask for it.`;
+Your compensation should reflect the value you bring. TellusJobs gives you the information to know what that value is  -  and the clarity to ask for it.
+
+## The Kenya Salary Landscape: Why the Numbers Matter
+
+Kenya's salary market is significantly less transparent than equivalent markets in the US, UK, or South Africa. Most employers do not publish salary ranges in job advertisements (some list "competitive salary" as the only guidance), candidates rarely discuss salaries openly with peers, and formal salary surveys are published infrequently and without granular detail.
+
+This opacity benefits employers and disadvantages candidates. A candidate who accepts a below-market offer from inadequate information has accepted a salary anchor that affects their career earnings for years. Salary negotiation based on concrete market data is not an adversarial act - it is a candidate bringing the same quality of information to the negotiation that a prepared employer already has.
+
+TellusJobs' salary intelligence feature aggregates salary information from three sources: published salary ranges in job descriptions where available, salary self-reports from platform users (anonymised), and publicly available salary survey data from organisations including PwC Kenya, Deloitte Kenya, and sector-specific surveys. This combination creates a more current and granular picture than any single survey, particularly for Kenya's technology and development sectors where the market is moving faster than annual surveys capture.
+
+![Salary negotiation preparation for Kenyan professionals showing market data and negotiation strategy](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80)
+
+## The Mechanics of Salary Negotiation in Kenya's Cultural Context
+
+Salary negotiation is a culturally sensitive topic in Kenya. Direct, American-style negotiation ("I won't accept anything below X") is perceived as aggressive in most Kenyan corporate cultures and can damage the relationship with the hiring organisation before employment begins. The Kenyan professional communication style favours collaborative framing while still achieving the goal of an improved offer.
+
+The approach that works in most Kenyan corporate contexts:
+
+**Express genuine enthusiasm for the role first.** Before discussing compensation, confirm your strong interest in the position. "I am very excited about this opportunity and I believe I can contribute significantly to the team" sets a collaborative frame.
+
+**Reference market data, not personal need.** Framing salary negotiation in terms of market data ("Based on my research of the market for roles at this level in this sector in Nairobi, I was expecting a range of KES X to KES Y") is received much better than framing based on personal financial needs ("I need KES X to cover my expenses").
+
+**Give a range, not a single number.** Providing a range signals flexibility and reduces the confrontational feel of a single demand. The floor of your range should be acceptable to you; the ceiling should reflect your research on the market high end.
+
+**Ask about total compensation, not salary alone.** Kenya's formal sector compensation includes benefits that can represent significant value: medical insurance (for employee and sometimes family), pension contribution, transport allowance, airtime, performance bonus, and leave entitlement. Asking about the total package rather than just the salary opens a broader conversation and sometimes reveals value that makes a lower base salary more competitive.
+
+## What to Do When the Offer Is Below Market
+
+If an employer's offer is clearly below market rate, how you respond determines both the final package and the tone of the employment relationship you are beginning.
+
+**Validate before you counter.** Before countering, confirm that you are comparing equivalent items. A KES 150,000 net salary might be equivalent to a KES 180,000 gross salary at a different employer where benefits are different. Understand the full compensation package before assessing whether the offer is below market.
+
+**Counter once, specifically.** Propose a single specific counter (a number, not another range) based on your market data and your specific qualifications. "Based on the market data I have and the experience I bring to this role - particularly my seven years of specific X experience - I was hoping we could reach KES Y."
+
+**Know your walk-away in advance.** Before entering any negotiation, know the salary below which you will not accept the role. This clarity prevents you from accepting an offer in the moment that you will regret. If the employer's final offer is below your walk-away, thank them for their time and decline.
+
+**Consider negotiating non-salary elements.** If the employer has limited flexibility on base salary (some organisations, particularly NGOs and government-linked entities, have fixed salary scales), negotiate on non-salary elements: additional leave days, flexible working arrangements, a performance review and potential salary increase after six months rather than twelve, a professional development budget.
+
+![Salary offer evaluation framework showing total compensation calculation for Kenyan job offers](https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80)
+
+## Market Rate Research Using TellusJobs
+
+TellusJobs' salary tool allows users to query compensation data by: role level (using a standardised seniority taxonomy), sector, years of experience, and specific certifications or specialisations. The output is a distribution showing the 25th, 50th, and 75th percentile salary ranges for the specified profile.
+
+This distribution is more useful than a single number because it shows you where you should realistically position your ask. A candidate with strong, relevant experience should argue for the 60th to 75th percentile. A candidate transitioning into a new area should expect to start closer to the 25th to 50th percentile and argue for the upper half of that range.
+
+The data is updated quarterly as new job descriptions with salary ranges are processed and as user salary reports are added. The most recent quarter's data is the most relevant for current negotiations.
+
+For sectors and roles where TellusJobs' data coverage is thin - very senior roles, specialist technical roles, regional management positions - the tool displays data confidence indicators and recommends supplementary research through published salary surveys. Using incomplete data in a negotiation is worse than using no data, and the platform flags this risk explicitly.
+
+`;

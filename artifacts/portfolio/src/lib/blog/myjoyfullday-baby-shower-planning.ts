@@ -140,4 +140,44 @@ From there:
 
 The goal is for the people planning the baby shower  -  usually close friends or family members who are doing this as an act of love  -  to spend their energy on the personal touches, not the logistics. The logistics are what MyJoyfulDay handles.
 
-A baby shower is one of life's genuinely joyful occasions. Plan it well, and the expectant mother will feel loved and seen on a day she'll remember for the rest of her life.`;
+A baby shower is one of life's genuinely joyful occasions. Plan it well, and the expectant mother will feel loved and seen on a day she'll remember for the rest of her life.
+
+## The Baby Shower Market in Kenya's Middle Class
+
+Baby showers have experienced a significant adoption curve in Kenya in the last decade. What was previously a tradition associated primarily with expatriate and upper-income Kenyan families has become mainstream across the middle-income segment in urban Kenya. Nairobi, Mombasa, Kisumu, and secondary cities all show strong baby shower event creation on MyJoyfulDay, with 15% of platform events in this category.
+
+The Kenyan baby shower format has evolved distinctly from Western models. Kenyan baby showers more frequently involve both genders (they are often called "gender reveals" or "baby parties" rather than traditional women-only showers), are typically hosted at a neutral venue rather than a home, and frequently incorporate elements that reflect the family's cultural background - Kikuyu, Luo, Kalenjin, and other community traditions each have different ways of welcoming a new child that may be incorporated into the celebration.
+
+For platform design, baby showers combine characteristics of both birthday parties and weddings: the planning timeline is intermediate (typically four to eight weeks), the vendor needs are substantial (photography, cake, catering, decoration), and the emotional significance of the occasion means quality matters strongly to the organisers.
+
+![Kenyan baby shower celebration with guests and professional decoration showing event scale](https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80)
+
+## Gift Registry Integration
+
+The most frequently requested baby shower feature by MyJoyfulDay users has been a gift registry - a curated list of desired items that guests can select from to avoid duplication and ensure gifts are genuinely useful for the family.
+
+MyJoyfulDay's gift registry works without requiring guests to purchase through the platform. The registry displays a list of items with their approximate price ranges and purchase locations. Guests can mark an item as "I'm getting this" (visible to other guests but not to the host, preventing duplication), and the system allows item descriptions to include links to specific online or physical store locations.
+
+The registry is designed specifically for the Kenyan context. Gift items include locally available products from Naivasha Baby, Toys R Us, Nakumatt (and its successors), and specific local brands. Unlike Western registries that assume Amazon or similar delivery infrastructure, the Kenyan registry tool is built around physical purchase rather than online delivery.
+
+M-Pesa contribution to a single shared gift is a commonly requested feature and is in development. Several groups of guests prefer to pool contributions for a larger gift - pushchairs, cots, and baby monitors at the KES 15,000 to 50,000 price range - rather than bringing individual items. The M-Pesa collective contribution feature will allow guests to contribute specified amounts directly to the host before the event.
+
+## Coordinating Two Family Networks
+
+Unlike most social events which have a single organiser and a single guest network, baby showers often involve two extended family networks: the mother's family and the father's family. These networks may have different expectations about the event format, different communication channels, and in some cases different language preferences.
+
+MyJoyfulDay's co-organiser feature was partially driven by baby shower use cases. Adding a co-organiser allows two people to share event management responsibilities and communication through Jitabi without conflating their WhatsApp conversations. The mother's sister manages the maternal family invitations and RSVPs; the father's mother manages the paternal family side. Both see the full guest list and can see RSVP status in real time, but their Jitabi conversations remain separate.
+
+The guest segmentation view in the dashboard shows RSVPs grouped by which co-organiser added them, which is useful for understanding total reach and identifying guest list gaps without requiring both organisers to coordinate manually.
+
+![Baby shower planning coordination between two family networks using MyJoyfulDay](https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1200&q=80)
+
+## After the Baby Shower: Long-Term Platform Engagement
+
+Baby shower planners represent a particular long-term engagement opportunity. The couples hosting or being celebrated at baby showers are typically in the life phase - late twenties to late thirties - where event creation needs are highest: children's birthday parties, household gatherings, community events.
+
+MyJoyfulDay's follow-up engagement with baby shower event creators has a notably higher response rate than follow-ups with other event types. The emotional significance of the occasion creates a positive association with the platform that translates to return usage.
+
+The most effective follow-up touchpoint in MyJoyfulDay's data: a Jitabi message sent on the child's first birthday (using the due date from the baby shower event details) suggesting that MyJoyfulDay is the perfect way to celebrate the baby's first birthday. This anniversary-triggered message converts to a new event creation at a 41% rate - the highest triggered conversion in the platform's engagement data.
+
+`;

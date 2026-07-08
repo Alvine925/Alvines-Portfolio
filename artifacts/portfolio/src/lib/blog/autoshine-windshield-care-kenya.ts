@@ -131,4 +131,50 @@ AutoShine applies professional rain repellent (Rain-X or Gtechniq G1) as part of
 **Chip repair referral:**
 AutoShine's network includes qualified windshield chip repair specialists across Nairobi. If our technicians identify a chip during service, we refer clients immediately  -  and for chips identified early, the repair is typically straightforward and inexpensive.
 
-Your windshield is your window to Nairobi's demanding roads. Keep it clear, treat chips promptly, replace deteriorated wipers, and let AutoShine handle the glass care as part of your regular vehicle maintenance programme.`;
+Your windshield is your window to Nairobi's demanding roads. Keep it clear, treat chips promptly, replace deteriorated wipers, and let AutoShine handle the glass care as part of your regular vehicle maintenance programme.
+
+## Kenya's Windshield Hazards Are More Serious Than You Think
+
+The windshield is the most safety-critical glass surface on your vehicle. A compromised windshield - through chips, cracks, hazing, or inadequate wipers - reduces visibility in ways that increase accident risk significantly. Kenya's driving environment creates several windshield hazards that drivers should understand and actively manage.
+
+**Stone chips from gravel roads and truck tyres:** Driving behind heavily laden lorries on Kenya's highways exposes the windshield to gravel and debris thrown from truck tyres at high speed. This is the leading cause of windshield chips in Kenya. A small chip left untreated will develop into a crack within weeks, particularly given the temperature cycling of Kenya's climate (hot afternoons, cooler mornings) that stresses glass at the chip point.
+
+**Murram road surface:** The red laterite gravel of Kenya's murram road network contains very hard angular particles. High-speed travel on murram roads generates a spray of sharp particles that impact the windshield with significant force. Even brief murram road sections at speed can deposit multiple chips in a single trip.
+
+**Windshield wipers used on dry glass:** One of the most common causes of wiper-induced windshield scratching is activating wipers on a dry, dusty windshield to clear it. The dry abrasive dust acts as sandpaper between the wiper blade and the glass. Always use the washer fluid before or alongside the wipers. If the washer fluid is empty, do not use the wipers until the glass has been manually cleaned.
+
+**Commercial vehicle exhaust film:** Behind diesel vehicles in traffic, a fine oily film from exhaust settles on the windshield. This film is nearly invisible in dry conditions but creates severe smearing and glare when wet, particularly when headlights or sunlight hit it at an angle. Regular interior and exterior glass cleaning removes this film.
+
+![Windshield chip repair service at AutoShine Kenya showing resin injection technique](https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200&q=80)
+
+## Chip Repair vs Windshield Replacement Economics
+
+A windshield chip that is small enough (under 20 to 25 millimetres in diameter, not in the driver's direct line of sight, not at the edge of the glass) can be repaired by injecting a clear resin into the chip under pressure, then curing it with UV light. The repaired chip is no longer structurally compromised and is much less likely to spread.
+
+The economics strongly favour repair over replacement. Windshield chip repair costs KES 1,500 to 3,000 per chip at a reputable shop. A new windshield for a Toyota Prado, Land Rover, or premium European vehicle costs KES 40,000 to 120,000 or more. Even if your insurance covers windshield replacement, the time lost to replacement (two to four hours at minimum) and the risk of seal quality issues after a replacement installation argue for repairing chips promptly rather than waiting until the windshield needs full replacement.
+
+The critical window for chip repair is the first two to four weeks after the chip occurs. A chip that has a single radiating crack of under 25 centimetres can still be repaired. Once cracks extend beyond 30 centimetres or branch significantly, the structural compromise cannot be repaired and replacement becomes necessary.
+
+## Wiper Maintenance for Kenya's Conditions
+
+Wiper blades are a frequently neglected safety item. A wiper blade that streaks, skips, or fails to clear rain clearly is a genuine safety hazard at night or in heavy rain. Kenya's conditions age wiper blades faster than temperate-climate guidance suggests.
+
+**Replacement frequency:** Most wiper blade manufacturers recommend annual replacement in standard conditions. In Kenya, the combination of intense UV degrading the rubber compound, abrasive dust scratching the blade edge, and intermittent use during the two rainy seasons (with long inactive periods between them) typically means optimal wiper performance lasts six to nine months, not twelve.
+
+**Blade care between replacements:** Wipe the rubber edge of each blade with a damp cloth when cleaning the windshield. This removes grit embedded in the blade edge that causes streaking. Inspect for cracks in the rubber - visible cracking indicates the blade is past its useful life regardless of age.
+
+**Fluid maintenance:** Use a proper windshield washer fluid, not plain water. Plain water evaporates quickly and does not contain the surfactants that break down oily road film. During the rainy season, a washer fluid with a water-repellent additive (Rain-X or equivalent) causes rain to sheet off the glass rather than bead, improving wet visibility.
+
+![Clean windshield and properly maintained wiper blades on vehicle in Nairobi](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## Legal Requirements and AutoShine Windshield Services
+
+The Kenya Traffic Act requires that windshields provide clear forward visibility and that windshield wipers are functional. The National Transport and Safety Authority includes windshield condition in vehicle inspection criteria. A cracked windshield that compromises visibility is grounds for failing a roadworthiness inspection and can result in a fine or prohibition from driving.
+
+AutoShine's wash service includes inspection of the windshield exterior for chips, cracks, and damage at every visit. Any chip larger than 5 millimetres or any crack of any size is flagged in the post-wash report with a recommendation for prompt repair.
+
+The windshield cleaning process at AutoShine uses a dedicated glass cleaner and lint-free glass cloths for both interior and exterior glass. The interior glass surface - often more contaminated than the exterior due to off-gassing from interior materials and fingerprints - receives dedicated cleaning rather than being wiped with the same microfibre cloths used on paint surfaces.
+
+AutoShine partners with windshield repair specialists for chip repair referrals when inspection flags an issue. The referral process takes under five minutes and the repair can typically be scheduled on the same day.
+
+`;

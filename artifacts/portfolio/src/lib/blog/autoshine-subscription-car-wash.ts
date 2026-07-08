@@ -163,4 +163,50 @@ Starting an AutoShine subscription is a three-minute WhatsApp conversation:
 
 No lengthy sign-up forms, no credit card pre-authorization, no long-term commitment. Your first subscription wash is when the value becomes obvious  -  and every subsequent wash reinforces it.
 
-Contact AutoShine on WhatsApp to start your subscription today.`;
+Contact AutoShine on WhatsApp to start your subscription today.
+
+## Calculating Whether a Subscription Actually Saves You Money
+
+The subscription model only makes sense if your vehicle needs washing frequently enough that per-wash costs add up to more than the subscription price. Here is a direct calculation using realistic Nairobi figures.
+
+A standard exterior wash at a quality car wash in Nairobi costs between KES 500 and KES 800. A full service wash with interior vacuum and windows runs KES 1,000 to KES 1,500. If you wash weekly - which most commuter vehicles in Nairobi should - you are spending between KES 2,000 and KES 6,000 per month on car washing alone. AutoShine's subscription tiers start significantly below that for equivalent service quality, with the additional benefit of priority booking and no need to carry cash.
+
+For fleet owners, the calculation is even clearer. Five vehicles washing weekly at KES 700 each is KES 14,000 per month at standard rates. A fleet subscription covering five vehicles at AutoShine brings that down considerably while adding scheduling coordination, digital receipts for expense tracking, and consistent quality across all vehicles.
+
+The break-even point for most individual owners is two to three washes per month. If you wash less often than that, pay-per-wash is more economical. If you wash more than three times per month, a subscription saves money and adds convenience.
+
+![Subscription car wash loyalty card system for Kenyan vehicle owners](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## What a Good Car Wash Subscription Should Include
+
+Not all subscription offers are equal. These are the features that distinguish a quality subscription from one that simply locks in your money.
+
+**Flexibility in scheduling:** A good subscription allows you to book at any time via app or phone, reschedule without penalty, and skip a week when you travel without losing the value. Subscriptions that expire monthly without rollover credits are structured to benefit the business, not the customer.
+
+**Service consistency guarantees:** Each wash under a subscription should meet the same standard as a walk-in paying full price. Some car wash operations treat subscription customers as lower priority. AutoShine's subscription model operates on the opposite principle - subscribers are the highest-value customers and receive priority queue placement.
+
+**Transparent add-on pricing:** Interior deep cleans, engine bay cleaning, ceramic boost sprays, and tyre dressing should be available as clearly priced add-ons rather than bundled into a high-price tier most customers do not need. You should be able to customise your service level visit by visit.
+
+**Digital payment and records:** All subscription billing should be via M-Pesa or card, with receipts accessible in-app. For business vehicles, this creates clean expense documentation. For personal vehicles, it means no cash handling at the wash point.
+
+## How AutoShine's Subscription Tiers Work
+
+AutoShine offers three subscription bands designed for different use patterns. The Essential tier covers exterior washes on a weekly cadence - suitable for vehicles that are maintained but not detailed. The Premium tier adds interior vacuum and glass cleaning, appropriate for daily commuter vehicles where interior cleanliness matters for professional image. The Pro tier adds a monthly full detail, tyre dressing at every wash, and priority same-day booking, designed for business-use vehicles and owners who use their car as a client-facing asset.
+
+Subscribers can adjust their tier month to month through the AutoShine app without penalty. The most common pattern is upgrading to Pro before important periods (client visits, family events, pre-sale preparation) and returning to Essential or Premium during normal use periods.
+
+Pause functionality is available for owners who travel frequently. A subscription can be paused for up to four weeks per year, preserving the membership rate without paying for weeks when the vehicle is not in the country.
+
+![Professional car wash team delivering subscription service to a Nairobi vehicle owner](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80)
+
+## Building the Habit of Regular Vehicle Care
+
+The deeper value of a subscription is behavioural. When the cost is pre-paid and the appointment is pre-set, washing the car moves from something you get around to eventually to something that happens automatically. AutoShine's data shows subscription customers wash their vehicles 3.8 times per month on average, compared to 1.6 times per month for non-subscription customers who pay per visit.
+
+That difference in frequency compounds into a significant difference in vehicle condition over 12 months. Subscription vehicles show measurably lower paint degradation, cleaner interior surfaces, and better overall presentation at resale. Nairobi used car dealers who have asked AutoShine for condition assessments of vehicles they are considering purchasing consistently note that subscription-maintained vehicles negotiate from a stronger position.
+
+> Consistency in car care is not about any single wash. It is about never letting contamination accumulate long enough to start doing permanent damage.
+
+Setting up a subscription through the AutoShine app takes three minutes and includes a vehicle intake assessment where your vehicle's current condition is documented with photos. This serves as a baseline for tracking improvement over time and is useful documentation for insurance and resale purposes.
+
+`;

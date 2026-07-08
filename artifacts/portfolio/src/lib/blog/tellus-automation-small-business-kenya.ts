@@ -164,4 +164,42 @@ Tellus works with Kenyan small and medium businesses to identify, design, and im
 
 You don't need to understand the technology. You need to understand your business. We understand the technology. The combination produces automations that work for your specific situation rather than generic templates that sort of work for any situation.
 
-Contact Tellus to begin the conversation about what automation could mean for your business.`;
+Contact Tellus to begin the conversation about what automation could mean for your business.
+
+## Starting Small: The 80/20 of Business Automation
+
+The most common mistake Kenyan SME owners make when approaching automation is trying to automate everything at once. The result is a complex, half-implemented system that creates more problems than it solves.
+
+A better approach: identify the two or three tasks that consume the most time and produce the most consistent errors, and automate those first. Get genuine results. Build confidence. Expand from there.
+
+**The highest-return starting points for Kenyan SMEs:**
+
+Invoice generation and delivery is almost universally manual in Kenyan SMEs — a spreadsheet is filled, a PDF is generated, an email is composed and sent. This process is fully automatable. With the right tools, a confirmed order triggers automatic invoice generation, PDF attachment, and email delivery to the client — with no human involvement.
+
+WhatsApp customer inquiry response handles the first-contact layer of customer service. Most Kenyan businesses receive the same 8-10 questions repeatedly via WhatsApp: what are your prices? what are your hours? do you deliver? An automated first-response that handles these common queries and escalates others to a human agent reduces the WhatsApp management burden by 60-70% in most businesses.
+
+Payment reconciliation — matching M-Pesa payments to invoices, updating records when payments arrive, sending receipts — is repetitive, error-prone, and fully automatable for businesses using standard payment processing.
+
+![Small business automation workflow showing WhatsApp inquiry handling and invoice generation](https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80)
+
+## Tools That Work for Kenyan SMEs Without Technical Staff
+
+The key constraint for most Kenyan SMEs is the absence of technical staff. The right automation tools for this context are those that a non-technical business owner can implement, understand, and maintain.
+
+**n8n (self-hosted or cloud):** A visual workflow automation tool that connects applications via a drag-and-drop interface. Kenyan businesses can use n8n to connect WhatsApp Business API, M-Pesa (via Daraja API), accounting tools, Google Sheets, and email — creating automated workflows without writing code. n8n's community edition is free to self-host; cloud hosting starts at modest monthly costs.
+
+**Google Workspace automation:** Google Sheets, Forms, Gmail, and Drive together form a capable automation platform for SMEs already using Google Workspace. AppScript allows non-technical automation of repetitive tasks within this ecosystem. Creating automatic emails from form submissions, updating spreadsheets from form responses, and generating reports from accumulated data are all achievable without external tools.
+
+**WhatsApp Business automation platforms:** Several Kenyan-focused WhatsApp automation platforms provide template-based automation for customer inquiry handling without requiring API access. These are appropriate for businesses not ready for the Meta Cloud API's technical requirements.
+
+## ROI Calculation for SME Automation
+
+Before committing to any automation tool, calculate the return. Most Kenyan SME automation investments pay back within three months.
+
+A business owner spending three hours per day on tasks that could be automated, at an implicit hourly value of KES 1,500 (based on a KES 250,000 monthly revenue generating business), loses KES 4,500 per day to manual work. Monthly cost: KES 135,000 in owner time.
+
+A typical n8n implementation for invoice and payment automation costs KES 15,000-30,000 in setup (one-time) and KES 3,000-5,000 per month in hosting. The break-even on the time saved occurs in the first month.
+
+The business case is almost always clear. The obstacle is usually implementation: finding someone who can set it up, trusting that it will work correctly, and managing the transition period. Tellus provides automation implementation services for Kenyan SMEs who want these benefits without the implementation friction.
+
+`;

@@ -143,4 +143,57 @@ Ceramic coating reduces maintenance requirements but doesn't eliminate them. Mai
 
 **Avoid:** Automated car washes with brushes (the brushes damage the coating). Harsh cleaning products. Wax applications (wax on ceramic coating doesn't bond properly and can cloud the surface).
 
-Book your AutoShine ceramic coating consultation today and protect your vehicle investment with the most advanced paint protection available in Kenya.`;
+Book your AutoShine ceramic coating consultation today and protect your vehicle investment with the most advanced paint protection available in Kenya.
+
+## What Ceramic Coating Actually Is and How It Works
+
+The term ceramic coating is used to describe a range of products from consumer spray-on glosses to professional-grade semi-permanent coatings. Understanding what a professional ceramic coating actually is distinguishes the genuine product from the marketing imitation.
+
+A professional ceramic coating is a liquid polymer - typically based on Silicon Dioxide (SiO2) or Silicon Carbide - that chemically bonds to the paint's clearcoat surface when applied and cured correctly. Unlike wax or sealant, which sit on top of the paint and are gradually degraded and removed, a properly applied ceramic coating becomes part of the paint surface. It does not wash off. It does not need to be reapplied after every few months. It creates a surface that is significantly harder than the underlying clearcoat, more hydrophobic than waxed paint, and chemically resistant to the acidic and alkaline contamination that causes paint damage.
+
+The hydrophobic property - water contact angles of 100 to 110 degrees on a properly ceramic-coated surface versus 40 to 60 degrees on waxed paint - means water beads and rolls off the surface rather than spreading and sitting. Rain deposits, bird droppings, and road contamination sit on the surface rather than bonding to it, making cleaning significantly easier and reducing the chance that any single contamination event causes lasting damage.
+
+![Ceramic coating application process at AutoShine Kenya showing professional treatment](https://images.unsplash.com/photo-1547899949-f6d99b4d7dab?w=1200&q=80)
+
+## The Real Cost of Ceramic Coating in Kenya
+
+Professional ceramic coating at AutoShine represents a significant upfront investment that makes clear financial sense when viewed over the protection period.
+
+A professional ceramic coating service at AutoShine is priced based on vehicle size and the level of paint preparation required before coating. A small hatchback or sedan with paint in good condition: KES 30,000 to 45,000 for the full preparation and coating service. A mid-size SUV (RAV4, CX-5, Tucson): KES 45,000 to 65,000. A large SUV (Land Cruiser Prado, Fortuner, Defender): KES 65,000 to 90,000.
+
+This price covers the full paint decontamination, machine polish (to correct paint defects - coating over defects locks them in permanently), panel wipe before coating, professional coating application, and curing. The coating used by AutoShine carries a five-year durability warranty.
+
+Compare this to the alternative: professional wax applied twice per year at KES 8,000 per application is KES 16,000 per year, or KES 80,000 over five years - more than the ceramic coating cost, with less protection and more frequent maintenance required. Add the paint correction work that a non-coated vehicle may need after two or three years of Kenya exposure, and the ceramic coating becomes clearly cost-effective.
+
+## The Paint Preparation Requirement
+
+This is the detail most car owners underestimate when considering ceramic coating: the paint must be in perfect condition before the coating is applied. The coating creates a hard, transparent layer over whatever surface it is applied to. Any defects present at the time of coating - swirl marks, water spot etching, light scratches, oxidation - are locked under the coating and become visible for the life of the coating.
+
+This is why a professional ceramic coating service always includes a full paint assessment and, in most cases, machine polishing before the coating application. At AutoShine, the standard preparation for ceramic coating includes:
+
+- Paint thickness measurement (to identify panels with insufficient clearcoat for polishing)
+- Chemical decontamination to remove iron particles and organic contamination
+- Clay bar decontamination to remove bonded surface contamination
+- Machine polish (one to two stages depending on paint condition)
+- Isopropyl alcohol panel wipe to remove all polish residue and oils
+- Final inspection under LED detailing light
+
+Only after the paint passes inspection does coating application begin. This preparation is what makes the difference between a ceramic coating that enhances an already excellent paint surface and one that permanently seals in existing problems.
+
+![Vehicle paint correction and inspection before ceramic coating at AutoShine Kenya](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## Maintaining a Ceramic-Coated Vehicle
+
+A common misconception about ceramic coating is that it requires no maintenance. The coating dramatically reduces the maintenance requirement compared to unprotected or waxed paint, but some maintenance is still necessary to maximise the coating's performance and lifespan.
+
+**Regular washing is still required.** Contamination that sits on the coating long enough can bond to it, particularly in Kenya's conditions. The difference is that the contamination does not bond to the coating nearly as readily as to unprotected paint, and when contamination does accumulate, it releases more easily during washing. The correct wash interval with a ceramic coating is no longer than weekly for daily commuter vehicles.
+
+**Use pH-neutral car shampoo.** This was important for unprotected paint and remains important for ceramic-coated paint. Alkaline shampoos degrade the coating over time, reducing its hydrophobic performance and shortening its life.
+
+**Annual ceramic coating maintenance service.** Once per year, AutoShine's coating maintenance service involves a thorough inspection of the coating condition, chemical decontamination to remove any bonded contamination, and application of a ceramic top coat (a lighter coating layer applied over the cured base coating) to restore optimal hydrophobic performance and add another layer of protection. This service is far cheaper than the original application and significantly extends the coating's effective life.
+
+**Avoid automated car washes with brushes.** Rotating brush systems apply significant abrasive force to the coating surface. Touchless automated washes are acceptable. Hand washing by trained professionals (like AutoShine's team) is optimal.
+
+AutoShine includes a free 12-month inspection and coating assessment with every ceramic coating service, scheduled for one year after application. This provides a documented coating condition report and a recommendation for the appropriate level of annual maintenance.
+
+`;

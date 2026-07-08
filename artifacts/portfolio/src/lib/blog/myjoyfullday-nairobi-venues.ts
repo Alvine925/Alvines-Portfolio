@@ -133,4 +133,52 @@ Nairobi's best venues at popular dates book out earlier than most people expect.
 - General weekend dates: 2 - 4 months in advance is usually sufficient for mid-tier venues; premium venues still benefit from more lead time
 - Weekday events: generally more flexible, often 4 - 8 weeks notice is adequate
 
-The biggest mistake in Nairobi venue booking is beginning the search only a month before the event date. At that point, your best options are already taken, and you're choosing from what remains. Start early, and the full range of Nairobi's excellent venues is available to you.`;
+The biggest mistake in Nairobi venue booking is beginning the search only a month before the event date. At that point, your best options are already taken, and you're choosing from what remains. Start early, and the full range of Nairobi's excellent venues is available to you.
+
+## Finding the Right Venue in Nairobi: The Platform Challenge
+
+Venue availability and suitability information in Nairobi is notoriously hard to verify without making individual calls. A venue that shows as available on its website may be fully booked. A venue that describes itself as suitable for 100 guests may have realistic comfortable capacity for 60. A venue that looks impressive in photos may have parking that accommodates 20 cars and no others within walking distance.
+
+MyJoyfulDay's venue marketplace addresses these information problems through real-time availability (venues update their calendars through the platform), verified capacity figures (capacity is confirmed during venue onboarding and updated when venues make layout changes), and parking and access information (standardised fields in venue profiles covering parking spaces, public transport access, and special vehicle requirements).
+
+The venue discovery tool allows event creators to filter by guest count, date, venue type (garden, indoor hall, hotel ballroom, restaurant private dining), price range, area (Westlands, Karen, Kilimani, CBD, Eastlands, South B and C, etc.), and available services (in-house catering, outside catering allowed, alcohol licence, AV equipment).
+
+This filtering capability reduces the discovery process from hours of individual venue calls to a 15-minute shortlist. The shortlisted venues can be contacted directly through the platform, and a site visit can be scheduled.
+
+![Nairobi event venue gallery on MyJoyfulDay showing indoor and outdoor spaces across the city](https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80)
+
+## Understanding Nairobi's Venue Categories
+
+Nairobi's venue market is more diverse and nuanced than a simple list of hotel ballrooms and conference centres suggests. Understanding the categories helps event creators identify which type of venue is appropriate for their event type and budget.
+
+**Garden and outdoor venues** in Nairobi's leafy suburbs (Karen, Langata, Runda, Gigiri, Spring Valley) offer a distinctive setting that works particularly well for garden parties, birthday celebrations, and smaller weddings. These venues typically have both indoor and outdoor space, allowing weather contingency. Parking is generally adequate. Catering is often done by outside caterers. Prices range from KES 15,000 to 80,000 for a day hire depending on size and prestige.
+
+**Hotel venues** (Radisson Blu, Serena, Intercontinental, Villa Rosa Kempinski, Ole Sereni, Safari Park, etc.) offer the highest service levels and the most professional event infrastructure. They are appropriate for corporate events, formal weddings, and occasions where service quality is the primary consideration. Hotel venue hire often requires use of in-house catering (exclusive catering arrangements). Per-head food and beverage minimums are standard. Prices are the highest category.
+
+**Restaurant private dining and event spaces** suit intimate events of 20 to 80 people where the venue's existing atmosphere and catering are a feature rather than just a backdrop. Carnivore's event spaces, Java House private dining, Talisman, and similar established restaurant brands have significant Nairobi event followings.
+
+**Purpose-built event halls** (community halls, church halls, independent event spaces) are the most affordable category and highly variable in quality. The best purpose-built event halls offer flexible space, adequate parking, and kitchen facilities. The worst have single toilet facilities, limited power outlets, and problematic acoustics. MyJoyfulDay's venue verification process screens for basic infrastructure standards before listing any venue.
+
+## Venue Booking Etiquette and Timing in Nairobi
+
+Nairobi's venue market has specific timing and process norms that event creators need to understand to secure the right venue.
+
+**Peak weekends are booked months in advance.** December Saturdays, January, and any long-weekend Monday are the most competitive dates in Nairobi's venue market. Quality venues in desirable locations are routinely booked 6 to 12 months ahead for these dates. Planning a December event with a three-week lead time means accepting either a less popular venue or paying a premium for a last-minute vacancy.
+
+**Written confirmation is essential.** The Nairobi venue market has had numerous disputes around verbal bookings where the venue or the client had different recollections of what was agreed. Insist on a written confirmation (email or WhatsApp message is sufficient) covering the date, time, price, deposit paid, and cancellation terms before making any other event plans that depend on the venue.
+
+**Inspect before booking.** Venue photographs are almost always taken on setup days when the space looks its best. The reality may be different. Visit the venue specifically at the time of day your event will run - afternoon light, evening light, and bright overhead sunlight have very different effects on the same space. Check parking capacity during a similar event period, not during a Monday morning viewing.
+
+![Kenyan event venue site visit showing outdoor garden space in Nairobi suburb for event planning](https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80)
+
+## Nairobi Venues Listed on MyJoyfulDay
+
+MyJoyfulDay's Nairobi venue marketplace includes over 80 verified venues as of 2025, covering all major event types and most Nairobi suburbs. The listing process requires venues to provide verified capacity, parking count, catering policy (exclusive or outside caterers allowed), alcohol licence status, and minimum hire terms.
+
+Venue listings include availability calendars updated by the venue team, photo galleries (exterior, interior, and ideally photos from previous events), pricing (day hire, evening hire, and weekend hire), and contact details for direct enquiry.
+
+The review system for venues is particularly important - the operational reality of a venue (staff responsiveness, event-day management, setup and breakdown flexibility) is hard to assess from a marketing presentation and is captured in detailed client reviews. Venues with consistent reviews noting specific strengths and weaknesses give event creators a realistic picture of what to expect.
+
+Requesting a venue through the MyJoyfulDay platform versus contacting the venue directly has one significant advantage: availability confirmation is updated in real time on the platform, whereas a direct contact call or email may not reach the right person before the date is booked by another client. For high-demand dates, booking through the platform provides the fastest response path.
+
+`;

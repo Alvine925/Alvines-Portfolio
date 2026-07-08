@@ -132,4 +132,56 @@ Rear cameras show you obstacles behind the vehicle; front parking sensors protec
 **Being selective about car washes:**
 The single biggest source of cumulative scratch damage for most Kenyan vehicles is poor car washing technique at informal operators. Choosing quality car washes  -  or AutoShine's mobile service  -  that use proper technique and products prevents the ongoing scratch accumulation that makes paint look dull over time.
 
-For scratch assessment or professional polishing service, book with AutoShine through WhatsApp or our website.`;
+For scratch assessment or professional polishing service, book with AutoShine through WhatsApp or our website.
+
+## Understanding What Kind of Scratch You Are Dealing With
+
+Not all scratches are the same, and the appropriate response depends entirely on how deep the damage goes. Using the wrong treatment for a scratch type either wastes money on over-treatment or produces disappointing results from under-treatment.
+
+**Clear coat scratches** (the most common type) affect only the top transparent layer of the paint system. These scratches reflect light and are visible as white or silver lines because they scatter light differently from the intact surface around them. They have not penetrated through to the coloured base coat. The test: look at the scratch at an angle in direct sunlight. If you cannot see bare paint colour in the scratch itself - if it appears white or silver rather than showing the undercolour - it is likely a clearcoat scratch. These can be repaired by cutting and polishing the clearcoat to below the depth of the scratch.
+
+**Paint scratches** have penetrated through the clearcoat to the coloured layer below. The test: run a fingernail across the scratch. If your nail drops into it noticeably, and if the scratch shows the undercolour (often a different shade, sometimes white primer if the scratch is deep), it has cut through the clearcoat. These require touch-up paint application to fill the scratch before polishing.
+
+**Deep scratches** have penetrated to the primer or bare metal. These appear white or grey (primer), or develop rust within days to weeks as bare metal is exposed to oxygen. Deep scratches require professional panel repair, not polishing or touch-up application.
+
+**Scuff marks** are not technically scratches - they are surface deposits of material from the object that caused them (a bollard, another car's bumper, a trolley). The paint itself may be intact underneath. Test by lightly wetting the area - if the mark almost disappears when wet, it is likely a surface scuff rather than a scratch. Scuffs respond well to polishing compounds without any need for paint.
+
+![Paint scratch inspection on Kenyan vehicle showing depth assessment before treatment](https://images.unsplash.com/photo-1547899949-f6d99b4d7dab?w=1200&q=80)
+
+## The Scratch Depth Test You Can Do at Home
+
+Before spending anything on scratch repair, do this simple assessment to understand what you are dealing with.
+
+Find the scratch in good natural light, ideally in shade rather than direct sun. Direct sun makes it hard to distinguish clearcoat scratches from paint scratches.
+
+Step one: Look at the scratch at a very low angle. If the scratch appears silver or white but you cannot see into it, this is a surface clearcoat scratch. If the scratch has depth and you can see a colour difference inside it (lighter than the surrounding paint, often showing primer colour), it has cut deeper.
+
+Step two: For scratches that appear to have depth, run your fingernail across them. A scratch your fingernail catches noticeably has penetrated through the clearcoat. One your fingernail slides over with minimal sensation is a light surface scratch.
+
+Step three: Check for rust. If any orange or brown discolouration is visible, the scratch has reached bare metal and immediate professional treatment is required to stop the rust spreading.
+
+This three-step assessment takes two minutes and tells you whether to use a DIY product, book an AutoShine polish service, or seek panel repair.
+
+## What a Professional Scratch Removal Service Actually Does
+
+A professional scratch removal service at AutoShine is not simply applying a compound and polishing. For anything beyond a very light surface scratch, the process is more involved.
+
+The panel with the scratch is first decontaminated, then assessed under LED detailing light to understand the full extent of the damage beyond what is visible in normal light.
+
+For clearcoat scratches, the process is cutting (using an abrasive compound to remove clearcoat down to just below scratch depth), refining (using a finer compound to remove the marks the cutting compound leaves), and finishing (using a light polish to bring the surface to its final gloss level). This is followed by paint sealant or wax application to protect the treated area.
+
+For paint scratches, the process adds a touch-up step before polishing. The matched touch-up paint is applied to the cleaned scratch in thin layers, allowed to cure, then levelled flush with the surrounding paint using fine abrasive compound, and finally polished to blend. The repair visibility depends heavily on the accuracy of the paint match - factory colour codes generally give good results, but some colours (metallic paints, special effects paints, aged paint that has shifted from the factory code) require colour-matching by eye.
+
+![AutoShine professional scratch removal process showing before and after panel treatment](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80)
+
+## Pricing and What to Expect at AutoShine
+
+AutoShine assesses scratch repair work on a per-panel basis during an initial inspection. The inspection is free and results in a written quote covering the treatment recommended, the time required, and the expected result.
+
+Light surface scratch removal on a single panel: KES 2,500 to 5,000 depending on panel size and scratch complexity. Paint scratch repair requiring touch-up paint: KES 4,000 to 10,000 per panel. Multiple panels with complex scratches: quoted per panel and agreed before work begins.
+
+Work is not started without written customer approval of the quote. A before photo is taken as standard documentation. On completion, a final photo is taken alongside the before image and shared with the customer.
+
+AutoShine's scratch removal service includes one month of follow-up - if the treated area shows any quality issue within 30 days of service, the team will inspect and address it at no additional cost.
+
+`;

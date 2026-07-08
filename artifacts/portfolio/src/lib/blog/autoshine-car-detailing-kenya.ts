@@ -144,4 +144,50 @@ AutoShine offers a structured range of detailing services bookable online:
 
 Booking through AutoShine includes a vehicle assessment, service recommendation, and price confirmation before work begins. No surprises, no upsells at the gate.
 
-Your vehicle deserves the care that reflects its value. AutoShine makes professional detailing accessible, convenient, and genuinely worth the investment.`;
+Your vehicle deserves the care that reflects its value. AutoShine makes professional detailing accessible, convenient, and genuinely worth the investment.
+
+## Full Detail vs Express Detail: Knowing What Your Car Needs
+
+Car detailing exists on a spectrum from a thorough express service taking two to three hours to a full multi-day paint restoration and interior refurbishment. Understanding where your vehicle falls on this spectrum - and what outcomes to expect from each level - helps you make an informed decision and set realistic expectations.
+
+**Express detail** covers: machine polish and wax on the exterior paint, tyre and wheel cleaning, interior vacuum and surface wipe, window cleaning inside and out, door jamb cleaning. This takes two to three hours for a standard saloon, three to four hours for an SUV. The result is a clean, protected, shiny vehicle. It does not correct significant paint defects or perform deep interior cleaning. Best for vehicles that are maintained reasonably well and need a step up from a standard wash, or as a preparation detail before a vehicle sale.
+
+**Standard full detail** adds to the express: clay bar decontamination of the paint surface to remove bonded contamination before polishing, a two-stage machine polish (cut and refinish), leather conditioning, carpet extraction or shampoo, engine bay cleaning, and detailed treatment of all interior plastics and trim. Takes four to six hours for a saloon, six to eight hours for a large SUV or van. This is the service that makes a maintained vehicle look essentially new, addressing the contamination and wear that accumulates over a full year.
+
+**Full paint correction detail** adds: thorough paint thickness measurement, multi-stage polishing to address significant paint defects (deep swirl marks, water spot etching, oxidation), paint decontamination including iron removal and solvent wipe, and application of a professional-grade paint sealant or ceramic coating. This takes one to two full days and is the right choice for a vehicle preparing for sale at maximum value, receiving a ceramic coating, or being restored after a period of neglect.
+
+![AutoShine full car detail service showing exterior paint correction and protection application](https://images.unsplash.com/photo-1547899949-f6d99b4d7dab?w=1200&q=80)
+
+## Detailing vs Washing: What Detailing Does That Washing Cannot
+
+Regular washing removes fresh surface contamination. Over time, washing alone is insufficient to maintain a vehicle's condition because of three categories of damage that washing does not address.
+
+**Bonded contamination:** Brake dust, iron particles, industrial fallout, and some mineral deposits bond to the paint surface after extended exposure and cannot be removed by washing regardless of soap strength or scrubbing pressure. These contaminants require chemical treatment (an iron remover or pH-specific cleaner) followed by physical decontamination (clay bar). A vehicle that has been washed regularly but never detailed accumulates this bonded contamination continuously.
+
+**Surface micro-damage:** Every wash creates micro-scratches in the clearcoat. Some come from grit in sponges or cloths. Some come from improper wash technique. Some are unavoidable from atmospheric abrasion. Over twelve to eighteen months of regular washing, these scratches accumulate into the swirl marks that make a car look dull and hazy. Only machine polishing removes them.
+
+**Material degradation:** Leather dries and cracks without regular conditioning. Plastic trims oxidise and chalk without UV protection. Rubber seals harden without rubber treatment. These degradation processes continue whether the car is washed or not, and they are only addressed by the conditioning and protection steps included in a detail.
+
+## Creating a Detailing Calendar for a Kenya-Kept Vehicle
+
+The right detailing schedule depends on how the vehicle is used and what its baseline condition is. These recommendations are appropriate for a Nairobi-based vehicle in normal use.
+
+**Newly purchased or imported vehicle (first service):** A full detail immediately on acquisition. For imported second-hand vehicles especially, this clears any contamination from the shipping and storage period, establishes a documented condition baseline, and applies fresh protection to start the ownership period correctly.
+
+**Maintained vehicle (ongoing):** A standard full detail every six months. One detail timed before the long rains (February/March) to seal the paint before the period when acid rain etching is highest. One detail after the dry season (October/November) to correct the UV and dust damage accumulated over the dry months.
+
+**High-use or commuter vehicle:** Quarterly express details to keep pace with the faster contamination accumulation, plus the twice-annual full detail.
+
+**Pre-sale preparation:** A full detail and, if the paint justifies it, a light paint correction one to two weeks before listing the vehicle for sale. Research from used car market data consistently shows that properly detailed vehicles sell faster and achieve higher prices than identical vehicles in undetailed condition.
+
+![Seasonal car detailing calendar for Kenya showing optimal service timing](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## AutoShine's Detailing Packages and Process
+
+AutoShine's detailing packages are priced by vehicle size and service level with no hidden add-ons. The price quoted at assessment is the price charged on collection. An assessment appointment - available free - determines the correct package and establishes the current vehicle condition in documentation.
+
+The detailing bay at AutoShine is a covered, dust-controlled indoor workspace - essential for polishing work, which cannot be done correctly in open-air conditions with ambient dust settling on wet paint surfaces. LED detailing lights are used throughout the process to reveal defects that are invisible under standard lighting. All work is photographed at each stage.
+
+Customers are given an estimated collection time at drop-off and receive a WhatsApp notification when their vehicle is ready. For full detail services taking a full day, AutoShine can arrange transport to and from the facility on request.
+
+`;

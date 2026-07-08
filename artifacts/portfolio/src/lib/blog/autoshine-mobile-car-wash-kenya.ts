@@ -114,4 +114,50 @@ For Nairobi drivers who want regular car care without the effort of scheduling e
 
 Subscription plans are managed through AutoShine's platform with automatic booking and M-Pesa payment. No monthly re-booking effort; your car care happens automatically.
 
-Book your first AutoShine mobile service today and discover what it's like to have professional car care that fits your schedule rather than disrupting it.`;
+Book your first AutoShine mobile service today and discover what it's like to have professional car care that fits your schedule rather than disrupting it.
+
+## How Mobile Car Wash Works in Practice
+
+Mobile car wash services bring professional equipment directly to the client's location, eliminating the need to drive to a fixed facility. Understanding what the mobile team carries, what they need from you, and what the limitations are helps you decide when mobile service is the right choice.
+
+A fully equipped mobile car wash unit carries a self-contained fresh water supply (typically 200 to 500 litres in a tank mounted on or towed by the service vehicle), a pressure washer powered by the vehicle's alternator or an onboard generator, a vacuum cleaner, compressed air for interior drying and vent cleaning, all professional cleaning products, and at least six to eight microfibre cloths per job.
+
+The mobile team needs from you: a parking space where the vehicle can be worked on without blocking traffic or creating a safety hazard, access to a nearby drain or waste water collection point for run-off, and approximately 30 to 45 minutes for a standard exterior wash or 60 to 90 minutes for a full interior and exterior service.
+
+What mobile service cannot do on-site that a fixed facility can: full decontamination requiring an extended treatment soak, paint polishing requiring a mains power supply for professional dual-action orbital polishers, and some detailing steps that require a controlled indoor environment. For these services, the vehicle needs to come to an AutoShine fixed location.
+
+![AutoShine mobile car wash unit arriving at Nairobi residence compound for on-location service](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## When to Choose Mobile Service Over Fixed Location
+
+Mobile service is not simply a convenience option. For certain situations, it is the better choice regardless of cost or convenience considerations.
+
+**High-security vehicles and premises:** Vehicles belonging to senior officials, diplomats, or security-conscious individuals that cannot leave guarded compounds benefit from mobile service. AutoShine's mobile team carries identity documentation and can be pre-vetted by security teams.
+
+**Vehicle owners with limited mobility:** Individuals with mobility constraints who cannot easily access a car wash facility are a clear use case for mobile service. AutoShine can arrange regular scheduled visits to the client's location.
+
+**Vehicles that are impractical to drive to a wash:** Classic vehicles, vehicles with mechanical issues that make them unfit for regular driving but that still need cleaning, and vehicles in storage that need periodic maintenance cleaning.
+
+**Emergency cleaning before events:** An event tomorrow morning requiring a clean car today, with no time to drive to a facility and wait, is a straightforward mobile service case. The team comes to you, cleans the vehicle in your compound or at your office, and you proceed directly to your event.
+
+**Large property or estate vehicles:** Vehicles kept at a property where all vehicle management is handled on-site - farms, country homes, large estates - where driving to town for car washing is not part of the operational pattern.
+
+## Booking and Managing Mobile Service Through AutoShine
+
+AutoShine's mobile booking works through the same app as fixed location bookings. The key additional inputs are the service address and parking arrangements. The app calculates travel time from the nearest AutoShine mobile team base and provides a realistic arrival window rather than a single time estimate.
+
+Mobile service carries a small travel surcharge that varies based on distance from the nearest AutoShine base. Within Nairobi's primary zones (Westlands, CBD, Kilimani, Karen, Lavington, Upperhill, South B and C, Eastleigh and Eastlands), the surcharge is minimal. For locations outside Nairobi or in distant suburbs, the team will quote directly.
+
+For regular mobile service customers, AutoShine's mobile subscription plan establishes a fixed recurring schedule - weekly or fortnightly - at an address of your choice. The team arrives at the agreed time each week, completes the service, and sends a completion notification. Payment is monthly via M-Pesa auto-debit with a digital receipt.
+
+![Mobile car wash team completing professional service at client's Nairobi home](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80)
+
+## Quality Standards for Mobile Service
+
+A common concern about mobile car wash services is quality consistency - will the mobile team do the same quality work as the fixed location? AutoShine's mobile team operates under the same service standards as the fixed locations, uses identical products and equipment, and follows the same quality checklist at the end of every job.
+
+The completion photo documentation that AutoShine uses for all services - photos of the vehicle before and after service - is particularly important for mobile service, where no physical location manager is overseeing the work. These photos are shared with the client on the same day and stored in the client's account history. Any quality issue can be raised via the app and the team will return to address it.
+
+AutoShine's mobile service has maintained the same Net Promoter Score as the fixed locations in satisfaction surveys, indicating that the quality concern, while reasonable, does not reflect the actual service standard in practice. The most important variable is not location fixed vs mobile but whether the team has professional equipment, professional products, and proper training - all of which AutoShine's mobile teams have.
+
+`;

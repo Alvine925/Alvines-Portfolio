@@ -108,4 +108,54 @@ AutoShine adapts its services to Kenya's rainy seasons:
 
 **Emergency water spot treatment:** If your vehicle has been exposed to heavy acid rain deposits and water spots are forming, AutoShine's rapid treatment service removes deposits before permanent etching occurs. Contact us within 48 hours of a heavy rain event for best results.
 
-Rainy season car care is preventive medicine for your vehicle. The cost of regular washing and protection during Kenya's rains is a fraction of the cost of correcting the accumulated paint damage that four months of neglected rainy season exposure causes. AutoShine makes the preventive approach easy, convenient, and affordable.`;
+Rainy season car care is preventive medicine for your vehicle. The cost of regular washing and protection during Kenya's rains is a fraction of the cost of correcting the accumulated paint damage that four months of neglected rainy season exposure causes. AutoShine makes the preventive approach easy, convenient, and affordable.
+
+## Kenya's Two Rainy Seasons and What They Mean for Your Car
+
+Kenya experiences two distinct rainy seasons each year. The long rains run from March to May, with the heaviest rainfall typically in April. The short rains run from October to December, with peak rainfall in November. Both seasons create specific challenges for vehicle care that differ from the dry season approach.
+
+The critical difference between rainy season and dry season for car care is not that water is bad for vehicles - it is that rainwater is not clean water. Kenya's rainfall, particularly in Nairobi and other urban areas, picks up atmospheric pollutants as it falls. Dissolved sulphur compounds from vehicle exhaust, nitrogen oxides from combustion, and fine particulate matter from industrial activity all travel in the rain. When this water dries on your vehicle, it leaves these compounds concentrated on the paint surface. The resulting deposits are mildly acidic and become more concentrated and more corrosive as the drying process occurs in Kenya's heat.
+
+A vehicle washed immediately after rain and dried properly faces minimal risk from this process. A vehicle that collects rain deposits and then sits in the sun for 24 to 48 hours before washing faces real paint damage from the drying concentration of acidic compounds. This is why the worst paint condition is often found on vehicles in rainy-season cities where the owners believe the rain is washing the car for free.
+
+![Car care in Kenyan rainy season showing vehicle protection before rainfall](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80)
+
+## Pre-Rain Preparation That Protects Your Vehicle
+
+The most impactful thing you can do for your vehicle before each rainy season begins is apply fresh paint protection. A clean, well-protected surface sheds acidic rain deposits more easily, allows them to be rinsed off with less chemical interaction, and prevents the concentration of residue that causes etching.
+
+**Paint protection:** If your vehicle has not had a professional wax or sealant applied in the last two months, book an AutoShine service before the rains peak. A synthetic paint sealant lasts longer than carnauba wax in Kenya's rainy conditions and provides better resistance to acidic contamination. AutoShine applies these before Kenya's rainy seasons and can advise on the right protection level for your vehicle type.
+
+**Seal and gasket inspection:** Rubber door seals, window seals, and sunroof gaskets that have dried and cracked allow water ingress into the vehicle cabin and door cavities. Water trapped inside door cavities causes internal corrosion that is invisible from outside until it is advanced. A seasonal inspection of all seals, with replacement of any that show cracking or compression loss, prevents this.
+
+**Drainage channel inspection:** Sunroofs, convertible roofs, and door drainage channels can be blocked by accumulated leaves and debris. Test drainage channels by pouring a small amount of water into the sunroof tray (with the sunroof closed) and observing that it drains freely to the vehicle exterior. Blocked channels cause water to overflow into the vehicle interior.
+
+## During the Rains: Operational Car Care
+
+Managing your vehicle's care during active rainfall requires adjusting your washing schedule and adding a few specific practices.
+
+**Wash after rain, not before:** There is no benefit to washing a vehicle just before heavy rain is forecast. Wait for the rain to pass, allow the vehicle to be exposed to the rain (this removes surface dust from the paint), then wash within 24 hours of the rain stopping to remove the deposit before it concentrates and begins etching.
+
+**Dry properly after every wash:** During the rainy season, water remaining on the vehicle after washing will pick up more rain deposit when the vehicle is next exposed to rain. Ensuring the vehicle is fully dried - particularly horizontal surfaces where water collects - reduces deposit concentration even when rewetting occurs.
+
+**Protect interior from tracked-in mud:** Floor mat liners (rubber all-weather mats over the fabric carpet) significantly reduce the amount of mud and wet contamination reaching the carpet during the rainy season. AutoShine can supply and fit these for most vehicle models.
+
+**Check wiper blades before the rains peak:** Wiper blades that perform adequately in light rain may streak and smear in the heavy downpours of the April and November peaks. Replace blades showing any degradation at the start of each rainy season rather than discovering the problem during heavy rain at night.
+
+![AutoShine team performing post-rain vehicle care service in Nairobi Kenya](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## Post-Rainy-Season Restoration
+
+The period after Kenya's rainy seasons ends is an important time for a thorough vehicle inspection and care service. The rains accelerate several forms of vehicle contamination and damage.
+
+**Paint decontamination:** After a full rainy season, paint surfaces accumulate bonded mineral deposits, iron contamination from wet road surfaces, and tree sap deposits from the vegetation growth the rains encourage. A clay bar decontamination service at AutoShine removes this bonded layer before it causes further damage or prevents fresh protection from bonding properly.
+
+**Wheel and brake inspection:** The wet season sees significantly more road surface contamination on wheels and brake components. A post-rainy season detail service includes thorough wheel cleaning and an opportunity for the service team to flag any brake or wheel condition concerns observed during cleaning.
+
+**Interior mould check:** Vehicles that have experienced any water ingress during the rainy season - through a leaking seal, a forgotten window, or a drainage channel overflow - may have begun to develop mould in carpet backing or door cavity foam. The post-rain period, when the vehicle dries out, is the time when this mould becomes detectable through smell. Early treatment is far cheaper and more effective than addressing advanced mould.
+
+**Fresh protection application:** After post-rain decontamination, apply a fresh layer of paint protection before the next dry season begins. This ensures the paint enters the period of maximum UV intensity with maximum protection in place.
+
+AutoShine's post-rainy-season package covers all of these services and is bookable as a complete bundle through the AutoShine app.
+
+`;

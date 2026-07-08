@@ -104,4 +104,56 @@ Your car is likely one of the most significant assets you own. In Nairobi's envi
 
 Regular professional washing and occasional detailing is not a luxury expenditure  -  it's basic asset protection. A vehicle that's regularly and properly washed and occasionally polished retains its value significantly better than one that's neglected. For the most common vehicle in Nairobi's middle-income market (Japanese imports in the KES 1.5 - 5 million range), the difference in resale value between a well-maintained and a poorly-maintained vehicle can easily be KES 300,000 - 500,000.
 
-AutoShine makes professional vehicle care convenient, affordable through subscription pricing, and consistent in quality. Start with a booking today  -  your vehicle will thank you, and your future-self dealing with resale will thank you too.`;
+AutoShine makes professional vehicle care convenient, affordable through subscription pricing, and consistent in quality. Start with a booking today  -  your vehicle will thank you, and your future-self dealing with resale will thank you too.
+
+## What to Look for When Evaluating a Car Wash in Nairobi
+
+Nairobi has hundreds of car wash operations, ranging from single-employee hand wash services to multi-bay automated facilities. Quality varies enormously. Knowing what to look for when choosing a car wash protects your vehicle from the damage that poor technique and low-quality products cause.
+
+**Look at the equipment in use:** A serious car wash operation uses proper microfibre wash mitts or high-quality foam media, not sponges or household cloths. Sponges hold grit near the wash surface and are among the leading causes of swirl marks from car washes. A car wash using kitchen sponges is a car wash that will scratch your paint.
+
+**Observe the wash technique:** The two-bucket method (one for wash solution, one for rinse) is the minimum standard for preventing swirl mark contamination during the wash process. Operations that wash and rinse from the same bucket or no bucket, using the same cloth from wheel arch to roof, are introducing abrasive contamination to your paint at every wipe.
+
+**Check the products:** Quality car shampoo should foam well and rinse clean. Cheap detergent used to stretch margins strips wax and protection from your paint surface. Ask what shampoo product they use if you are uncertain - a car wash that cannot name the product they use is not making informed product choices.
+
+**Count the drying cloths:** A proper post-wash dry uses fresh, clean microfibre cloths. An operation using one or two worn cloths to dry multiple vehicles is spreading contamination between vehicles with each dry.
+
+**Assess the premises:** A facility that is clean, organised, and maintains its own equipment well is more likely to take similar care with your vehicle.
+
+![AutoShine Nairobi car wash facility showing professional equipment and working environment](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## Red Flags That Tell You to Drive Past
+
+These are indicators that a car wash operation is likely to cause more harm than good, regardless of price or convenience.
+
+**Dry wiping without washing:** If you observe a car wash wiping dust off a vehicle with a dry cloth before or in place of a proper wash, leave. Dry wiping on a dusty surface is direct paint scratching.
+
+**Using the same cloth on tyres and paint:** Tyre cleaning cloths pick up tyre dressing, rubber residue, and brake dust. Applied to paint surfaces, these contaminate and damage the finish. A proper car wash uses separate cloths for tyres, wheels, paint surfaces, and glass.
+
+**Pressure washing wheel arches and wheels while they are still hot from driving:** High-pressure cold water on hot brake discs and wheel hubs causes thermal shock that can crack discs and warp rotors over time. Always allow brakes to cool before pressure washing.
+
+**Using the same wash water across multiple vehicles:** The wash water should be fresh per vehicle for the paint wash stage. Water reused from a previous vehicle carries the contamination from that vehicle into your paint during washing.
+
+**Aggressive scrubbing on stuck contamination:** When a contamination spot does not come off with normal wash pressure, some car wash operations scrub harder. The correct approach is chemical treatment to soften the contamination before removal. Aggressive scrubbing on stuck contamination scratches the paint.
+
+## What Makes AutoShine's Quality Different
+
+AutoShine's quality standards address every one of the failure modes listed above. Fresh microfibre wash media is used per vehicle. The two-bucket wash method is standard. Products are professional-grade, pH-neutral, and changed according to manufacturer recommendations.
+
+The difference between AutoShine and a standard roadside car wash is not just products and equipment - it is the training of the wash team and the quality control process at the end of every service. AutoShine's completion checklist covers 22 inspection points on every vehicle. Any point that does not pass is corrected before the vehicle is presented to the customer.
+
+This quality control infrastructure is what allows AutoShine to offer a service satisfaction guarantee: if any aspect of the service does not meet the documented standard, the team will correct it at no additional cost.
+
+## AutoShine Locations and Booking in Nairobi
+
+AutoShine's Nairobi network is designed to make professional car washing accessible without significant detour from common commute routes.
+
+Booking through the AutoShine app shows real-time availability at all locations, estimated service time, and allows pre-payment to reduce time at the facility. Walk-in customers are served subject to availability, but app bookings receive priority scheduling and guaranteed service windows.
+
+![AutoShine booking app interface showing Nairobi location selection and real-time availability](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80)
+
+The AutoShine WhatsApp line (accessible through the app or website) is staffed during service hours for booking assistance, service questions, and quality feedback. Response time is under five minutes during operating hours. For fleet inquiries, the fleet team line handles all commercial account queries.
+
+Service hours extend from 7 AM to 7 PM Monday through Saturday, with Sunday service at select locations. Holiday hours are updated in the app and on the AutoShine WhatsApp Business account. Emergency mobile service outside standard hours is available by prior arrangement for fleet customers and Pro-tier subscribers.
+
+`;

@@ -109,4 +109,52 @@ AutoShine technicians check cabin filter condition during interior services for 
 
 For vehicles with persistent interior odour from Nairobi traffic exposure, AutoShine's interior ozone treatment eliminates trapped particulate odour compounds  -  a reset for interior air quality that regular vacuuming and cleaning cannot achieve.
 
-Nairobi traffic is an unavoidable reality of Kenya's capital city. Its effects on your vehicle are manageable with appropriate maintenance and regular professional care. AutoShine's services are calibrated for the specific demands of Nairobi's traffic environment  -  protecting your vehicle investment in the conditions it actually faces.`;
+Nairobi traffic is an unavoidable reality of Kenya's capital city. Its effects on your vehicle are manageable with appropriate maintenance and regular professional care. AutoShine's services are calibrated for the specific demands of Nairobi's traffic environment  -  protecting your vehicle investment in the conditions it actually faces.
+
+## What Nairobi Traffic Actually Does to Your Car
+
+Nairobi's traffic density creates a set of vehicle contamination challenges that are distinct from any other Kenyan city. Understanding what is accumulating on your car during a typical Nairobi commute helps explain why the city's vehicles deteriorate faster than their mileage would suggest.
+
+**Brake dust** is the single largest source of paint contamination in urban traffic. Every vehicle braking ahead of you releases iron-rich brake disc particles that travel through the air and land on your front bonnet, bumper, grille, and wheels. These iron particles embed into paint and clearcoat and are chemically active - they oxidise and expand within the paint surface, creating spots visible as orange or rust-coloured dots. Mombasa Road, Thika Superhighway, and the CBD ring roads all have high brake dust concentrations during peak traffic.
+
+**Exhaust particulates** from the high proportion of older diesel vehicles on Nairobi roads - matatus, lorries, and private diesel vehicles - deposit a fine oily carbon film on all horizontal and near-horizontal surfaces. This film becomes sticky in rain, trapping additional contamination on top of itself. After two weeks of Nairobi CBD traffic without washing, this film is measurably thicker than on vehicles in lower-traffic areas.
+
+**Construction dust** from the persistent construction activity across Nairobi (road works, building projects, infrastructure projects) introduces silica-rich particles that are among the most abrasive contaminants a vehicle encounters. Areas near active construction, including Industrial Area, Westlands, Karen, and the CBD, expose vehicles to this contamination daily.
+
+![Nairobi traffic conditions showing vehicles on Uhuru Highway during rush hour](https://images.unsplash.com/photo-1611348524140-53c9a25263d6?w=1200&q=80)
+
+## Nairobi's Traffic Corridors and Their Specific Car Care Implications
+
+Different Nairobi commute routes expose vehicles to different contamination types. Understanding your route helps identify what your vehicle needs most.
+
+**Thika Superhighway commuters:** High brake dust accumulation from stop-start traffic. Front-end paint is under constant iron particle bombardment during slowdowns at key junctions. Iron decontamination (using a fallout remover product that dissolves iron particles) should be part of every two to three wash cycle.
+
+**Mombasa Road and Airport-CBD corridor:** Heavy diesel vehicle traffic from freight logistics operations creates higher-than-average exhaust contamination. The industrial corridor between Embakasi and Industrial Area also adds airborne industrial fallout. Paint in these areas benefits from a sealed finish (sealant or ceramic coating) more than paint that sees predominantly light diesel exhaust.
+
+**Karen and Lang'ata routes:** Dense tree canopy means tree sap and bird droppings are a significant contamination source. Both types of organic contamination must be removed quickly - bird droppings become acidic as they dry and can etch through clearcoat within 24 hours on a hot Nairobi day.
+
+**Kiambu Road and northern satellite towns (Ruiru, Juja, Thika):** Murram roads and active construction in the rapidly growing satellite towns mean silica dust contamination is high. Vehicles on these routes should be washed before the contamination is allowed to dry and bond, ideally within 24 hours of a murram road drive.
+
+## Emergency Cleaning for Traffic Situations
+
+Some contamination scenarios require immediate action rather than waiting for a scheduled wash.
+
+**Fuel spill:** If another vehicle has spilled fuel on the road and your vehicle has driven through it, rinse immediately with clean water and wash as soon as possible. Petroleum products dissolve clearcoat rapidly, particularly in Kenya's heat.
+
+**Bird dropping:** Remove as soon as the vehicle can be safely stopped. Carry an emergency micro-spray bottle with a diluted quick detailer and a clean microfibre cloth. Soak the dropping for 30 seconds before wiping. Never scrub dry.
+
+**Insect impact at speed:** High-speed insect impacts on the front bumper and bonnet release acidic proteins that begin bonding to the clearcoat within an hour in Nairobi's temperatures. A waterless product and a clean cloth handles fresh impacts efficiently.
+
+**Exhaust blowback at traffic lights:** If a matatu or lorry ahead has produced heavy exhaust directly onto your bonnet, the oily deposit should be removed at the next wash rather than being left to bake in the sun, which bonds it more strongly to the paint.
+
+![AutoShine mobile car wash team providing on-location emergency cleaning service in Nairobi](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80)
+
+## AutoShine Locations Positioned for Nairobi Commuters
+
+AutoShine's facility locations are deliberately chosen to be convenient for commuters on major Nairobi routes. Locations are accessible during morning and evening rush hour windows, meaning you can drop your vehicle for washing while you have breakfast or during the early evening and collect it without extending your commute.
+
+The AutoShine app shows real-time availability at each location, so you can book a slot that fits around your schedule rather than waiting in a queue. Most wash services are completed within 30 to 45 minutes for standard vehicles, and the app sends a notification when your vehicle is ready for collection.
+
+For vehicles that cannot leave the owner's location - vehicles parked at offices, residences in gated communities, or vehicles with mobility limitations - AutoShine's mobile service comes to you. The mobile team carries a self-contained water supply and professional equipment, delivering the same quality standard as a fixed location service.
+
+`;

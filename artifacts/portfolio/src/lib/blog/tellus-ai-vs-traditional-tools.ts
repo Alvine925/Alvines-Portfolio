@@ -144,4 +144,42 @@ Tellus occupies a specific position in the technology stack of Kenyan businesses
 
 The businesses that get the most from Tellus are those that use it for what it does best: automating WhatsApp communication, intelligently routing notifications, and providing AI-powered responses to customer inquiries  -  while continuing to use their CRM, accounting software, and project management tools for what those do best.
 
-The goal is not maximum AI in your business. It's the right tool for each job. That combination  -  traditional tools where their reliability and structure are the asset, AI where flexibility and language capability are the asset  -  produces technology stacks that genuinely improve how Kenyan businesses operate.`;
+The goal is not maximum AI in your business. It's the right tool for each job. That combination  -  traditional tools where their reliability and structure are the asset, AI where flexibility and language capability are the asset  -  produces technology stacks that genuinely improve how Kenyan businesses operate.
+
+## Making the Right Technology Choice: Framework for Kenyan Businesses
+
+The AI vs. traditional tools debate is often framed as a binary choice. In practice, the right answer for most Kenyan businesses is a combination: specific traditional tools for specific functions where they are demonstrably better, AI where AI genuinely adds value, and integration between the two where overlap exists.
+
+The framework that produces the best decisions: evaluate each business function independently, asking "what does this function actually need, and what tool best provides it?"
+
+**Where traditional tools still win:**
+
+Structured data management (databases, spreadsheets) is still better handled by traditional tools when the data structure is known and stable. An Excel model built by a skilled analyst to plan quarterly budgets doesn't need AI augmentation — it needs the analyst's judgment applied through the model.
+
+Compliance and regulatory processes require the precision and auditability that traditional structured tools provide. Filing with KRA, regulatory reporting to CBK or IRA, and formal business documentation are better served by purpose-built compliance tools than by AI-generated documents that require verification before submission.
+
+Communication within well-defined workflows — email, Slack for team messaging, formal contracts — works well with traditional tools. AI augmentation (drafting assistance, summarisation) is valuable; wholesale AI replacement is not yet appropriate.
+
+**Where AI genuinely wins:**
+
+Unstructured information processing — making sense of large volumes of text, documents, emails, and data that don't fit into predefined structures — is AI's clearest advantage. Processing 50 supplier proposals to identify the best three takes hours manually and minutes with AI.
+
+Variable, one-off tasks that don't justify building a structured tool. A traditional tool requires upfront investment in design and implementation. AI provides immediate capability for tasks that occur occasionally or vary significantly each time.
+
+Creative and exploratory work — generating options, exploring alternatives, synthesising disparate inputs into new combinations — benefits from AI's ability to produce diverse outputs quickly.
+
+![Decision framework showing when to use AI vs traditional tools for Kenyan business functions](https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=80)
+
+## Transition Planning for Kenyan Organisations
+
+Moving from traditional tools to AI-augmented workflows requires change management that many Kenyan businesses underplan.
+
+**Staff readiness:** AI tools require new skills — prompt engineering, output evaluation, workflow integration. Staff who have spent years with specific traditional tools may resist AI adoption not because they're change-averse but because the learning curve is real and the productivity dip during transition is also real. Build transition timelines that account for this learning period.
+
+**Process documentation:** Introducing AI into business processes requires documenting those processes clearly enough that AI can support them. Many Kenyan SMEs operate on undocumented, informal processes. AI adoption often surfaces this gap. The process documentation work required before AI can genuinely help is itself valuable.
+
+**Quality assurance:** Traditional tool outputs are deterministic — the same input produces the same output every time. AI outputs are probabilistic — similar inputs produce similar but not identical outputs. Quality assurance processes need to account for this variability. Organisations that treat AI outputs with the same trust as traditional tool outputs without verification are creating risk.
+
+Tellus provides implementation support for Kenyan businesses navigating this transition — from tool selection through workflow integration and staff capability building. The goal is not AI adoption for its own sake but genuine productivity improvement that serves the organisation's objectives.
+
+`;

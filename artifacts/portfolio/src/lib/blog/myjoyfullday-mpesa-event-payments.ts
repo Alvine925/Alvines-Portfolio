@@ -118,4 +118,48 @@ Using M-Pesa for Kenyan event payments isn't just a technical convenience  -  it
 
 This is one of the central design principles of MyJoyfulDay: build for how Kenyans actually live and transact, not for how Western event platforms assume they do. M-Pesa integration isn't a feature we added to a platform designed elsewhere  -  it's a foundation we built on.
 
-The result is a payment experience for events that feels native, trusted, and frictionless. Which is exactly how payments should feel when you're trying to create joy.`;
+The result is a payment experience for events that feels native, trusted, and frictionless. Which is exactly how payments should feel when you're trying to create joy.
+
+## M-Pesa as the Default Payment Layer for Kenyan Events
+
+Kenya's adoption of mobile money has reshaped how financial transactions work in the event industry. M-Pesa is not a payment option in Kenya's event market - it is the default payment mechanism, with all other options secondary. Understanding how M-Pesa integrates with event management helps event creators use the platform's payment features to their full potential.
+
+The numbers are stark: 72% of all digital transactions in Kenya happen via M-Pesa. For event-related payments - vendor deposits, ticket sales, contribution collections - this figure is higher. Vendors in the Kenyan event industry who do not accept M-Pesa are systematically excluding the majority of their potential client base.
+
+For event creators on MyJoyfulDay, M-Pesa appears in three distinct contexts: collecting contributions from the group planning the event, collecting ticket payments or entrance fees from guests, and paying vendors for event services. Each context has different transaction structures, payment timing, and record-keeping requirements.
+
+**Group contribution collection** involves receiving multiple transfers from different people contributing to the event budget. This is common for communal events where costs are shared. The MyJoyfulDay contribution tracker records the M-Pesa reference, sender name, and amount for each contribution, producing a transparent accounting that satisfies the social accountability expected in group funding contexts.
+
+![M-Pesa mobile payment for Kenyan events showing the digital payment flow for vendors and guests](https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=80)
+
+## Ticket Sales Through MyJoyfulDay: How It Works
+
+For events with paid admission - concerts, charity events, gala dinners, conferences - the MyJoyfulDay ticketing feature integrates M-Pesa payment directly into the RSVP flow. A guest arriving at the event page for a paid event sees the ticket price and a "buy ticket" button. Tapping this button opens a Safaricom M-Pesa STK push to their phone number (collected during RSVP). They confirm the payment on their phone, and a QR-code ticket is sent to their WhatsApp number.
+
+The event creator receives the ticket sale notification through Jitabi (a WhatsApp message: "Ticket sold to [name] - KES [amount] received") and can see the cumulative sales dashboard in the MyJoyfulDay web app.
+
+Settlement to the event creator's M-Pesa account happens daily for amounts above the minimum settlement threshold of KES 500. MyJoyfulDay charges a transaction fee of 3.5% per ticket sale, which is automatically deducted before settlement. This fee covers the M-Pesa API costs and platform transaction costs.
+
+For free events, the RSVP flow has no payment step. For donation-based events (where a suggested but not mandatory contribution is requested), the payment step is presented as optional with a clear "RSVP without paying" option.
+
+## Vendor Payment Management
+
+Paying vendors for event services involves a series of M-Pesa transfers at different times: typically a deposit at booking (30 to 50% of the agreed fee), a progress payment for lengthy service delivery, and a final payment on or after event day. Managing these payment stages without a tracking system leads to disputes about what has been paid and what is outstanding.
+
+MyJoyfulDay's vendor payment tracker allows event creators to record each payment against a specific vendor with the M-Pesa reference, payment date, and payment stage (deposit, progress, final). The system calculates the outstanding balance automatically and sends a reminder when a vendor payment stage is due.
+
+The payment tracker doubles as dispute protection: if a vendor claims full payment was not made, the creator has a documented record of each transfer with reference numbers. If the creator cannot remember whether they made a payment, the tracker answers the question without requiring a search through M-Pesa transaction history.
+
+![Vendor payment tracking dashboard on MyJoyfulDay showing M-Pesa transaction records and outstanding balances](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80)
+
+## The Future of Event Payments in Kenya
+
+The next evolution in MyJoyfulDay's payment infrastructure is direct integration with Safaricom's Daraja API for automated payment collection and disbursement. This will replace the current manual M-Pesa reference recording with fully automated tracking of all event-related transactions.
+
+For event creators, this means contribution tracking that captures M-Pesa transactions automatically when senders use the event's designated pay bill or till number. Ticket sales and RSVP payments will be collected into a MyJoyfulDay custodial account before disbursement. Vendor payments will be initiatable directly from the platform with M-Pesa confirmation.
+
+The automation will eliminate the most common friction points in the current payment experience: the manual recording of M-Pesa references, the reconciliation of what has been received versus what was expected, and the delay between payment and confirmation.
+
+For the broader Kenyan event industry, MyJoyfulDay's payment infrastructure represents a shift toward formalisation. Events that previously operated on trust and informal payment agreements will have the option of using a documented, automated payment layer that protects both event creators and their vendors.
+
+`;

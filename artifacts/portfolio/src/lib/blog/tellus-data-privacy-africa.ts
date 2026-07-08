@@ -154,4 +154,32 @@ Register with the ODPC if you haven't already. The registration process is avail
 
 For every third-party vendor that processes personal data on your behalf (cloud storage, CRM, marketing tools, AI tools), confirm they operate under adequate data protection terms and have appropriate security measures.
 
-Data privacy compliance is a continuous process, not a one-time project. The landscape evolves  -  ODPC guidance develops, new processing activities arise, vendor relationships change. Building data privacy consideration into your ongoing business operations, rather than treating it as a periodic audit exercise, is the approach that genuinely protects both your customers and your business.`;
+Data privacy compliance is a continuous process, not a one-time project. The landscape evolves  -  ODPC guidance develops, new processing activities arise, vendor relationships change. Building data privacy consideration into your ongoing business operations, rather than treating it as a periodic audit exercise, is the approach that genuinely protects both your customers and your business.
+
+## Kenya's Data Protection Act: What It Requires in Practice
+
+Kenya's Data Protection Act 2019 (DPA) came into force with accompanying regulations in 2021 and has been actively enforced since. Understanding what the Act requires — not just in principle but in practice — is essential for any Kenyan business that processes personal data.
+
+**Registration with the Office of the Data Protection Commissioner (ODPC):** Data controllers and data processors are required to register with the ODPC before processing personal data. Registration involves submitting information about the categories of data processed, the purpose of processing, and the security measures in place. Non-registration is one of the most common compliance gaps in Kenyan businesses.
+
+**Lawful basis for processing:** Every instance of personal data processing must have a lawful basis. The most common bases under the DPA are consent, contractual necessity (processing is necessary to fulfill a contract with the data subject), legal obligation, and legitimate interests. Consent must be freely given, specific, informed, and unambiguous — a bundled consent buried in terms and conditions does not meet the standard.
+
+**Data subject rights:** Kenyan data subjects have rights to access their data, correct inaccurate data, object to processing, and request deletion. Businesses must have processes in place to receive and respond to these requests within legally mandated timelines. For businesses using AI tools that process personal data, the data subject's rights apply to the AI processing as much as to any other processing.
+
+**Data breach notification:** Businesses are required to notify the ODPC of data breaches that are likely to result in risk to individuals' rights and freedoms. The notification must occur within 72 hours of becoming aware of the breach. Many Kenyan businesses do not have breach detection and notification processes in place.
+
+![Data protection compliance checklist showing key requirements under Kenya's Data Protection Act](https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80)
+
+## AI Tools and Data Privacy in the Kenyan Context
+
+The adoption of AI tools introduces specific data privacy considerations that require active management.
+
+**Data sent to AI providers:** When using AI tools like ChatGPT, Gemini, or Claude for business tasks, the data you input is typically sent to the AI provider's servers for processing. If this data includes personal information about Kenyan customers or employees, you are transferring personal data to a foreign jurisdiction. This requires a legal basis for international transfer under Kenya's DPA — specifically, the recipient country must have adequate data protection standards or a data transfer agreement must be in place.
+
+**AI provider terms and training data:** Review the data processing terms of any AI tool you use. Some AI providers use customer inputs to improve their models — which means your business data, including potentially sensitive information, could contribute to training a general-purpose AI model. Enterprise tiers of most AI tools exclude input data from training; free and standard tiers often do not.
+
+**AI-generated profiles and decision-making:** If your business uses AI to make decisions about customers — credit assessment, service eligibility, marketing targeting — Kenya's DPA includes specific provisions about automated decision-making. Individuals have the right not to be subject to decisions based solely on automated processing when those decisions significantly affect them.
+
+Tellus is built with Kenya's data protection requirements as a design constraint, not an afterthought. Data handling is transparent, user-controlled, and aligned with the ODPC's requirements — giving Kenyan businesses confidence that their AI platform is compliant by design.
+
+`;

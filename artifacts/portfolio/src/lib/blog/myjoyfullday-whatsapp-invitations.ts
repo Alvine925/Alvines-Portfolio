@@ -135,4 +135,59 @@ The family group where aunties check in, where cousins share updates, where cele
 
 Paper invitations were always slightly foreign to this context  -  they assumed a postal infrastructure that Kenya doesn't have and a formal relationship structure that Kenyan social life doesn't require. Email invitations assumed a communication culture that hasn't really taken hold for personal communication in Kenya.
 
-WhatsApp invitations with proper event pages are native to how Kenya actually works. That's why they've become standard so quickly, and why platforms like MyJoyfulDay  -  built specifically for this context  -  work as well as they do.`;
+WhatsApp invitations with proper event pages are native to how Kenya actually works. That's why they've become standard so quickly, and why platforms like MyJoyfulDay  -  built specifically for this context  -  work as well as they do.
+
+## The Evolution of Event Invitations in Kenya
+
+Event invitations in Kenya have undergone a significant transformation in the last decade. The formal printed card - once the standard for weddings, formal gatherings, and significant celebrations - remains for the most formal occasions but has largely been replaced by digital invitations for most social events. Understanding this transition and where MyJoyfulDay fits within it clarifies the platform's value proposition.
+
+The first wave of digital invitations in Kenya used WhatsApp image shares: a graphic designed on Canva or by a freelance designer, shared directly in WhatsApp conversations and groups. This approach is still widespread and works reasonably well for events with small, clearly defined guest lists. The limitations emerge when the event is larger (manually sharing to 60 individuals is time-consuming), when RSVPs need to be tracked (image shares generate "I'll be there!" text responses that require manual recording), or when event details need to be updated after the initial share.
+
+The second wave, which Jitabi is part of, uses the URL share. A dedicated event page with an RSVP capability, shareable as a link in WhatsApp, combines the visual appeal of a designed invitation with the functional infrastructure of a proper RSVP system. This approach has been adopted rapidly in Kenya's middle-class event market because it addresses the specific pain point of the image invitation: no RSVP tracking.
+
+![WhatsApp event invitation link being shared in a Kenyan group chat showing the modern invitation flow](https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=1200&q=80)
+
+## Designing Effective Event Pages for WhatsApp Sharing
+
+An event page that will be shared primarily as a WhatsApp link needs to be designed for how WhatsApp previews links. WhatsApp generates a link preview card showing: the page title, a description excerpt, and the Open Graph preview image. This preview card is what most recipients see before deciding whether to tap the link.
+
+MyJoyfulDay's event page Open Graph implementation ensures that the preview card always shows:
+
+- The event name as the title (clear, immediately descriptive)
+- The date, time, and location as the description excerpt (the most information-dense field)
+- The event cover photo (if provided by the creator) or a platform-branded default image
+
+These three pieces of information - who's event, when and where, and a visual impression - are what a guest needs to decide whether to tap and RSVP. The preview card quality directly affects the conversion from link received to RSVP submitted.
+
+For event creators who want to customise the visual impression of their invitation, MyJoyfulDay's event page editor (in the web dashboard) allows cover photo upload, colour scheme selection, and custom message to guests. These customisation options are secondary to the core Jitabi flow but available for creators who want more control over their event's aesthetic presentation.
+
+## Group Sharing Strategy for Maximum RSVP Rate
+
+Not all WhatsApp shares of event links produce the same RSVP rate. The context in which the link is shared - who shares it, in what group, with what accompanying message - significantly affects how many recipients tap and RSVP.
+
+**Personalised message alongside the link:** A link shared with a personalised "Hope you can make it, would love to see you there" consistently outperforms a bare link share in the same group. Even a short contextual message acknowledging the relationship with the recipient improves conversion.
+
+**Creator shares directly vs. group shares:** When the event creator shares the link, RSVP conversion is higher than when a third party forwards it. The creator's relationship with the guest list creates a social obligation to acknowledge the invitation that does not exist when a forwarded message arrives.
+
+**Timing of the share:** Links shared in the evening (after 7 PM) in Kenya generate higher immediate RSVP rates than links shared during work hours, because recipients have more time and attention available in the evening. Weekend morning shares also perform well. Tuesday and Wednesday midday shares perform the worst, suggesting that Kenyan work patterns create predictable low-attention windows.
+
+**Follow-up message timing:** For events where RSVP tracking matters, a follow-up message to non-responding guests sent five to seven days after the initial link share adds 15 to 25% to the final RSVP count. Most people who will RSVP eventually simply forgot about the initial message.
+
+![MyJoyfulDay event page sharing analytics showing RSVP conversion rates across different WhatsApp sharing contexts](https://images.unsplash.com/photo-1612831455359-970e23a1e4e9?w=1200&q=80)
+
+## Printed QR Code Invitations: Bridging Physical and Digital
+
+For formal occasions where a physical invitation element is desired alongside the digital convenience of an online event page, MyJoyfulDay's QR code feature bridges both worlds.
+
+The event page URL is automatically encoded as a QR code, downloadable in high resolution from the web dashboard. This QR code can be printed on:
+
+- Physical invitation cards (the QR code links to the digital RSVP page)
+- Event programmes or order of service sheets (the QR code links to the event details and timing)
+- Marketing material for ticketed events (the QR code links to the ticket purchase page)
+- Event backdrop banners (allows guests at the event to access the event page and share the occasion on social media)
+
+The printed card plus QR code format has become particularly popular for Kenyan weddings, where the formality of a physical invitation remains culturally important but the efficiency of digital RSVP management is practically necessary for large guest lists.
+
+Stationery designers listed on the MyJoyfulDay vendor marketplace can produce printed invitations incorporating the event page QR code, creating a complete invitation solution that combines the aesthetic quality of custom printed stationery with the functional infrastructure of MyJoyfulDay's RSVP and event management platform.
+
+`;

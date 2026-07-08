@@ -96,4 +96,35 @@ We tested these techniques against a baseline (no streaming, no pre-computation,
 Task completion time improved by 34% compared to baseline. User-reported satisfaction with responsiveness went from 3.1/5 to 4.4/5. Crucially, the qualitative feedback shifted  -  baseline users described the tool as "laggy" and "worth it but annoying." Post-optimization users described it as "fast" or did not mention latency at all.
 
 When users do not mention latency in feedback about an AI tool, you have largely solved the problem.
+
+## The Psychology of AI Latency
+
+The 3-second rule in user experience design — that users lose focus after 3 seconds of waiting — applies with even higher stakes to AI assistant interactions than to page loads. When you ask a question, your brain is in an active, expectant state. Every second of waiting depletes that state. By the time a slow AI response arrives, you've started thinking about something else.
+
+This is not a minor UX concern. It changes the fundamental value proposition of an AI assistant. An assistant that responds in under a second feels like a thought-partner — an extension of your own thinking process. An assistant that responds in 5 seconds feels like an external service you're waiting on. The difference in how these tools integrate into flow states is profound.
+
+The engineering challenge is that LLM inference is inherently slow. State-of-the-art models are computationally expensive. The response you're waiting for is being generated token by token on remote hardware. Reducing actual inference time is possible through model compression and hardware optimisation, but the fundamental constraint is physics.
+
+Perceived latency — how long the interaction feels — is more manageable than actual latency. Streaming (displaying tokens as they're generated), skeleton screens, and intelligent pre-loading can make a 2-second response feel instant. These are the techniques that Tellus and other performance-conscious AI assistants deploy.
+
+![Latency optimisation diagram showing streaming response vs batch response user experience difference](https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=80)
+
+## Kenya-Specific Latency Considerations
+
+Network latency adds to LLM inference latency. For Kenyan users, the distance between local network endpoints and AI model servers (typically in the US or Europe) adds round-trip latency that compounds the inference delay.
+
+Kenyan fibre connections have latency to US servers of approximately 180-220ms round-trip. Mobile data connections on 4G in Nairobi have latency of 60-100ms to local endpoints, higher to international servers. This network component of total latency is often invisible in performance benchmarks run from US or European testing infrastructure.
+
+AI applications designed for the Kenyan market need to account for this network layer. Techniques that matter specifically in this context:
+
+**Edge caching:** Caching the most common AI response patterns at network edges closer to Kenya reduces the international round-trip for repeat queries.
+
+**Connection management:** Persistent connections that avoid the overhead of establishing new connections for each query reduce latency for conversational AI applications where queries come in rapid succession.
+
+**Regional model deployment:** Some AI providers offer model deployments in African regions that significantly reduce international latency. Azure's South Africa North region, for example, is meaningfully closer than US regions for Kenyan users.
+
+**Optimistic UI:** Displaying that the AI is working immediately on query submission — before any response has been received — reduces perceived waiting time. The user knows the system is responding even before the response begins arriving.
+
+Tellus's architecture accounts for the Kenyan network context. The platform is optimised for sub-second perceived response time even on standard Kenyan 4G connections — not just on the high-bandwidth connections that characterise international benchmark testing.
+
 `;

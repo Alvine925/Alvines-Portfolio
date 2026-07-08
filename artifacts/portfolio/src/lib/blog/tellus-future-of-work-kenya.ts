@@ -103,4 +103,34 @@ Tellus builds AI automation for Kenyan businesses. We think carefully about the 
 
 The automations we build primarily target repetitive, low-skill work that is genuinely burdensome to do manually  -  not the work that gives people a sense of purpose, belonging, or professional identity. When we automate M-Pesa reconciliation, we're freeing finance teams to do analysis and judgment work. When we automate FAQ responses on WhatsApp, we're freeing customer service teams to handle the complex, relationship-critical conversations that actually require them.
 
-Automation done well is not about replacing humans  -  it's about creating conditions where human capability is focused on its highest-value expression. That's the vision for AI and work in Kenya that we're building toward.`;
+Automation done well is not about replacing humans  -  it's about creating conditions where human capability is focused on its highest-value expression. That's the vision for AI and work in Kenya that we're building toward.
+
+## The Specific Sectors Most Affected in Kenya
+
+AI and automation's impact on work is not uniform across Kenya's economy. Sector-specific analysis reveals where impact will be most immediate, where it will arrive later, and where Kenyan workers have meaningful time to adapt.
+
+**Most immediate impact — formal sector professional services:** Legal, accounting, financial analysis, data processing, and administrative work in Kenya's formal sector are already being affected. Document review, financial report preparation, data entry, and routine correspondence are all partially automatable now. Kenyan professionals in these functions are already competing with AI-augmented colleagues, whether they recognise it or not.
+
+**Medium-term impact — customer service and sales support:** Kenya's large business process outsourcing sector, which employs tens of thousands in call centres and back-office operations, faces structural displacement pressure over the next five to seven years. The work these centres perform — handling routine customer inquiries, processing applications, basic data entry — is highly automatable. The transition will not be instant, but the direction is clear.
+
+**Longer-term, more uncertain impact — skilled trades and physical work:** Electrical, plumbing, construction, mechanical repair, and other skilled trades face a longer timeline and less certain trajectory. Physical dexterity and local knowledge remain difficult to automate. These sectors are not immune but have more runway for adaptation than knowledge work.
+
+**Growth sectors — technology implementation and maintenance:** Every AI and automation system requires humans to implement, configure, train, and maintain it. Kenya's technology sector, already growing rapidly, will see accelerating demand for professionals who can implement, support, and build on AI tools. This demand is already visible in hiring patterns across Kenya's tech employers.
+
+![Future of work analysis showing sector impact and growth opportunities for Kenyan professionals](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80)
+
+## Building a Career That Remains Valuable in an AI Economy
+
+The career strategy that protects Kenyan professionals in an AI economy is not about avoiding AI — it is about developing the capabilities that AI augments but cannot replace, while becoming fluent enough with AI tools to use them as a productivity multiplier.
+
+**Develop judgment in your domain:** AI produces options; humans make decisions. The professional whose value comes from sound judgment in complex, ambiguous situations — who understands the context, the relationships, the stakes, and the constraints that AI cannot fully model — is genuinely harder to replace than the one whose value is primarily in information processing and output production.
+
+**Build relational capital:** Professional networks, trusted relationships, and the ability to navigate Kenya's relationship-driven business culture are capabilities that AI cannot replicate. Professionals who invest in these relationships throughout their careers are building an asset that compounds in value as AI handles more of the transactional work.
+
+**Become the AI layer for your organisation:** In most Kenyan organisations, someone needs to understand what AI can do, evaluate which tools are appropriate, implement them, and help colleagues use them effectively. This role — unofficial in most places but increasingly formal — is both well-compensated and genuinely difficult to automate.
+
+**Pursue T-shaped skills:** Deep expertise in one domain (the vertical bar of the T) combined with working knowledge of adjacent domains including technology (the horizontal bar) positions professionals to do work that requires integrated judgment across areas — work that remains genuinely hard for AI systems.
+
+Tellus is designed to support this evolution: giving Kenyan professionals AI tools that augment their judgment and free them from work that doesn't require it, building toward a future where AI handles the routine and humans focus on what only humans can do.
+
+`;

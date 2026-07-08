@@ -17,6 +17,7 @@ import * as mjdKisumu from "./blog/myjoyfullday-kisumu-event-planning";
 import * as mjdWhatsappInvitations from "./blog/myjoyfullday-whatsapp-invitations";
 import * as mjdBudgeting from "./blog/myjoyfullday-event-budgeting-kenya";
 import * as mjdHouseParty from "./blog/myjoyfullday-house-party-planning";
+import * as mjdEngagement from "./blog/myjoyfullday-engagement-strategy";
 
 // ── New TellusJobs blog posts ─────────────────────────────────────────────
 import * as tjSalary from "./blog/tellusjobs-salary-negotiation-kenya";
@@ -31,6 +32,9 @@ import * as tjEntry from "./blog/tellusjobs-entry-level-jobs-kenya";
 import * as tjGraduate from "./blog/tellusjobs-graduate-jobs-kenya";
 import * as tjBanking from "./blog/tellusjobs-banking-finance-jobs-kenya";
 import * as tjFreelance from "./blog/tellusjobs-remote-freelance-kenya";
+import * as tjNetwork from "./blog/tellusjobs-professional-network-kenya";
+import * as tjJobStrategy from "./blog/tellusjobs-job-search-strategy-kenya";
+import * as tjWorkplaceSkills from "./blog/tellusjobs-workplace-skills-kenya";
 
 // ── New Tellus blog posts ─────────────────────────────────────────────────
 import * as tAiProductivity from "./blog/tellus-ai-productivity-kenya";
@@ -1478,6 +1482,15 @@ Context is not a constraint to work around. It's a feature that, if you design f
     coverImage: mjdHouseParty.coverImage,
     content: mjdHouseParty.content,
   },
+  {
+    slug: "myjoyfullday-engagement-strategy",
+    title: "Event Engagement That Lasts: How to Build Excitement Before, During, and After Your Event",
+    date: "2025-07-15",
+    excerpt: "Sending an invitation is the start of the conversation, not the end. Here's how to build genuine engagement with your guests from save-the-date to the morning after.",
+    tags: ["MyJoyfulDay", "Events", "Kenya"],
+    coverImage: mjdEngagement.coverImage,
+    content: mjdEngagement.content,
+  },
 
   // ─── New TellusJobs posts ─────────────────────────────────────────────────
 
@@ -1588,6 +1601,33 @@ Context is not a constraint to work around. It's a feature that, if you design f
     tags: ["TellusJobs", "Freelance", "Remote Work"],
     coverImage: tjFreelance.coverImage,
     content: tjFreelance.content,
+  },
+  {
+    slug: "tellusjobs-professional-network-kenya",
+    title: "Professional Networking in Kenya: Building the Relationships That Build Your Career",
+    date: "2025-07-13",
+    excerpt: "Who you know is a statistically significant variable in Kenyan career outcomes. Here's how to build a professional network that actually opens doors  -  on LinkedIn, at events, and in WhatsApp groups.",
+    tags: ["TellusJobs", "Networking", "Career"],
+    coverImage: tjNetwork.coverImage,
+    content: tjNetwork.content,
+  },
+  {
+    slug: "tellusjobs-job-search-strategy-kenya",
+    title: "How to Build a Job Search Strategy That Works in Kenya",
+    date: "2025-07-14",
+    excerpt: "Checking LinkedIn and BrighterMonday daily is not a strategy. Here's the structured three-layer approach that produces better results in Kenya's unique job market.",
+    tags: ["TellusJobs", "Job Search", "Kenya"],
+    coverImage: tjJobStrategy.coverImage,
+    content: tjJobStrategy.content,
+  },
+  {
+    slug: "tellusjobs-workplace-skills-kenya",
+    title: "The Skills Kenyan Employers Are Actually Looking For in 2025",
+    date: "2025-07-15",
+    excerpt: "Beyond the CV buzzwords  -  here's what hiring managers across Kenya's major sectors consistently say they need and consistently struggle to find. Including what's changed in the last two years.",
+    tags: ["TellusJobs", "Skills", "Career"],
+    coverImage: tjWorkplaceSkills.coverImage,
+    content: tjWorkplaceSkills.content,
   },
 
   // ─── New Tellus posts ─────────────────────────────────────────────────────

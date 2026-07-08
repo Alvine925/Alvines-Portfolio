@@ -95,4 +95,60 @@ This doesn't mean TellusJobs will magically match you to roles you're not prepar
 
 The platform also provides match detail  -  not just a score, but a breakdown of where your background aligns with a role's requirements. For career changers, understanding which aspects of their background are most transferable, and which gaps are most important to address, is actionable intelligence for their transition preparation.
 
-Your previous career is not a liability in a career change  -  it's context and transferable expertise. TellusJobs helps you find the employers who see it that way.`;
+Your previous career is not a liability in a career change  -  it's context and transferable expertise. TellusJobs helps you find the employers who see it that way.
+
+## Why Career Changes Are Harder in Kenya Than They Should Be
+
+Career changes are common. Most working professionals change their primary functional area at least once. Yet Kenya's hiring practices create specific structural barriers to career changers that are worth understanding before attempting to navigate them.
+
+The most significant barrier is the title-matching problem. Kenyan hiring managers, particularly in large organisations with formal HR processes, screen CVs against job description requirements in ways that favour candidates with direct title matches. A finance manager applying for an operations manager role faces an immediate credibility question that a candidate who has been an operations manager does not. The transferable skills are real; the title history does not reflect them.
+
+The second barrier is the credential reliance in Kenya's formal sector. Professional certifications (CPA, ACCA, engineering board registration, LSK admission) create entry requirements for specific roles that cannot be substituted by general management experience. Career changers moving into credentialed professions must often complete the relevant qualification alongside their career transition - a two to three year commitment.
+
+The third barrier is the referral culture in Kenya's employment market. Most senior roles are filled through networks before being advertised. Career changers who are moving into a new sector have thinner networks in the target sector, reducing their access to these pre-advertised opportunities.
+
+TellusJobs' career changer features are specifically designed to address the first barrier (the skills visibility problem) while providing tools to navigate the others.
+
+![Career change planning framework showing transferable skills mapping from current to target sector](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80)
+
+## Identifying Your Transferable Skills Package
+
+Before beginning any career change job search in Kenya, the foundational exercise is identifying the specific skills that transfer across the sector boundary you are crossing. Generic claims of transferability ("I have strong communication and analytical skills") are not enough - you need to identify specific, evidenced capabilities that map to specific requirements in the target role.
+
+The most reliable approach is to collect five to ten job descriptions for roles in your target area and highlight every requirement that you can map to documented experience from your current career. The highlights become the foundation of your narrative: "Here is what they need. Here is where I have done this, even though I did it in a different context."
+
+In Kenya's specific cross-sector transitions, these mappings are well-established:
+
+**NGO to private sector:** M&E experience maps to data analytics and reporting. Budget management experience maps to financial planning and analysis. Project coordination maps to programme or product management. The vocabulary shift is significant; the underlying capability is genuinely transferable.
+
+**Banking to fintech:** Credit risk analysis maps to risk product roles. Retail banking operations experience maps to customer operations in digital financial services. Relationship management maps to key account management. The credibility of understanding traditional banking processes is valuable in fintech contexts.
+
+**Government to private sector:** Regulatory knowledge is highly valuable in companies navigating the Kenyan regulatory environment. Public procurement experience maps to corporate procurement. Policy analysis maps to research and strategy roles. The career change narrative must acknowledge the cultural shift explicitly.
+
+## Building Network in a New Sector From Zero
+
+Kenya's professional community is small enough that deliberate networking produces results relatively quickly. A career changer who spends three months actively building relationships in the target sector will have enough contacts to activate the referral channel before most advertised roles require an application.
+
+The most effective entry points:
+
+**Industry events and professional networks:** Kenya's professional associations, sector-specific industry bodies, and Nairobi's professional event calendar (conferences, networking events, professional development sessions) provide access to people in the target sector. Most professional events in Kenya welcome genuine professional interest, and the person who asks thoughtful questions and follows up properly is remembered.
+
+**Alumni networks:** University alumni networks in Kenya, particularly for Kenyan universities with strong professional networks (University of Nairobi, Strathmore, USIU, United States International University), often span multiple sectors. A fellow alumni in the target sector is a natural first conversation, especially if the request is for a 30-minute conversation rather than a job.
+
+**LinkedIn second-degree connections in the target sector:** Identifying mutual connections with people in the target sector and requesting an introduction is more effective in Kenya than cold outreach because the warm introduction context matters culturally. The conversion from connection request to actual conversation is significantly higher with a mutual introduction.
+
+**Content creation in the target sector:** Writing about topics relevant to the target sector - either on LinkedIn, through professional association publications, or through conference participation - establishes visibility and credibility simultaneously. One well-received article about an analytical topic in your target sector does more for your reputation than twenty cold connection requests.
+
+![Career change networking strategy in Kenya showing professional event attendance and alumni connections](https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1200&q=80)
+
+## The Application Narrative for Career Changers
+
+Every career changer application requires addressing the transition explicitly. Ignoring it creates a more significant credibility gap than addressing it directly.
+
+The career change narrative has three parts: why you are leaving the current area (frame this as moving toward something rather than away from something), what specifically qualifies you for the target area (the transferable skills package with evidence), and what you have done to prepare for the transition (any certifications, relevant projects, network relationships, or sector experience already acquired).
+
+TellusJobs' cover letter generation for career changers includes a specific career change narrative template that structures these three elements appropriately for the Kenyan professional communication style. The output requires more significant human editing than a same-sector application because the authenticity of the narrative is more important than the template quality - a career change cover letter that does not sound genuinely like the candidate's own voice about their own reasons will not survive an interview.
+
+The most common mistake in career change applications in Kenya: using the cover letter to apologise for the career change rather than to argue for it. Acknowledging that you are coming from a different sector is appropriate; treating it as a weakness to overcome is not. The career changer's perspective is a genuine asset - state it as one.
+
+`;

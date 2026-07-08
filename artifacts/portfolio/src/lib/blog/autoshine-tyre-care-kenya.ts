@@ -114,4 +114,50 @@ After cleaning, tyres are dressed with a product that restores the rubber's deep
 **Tyre inspection:**
 AutoShine technicians are trained to notice obvious tyre concerns during service  -  visible bulges, significant cracking, very low tread  -  and report these to the customer. This basic inspection isn't a substitute for proper tyre assessment at a tyre centre but provides an additional layer of safety awareness.
 
-Your tyres connect your vehicle to Kenya's roads. They deserve the attention that your safety depends on. AutoShine's care for your wheels and tyres ensures they present well and that visible concerns are flagged before they become safety issues.`;
+Your tyres connect your vehicle to Kenya's roads. They deserve the attention that your safety depends on. AutoShine's care for your wheels and tyres ensures they present well and that visible concerns are flagged before they become safety issues.
+
+## What Kenya's Roads Do to Your Tyres
+
+Kenya's road network presents tyres with a broader range of challenges than most other environments in the world. Tarmac motorways like Thika Superhighway and the Southern Bypass sit alongside severely potholed urban roads, unpaved murram tracks, and the laterite-covered rural network. A vehicle based in Nairobi might cover all four surface types in a single day.
+
+**Potholes and impact damage:** Nairobi's urban roads are particularly challenging for tyre sidewalls. A sharp impact from a deep pothole creates internal structural damage - sidewall bulging, cord separation, internal bruising - that is not always visible from outside but can cause sudden failure. Slow driving through pothole zones reduces impact force significantly. If you hit a significant pothole, check all four tyres at the next opportunity for sidewall distortion.
+
+**Murram and stone surfaces:** Gravel and stone roads cause accelerated tyre wear on the tread area and increase the risk of punctures from embedded stones. Murram dust also clogs tyre tread, reducing wet grip until the next wash. Checking tyre tread depth more frequently is appropriate for vehicles that regularly use unpaved roads.
+
+**UV and heat effects on rubber:** Kenya's sun degrades tyre rubber over time through UV photodegradation. Tyres on vehicles that are regularly parked in direct sun for extended periods age faster than the same tyre on a vehicle kept in shade. Cracking in the tyre sidewall, sometimes called ozone cracking, is a sign of UV-accelerated rubber degradation. These cracks weaken the tyre structure and are grounds for replacement regardless of tread depth.
+
+![Tyre inspection and care service at AutoShine Kenya showing tread depth measurement](https://images.unsplash.com/photo-1580274455191-1c62238fa1c4?w=1200&q=80)
+
+## Tyre Pressure in Kenya's Climate
+
+Kenya's altitude variation and temperature range create tyre pressure management challenges that vehicles designed for sea-level markets do not fully account for. Nairobi sits at approximately 1,700 metres above sea level. Mombasa is at sea level. A vehicle driven from Nairobi to Mombasa experiences both altitude-related pressure changes and significant temperature increases.
+
+Tyre pressure increases by approximately 1 to 1.5 PSI for every 10 degree Celsius increase in ambient temperature. A tyre inflated to the correct cold pressure in Nairobi morning temperatures (15 to 20 degrees Celsius) will read higher in Mombasa afternoon heat (30 to 35 degrees Celsius). Checking pressure only in Nairobi morning conditions and never adjusting underestimates the true operating pressure in high-temperature conditions.
+
+**Practical pressure management for Kenya:**
+
+Check tyre pressure monthly when tyres are cold - either early morning before the day's driving, or after the vehicle has been parked for at least three hours. Always use the vehicle manufacturer's recommended pressure, found on the door jamb sticker.
+
+After any long drive involving altitude changes (Nairobi to Coast, Nairobi to Rift Valley floor), check pressure when the vehicle has cooled and adjust if necessary before the return journey.
+
+Check pressure before the rainy season when road surfaces become wet and slippery - correct tyre pressure is critical for maintaining contact area and aquaplaning resistance.
+
+## Tyre Rotation and Lifespan in Kenya
+
+Tyre wear is rarely even across all four positions. Front tyres wear faster on front-wheel-drive vehicles (steering and power delivery from the same axle). Rear tyres wear faster on rear-wheel-drive vehicles. Even on all-wheel-drive vehicles, driving style, road camber, and alignment create uneven wear patterns.
+
+Rotating tyres every 10,000 kilometres evens wear across all four positions, extending the overall lifespan of the set. This is a significant economic benefit given tyre prices in Kenya. A set of decent quality tyres for a typical SUV costs KES 40,000 to 80,000. Rotation extending the set life by 20 to 30 percent is worth KES 8,000 to 24,000.
+
+AutoShine's full service includes a tyre condition inspection at every visit - checking tread depth, sidewall condition, and signs of irregular wear. Vehicles with wear patterns suggesting alignment or suspension issues are flagged for investigation at a tyre specialist.
+
+![Clean tyres with dressing applied by AutoShine team showing finished tyre treatment result](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## Tyre Care Add-On at AutoShine
+
+AutoShine's tyre service covers cleaning, inspection, and dressing as part of any standard wash. The tyre cleaning removes brake dust, road film, and degraded rubber residue from the tyre surface. This is not cosmetic only - a clean tyre allows proper inspection for cracks, cuts, and embedded objects.
+
+The tyre dressing applied after cleaning is a water-based formula selected specifically for durability in Kenya's UV environment. It conditions the rubber and applies UV protection, slowing the photodegradation that causes sidewall cracking. The finish is a natural-looking matte rather than the wet plastic appearance of older silicone-based dressings.
+
+Tyre pressure checking and inflation is available at AutoShine locations and is included in the Pro subscription tier. Bringing a tyre gauge to every AutoShine visit to verify inflation is not needed for subscribers - the team checks and corrects pressure at each service.
+
+`;

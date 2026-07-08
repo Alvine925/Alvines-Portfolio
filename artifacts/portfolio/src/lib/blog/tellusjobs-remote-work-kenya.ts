@@ -118,4 +118,50 @@ Succeeding in your first remote role is the foundation for accessing better remo
 
 Remote work at the junior level often pays at or slightly above Kenyan market rates. Remote work at the senior level can pay dramatically above Kenyan market rates, because senior global talent commands global pricing. The career trajectory for a skilled Kenyan professional who succeeds at remote work and builds an international reputation is genuinely remarkable by Kenyan income standards.
 
-That trajectory starts with finding the right first remote role  -  and TellusJobs is built to help you do exactly that.`;
+That trajectory starts with finding the right first remote role  -  and TellusJobs is built to help you do exactly that.
+
+## The Remote Work Landscape for Kenyan Professionals in 2025
+
+Kenya's technology ecosystem, combined with reliable internet infrastructure in major cities and a large English-speaking workforce with strong professional credentials, positions Kenyan professionals well for remote work opportunities that were unavailable a decade ago.
+
+The COVID-19 pandemic accelerated remote work adoption among Kenya's formal sector employers and created a lasting shift in how international employers think about hiring in Kenya. Kenyan professionals are now employed remotely by organisations in the UK, US, Germany, the Netherlands, Singapore, and UAE in numbers that dwarf the pre-pandemic remote work market. This shift has created real salary arbitrage opportunities: Kenyan professionals with the right skills can earn international salaries (or salaries significantly above Kenyan market rates) while living in Kenya.
+
+The sectors most accessible to Kenyan professionals for international remote work: software engineering and technology (the most established), data analysis and data science, UX/UI design, digital marketing and content, accounting and finance (particularly audit-adjacent and financial controls work), and increasingly AI-adjacent roles (prompt engineering, AI training, trust and safety).
+
+Domestic remote work - Kenyan employers offering remote or hybrid arrangements for roles based in Kenya - has also normalised significantly. Most professional services firms, technology companies, and NGOs in Kenya now offer hybrid arrangements as a standard option rather than an exceptional case. Full remote for domestic employers remains less common but is available from specific employers, particularly those who have adopted it as a policy rather than an accommodation.
+
+![Remote work setup for Kenyan professionals showing home office and international collaboration context](https://images.unsplash.com/photo-1616587226157-48e49175ee20?w=1200&q=80)
+
+## What International Employers Actually Look for in Kenyan Remote Candidates
+
+Beyond technical skills, international employers hiring Kenyan professionals remotely have a consistent set of secondary criteria that candidates who are new to international remote applications often underestimate.
+
+**Reliable internet connectivity.** This is the baseline qualification. An international employer hiring a remote worker is making an operational dependency on that person's ability to be connected consistently. Questions about internet setup (fibre vs. LTE, backup connectivity, power backup for internet routers during blackouts) are standard in international remote interviews. Having documented solutions to Kenya's connectivity challenges (Safaricom fibre plus airtel LTE backup, inverter for router during power outages) is the expected answer, not a hardship disclosure.
+
+**Asynchronous communication competence.** International remote work frequently involves time zone differences. An employer in the UK hiring a Kenyan professional is working within a two-to-three-hour time difference. A US employer means five to eight hours of time zone gap. The ability to communicate clearly in writing, manage your own time and priorities, and produce high-quality output without real-time supervision is essential. Specific evidence of async work success - previous remote roles, freelance work, or project contributions to distributed teams - carries significant weight.
+
+**Proactive communication.** Remote work breaks the passive visibility of being in the same office. International employers cannot see you working. Proactive status updates, clear documentation of progress, and timely flagging of blockers are the replacement for this visibility. Candidates who can articulate specifically how they manage proactive communication in a distributed environment are rated significantly higher than those who treat this as obvious.
+
+**Portfolio and work evidence.** For knowledge work roles, showing work is more credible than describing work. A developer with a GitHub profile, a designer with a Behance portfolio, a writer with published work, a finance professional with a case study they can walk through - these are significantly more compelling to international remote employers than a CV description of the equivalent work.
+
+## TellusJobs Remote and International Opportunities
+
+TellusJobs aggregates remote-open and remote-first roles specifically posted for African talent, including: AngelList Talent for technology startups, Remote.com and We Work Remotely for global remote roles, specific African talent platforms (Andela, Turing, Toptal for engineers), and international NGOs' international recruitment platforms.
+
+These remote opportunity sources are shown alongside the domestic Kenya job feed, with clear tagging to distinguish fully remote (work from anywhere), remote-Kenya (remote but the employer requires Kenya-based candidates), and hybrid (partially remote) arrangements.
+
+For candidates building toward international remote work, TellusJobs provides profile assessments that identify which skills gaps are most limiting international remote opportunity access and which skills additions would most significantly expand the opportunity pool. The most common gaps for Kenyan professionals targeting international remote work: demonstrable portfolio work, specific cloud platform certifications, and experience with remote collaboration tools (GitHub, Slack, Notion, Linear, Figma for relevant disciplines).
+
+![International remote job opportunities for Kenyan professionals showing global employer connections](https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80)
+
+## Freelance Platforms as a Gateway to International Remote Work
+
+For professionals who lack direct international employer contacts, freelance platforms provide a path to building the portfolio and track record needed to compete for full-time remote roles. Kenya has a growing community of successful freelancers on Upwork, Fiverr, Toptal, and 99designs.
+
+The freelance path to international remote employment typically takes six to eighteen months: start with lower-rate projects to build reviews and portfolio, demonstrate reliability and quality to international clients, build specialisation in a niche that commands premium rates, then use the freelance portfolio as evidence when applying for full-time remote roles.
+
+The freelance path involves accepting initially below-market rates to build a track record. This is a deliberate investment: a Kenyan developer earning USD 15 per hour on Upwork is below market for their skill level but above Kenya domestic market for an equivalent junior role. Over time, rates on freelance platforms increase rapidly with good reviews. And the portfolio and international client references built on freelance platforms are valuable beyond the direct income they generate.
+
+TellusJobs' freelance resources section covers platform setup, profile optimisation, and rate strategy for Kenyan professionals beginning on international freelance platforms.
+
+`;

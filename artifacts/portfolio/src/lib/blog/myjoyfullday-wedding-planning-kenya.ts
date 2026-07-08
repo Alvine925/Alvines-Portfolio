@@ -133,4 +133,46 @@ Within minutes, you'll have a live event page. Within the day, you can be sharin
 
 The 50,000+ events created on MyJoyfulDay include thousands of Kenyan weddings  -  from intimate ceremonies in Kisumu to large celebrations in Nairobi's top venues. We know what Kenyan wedding planning involves. We've built for it.
 
-Your planning starts with one message.`;
+Your planning starts with one message.
+
+## Why Kenyan Weddings Are a Platform Design Challenge
+
+A Kenyan wedding involves more coordination than most event platforms are designed to handle. The ceremony itself is typically one of three distinct events: the introduction ceremony (traditional exchange between families), the church or civil wedding service, and the reception. Each has its own guest list, venue, timing, and coordination requirements. What is colloquially described as "a wedding" is in practice three coordinated events happening across one to two days.
+
+This multi-event structure means that MyJoyfulDay's per-event model - which works perfectly for birthdays and house parties - needs extension for wedding planning. The platform now allows event creators to link multiple events under a single wedding project, sharing vendor contacts and guest list information across all three events while maintaining separate pages for each.
+
+The vendor coordination challenge is equally significant. A wedding typically involves photographer, videographer, caterer, cake maker, decorator, florist, MC or entertainment, transport, and venue. Each vendor needs event details, timing, and access to relevant other vendors for coordination. The vendor section of the wedding dashboard gives event creators a coordination hub where all confirmed vendors are listed with their contact details, assigned roles, and any notes.
+
+![Beautiful Kenyan wedding reception setup showing the scale of event coordination required](https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=80)
+
+## The Role of the Introduction Ceremony in Kenyan Wedding Planning
+
+The introduction ceremony - known as ruracio in Kikuyu culture, kwanjula in Luo culture, and by various names across Kenya's 42+ ethnic groups - is often the most logistically complex of the three wedding events because it involves the most negotiation and the most family coordination.
+
+Unlike the church wedding, which follows a standard format, introduction ceremonies follow the specific cultural protocols of the families involved. Guest lists include extended family on both sides, with attendance often non-negotiable for key family members regardless of distance. Venues are typically family homes rather than commercial venues, which creates different capacity and logistics constraints.
+
+MyJoyfulDay's introduction ceremony event type was designed in consultation with users who had planned ruracio and equivalent ceremonies. Key features: guest list segregation (some guests attend only the introduction, some only the wedding, some both), a gift registry feature that accounts for the structured gift-giving that is part of many introduction ceremonies, and a family coordination view that shows which family members from each side have confirmed.
+
+## Budget Management for Kenyan Weddings
+
+Kenyan weddings vary enormously in scale and budget, from intimate gatherings of 50 people at under KES 200,000 to large celebrations of 300+ guests at several million shillings. The MyJoyfulDay budget planning tool was built around the actual budget distributions observed in the platform's event data.
+
+The most commonly underestimated cost category in Kenyan wedding budgets, based on data from events that used the budget tool, is entertainment and MC costs. These typically run KES 30,000 to 150,000 for a quality MC with sound system, but many first-time planners budget less than half this. The second most underestimated category is transport - not just the wedding car but transport for family members who must be present and may not have independent transport.
+
+The budget tool includes a category-by-category template based on median spending in MyJoyfulDay's wedding event data, with ranges shown for each category rather than single figures. The ranges reflect the actual variation in the market - photography, for example, ranges from KES 25,000 for a basic coverage package to KES 250,000 for multi-photographer full-day coverage - giving planners a realistic picture rather than a single number that may not match their specific vendor choices.
+
+![Wedding budget planning tool at MyJoyfulDay showing Kenyan wedding cost categories and ranges](https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80)
+
+## Vendor Coordination Through the Platform
+
+The vendor marketplace section of MyJoyfulDay was specifically built around Kenyan wedding vendor behaviour. Key observations from the market research that informed this design:
+
+**Most Kenyan wedding vendors are small operations.** Unlike markets where large wedding planning companies dominate, Kenya's wedding vendor market is populated primarily by individual photographers, small catering operations, and owner-operated decoration businesses. These vendors often have limited administrative infrastructure and prefer WhatsApp communication over email or formal contracts.
+
+**Vendor availability is the primary constraint.** Popular photographers, caterers, and decorators in Nairobi and other major cities are booked 6 to 12 months in advance for peak wedding season (December, January). The vendor discovery and booking initiation must happen early. MyJoyfulDay sends reminders to wedding event creators to confirm vendors at the 12-month, 9-month, and 6-month marks before the wedding date.
+
+**Vendor references are trusted over platform reviews.** Kenyan buyers, particularly for high-stakes purchases like wedding services, rely primarily on personal recommendations and portfolio review rather than anonymous platform reviews. MyJoyfulDay's vendor profiles include direct links to vendor social media (Instagram is dominant for visual vendors) and an explicit reference request feature where vendors can ask previous clients to provide a testimonial directly on the platform.
+
+The MyJoyfulDay vendor marketplace now covers wedding vendor categories in Nairobi, Mombasa, Kisumu, and Nakuru, with ongoing expansion to secondary cities as event volume in those cities grows.
+
+`;

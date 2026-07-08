@@ -71,4 +71,37 @@ As users build familiarity with how Tellus makes decisions  -  and as Tellus bui
 The model is the same as how trust is established in human working relationships. You give a new assistant clear constraints and frequent check-ins. After six months of working together, you understand their judgment, they understand your preferences, and you extend more autonomy because it has been earned. After three years, you say "handle my calendar" and know it will be handled correctly.
 
 Tellus is designed for that trajectory. But it starts in the right place  -  with confirmation, with predictability, and with the user's judgment as the final authority on every action that reaches the world.
+
+## The Autonomy Spectrum in AI Assistants
+
+AI assistants do not come in one autonomy level. They exist on a spectrum from fully passive (responds only when asked, never acts) to fully autonomous (monitors everything, acts on judgment without consulting the user). Where a product sits on this spectrum is one of its most important design decisions — and one that is often made implicitly rather than explicitly.
+
+The fully passive AI is safe but low-value. It requires the user to recognise every situation requiring action and to initiate every interaction. The cognitive overhead is high. The AI adds value only when the user remembers to ask.
+
+The fully autonomous AI is dangerous even when technically capable. Professional contexts involve relational, reputational, and legal dimensions that AI systems cannot fully model. An AI that sends messages, makes commitments, and takes positions without human review is making decisions that should belong to the professional.
+
+The optimal position is somewhere between these extremes: proactive enough to surface things that require attention without being asked, but conservative enough to seek confirmation before taking actions with external consequences. Tellus is designed for this middle ground.
+
+**Proactive without intrusive:** Tellus monitors your connected information streams and surfaces what matters without being asked. A deadline approaching, a thread that requires a response, a document that's relevant to your current work — these are surfaced proactively. But surfacing is not acting. The user decides what to do with what Tellus surfaces.
+
+**Draft without send:** Tellus can draft responses, prepare documents, and compose communications — but sends nothing without explicit user confirmation. The drafting is AI. The judgment to send is human.
+
+**Suggest without decide:** For situations with multiple possible responses, Tellus presents options with reasoning rather than a single recommendation. The user evaluates the options and makes the decision. This maintains user judgment in the decision-making loop while reducing the work of generating and evaluating options from scratch.
+
+![Autonomy spectrum diagram showing Tellus positioned between fully passive and fully autonomous AI](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80)
+
+## Why Human Autonomy Matters More as AI Improves
+
+The intuition that AI autonomy concerns will diminish as AI capability improves is backwards. As AI becomes more capable — better at predicting what the user would want, better at producing outputs that are harder to distinguish from human judgment — the importance of maintaining human decision-making authority increases, not decreases.
+
+When an AI assistant's suggested response is barely distinguishable from what the user would have written, the temptation to send it without review is highest. The risk, if the AI has misjudged a relational nuance or missed a context that wasn't in its accessible information, is also highest.
+
+Professional autonomy — the ownership of one's professional judgments and their consequences — is not just a preference. It is a professional and often legal responsibility. Lawyers, accountants, doctors, and fiduciaries operate under frameworks that cannot be discharged by delegating decisions to AI systems. Even professionals without formal fiduciary duties have reputational accountability for the content that goes out under their name.
+
+Tellus is designed to increase productivity without eroding this accountability. The platform's value proposition is not "let AI handle it." It is "let AI do the work that doesn't require your judgment so you can focus on the work that does."
+
+This framing — AI as the platform for everything that doesn't require judgment, human as the authority on everything that does — is how high-performing professionals and organisations in Kenya are using AI most effectively today. It is also the approach most consistent with professional ethics and regulatory expectations in Kenya's evolving AI governance landscape.
+
+Building toward greater AI capability is not a reason to reduce human oversight. It is a reason to design more sophisticated oversight mechanisms — to keep the human genuinely in the loop as AI becomes better at producing outputs that look correct even when they aren't. Tellus is built for that future.
+
 `;

@@ -157,4 +157,34 @@ Some questions to identify automation candidates:
 
 Start with the highest-impact, simplest automation  -  typically one trigger, one action. Build confidence and understanding. Then tackle more complex multi-step workflows.
 
-Tellus has deployed n8n automation for Kenyan businesses across e-commerce, financial services, healthcare, logistics, and NGOs. The patterns that work are consistent; the specific implementation is always context-specific. We're here to help your business identify and implement the automations that will have the greatest impact.`;
+Tellus has deployed n8n automation for Kenyan businesses across e-commerce, financial services, healthcare, logistics, and NGOs. The patterns that work are consistent; the specific implementation is always context-specific. We're here to help your business identify and implement the automations that will have the greatest impact.
+
+## n8n vs. Zapier vs. Make: Which Platform for Kenya
+
+Kenyan businesses considering workflow automation have three main platforms to evaluate. Each has different cost structures, capability levels, and appropriateness for different business contexts.
+
+**Zapier:** The most widely known automation platform. Strong ecosystem of app integrations, reliable, well-documented, excellent support. Pricing is per-task and scales with usage — which makes it expensive for high-volume automations. Zapier's Africa-specific app coverage is improving but still limited for some local Kenyan tools. Best for: businesses with straightforward automation needs, low to medium volumes, and priority on ease of implementation.
+
+**Make (formerly Integromat):** More powerful than Zapier, supporting complex multi-step workflows with conditional logic, iteration, and error handling. More visual interface that scales better for complex scenarios. Pricing is more favourable than Zapier for high volumes. Best for: businesses with more complex automation requirements that need more than linear workflows.
+
+**n8n:** Open-source, self-hostable, extremely flexible. n8n can be deployed on a cloud server for as little as USD 5-10 per month — dramatically cheaper than Zapier or Make for high-volume automations. n8n supports custom code nodes in Python and JavaScript, enabling automations that SaaS platforms cannot support. The M-Pesa Daraja API, for example, can be integrated via n8n's HTTP Request node where no native connector exists. Best for: businesses with technical resources who need maximum flexibility and want to minimise ongoing platform costs.
+
+![n8n workflow builder showing a multi-step automation connecting WhatsApp, M-Pesa, and Google Sheets](https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200&q=80)
+
+## High-Value n8n Workflows for Kenyan Businesses
+
+These are the n8n workflow patterns that Kenyan businesses deploy most successfully:
+
+**WhatsApp + M-Pesa + Google Sheets:** Triggering on incoming WhatsApp messages (via WhatsApp Cloud API webhook), extracting order information, creating Google Sheets records, initiating M-Pesa STK Push, and sending confirmation messages. This workflow handles the core of conversational e-commerce without any dedicated e-commerce platform.
+
+**Form submission + document generation + email delivery:** Triggering on Google Forms or Typeform submissions, generating a PDF document (invoice, certificate, proposal) using a template, and emailing it to the submitter. This automates most document generation workflows that currently require manual creation.
+
+**CRM update + WhatsApp follow-up:** Triggering on CRM events (deal stage change, new contact, overdue follow-up) and sending personalised WhatsApp messages to the relevant contact via the WhatsApp Business API. Keeps sales follow-up consistent without requiring salespeople to remember every follow-up.
+
+**Reporting automation:** Triggering on schedule (daily, weekly, monthly), querying data from multiple sources (Google Analytics, accounting software, sales CRM), compiling into a formatted report, and delivering via email or WhatsApp to relevant stakeholders. Eliminates manual report assembly for recurring reports.
+
+**Error monitoring and alerting:** Triggering on error events from your applications, enriching with relevant context from logs, and delivering formatted alerts to the on-call team via WhatsApp. Creates reliable alerting from any application that can send a webhook.
+
+Tellus provides n8n implementation services for Kenyan businesses — from initial setup on managed infrastructure through workflow design, testing, and documentation.
+
+`;

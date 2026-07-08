@@ -154,4 +154,68 @@ TellusJobs' semantic matching reads your CV and professional profile with the sa
 
 When you upload your CV to TellusJobs, the platform's embedding-based matching surfaces roles where your background genuinely fits  -  not just roles where the keywords happen to align. This means your applications go to roles where you're a genuine candidate, not roles where you're gaming the keyword match.
 
-Your CV is your professional first impression. Make it one you'd be proud of.`;
+Your CV is your professional first impression. Make it one you'd be proud of.
+
+## The Kenya-Specific CV That Gets Past the First Screen
+
+Kenyan CV conventions differ from Western CV norms in ways that matter for applications to Kenyan employers. Understanding these differences allows candidates to write CVs that feel native to the Kenyan professional context rather than appearing to follow a template calibrated for a different market.
+
+The most significant Kenya-specific convention is the inclusion of personal information. Date of birth, nationality, national identification number, and marital status appear on most Kenyan CVs. Western CV advice universally counsels omitting this information (to prevent age and family status discrimination). In Kenya, this information is so commonly included that its absence can actually attract attention. Include it, but place it at the end of the document rather than at the top.
+
+The "career objective" statement at the top of the CV is more common in Kenya than in Western markets. When included, it should be role-specific (tailored to the specific application) rather than generic. A generic objective ("To secure a challenging position that utilises my skills in a dynamic organisation") is worse than no objective at all. A specific one ("To apply my seven years of SME credit analysis experience to a senior credit analyst role at a tier-one bank expanding its SME portfolio") demonstrates purposeful application.
+
+References are listed on the CV in most Kenyan applications, unlike the "references available on request" approach common in Western markets. Include two to three professional references with full contact details. Ensure you have notified your references before listing them.
+
+![Professional CV writing in Kenya showing Kenyan format conventions and section structure](https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80)
+
+## Structure and Length for Kenyan CVs
+
+Kenyan employer expectations on CV length differ by seniority. Entry-level CVs: one to two pages. Mid-level professionals (three to seven years experience): two to three pages. Senior professionals (seven or more years): three to four pages. Going beyond these lengths without genuinely additional substantive content is a common mistake.
+
+The standard section order for a Kenyan CV:
+
+1. Personal details (name, phone, email, LinkedIn, location - not address)
+2. Professional summary or career objective (for those who include it)
+3. Work experience (reverse chronological)
+4. Education (reverse chronological)
+5. Professional certifications and memberships
+6. Skills (technical and professional)
+7. Languages (if relevant)
+8. Personal details continued (date of birth, nationality, ID number, marital status)
+9. References
+
+Work experience descriptions should follow the achievement-oriented format: bullet points that begin with strong action verbs ("Managed", "Developed", "Delivered", "Reduced", "Grew") and include quantified outcomes where possible.
+
+## The Most Common CV Mistakes Kenyan Employers Report
+
+TellusJobs conducted a survey of 40 Kenyan hiring managers and HR professionals to identify the most common CV quality issues. The top findings, in order of frequency cited:
+
+**No quantification of results.** "Responsible for managing the sales team" tells the reader nothing about whether you did it well. "Managed a 12-person sales team that achieved 108% of annual revenue target in FY2023" tells them something specific and verifiable.
+
+**Too much focus on responsibility, too little on achievement.** Kenyan CVs frequently list what the candidate was responsible for rather than what they achieved. The reader already knows what a finance manager does in general - they want to know what this specific finance manager did that was notable.
+
+**Generic skills sections.** "Excellent communication skills", "team player", "hardworking" add nothing to any CV. Remove these phrases and replace them with specific evidence in the work experience section.
+
+**Inconsistent formatting.** Inconsistent fonts, spacing, and bullet point styles signal lack of attention to detail. Use a consistent template throughout.
+
+**Including irrelevant personal details.** Religion and ethnicity should not be included (they appear occasionally on Kenyan CVs). They are irrelevant to professional competence and their inclusion creates unnecessary risk of bias without adding value.
+
+**Not tailoring for each application.** The same CV for every application is identifiable. The professional summary, skills section, and the order in which experience descriptions are presented should be adjusted for each significant application.
+
+![CV quality review checklist for Kenyan job applications showing common improvement areas](https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=1200&q=80)
+
+## TellusJobs CV Optimisation Tool
+
+TellusJobs includes a CV analysis feature that scores the uploaded CV against a Kenyan-market-specific quality rubric. The analysis covers:
+
+**Completeness score:** All recommended sections present, contact information complete, references listed.
+
+**Quantification score:** Percentage of work experience bullet points that include a quantified outcome. Target is above 60%.
+
+**ATS readability score:** How well the CV will be parsed by applicant tracking systems. Common ATS-breaking issues in Kenyan CVs include tables (which scramble field order in parsing), images and graphics (which cannot be parsed), and headers/footers with contact information that some parsers do not read.
+
+**Keyword coverage:** For each role applied to through TellusJobs, the system shows which keywords from the job description are present in the CV and which are absent. This helps candidates make targeted CV adjustments for specific applications.
+
+The CV optimisation report is available for any CV uploaded to the platform and is updated each time the CV is revised. Users who worked through the full optimisation process report a measurable improvement in application response rates compared to their experience with unoptimised CVs.
+
+`;

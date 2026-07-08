@@ -102,4 +102,46 @@ The AI tools available to Kenyan professionals include both global tools (Claude
 
 **The integration imperative:** Choose tools that integrate with your existing workflow rather than requiring a new one. Tellus's WhatsApp integration, Google Workspace integration, and meeting platform integration are designed specifically for this  -  AI capability where Kenyan professionals already work.
 
-The productivity gains from AI are real. Capturing them requires deliberate implementation rather than passive exposure to new tools. Tellus is the implementation partner for Kenyan businesses ready to make AI a genuine productivity advantage rather than an interesting experiment.`;
+The productivity gains from AI are real. Capturing them requires deliberate implementation rather than passive exposure to new tools. Tellus is the implementation partner for Kenyan businesses ready to make AI a genuine productivity advantage rather than an interesting experiment.
+
+## The Compounding Effect of AI Productivity Gains
+
+Unlike one-time efficiency improvements, AI productivity gains compound. A Kenyan professional who uses AI tools to handle research tasks in half the time doesn't just save four hours per week. Those four hours become available for higher-value work — strategy, relationships, creative problem-solving — that itself produces compounding returns.
+
+The professionals seeing the largest gains are those who have identified their highest-leverage use cases: the tasks that consume disproportionate time relative to their value. For most knowledge workers, this is research synthesis, first-draft writing, and data interpretation. AI compresses all three significantly.
+
+**Research synthesis:** A task that previously required reading twenty documents and extracting relevant information now involves uploading those documents and asking specific questions. Quality of output depends on the questions asked. Professionals who invest in prompt quality — learning to specify what they need with precision — get dramatically better results than those who use generic queries.
+
+**First-draft writing:** AI writing tools don't replace professional writing — they eliminate the blank-page problem. Starting from a structured AI draft that captures the main points allows the professional to invest their time in refinement, voice, and judgment rather than initial generation. For repetitive professional writing (reports, proposals, emails to clients), this represents a 60-70% time reduction.
+
+**Data interpretation:** AI tools that can read Excel files, CSVs, and data exports can surface patterns, calculate metrics, and generate observations in minutes that would take hours manually. The professional's contribution shifts from computation to judgment: evaluating whether the AI's observations are meaningful and actionable.
+
+![AI productivity workflow showing time savings from research, writing, and data tasks](https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80)
+
+## Building AI Into Your Daily Workflow
+
+The professionals who benefit most from AI tools are not those who use them occasionally for large tasks. They're the ones who have integrated AI into their daily work rhythm — small, consistent uses that add up across a working week.
+
+**Morning briefing:** Starting the day with an AI-generated summary of overnight emails, key updates, and priority tasks from your task manager. Five minutes of AI synthesis replaces 30 minutes of inbox triage.
+
+**Meeting preparation:** Before important meetings, using AI to synthesise relevant documents, recent communications, and background context into a one-page brief. Consistently walking into meetings better prepared than anyone else in the room.
+
+**Communication drafting:** Using AI to draft responses to complex emails, routine client updates, and internal reports. Review and personalise rather than write from scratch.
+
+**End-of-day processing:** AI-assisted note processing: turning rough meeting notes into structured action items, decisions, and follow-ups that are appropriately filed and shared.
+
+Each of these uses individually seems small. The cumulative effect across a week is 8-12 hours of recovered professional time — more than a full working day per week.
+
+## What AI Cannot Replace
+
+Understanding AI's limits is as important as using its capabilities. The Kenyan professionals who get the most value from AI tools are those who have a clear model of where AI adds value and where human judgment is irreplaceable.
+
+**Relationship intelligence:** AI cannot read the room, understand the unspoken dynamics in a client relationship, or know when to push and when to wait. The relational intelligence that underpins most Kenyan business is irreducibly human.
+
+**Local context:** AI models trained on global data have gaps in Kenyan market specificity — regulatory nuances, local business culture, informal economy dynamics. Professionals who use AI as a starting point and apply their local expertise as a filter get far better results than those who accept AI output uncritically.
+
+**Creative judgment:** AI can generate options but cannot make aesthetic or strategic judgments about which option is right for a specific context. The professional's judgment — shaped by experience, relationships, and values — remains the essential filter.
+
+Tellus is designed with these limits in mind. The platform augments professional productivity without pretending to replace the human judgment that makes professional work valuable.
+
+`;

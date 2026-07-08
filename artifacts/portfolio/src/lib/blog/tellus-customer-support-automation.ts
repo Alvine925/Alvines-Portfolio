@@ -133,4 +133,38 @@ Tellus approaches customer support automation implementation in stages:
 
 **Ongoing management:** Customer inquiries evolve. New products, new policies, new common questions. We maintain and update the automation to stay current.
 
-The goal is not to eliminate customer support  -  it's to make your customer support team more capable: handling more customers, with better information, focused on the interactions that actually require their judgment and care.`;
+The goal is not to eliminate customer support  -  it's to make your customer support team more capable: handling more customers, with better information, focused on the interactions that actually require their judgment and care.
+
+## Designing Customer Support Automation That Customers Actually Like
+
+The customer support automation that Kenyan businesses deploy too often produces the opposite of its intended result: customers who are frustrated by bot responses that don't understand their situation, can't escalate effectively, and feel disrespected by interactions that feel like a system designed to avoid helping them.
+
+Good customer support automation — the kind customers appreciate rather than resent — is designed around three principles:
+
+**Speed where speed matters, humans where judgment matters:** Automation is appropriate for information retrieval (what are your hours? where is my order? what does this product cost?), status updates (your M-Pesa payment was received), and routine process completion (booking confirmation, return initiation). Human agents are essential for complaints, exceptions, complex situations, and high-value customer relationships. The design of the automation must recognise this distinction and route accordingly.
+
+**Seamless escalation as a feature, not a failure:** The moment a customer needs to escalate to a human agent should feel like a smooth handoff, not an admission that the system failed. The handoff should include the conversation history so the human agent starts with full context, not from scratch. In Kenya's WhatsApp-first customer service environment, this means the human agent sees the full prior chat and can pick up immediately.
+
+**Honest capability communication:** Customers who know they're talking to an automated system from the start — and understand what it can and cannot do — have better experiences than customers who discover mid-conversation that the "agent" they've been talking to can't actually resolve their issue. Opening the interaction with clarity ("Hi! I'm Amara, your automated assistant. I can help with orders, pricing, and account questions. For complex issues, I'll connect you to our team.") sets appropriate expectations.
+
+![Customer support automation showing clear escalation path from bot to human agent](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&q=80)
+
+## Metrics That Actually Matter for Customer Support Automation
+
+Most customer support automation deployments are evaluated on the wrong metrics. Deflection rate (the percentage of inquiries handled by automation without human involvement) is the most commonly reported metric — and frequently the most misleading.
+
+A high deflection rate achieved by a bot that gives generic, unhelpful responses and eventually times out inquiries is not a success. It's a measure of how often customers gave up, not how often they were helped.
+
+The metrics that reflect genuine success:
+
+**Resolution rate:** The percentage of inquiries where the customer's actual question was answered or their actual problem was resolved — by the bot or by a human agent. This is harder to measure than deflection but far more meaningful.
+
+**Customer satisfaction after bot interaction:** Short post-interaction feedback ("Was this helpful? 1-5") gives direct signal on whether the automation is producing good experiences. Most Kenyan businesses don't collect this data.
+
+**First-contact resolution:** The percentage of inquiries resolved in a single interaction without requiring the customer to contact again. High first-contact resolution indicates the automation is genuinely resolving issues rather than deferring or deflecting them.
+
+**Time to human agent:** For escalated inquiries, the time between the escalation trigger and a human agent beginning their response. This metric captures the handoff quality that customers experience most acutely.
+
+Tellus's customer support automation platform is designed to optimise these meaningful metrics rather than deflection rate. The goal is customer support that earns higher satisfaction scores than fully manual teams — not automation that merely reduces headcount by providing a worse experience.
+
+`;

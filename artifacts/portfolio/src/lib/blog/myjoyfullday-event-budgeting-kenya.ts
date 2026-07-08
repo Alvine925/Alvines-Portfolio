@@ -158,4 +158,54 @@ When you create your event on MyJoyfulDay and begin booking vendors through the 
 
 The goal is that when your event day arrives, your financial position is known and clear. No surprises. No post-event stress about overruns. Just the event itself, and the memories it produces.
 
-That's the right relationship between money and celebration  -  money as the enabler of joy, not the source of anxiety.`;
+That's the right relationship between money and celebration  -  money as the enabler of joy, not the source of anxiety.
+
+## Why Event Budget Estimates Always Go Over in Kenya
+
+Post-event surveys on MyJoyfulDay consistently show the same pattern: event creators spend 20 to 35% more than their initial budget estimate. This is not unique to Kenya - event budget overruns are universal - but several Kenya-specific factors amplify the tendency.
+
+**Vendor quote variability:** Kenyan vendors, particularly in the SME and informal sector, often quote from a price range rather than a fixed price. A caterer who quotes KES 800 per head "depending on the menu" can legitimately invoice KES 1,100 per head after menu changes and additional guests are accounted for. Budgets built on initial quotes without confirmed contracts are unreliable.
+
+**The harambee addition:** Kenyan social culture includes a tradition where additional family and community members are invited close to event day, creating guest count increases that push catering, seating, and venue capacity beyond original estimates. Budgeting for the "harambee effect" - adding 15 to 20% buffer for late guest list growth - is standard advice for experienced Kenyan event planners.
+
+**Day-of additions:** Decorations that seemed sufficient during planning look sparse in the actual venue on event day, driving last-minute additional purchases. Similarly, additional food is often ordered when attendance exceeds expectations. These day-of additions, which feel small individually, add 8 to 12% to the final event cost on average.
+
+**Price changes between quote and event:** For events planned 6 or more weeks in advance, vendor prices may change due to inflation, ingredient cost changes, or availability of resources. This is particularly relevant for food and beverage costs in Kenya's inflation environment.
+
+![Event budget planning worksheet showing Kenyan event cost categories and common overrun areas](https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80)
+
+## Category-by-Category Budget Framework for Kenyan Events
+
+MyJoyfulDay's budget tool uses ranges derived from platform event data. The following categories and ranges are based on median and 75th percentile spending in 2024 data.
+
+**Venue hire:** For an outdoor venue in Nairobi, KES 15,000 to 60,000 depending on location and capacity. Private home events have zero venue cost but may need marquee hire at KES 8,000 to 25,000. Hotels and formal venues start at KES 50,000 and can reach several hundred thousand for large-capacity bookings.
+
+**Catering:** KES 600 to 1,800 per head depending on service level (self-service buffet vs plated service), menu quality, and caterer quality tier. Beverages add KES 200 to 600 per head. Outside catering for a home event costs less than hotel catering for an equivalent menu.
+
+**Photography and video:** Entry-level photography coverage at KES 20,000 to 40,000 for a single photographer. Quality independent photographers with full-day coverage: KES 50,000 to 120,000. Videography adds KES 30,000 to 100,000 for event film production.
+
+**Decoration:** Ranging from KES 15,000 for simple balloon and fabric decorations to KES 80,000+ for elaborate floral and themed decoration. The variance in this category is the highest of any budget category because event decoration is highly customised.
+
+**Entertainment and MC:** A quality MC with sound system for a 100-person event: KES 30,000 to 60,000. A DJ adds KES 20,000 to 50,000. Live band adds KES 80,000 to 200,000. These costs scale with guest count and venue size.
+
+## Building a Contingency That Actually Protects You
+
+A budget contingency line exists in most event budgets and is routinely ignored in most event budgets. The 10% contingency that looks like responsible planning is often the first number cut when initial vendor quotes come in higher than expected.
+
+MyJoyfulDay's budget tool enforces contingency protection by making the contingency a locked line that cannot be allocated until event day. This is a design choice rather than a technical constraint - users can override it - but the friction of overriding an explicitly protected line has reduced contingency-cutting in budgets created through the tool.
+
+The recommended contingency for a Kenyan event, based on the platform's overrun data, is 20% of the base budget for events under 50 guests, 15% for events of 50 to 150 guests, and 12% for events above 150 guests where the larger vendor ecosystem allows more precise initial quotes.
+
+Events that maintained their contingency fund went 7% over budget on average. Events where the contingency was consumed before event day went 28% over budget. The correlation between contingency preservation and final budget adherence is the strongest single finding in MyJoyfulDay's event financial data.
+
+![Budget tracking dashboard for Kenyan events showing contingency management and spend tracking](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80)
+
+## M-Pesa and Event Finance Management
+
+Many Kenyan social events are funded through group contributions rather than a single organiser paying the full cost. A birthday party committee, a bridal party contributing to wedding costs, or family members contributing to a baby shower budget - these communal funding patterns are common and require transparent financial tracking that most event platforms are not designed for.
+
+MyJoyfulDay's contribution tracking feature allows event organisers to record contributions from multiple sources, track spending against the collected budget, and produce a simple statement of accounts for the contributing group. This is not a payment processing feature - it does not move money - but it provides the transparency and accountability that communal event funding requires.
+
+The M-Pesa transaction reference input in the contribution tracker allows organisers to link specific M-Pesa receipts to budget line payments, creating a documented spending record that satisfies the accountability expectations of contribution groups. For social events where financial transparency matters as much as the event outcome itself, this feature has become one of the platform's most valued.
+
+`;

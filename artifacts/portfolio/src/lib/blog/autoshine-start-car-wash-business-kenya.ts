@@ -202,4 +202,58 @@ Benefits of listing on AutoShine:
 - Review and reputation management
 - Access to AutoShine's training materials and supplier network
 
-For new car wash operators in Kenya, the AutoShine platform provides infrastructure that would otherwise require significant investment to build independently. Contact AutoShine to discuss becoming a listed operator.`;
+For new car wash operators in Kenya, the AutoShine platform provides infrastructure that would otherwise require significant investment to build independently. Contact AutoShine to discuss becoming a listed operator.
+
+## Understanding the Kenyan Car Wash Market Before You Enter It
+
+Kenya's car wash market is large, growing, and highly fragmented. Nairobi alone has an estimated 3,000 to 5,000 car wash operations ranging from single-person hand wash services in residential compounds to multi-bay professional detailing centres. Understanding this landscape helps a new entrant identify where real opportunity exists rather than competing directly against established operations in saturated locations.
+
+The mass market is highly price-competitive and operates on thin margins. A roadside hand wash charging KES 500 to 700 is competing primarily on price and convenience. At these prices, after accounting for labour, water, products, and location costs, margins are minimal.
+
+The quality segment - professional washes charging KES 1,500 to 3,000 for exterior wash and KES 3,000 to 6,000 for full detail - operates on materially better margins and is significantly less saturated. Kenya's middle class vehicle ownership is growing rapidly, and the segment of owners who understand and value professional car care is growing with it. This is the segment where a new entrant has the best opportunity to build a sustainable business.
+
+The detailing segment - full detail services, ceramic coating, paint protection - represents even better unit economics but requires significant investment in equipment, training, and premises. This is not a viable first-year business model for most new entrants but is a natural progression path.
+
+![Car wash business setup in Nairobi Kenya showing professional equipment and working space](https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80)
+
+## Licensing and Legal Requirements in Kenya
+
+Operating a car wash business in Kenya requires attention to several regulatory requirements at national and county level.
+
+**Business registration:** Register as a sole proprietor at the Registrar of Companies or incorporate as a limited company if multiple owners are involved. A business name registration through the Registrar takes two to three days and costs approximately KES 950.
+
+**County business permit:** All operating businesses in Kenya require an annual single business permit from the county government of the area where they operate. For a car wash in Nairobi, this is the Nairobi City County Government. The permit cost varies by business type and location but typically falls between KES 5,000 and KES 20,000 per year for a car wash operation.
+
+**NEMA environmental permit:** Car wash operations discharge wastewater that must be managed in compliance with environmental regulations. The National Environment Management Authority requires car washes above a certain scale to have a valid environmental impact assessment and, in some cases, a discharge permit. Operations with recycling systems are in a much stronger compliance position. AutoShine partners with environmental compliance specialists who can advise on current requirements.
+
+**KRA PIN and VAT registration:** Any business with annual turnover above KES 5 million is required to register for VAT. For fleet-focused or premium car washes targeting corporate clients, this threshold can be reached in the first year. Register for a business KRA PIN immediately on business registration regardless of scale.
+
+## Equipment Investment and Sources
+
+The equipment required for a professional car wash operation is specific and the quality of equipment directly determines service quality. This is not an area to economise on if you intend to operate in the quality or premium segment.
+
+**Pressure washer:** A professional pressure washer (not a home appliance) with adjustable pressure and a foam cannon attachment is essential. Professional units from brands like Karcher's commercial range cost KES 50,000 to 150,000 depending on capacity. Cheaper home-grade units are not built for daily commercial use and fail within months.
+
+**Water supply:** A water storage tank and pumping system that provides independence from mains supply rationing. Minimum 5,000-litre tank capacity for a single-bay operation. Borehole access is valuable but requires hydrogeological survey and drilling costs (KES 150,000 to 300,000).
+
+**Vacuum equipment:** A professional wet-dry vacuum (not a home cleaner) for interior service. AutoShine-grade equipment costs KES 30,000 to 80,000 and handles daily commercial use.
+
+**Microfibre supplies:** Professional microfibre cloths and wash mitts require regular replacement. Budget KES 5,000 to 10,000 per month for consumable cleaning media in a single-bay operation at normal volume.
+
+**Product supply:** Establish a relationship with a professional automotive product supplier from the start. Using professional products rather than domestic alternatives is not optional at the quality level - it is the difference between delivering the service you are charging for and damaging customer vehicles.
+
+![Professional car wash equipment setup showing pressure washer and detailing supplies](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80)
+
+## The AutoShine Partnership Programme
+
+AutoShine offers a franchise and partnership programme for new car wash business operators who want to enter the market under an established brand with established quality standards, operational systems, and marketing reach.
+
+Partners benefit from AutoShine brand recognition (which commands premium pricing without the years of reputation building a new brand requires), the AutoShine booking app and digital payment infrastructure, AutoShine's product supply chain at group purchasing rates, and training for technical staff on AutoShine's service standards.
+
+The programme is structured to suit partners at different entry points - from full franchise (AutoShine branded premises, full system integration) to affiliate (independent operation using AutoShine standards and booking platform). Requirements, investment levels, and revenue share models are discussed during an initial consultation.
+
+For operators who have existing car wash facilities and want to upgrade their quality positioning, AutoShine's operations team provides an assessment and improvement programme that brings the operation to AutoShine's service standards without requiring a full franchise commitment.
+
+Contact AutoShine's business development team through the website to request a partnership information pack and arrange an introductory call.
+
+`;

@@ -91,4 +91,47 @@ What you gain: no migration cost, no team retraining, complementary value with e
 What you give up: a deeper data model. A purpose-built platform that owns all your data can build richer relationships between data entities than an integration layer that reads from multiple sources. Some patterns visible in a native platform are invisible when you are observing from outside.
 
 We made this tradeoff deliberately. The enemy of productivity tool adoption is not features  -  it is friction. The best features in the world do not matter if teams do not use the tool. By integrating with existing tools rather than replacing them, Tellus can deliver value to teams who are unwilling to change their core workflows. That is most teams.
+
+## The Integration Landscape for Kenyan Business Tools
+
+Every Kenyan business operates across a set of tools — accounting software, customer management systems, payment processing, communication platforms, and productivity applications. The value of any individual tool is determined partly by how well it connects to the others. A system that keeps accurate customer data but can't share it with the communication platform creates duplication; a platform that processes payments but can't update accounting automatically creates reconciliation work.
+
+Integration — the technical and process work of connecting these tools — is where most of the operational leverage in Kenyan businesses is hidden.
+
+**The integration complexity ladder:** At the bottom, manual data re-entry between systems. Higher up, CSV export-import between systems. Higher still, real-time webhook connections between systems. At the top, bi-directional API integrations with business logic sitting between systems. Most Kenyan businesses operate at the first two rungs; moving up delivers significant productivity gains.
+
+**High-value integration points in Kenyan businesses:**
+
+*M-Pesa to accounting:* When an M-Pesa payment arrives, automatically creating a payment record in QuickBooks or Sage eliminates the manual payment entry that consumes accounting time and introduces errors.
+
+*WhatsApp to CRM:* When a customer sends a WhatsApp message, automatically creating or updating their CRM record ensures that customer communication history is captured without manual data entry.
+
+*Order to inventory:* When an order is confirmed, automatically updating inventory levels prevents overselling and enables accurate stock management without manual counting.
+
+*Delivery to invoicing:* When delivery is confirmed, automatically generating and sending an invoice eliminates the billing delay that affects cash flow for many Kenyan service businesses.
+
+![Integration diagram showing connected Kenyan business tools including M-Pesa, WhatsApp, CRM, and accounting](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&q=80)
+
+## Tellus Workflow Integrations: What Connects and How
+
+Tellus's integration architecture is built around the tools Kenyan professionals and businesses actually use. Rather than a generic integration platform, Tellus provides curated, pre-built integrations with the specific tools in the Kenyan professional ecosystem.
+
+**Communication integrations:** Gmail and Outlook for email monitoring and draft generation. WhatsApp Business API for customer-facing communication. Slack and Microsoft Teams for internal team communication. These integrations give Tellus visibility into the information streams that require professional attention — and the ability to draft responses that the professional reviews and sends.
+
+**Productivity integrations:** Google Workspace (Calendar, Drive, Docs, Sheets) for schedule awareness and document context. Notion and Confluence for knowledge management. Trello, Asana, and Jira for project and task management. These integrations allow Tellus to understand project status, deadlines, and context without requiring the professional to re-explain their work situation in each interaction.
+
+**Business operations integrations:** QuickBooks and Xero for financial context. Salesforce and HubSpot for CRM context. Calendly for scheduling automation. These integrations extend Tellus's context into the business operations dimensions that shape professional priorities.
+
+**Kenya-specific integrations:** M-Pesa payment monitoring and reconciliation. MPESA statements processing. Safaricom business API connections. These Kenya-specific integrations recognise that the Kenyan business context has specific tools and processes that international AI assistants don't address.
+
+## Building Custom Integrations
+
+Not every tool a Kenyan business uses has a pre-built Tellus integration. For tools with public APIs, Tellus provides a webhook and HTTP integration framework that allows custom connections to be built and maintained.
+
+The framework handles authentication, retry logic, error handling, and data transformation — the common infrastructure that custom integrations require. Teams with technical resources can build custom integrations using Tellus's SDK, connecting specialised vertical software, internal systems, and Kenya-specific tools that don't have standardised integration platforms.
+
+For businesses without technical resources to build custom integrations, Tellus's professional services team provides integration development as a service — scoping, building, and documenting custom connections that are then maintained as part of the business's Tellus deployment.
+
+The integration philosophy underlying all of this is consistent: the goal is not to move data into Tellus. It is to give Tellus the context it needs to be genuinely useful in the professional's actual work environment — wherever that data currently lives.
+
 `;

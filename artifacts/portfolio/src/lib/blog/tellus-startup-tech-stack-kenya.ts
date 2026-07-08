@@ -120,4 +120,50 @@ Tellus is built on these principles. Our product stack uses TypeScript throughou
 
 We've made boring technology choices deliberately. Our stack is not remarkable  -  it's reliable. And reliability, for a product that Kenyan businesses and professionals depend on for critical communication and automation, is the most important technical property we can optimise for.
 
-When we advise Kenyan startups on technical stack decisions, this same philosophy guides our recommendations: choose boring, choose hireable, choose for today's scale, and integrate Kenya's unique infrastructure (M-Pesa, WhatsApp) from the start.`;
+When we advise Kenyan startups on technical stack decisions, this same philosophy guides our recommendations: choose boring, choose hireable, choose for today's scale, and integrate Kenya's unique infrastructure (M-Pesa, WhatsApp) from the start.
+
+## The Principles That Should Guide Stack Selection
+
+Before evaluating specific technologies, establish the principles that will guide your evaluation. The most common mistake Kenyan startups make with stack selection is choosing technologies based on what they've seen in international tech media rather than on what serves their specific context.
+
+**Choose boring where boring works:** Established, well-documented technologies have larger communities, more answered Stack Overflow questions, and more experienced developers in the Kenyan market. Novel technologies may be more exciting but they carry compounding costs: harder to hire for, more self-directed problem-solving required, higher risk of the technology being discontinued or pivoting.
+
+**Plan for the Kenyan network context:** Your stack must perform acceptably on 4G mobile connections with variable latency, not just on the high-bandwidth office connections where you develop. This means preferring lightweight frontends, optimising for time-to-interactive on low-bandwidth connections, and implementing aggressive caching strategies.
+
+**Optimize for your team's existing skills:** The most important stack consideration for an early-stage Kenyan startup is what your team already knows. A brilliant architecture built on technologies your team doesn't know confidently is inferior to a simpler architecture your team can move fast with.
+
+**Infrastructure that your team can operate:** Choose cloud infrastructure and deployment patterns that your team can actually manage. Kubernetes clusters that require a dedicated DevOps engineer to maintain are not appropriate for a three-person startup. Managed services that abstract infrastructure management allow small teams to focus on product.
+
+![Startup tech stack selection showing decision framework for Kenyan context](https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=80)
+
+## The Standard Stack That Works for Most Kenyan Startups
+
+For a product-first Kenyan startup building a web application with optional mobile components, this stack has been validated by multiple successful Kenyan products:
+
+**Frontend:** Next.js (React) for web, with Tailwind CSS. Next.js handles server-side rendering (important for SEO and initial load performance), static site generation, and client-side interactivity in a single framework. Tailwind CSS enables fast UI development without custom CSS overhead.
+
+**Backend:** Node.js with Express or a serverless approach via Vercel Functions or Supabase Edge Functions. For startups without a dedicated backend team, Supabase (Postgres + authentication + storage + real-time subscriptions) as a backend-as-a-service eliminates significant infrastructure work.
+
+**Database:** Postgres (via Supabase or a managed Postgres provider like Neon). Postgres is the most capable and most widely understood relational database. Its support for JSON columns provides the flexibility of document databases when needed.
+
+**Payments:** M-Pesa via Daraja API for Kenyan customers. Stripe for international customers or subscription billing with international payment methods. Both integrations are well-documented and have experienced Kenyan developers who have implemented them multiple times.
+
+**Communications:** WhatsApp via Meta's Cloud API for customer-facing messaging. Resend or SendGrid for transactional email.
+
+**Infrastructure:** Vercel for web frontend hosting (generous free tier, excellent performance, zero infrastructure management). Railway or Render for backend services requiring persistent processes. Supabase for data infrastructure.
+
+This stack can take a Kenyan startup from idea to production in two to four weeks with a competent small team — faster than almost any alternative that provides equivalent capability.
+
+## When to Deviate From the Standard Stack
+
+The standard stack above is not appropriate for every Kenyan startup. Specific product characteristics warrant deviation:
+
+Heavy machine learning requirements are better served by Python backends, even though this adds complexity. Python's ML ecosystem (PyTorch, scikit-learn, Hugging Face) has no comparable alternative in other languages.
+
+Real-time requirements beyond standard WebSocket support — such as multiplayer game state synchronisation or collaborative document editing — benefit from specialised infrastructure (Liveblocks, PartyKit) that the standard stack doesn't easily accommodate.
+
+Very high throughput requirements — millions of requests per day on limited infrastructure budget — may benefit from Go or Rust for performance-critical components.
+
+These deviations should be made deliberately and with specific technical justification, not because a technology seems interesting. The cost of deviating from the standard Kenyan startup stack — in harder hiring, less community support, and slower initial development — is real and should be weighed carefully against the specific technical benefit.
+
+`;

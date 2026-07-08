@@ -3,6 +3,73 @@ import tellusjobsImg from "@assets/screenshots/tellusjobs_site.png";
 import autoshineImg from "@assets/screenshots/autoshine_co_ke.png";
 import tellusImg from "@assets/screenshots/site_tellusplatform_site.png";
 
+// ── New MyJoyfulDay blog posts ─────────────────────────────────────────────
+import * as mjdWedding from "./blog/myjoyfullday-wedding-planning-kenya";
+import * as mjdBirthday from "./blog/myjoyfullday-birthday-party-kenya";
+import * as mjdBabyShower from "./blog/myjoyfullday-baby-shower-planning";
+import * as mjdCorporate from "./blog/myjoyfullday-corporate-events-kenya";
+import * as mjdVenues from "./blog/myjoyfullday-nairobi-venues";
+import * as mjdMpesa from "./blog/myjoyfullday-mpesa-event-payments";
+import * as mjdPhotography from "./blog/myjoyfullday-event-photography-kenya";
+import * as mjdCatering from "./blog/myjoyfullday-catering-services-kenya";
+import * as mjdDecoration from "./blog/myjoyfullday-event-decoration-kenya";
+import * as mjdKisumu from "./blog/myjoyfullday-kisumu-event-planning";
+import * as mjdWhatsappInvitations from "./blog/myjoyfullday-whatsapp-invitations";
+import * as mjdBudgeting from "./blog/myjoyfullday-event-budgeting-kenya";
+import * as mjdHouseParty from "./blog/myjoyfullday-house-party-planning";
+
+// ── New TellusJobs blog posts ─────────────────────────────────────────────
+import * as tjSalary from "./blog/tellusjobs-salary-negotiation-kenya";
+import * as tjRemote from "./blog/tellusjobs-remote-work-kenya";
+import * as tjInterview from "./blog/tellusjobs-interview-tips-kenya";
+import * as tjResume from "./blog/tellusjobs-resume-writing-kenya";
+import * as tjTech from "./blog/tellusjobs-tech-jobs-kenya-2025";
+import * as tjNgo from "./blog/tellusjobs-ngo-jobs-kenya";
+import * as tjCareerChange from "./blog/tellusjobs-career-change-kenya";
+import * as tjLinkedin from "./blog/tellusjobs-linkedin-profile-kenya";
+import * as tjEntry from "./blog/tellusjobs-entry-level-jobs-kenya";
+import * as tjGraduate from "./blog/tellusjobs-graduate-jobs-kenya";
+import * as tjBanking from "./blog/tellusjobs-banking-finance-jobs-kenya";
+import * as tjFreelance from "./blog/tellusjobs-remote-freelance-kenya";
+
+// ── New Tellus blog posts ─────────────────────────────────────────────────
+import * as tAiProductivity from "./blog/tellus-ai-productivity-kenya";
+import * as tWhatsappApi from "./blog/tellus-whatsapp-business-api";
+import * as tN8n from "./blog/tellus-n8n-workflow-automation";
+import * as tMpesa from "./blog/tellus-mpesa-api-integration";
+import * as tSmallBiz from "./blog/tellus-automation-small-business-kenya";
+import * as tFutureWork from "./blog/tellus-future-of-work-kenya";
+import * as tCxAutomation from "./blog/tellus-customer-support-automation";
+import * as tEcommerce from "./blog/tellus-ecommerce-automation-kenya";
+import * as tAiTools from "./blog/tellus-ai-tools-kenyan-business";
+import * as tWaBots from "./blog/tellus-building-whatsapp-bots-business";
+import * as tSmartNotif from "./blog/tellus-smart-notifications-productivity";
+import * as tTechStack from "./blog/tellus-startup-tech-stack-kenya";
+import * as tPrivacy from "./blog/tellus-data-privacy-africa";
+import * as tAiVsTraditional from "./blog/tellus-ai-vs-traditional-tools";
+
+// ── AutoShine blog posts ──────────────────────────────────────────────────
+import * as asNairobiGuide from "./blog/autoshine-car-wash-nairobi-guide";
+import * as asDetailing from "./blog/autoshine-car-detailing-kenya";
+import * as asMobile from "./blog/autoshine-mobile-car-wash-kenya";
+import * as asMaintenance from "./blog/autoshine-car-maintenance-tips-kenya";
+import * as asCeramic from "./blog/autoshine-ceramic-coating-kenya";
+import * as asInterior from "./blog/autoshine-car-interior-cleaning";
+import * as asWaterless from "./blog/autoshine-waterless-car-wash";
+import * as asPolishWax from "./blog/autoshine-car-polish-wax-kenya";
+import * as asFleet from "./blog/autoshine-fleet-car-washing-kenya";
+import * as asStartBiz from "./blog/autoshine-start-car-wash-business-kenya";
+import * as asEco from "./blog/autoshine-eco-friendly-car-wash";
+import * as asScratch from "./blog/autoshine-car-scratch-removal-kenya";
+import * as asWindshield from "./blog/autoshine-windshield-care-kenya";
+import * as asTyres from "./blog/autoshine-tyre-care-kenya";
+import * as asRainy from "./blog/autoshine-rainy-season-car-care";
+import * as asFrequency from "./blog/autoshine-car-wash-frequency-kenya";
+import * as asLuxury from "./blog/autoshine-luxury-car-detailing-kenya";
+import * as asTraffic from "./blog/autoshine-nairobi-car-care-traffic";
+import * as asSubscription from "./blog/autoshine-subscription-car-wash";
+import * as asProducts from "./blog/autoshine-best-car-wash-products-kenya";
+
 export const projects = [
   {
     slug: "myjoyfullday",
@@ -1290,5 +1357,548 @@ When I built Deriv Champions for a forex mentor, I couldn't just copy a generic 
 The biggest mistake I see from builders here is importing a Silicon Valley product playbook unchanged. The fundamentals of good product thinking travel — but the specifics don't.
 
 Context is not a constraint to work around. It's a feature that, if you design for it, becomes your competitive advantage.`,
+  },
+
+  // ─── New MyJoyfulDay posts ────────────────────────────────────────────────
+
+  {
+    slug: "myjoyfullday-wedding-planning-kenya",
+    title: "Wedding Planning in Kenya: The Complete Guide for 2025",
+    date: "2025-07-01",
+    excerpt: "Planning a Kenyan wedding involves vendors, venues, budgets, and family expectations. Here's the complete guide to pulling it off beautifully — and how MyJoyfulDay makes the whole process easier.",
+    tags: ["MyJoyfulDay", "Wedding", "Kenya"],
+    coverImage: mjdWedding.coverImage,
+    content: mjdWedding.content,
+  },
+  {
+    slug: "myjoyfullday-birthday-party-kenya",
+    title: "Birthday Party Planning in Kenya: How to Throw a Celebration People Will Remember",
+    date: "2025-07-02",
+    excerpt: "From intimate house parties to large venue celebrations, planning a birthday in Kenya requires the right vendors, the right venue, and a guest experience that reflects the occasion.",
+    tags: ["MyJoyfulDay", "Birthday", "Kenya"],
+    coverImage: mjdBirthday.coverImage,
+    content: mjdBirthday.content,
+  },
+  {
+    slug: "myjoyfullday-baby-shower-planning",
+    title: "Baby Shower Planning in Kenya: The Modern Guide",
+    date: "2025-07-03",
+    excerpt: "Baby showers in Kenya have evolved. Here's how to plan one that celebrates the mother-to-be, works for every budget, and creates a genuinely memorable experience.",
+    tags: ["MyJoyfulDay", "Baby Shower", "Kenya"],
+    coverImage: mjdBabyShower.coverImage,
+    content: mjdBabyShower.content,
+  },
+  {
+    slug: "myjoyfullday-corporate-events-kenya",
+    title: "Corporate Events in Kenya: Planning That Reflects Well on Your Organisation",
+    date: "2025-07-04",
+    excerpt: "Corporate events in Kenya — product launches, team builds, annual dinners — are high-stakes. Here's how to plan them well and what separates forgettable events from ones people talk about.",
+    tags: ["MyJoyfulDay", "Corporate", "Events"],
+    coverImage: mjdCorporate.coverImage,
+    content: mjdCorporate.content,
+  },
+  {
+    slug: "myjoyfullday-nairobi-venues",
+    title: "The Best Event Venues in Nairobi: A Practical Guide for Every Budget",
+    date: "2025-07-05",
+    excerpt: "Nairobi's venue landscape spans hotel ballrooms, garden spaces, rooftop terraces, and community halls. Here's how to find the right one for your event and what to look out for.",
+    tags: ["MyJoyfulDay", "Venues", "Nairobi"],
+    coverImage: mjdVenues.coverImage,
+    content: mjdVenues.content,
+  },
+  {
+    slug: "myjoyfullday-mpesa-event-payments",
+    title: "M-Pesa for Event Payments: How to Collect Guest Contributions and Vendor Fees",
+    date: "2025-07-06",
+    excerpt: "From harambee contributions to vendor deposits, M-Pesa is how Kenyans handle event money. Here's how to set it up properly — and how MyJoyfulDay automates the whole process.",
+    tags: ["MyJoyfulDay", "M-Pesa", "Payments"],
+    coverImage: mjdMpesa.coverImage,
+    content: mjdMpesa.content,
+  },
+  {
+    slug: "myjoyfullday-event-photography-kenya",
+    title: "Event Photography in Kenya: Finding the Right Photographer and Getting the Most from Them",
+    date: "2025-07-07",
+    excerpt: "Your event photos are the only thing that survives the day. Here's how to find a Kenyan event photographer who will deliver, what to look for, and how to brief them properly.",
+    tags: ["MyJoyfulDay", "Photography", "Kenya"],
+    coverImage: mjdPhotography.coverImage,
+    content: mjdPhotography.content,
+  },
+  {
+    slug: "myjoyfullday-catering-services-kenya",
+    title: "Event Catering in Kenya: How to Feed Your Guests Well Without Breaking the Budget",
+    date: "2025-07-08",
+    excerpt: "Food is remembered at every event. Here's how to choose a caterer, plan a menu, and manage catering logistics for Kenyan events from 20 to 500 guests.",
+    tags: ["MyJoyfulDay", "Catering", "Kenya"],
+    coverImage: mjdCatering.coverImage,
+    content: mjdCatering.content,
+  },
+  {
+    slug: "myjoyfullday-event-decoration-kenya",
+    title: "Event Decoration in Kenya: Creating the Look Your Event Deserves",
+    date: "2025-07-09",
+    excerpt: "Décor sets the tone before a single guest arrives. Here's how Kenyan event decorators work, what different decoration styles cost, and how to get a beautiful result on any budget.",
+    tags: ["MyJoyfulDay", "Decoration", "Events"],
+    coverImage: mjdDecoration.coverImage,
+    content: mjdDecoration.content,
+  },
+  {
+    slug: "myjoyfullday-kisumu-event-planning",
+    title: "Event Planning in Kisumu: The Guide for Kenya's Lakeside City",
+    date: "2025-07-10",
+    excerpt: "Kisumu has a thriving events scene with its own distinct character. Here's how to plan events in the lakeside city — venues, vendors, logistics, and the things that make Kisumu events unique.",
+    tags: ["MyJoyfulDay", "Kisumu", "Events"],
+    coverImage: mjdKisumu.coverImage,
+    content: mjdKisumu.content,
+  },
+  {
+    slug: "myjoyfullday-whatsapp-invitations",
+    title: "WhatsApp Event Invitations: The Smart Way to Invite Guests in Kenya",
+    date: "2025-07-11",
+    excerpt: "Printed cards are fading. WhatsApp invitations are how Kenyans actually invite guests. Here's how to do it well — and how MyJoyfulDay creates shareable digital invitations automatically.",
+    tags: ["MyJoyfulDay", "WhatsApp", "Invitations"],
+    coverImage: mjdWhatsappInvitations.coverImage,
+    content: mjdWhatsappInvitations.content,
+  },
+  {
+    slug: "myjoyfullday-event-budgeting-kenya",
+    title: "Event Budgeting in Kenya: A Realistic Guide to Planning Costs",
+    date: "2025-07-12",
+    excerpt: "Kenyan events frequently run over budget — not because people are careless, but because the true costs aren't clear at the start. Here's how to budget accurately and where to find savings.",
+    tags: ["MyJoyfulDay", "Budget", "Events"],
+    coverImage: mjdBudgeting.coverImage,
+    content: mjdBudgeting.content,
+  },
+  {
+    slug: "myjoyfullday-house-party-planning",
+    title: "House Party Planning in Kenya: How to Host at Home Without the Stress",
+    date: "2025-07-13",
+    excerpt: "A well-run house party is one of the best event experiences you can create. Here's how to plan one in Kenya — from invitations and catering to managing the guest list and the morning after.",
+    tags: ["MyJoyfulDay", "House Party", "Kenya"],
+    coverImage: mjdHouseParty.coverImage,
+    content: mjdHouseParty.content,
+  },
+
+  // ─── New TellusJobs posts ─────────────────────────────────────────────────
+
+  {
+    slug: "tellusjobs-salary-negotiation-kenya",
+    title: "Salary Negotiation in Kenya: How to Get Paid What You're Worth",
+    date: "2025-07-01",
+    excerpt: "Most Kenyan professionals accept the first offer. The ones who negotiate — using the right tactics, with the right data — consistently earn more. Here's the complete guide.",
+    tags: ["TellusJobs", "Salary", "Career"],
+    coverImage: tjSalary.coverImage,
+    content: tjSalary.content,
+  },
+  {
+    slug: "tellusjobs-remote-work-kenya",
+    title: "Remote Work in Kenya: Opportunities, Challenges, and How to Succeed",
+    date: "2025-07-02",
+    excerpt: "Remote work has opened up global opportunities for Kenyan professionals. Here's how to find remote roles, build the right setup, and compete effectively for international positions.",
+    tags: ["TellusJobs", "Remote Work", "Kenya"],
+    coverImage: tjRemote.coverImage,
+    content: tjRemote.content,
+  },
+  {
+    slug: "tellusjobs-interview-tips-kenya",
+    title: "Job Interview Tips for Kenya: How to Walk In Confident and Walk Out With an Offer",
+    date: "2025-07-03",
+    excerpt: "Kenyan job interviews have their own dynamics. Here's what hiring managers actually look for, the most common mistakes, and how to prepare so thoroughly that nerves become irrelevant.",
+    tags: ["TellusJobs", "Interview", "Career"],
+    coverImage: tjInterview.coverImage,
+    content: tjInterview.content,
+  },
+  {
+    slug: "tellusjobs-resume-writing-kenya",
+    title: "CV Writing for Kenya: How to Write a CV That Gets You Interviews",
+    date: "2025-07-04",
+    excerpt: "Kenyan hiring managers see hundreds of CVs. Most are forgettable. Here's how to write one that stands out — what to include, what to cut, and how AI is changing the game.",
+    tags: ["TellusJobs", "CV", "Career"],
+    coverImage: tjResume.coverImage,
+    content: tjResume.content,
+  },
+  {
+    slug: "tellusjobs-tech-jobs-kenya-2025",
+    title: "Tech Jobs in Kenya 2025: What's Hiring, What's Paying, and How to Get In",
+    date: "2025-07-05",
+    excerpt: "Kenya's tech sector is one of Africa's most active. Here's the state of tech hiring in 2025 — the roles in demand, realistic salaries, the top employers, and how to break in.",
+    tags: ["TellusJobs", "Tech Jobs", "Kenya"],
+    coverImage: tjTech.coverImage,
+    content: tjTech.content,
+  },
+  {
+    slug: "tellusjobs-ngo-jobs-kenya",
+    title: "NGO Jobs in Kenya: How to Break In and Build a Career in the Development Sector",
+    date: "2025-07-06",
+    excerpt: "Kenya's development sector employs tens of thousands. Here's how to find NGO jobs, what hiring looks for, the realistic salary picture, and how TellusJobs aggregates development sector vacancies.",
+    tags: ["TellusJobs", "NGO", "Career"],
+    coverImage: tjNgo.coverImage,
+    content: tjNgo.content,
+  },
+  {
+    slug: "tellusjobs-career-change-kenya",
+    title: "Career Change in Kenya: How to Switch Industries Without Starting from Zero",
+    date: "2025-07-07",
+    excerpt: "Changing careers in Kenya feels daunting. The professionals who do it successfully share common approaches. Here's the practical guide to making a deliberate career change work.",
+    tags: ["TellusJobs", "Career Change", "Kenya"],
+    coverImage: tjCareerChange.coverImage,
+    content: tjCareerChange.content,
+  },
+  {
+    slug: "tellusjobs-linkedin-profile-kenya",
+    title: "LinkedIn Profile Optimisation for Kenyan Professionals: The Complete Guide",
+    date: "2025-07-08",
+    excerpt: "LinkedIn is how Kenyan professionals get found by recruiters. Here's how to optimise every section of your profile to attract the right opportunities — with Kenya-specific advice.",
+    tags: ["TellusJobs", "LinkedIn", "Career"],
+    coverImage: tjLinkedin.coverImage,
+    content: tjLinkedin.content,
+  },
+  {
+    slug: "tellusjobs-entry-level-jobs-kenya",
+    title: "Entry Level Jobs in Kenya: The Honest Guide for Fresh Graduates",
+    date: "2025-07-09",
+    excerpt: "Breaking into the Kenyan job market without experience is genuinely hard. Here's the honest picture — where entry-level roles actually are, how to compete, and how to get your first break.",
+    tags: ["TellusJobs", "Entry Level", "Graduate"],
+    coverImage: tjEntry.coverImage,
+    content: tjEntry.content,
+  },
+  {
+    slug: "tellusjobs-graduate-jobs-kenya",
+    title: "Graduate Jobs in Kenya: What to Expect and How to Land Your First Role",
+    date: "2025-07-10",
+    excerpt: "University graduation in Kenya is both an achievement and the start of a competitive journey. Here's how to navigate the graduate job market with strategy rather than hope.",
+    tags: ["TellusJobs", "Graduate", "Kenya"],
+    coverImage: tjGraduate.coverImage,
+    content: tjGraduate.content,
+  },
+  {
+    slug: "tellusjobs-banking-finance-jobs-kenya",
+    title: "Banking and Finance Jobs in Kenya: Salaries, Requirements, and How to Get Hired",
+    date: "2025-07-11",
+    excerpt: "Kenya's banking sector is one of the most active employers of graduates. Here's the full picture of banking and finance careers in Kenya — roles, salaries, requirements, and hiring patterns.",
+    tags: ["TellusJobs", "Banking", "Finance"],
+    coverImage: tjBanking.coverImage,
+    content: tjBanking.content,
+  },
+  {
+    slug: "tellusjobs-remote-freelance-kenya",
+    title: "Remote Freelancing for Kenyan Professionals: How to Earn Internationally from Kenya",
+    date: "2025-07-12",
+    excerpt: "Kenyan freelancers are earning international rates from Nairobi, Mombasa, and Kisumu. Here's how to build a freelance career that crosses borders — platforms, rates, payment, and positioning.",
+    tags: ["TellusJobs", "Freelance", "Remote Work"],
+    coverImage: tjFreelance.coverImage,
+    content: tjFreelance.content,
+  },
+
+  // ─── New Tellus posts ─────────────────────────────────────────────────────
+
+  {
+    slug: "tellus-ai-productivity-kenya",
+    title: "How AI Is Transforming Productivity for Kenyan Professionals",
+    date: "2025-07-01",
+    excerpt: "AI is compressing the productivity gap in ways that matter specifically for Kenya's business landscape. Here's where the gains are largest and how Kenyan businesses are capturing them.",
+    tags: ["Tellus", "AI", "Productivity"],
+    coverImage: tAiProductivity.coverImage,
+    content: tAiProductivity.content,
+  },
+  {
+    slug: "tellus-whatsapp-business-api",
+    title: "WhatsApp Business API in Kenya: What It Is, How It Works, and How to Use It",
+    date: "2025-07-02",
+    excerpt: "The WhatsApp Business API is categorically different from the WhatsApp Business App. Here's everything Kenyan businesses need to know to access it, use it, and comply with its requirements.",
+    tags: ["Tellus", "WhatsApp", "API"],
+    coverImage: tWhatsappApi.coverImage,
+    content: tWhatsappApi.content,
+  },
+  {
+    slug: "tellus-n8n-workflow-automation",
+    title: "n8n Workflow Automation for Kenyan Businesses: A Complete Guide",
+    date: "2025-07-03",
+    excerpt: "n8n is one of the most powerful and affordable workflow automation platforms for Kenyan SMEs. Here's what it is, how it works, and the automation patterns that produce the highest returns.",
+    tags: ["Tellus", "n8n", "Automation"],
+    coverImage: tN8n.coverImage,
+    content: tN8n.content,
+  },
+  {
+    slug: "tellus-mpesa-api-integration",
+    title: "M-Pesa API Integration (Daraja): A Developer's Guide for Kenyan Applications",
+    date: "2025-07-04",
+    excerpt: "The Daraja API is the most important payment integration any Kenyan developer can build. Here's the complete guide — from account setup through STK Push implementation and common gotchas.",
+    tags: ["Tellus", "M-Pesa", "API"],
+    coverImage: tMpesa.coverImage,
+    content: tMpesa.content,
+  },
+  {
+    slug: "tellus-automation-small-business-kenya",
+    title: "Automation for Small Businesses in Kenya: Where to Start and What to Prioritise",
+    date: "2025-07-05",
+    excerpt: "Practical, affordable automation is more accessible to Kenyan SMEs than ever. Here's where automation delivers the most value, which tools work, and how to start without being overwhelmed.",
+    tags: ["Tellus", "Automation", "SME"],
+    coverImage: tSmallBiz.coverImage,
+    content: tSmallBiz.content,
+  },
+  {
+    slug: "tellus-future-of-work-kenya",
+    title: "The Future of Work in Kenya: AI, Automation, and What It Means for Kenyan Professionals",
+    date: "2025-07-06",
+    excerpt: "Which roles are most exposed to AI? Which are protected? What new work is being created? A grounded assessment of how AI and automation are changing work in Kenya.",
+    tags: ["Tellus", "AI", "Future of Work"],
+    coverImage: tFutureWork.coverImage,
+    content: tFutureWork.content,
+  },
+  {
+    slug: "tellus-customer-support-automation",
+    title: "Customer Support Automation for Kenyan Businesses: Scale Without Scaling Headcount",
+    date: "2025-07-07",
+    excerpt: "Automation lets Kenyan businesses handle 3–5x the inquiry volume with the same team — because it handles repetitive inquiries while humans focus on the conversations that actually need them.",
+    tags: ["Tellus", "Customer Support", "Automation"],
+    coverImage: tCxAutomation.coverImage,
+    content: tCxAutomation.content,
+  },
+  {
+    slug: "tellus-ecommerce-automation-kenya",
+    title: "E-Commerce Automation in Kenya: From Order to Delivery Without Manual Effort",
+    date: "2025-07-08",
+    excerpt: "Manual e-commerce operations don't scale. Here's how automation transforms every stage of the Kenyan e-commerce order lifecycle — from M-Pesa payment to delivery confirmation.",
+    tags: ["Tellus", "E-Commerce", "Automation"],
+    coverImage: tEcommerce.coverImage,
+    content: tEcommerce.content,
+  },
+  {
+    slug: "tellus-ai-tools-kenyan-business",
+    title: "The Best AI Tools for Kenyan Businesses in 2025: A Practical Evaluation",
+    date: "2025-07-09",
+    excerpt: "A clear-eyed assessment of which AI tools are worth using for Kenyan businesses — what each does well, what it costs, and how it fits the Kenyan context.",
+    tags: ["Tellus", "AI Tools", "Kenya"],
+    coverImage: tAiTools.coverImage,
+    content: tAiTools.content,
+  },
+  {
+    slug: "tellus-building-whatsapp-bots-business",
+    title: "Building WhatsApp Bots for Business: The Complete Technical and Strategic Guide",
+    date: "2025-07-10",
+    excerpt: "WhatsApp bots are the most impactful technology investment most Kenyan businesses can make. Here's everything — strategic decisions, technical approaches, and conversation design principles.",
+    tags: ["Tellus", "WhatsApp", "Chatbot"],
+    coverImage: tWaBots.coverImage,
+    content: tWaBots.content,
+  },
+  {
+    slug: "tellus-smart-notifications-productivity",
+    title: "Smart Notifications vs. Notification Overload: How Tellus Decides What You Need to Know",
+    date: "2025-07-11",
+    excerpt: "The problem isn't notifications — it's undiscriminating notifications. Here's the philosophy behind Tellus's notification intelligence and the architecture that makes context-awareness work.",
+    tags: ["Tellus", "Productivity", "Notifications"],
+    coverImage: tSmartNotif.coverImage,
+    content: tSmartNotif.content,
+  },
+  {
+    slug: "tellus-startup-tech-stack-kenya",
+    title: "The Kenyan Startup Tech Stack in 2025: What to Build With and Why",
+    date: "2025-07-12",
+    excerpt: "Technology stack decisions made early create the foundation for everything else. Here's the stack that most Kenyan startups should use — and the principles that should guide the choice.",
+    tags: ["Tellus", "Tech Stack", "Startup"],
+    coverImage: tTechStack.coverImage,
+    content: tTechStack.content,
+  },
+  {
+    slug: "tellus-data-privacy-africa",
+    title: "Data Privacy in Africa: What Kenyan Businesses and Professionals Need to Know",
+    date: "2025-07-13",
+    excerpt: "Kenya's Data Protection Act places clear legal obligations on organisations that process personal data. Here's what the law requires and how AI and automation tools fit within it.",
+    tags: ["Tellus", "Data Privacy", "Kenya"],
+    coverImage: tPrivacy.coverImage,
+    content: tPrivacy.content,
+  },
+  {
+    slug: "tellus-ai-vs-traditional-tools",
+    title: "AI Tools vs. Traditional Business Software: What Kenyan Businesses Should Actually Use",
+    date: "2025-07-14",
+    excerpt: "AI is not always the answer. A clear-eyed view of where AI genuinely outperforms traditional tools, where traditional tools are still better, and where combining both produces the best outcomes.",
+    tags: ["Tellus", "AI", "Business Tools"],
+    coverImage: tAiVsTraditional.coverImage,
+    content: tAiVsTraditional.content,
+  },
+
+  // ─── AutoShine posts ──────────────────────────────────────────────────────
+
+  {
+    slug: "autoshine-car-wash-nairobi-guide",
+    title: "The Complete Guide to Car Wash Services in Nairobi: Finding the Best, Knowing What to Expect",
+    date: "2025-07-01",
+    excerpt: "Nairobi's car wash ecosystem spans everything from informal roadside operators to professional detailing studios. Here's how to navigate it and why AutoShine makes it easier.",
+    tags: ["AutoShine", "Nairobi", "Car Wash"],
+    coverImage: asNairobiGuide.coverImage,
+    content: asNairobiGuide.content,
+  },
+  {
+    slug: "autoshine-car-detailing-kenya",
+    title: "Car Detailing in Kenya: What It Is, Why It Matters, and What to Expect",
+    date: "2025-07-02",
+    excerpt: "Car detailing goes far beyond a car wash. Here's what professional detailing actually involves in Kenya, the different service levels available, and how to find a genuinely qualified detailer.",
+    tags: ["AutoShine", "Detailing", "Kenya"],
+    coverImage: asDetailing.coverImage,
+    content: asDetailing.content,
+  },
+  {
+    slug: "autoshine-mobile-car-wash-kenya",
+    title: "Mobile Car Wash Services in Kenya: Convenience That Comes to You",
+    date: "2025-07-03",
+    excerpt: "AutoShine's mobile car wash brings professional-quality washing to your home, office, or parking lot. Here's how it works, what services are available, and why it's the smart choice for Nairobi drivers.",
+    tags: ["AutoShine", "Mobile", "Car Wash"],
+    coverImage: asMobile.coverImage,
+    content: asMobile.content,
+  },
+  {
+    slug: "autoshine-car-maintenance-tips-kenya",
+    title: "Car Maintenance Tips for Kenyan Drivers: Keeping Your Vehicle in Top Condition",
+    date: "2025-07-04",
+    excerpt: "Kenya's roads, climate, and driving conditions create maintenance demands that standard schedules don't anticipate. Here's the practical maintenance guide every Kenyan car owner needs.",
+    tags: ["AutoShine", "Maintenance", "Kenya"],
+    coverImage: asMaintenance.coverImage,
+    content: asMaintenance.content,
+  },
+  {
+    slug: "autoshine-ceramic-coating-kenya",
+    title: "Ceramic Coating in Kenya: The Complete Guide to Long-Term Paint Protection",
+    date: "2025-07-05",
+    excerpt: "Ceramic coating is the most significant advancement in automotive paint protection of the past two decades. Here's everything about it — what it does, what it costs, and how to get it done right in Kenya.",
+    tags: ["AutoShine", "Ceramic Coating", "Detailing"],
+    coverImage: asCeramic.coverImage,
+    content: asCeramic.content,
+  },
+  {
+    slug: "autoshine-car-interior-cleaning",
+    title: "Car Interior Cleaning in Kenya: A Professional's Guide to a Truly Clean Cabin",
+    date: "2025-07-06",
+    excerpt: "Professional interior cleaning transforms the driving experience and protects upholstery value. Here's what it actually involves and why 'vacuum included' often means very little.",
+    tags: ["AutoShine", "Interior", "Detailing"],
+    coverImage: asInterior.coverImage,
+    content: asInterior.content,
+  },
+  {
+    slug: "autoshine-waterless-car-wash",
+    title: "Waterless Car Wash: What It Is, When to Use It, and the Truth About Kenyan Roads",
+    date: "2025-07-07",
+    excerpt: "Waterless washing is genuinely useful in the right situations and genuinely damaging in the wrong ones. Here's the honest guide for Kenyan car owners.",
+    tags: ["AutoShine", "Waterless", "Car Wash"],
+    coverImage: asWaterless.coverImage,
+    content: asWaterless.content,
+  },
+  {
+    slug: "autoshine-car-polish-wax-kenya",
+    title: "Car Polishing and Waxing in Kenya: Understanding Paint Enhancement and Protection",
+    date: "2025-07-08",
+    excerpt: "Polish and wax are two of the most confused concepts in car care. Here's what each actually does, when you need which, and the products worth using in Kenya.",
+    tags: ["AutoShine", "Polish", "Wax"],
+    coverImage: asPolishWax.coverImage,
+    content: asPolishWax.content,
+  },
+  {
+    slug: "autoshine-fleet-car-washing-kenya",
+    title: "Fleet Car Washing in Kenya: Managing Vehicle Presentation Across a Corporate Fleet",
+    date: "2025-07-09",
+    excerpt: "Corporate vehicle presentation is a dimension of brand management that many Kenyan businesses underinvest in. Here's how professional fleet washing programmes work and why they're worth it.",
+    tags: ["AutoShine", "Fleet", "Corporate"],
+    coverImage: asFleet.coverImage,
+    content: asFleet.content,
+  },
+  {
+    slug: "autoshine-start-car-wash-business-kenya",
+    title: "How to Start a Car Wash Business in Kenya: A Complete Guide",
+    date: "2025-07-10",
+    excerpt: "Car washing is one of Kenya's most accessible and resilient businesses. Here's the complete guide from initial planning through operation — models, costs, location, equipment, staffing, and pricing.",
+    tags: ["AutoShine", "Business", "Kenya"],
+    coverImage: asStartBiz.coverImage,
+    content: asStartBiz.content,
+  },
+  {
+    slug: "autoshine-eco-friendly-car-wash",
+    title: "Eco-Friendly Car Washing in Kenya: Water Conservation and Environmental Responsibility",
+    date: "2025-07-11",
+    excerpt: "Kenya faces real water stress. Here's how eco-friendly car washing reduces water consumption, what products minimise environmental impact, and how AutoShine approaches environmental responsibility.",
+    tags: ["AutoShine", "Eco-Friendly", "Water"],
+    coverImage: asEco.coverImage,
+    content: asEco.content,
+  },
+  {
+    slug: "autoshine-car-scratch-removal-kenya",
+    title: "Car Scratch Removal in Kenya: What Can Be Fixed, What Can't, and How to Fix It",
+    date: "2025-07-12",
+    excerpt: "Many scratches that look serious can be polished away. Others require professional bodywork. Here's how to assess what you're dealing with and what your options are.",
+    tags: ["AutoShine", "Scratch", "Paint"],
+    coverImage: asScratch.coverImage,
+    content: asScratch.content,
+  },
+  {
+    slug: "autoshine-windshield-care-kenya",
+    title: "Windshield and Glass Care for Kenyan Drivers: Seeing Clearly and Staying Safe",
+    date: "2025-07-13",
+    excerpt: "Your windshield is your most critical safety component after your brakes. Here's how to clean it properly, deal with chips promptly, and keep glass in condition to see Kenya's roads clearly.",
+    tags: ["AutoShine", "Windshield", "Safety"],
+    coverImage: asWindshield.coverImage,
+    content: asWindshield.content,
+  },
+  {
+    slug: "autoshine-tyre-care-kenya",
+    title: "Tyre Care for Kenyan Drivers: Safety, Maintenance, and Making the Right Choice",
+    date: "2025-07-14",
+    excerpt: "Tyres are the only contact between your vehicle and Kenya's demanding roads. Here's the complete guide to tyre pressure, tread depth, selection, rotation, and what AutoShine checks at every service.",
+    tags: ["AutoShine", "Tyres", "Safety"],
+    coverImage: asTyres.coverImage,
+    content: asTyres.content,
+  },
+  {
+    slug: "autoshine-rainy-season-car-care",
+    title: "Car Care During Kenya's Rainy Season: What Every Driver Needs to Know",
+    date: "2025-07-15",
+    excerpt: "Rain doesn't clean your car — it deposits acidic compounds that etch paint if left to dry. Here's the complete guide to protecting your vehicle through Kenya's long and short rains.",
+    tags: ["AutoShine", "Rainy Season", "Kenya"],
+    coverImage: asRainy.coverImage,
+    content: asRainy.content,
+  },
+  {
+    slug: "autoshine-car-wash-frequency-kenya",
+    title: "How Often Should You Wash Your Car in Kenya? A Practical Guide",
+    date: "2025-07-16",
+    excerpt: "The answer depends on where you drive and how. Here's the specific washing frequency for every Kenyan driving situation — from daily Nairobi commuters to coastal residents to rural drivers.",
+    tags: ["AutoShine", "Car Wash", "Kenya"],
+    coverImage: asFrequency.coverImage,
+    content: asFrequency.content,
+  },
+  {
+    slug: "autoshine-luxury-car-detailing-kenya",
+    title: "Luxury Car Detailing in Kenya: White Glove Care for High-Value Vehicles",
+    date: "2025-07-17",
+    excerpt: "Luxury vehicles require specialist knowledge, techniques, and products. Here's how AutoShine's luxury detailing service handles Nairobi's most valuable vehicles — and what makes it different.",
+    tags: ["AutoShine", "Luxury", "Detailing"],
+    coverImage: asLuxury.coverImage,
+    content: asLuxury.content,
+  },
+  {
+    slug: "autoshine-nairobi-car-care-traffic",
+    title: "How Nairobi Traffic Affects Your Car: What to Know and How to Protect Your Vehicle",
+    date: "2025-07-18",
+    excerpt: "Stop-and-go Nairobi traffic is harder on vehicles than most drivers realise — mechanically, externally, and for interior air quality. Here's what's happening and how to counteract it.",
+    tags: ["AutoShine", "Nairobi", "Traffic"],
+    coverImage: asTraffic.coverImage,
+    content: asTraffic.content,
+  },
+  {
+    slug: "autoshine-subscription-car-wash",
+    title: "AutoShine Subscription Car Wash Plans: Regular Care Without the Hassle",
+    date: "2025-07-19",
+    excerpt: "AutoShine subscriptions make professional car care automatic — set your frequency, set your location, and your vehicle gets washed on schedule with no booking effort required.",
+    tags: ["AutoShine", "Subscription", "Car Wash"],
+    coverImage: asSubscription.coverImage,
+    content: asSubscription.content,
+  },
+  {
+    slug: "autoshine-best-car-wash-products-kenya",
+    title: "The Best Car Wash Products in Kenya: A Professional's Guide to What Actually Works",
+    date: "2025-07-20",
+    excerpt: "An honest assessment of car care products available in Kenya — what categories matter, what to look for, which brands are worth the price, and where to source professional products in Nairobi.",
+    tags: ["AutoShine", "Products", "Car Care"],
+    coverImage: asProducts.coverImage,
+    content: asProducts.content,
   },
 ];

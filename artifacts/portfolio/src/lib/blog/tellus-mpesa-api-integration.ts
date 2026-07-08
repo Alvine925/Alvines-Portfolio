@@ -72,13 +72,13 @@ Daraja sends results to a URL you provide (the callback/result URL). This must b
 - Publicly accessible (not localhost)
 - Returns a 200 status code when it receives the callback
 
-For development, use ngrok to expose localhost to the internet: `ngrok http 3000`
+For development, use ngrok to expose localhost to the internet: \`ngrok http 3000\`
 
 ## Authenticating with the Daraja API
 
 All Daraja API calls require OAuth 2.0 authentication. The process:
 
-1. Base64-encode your Consumer Key and Consumer Secret: `base64(consumerKey:consumerSecret)`
+1. Base64-encode your Consumer Key and Consumer Secret: \`base64(consumerKey:consumerSecret)\`
 2. Call the OAuth token endpoint with this encoded credential
 3. Receive an access_token valid for 60 minutes
 4. Include this token in all subsequent API calls
@@ -116,9 +116,9 @@ The STK Push is the integration most Kenyan developers implement first. Here's t
 **Generate the password:**
 
 The STK Push password is:
-`base64(BusinessShortCode + Passkey + Timestamp)`
+\`base64(BusinessShortCode + Passkey + Timestamp)\`
 
-Where Timestamp is formatted as `YYYYMMDDHHMMSS`.
+Where Timestamp is formatted as \`YYYYMMDDHHMMSS\`.
 
 **Make the STK Push request:**
 
@@ -186,7 +186,7 @@ app.post('/mpesa/callback', (req, res) => {
 });
 \`\`\`
 
-Always return `{ ResultCode: 0, ResultDesc: 'Success' }` to acknowledge receipt of the callback, even if your processing fails. If you return an error status, M-Pesa may retry the callback multiple times.
+Always return \`{ ResultCode: 0, ResultDesc: 'Success' }\` to acknowledge receipt of the callback, even if your processing fails. If you return an error status, M-Pesa may retry the callback multiple times.
 
 ![Developer coding M-Pesa integration on laptop](https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80)
 
@@ -194,7 +194,7 @@ Always return `{ ResultCode: 0, ResultDesc: 'Success' }` to acknowledge receipt 
 
 These are the issues that cost Kenyan developers the most debugging time:
 
-**Phone number format:** Daraja requires the `254XXXXXXXXX` format (no + prefix, no leading 0). The most common error is submitting `0712345678` or `+254712345678`. Always normalise your phone number input before the API call.
+**Phone number format:** Daraja requires the \`254XXXXXXXXX\` format (no + prefix, no leading 0). The most common error is submitting \`0712345678\` or \`+254712345678\`. Always normalise your phone number input before the API call.
 
 \`\`\`javascript
 const formatPhone = (phone) => {
@@ -269,7 +269,7 @@ const queryStkPushStatus = async (checkoutRequestId) => {
 };
 \`\`\`
 
-Store the `CheckoutRequestID` returned when you initiate the STK push, and use it to query status if the callback doesn't arrive.
+Store the \`CheckoutRequestID\` returned when you initiate the STK push, and use it to query status if the callback doesn't arrive.
 
 ## Security Considerations for M-Pesa Integration
 

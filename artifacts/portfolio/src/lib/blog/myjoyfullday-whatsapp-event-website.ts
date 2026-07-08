@@ -127,4 +127,51 @@ To summarise the latency allocation across the full pipeline:
 **Total target: under 8 seconds (median), under 10 seconds (p90)**
 
 Meeting this target consistently, at scale, across the variability introduced by five external systems, is the engineering challenge at the core of MyJoyfulDay. It requires not just good code but the operational discipline of monitoring, alerting, circuit breaking, and constant measurement. The ten-second experience users love is built on thousands of small engineering decisions that are invisible when they work and very visible when they don't.
+
+## The Five External Systems and What Happens When Any One Fails
+
+Building a product that promises sub-ten-second delivery means every failure mode needs a well-designed fallback. Jitabi coordinates five external systems to convert a WhatsApp message into a live event page. Understanding each one and its failure behaviour explains the engineering decisions that determine user experience when things go wrong.
+
+**Meta WhatsApp Cloud API** receives the incoming message via webhook and sends the outgoing response. If the webhook delivery fails (Meta retries up to three times over 60 seconds), Jitabi's idempotency layer ensures that a duplicate delivery of the same message does not create two events. Each incoming message is assigned a deduplication key on first receipt. Subsequent deliveries of the same message ID are acknowledged but not processed.
+
+**The LLM extraction service** converts the natural language message into a structured event object. If the LLM returns a response with confidence below threshold on any required field, Jitabi falls into clarification mode rather than guessing. If the LLM call times out (target 2 seconds, hard timeout at 4 seconds), the system sends the user a "just a moment" message and retries once. A second timeout triggers a graceful degradation path where the user is prompted to confirm each field manually.
+
+**Supabase** stores the event record and serves the event data for page generation. Supabase Postgres is configured with a read replica for page serving and a primary for writes. A write failure on the primary triggers an immediate retry with exponential backoff. A read failure during page generation falls back to the primary. Extended Supabase unavailability is the one scenario Jitabi has no graceful solution for - it is the single point of failure that would cause service interruption.
+
+**Next.js page generation** creates the static event page from the Supabase record. Pages are pre-rendered at write time and cached at the CDN edge. If the first render fails, it retries immediately. The CDN cache means that even if the origin goes down temporarily, already-generated event pages remain accessible.
+
+**The URL delivery message** sends the completed event URL back to the WhatsApp number that created it. This is the final step and has the simplest failure handling - if the delivery fails, the event record already exists with the creator's phone number attached, and a re-send can be triggered by the creator sending any message to Jitabi.
+
+![System architecture diagram showing Jitabi pipeline with failure recovery paths](https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=80)
+
+## Load Testing Findings From 50,000 Events
+
+At the start, the system was designed for moderate traffic with manual scaling expectations. By the time 50,000 events had been created, the load profile looked different from what had been anticipated.
+
+**Burst traffic is the dominant challenge, not sustained load.** Jitabi's traffic follows Kenyan social patterns - event creation spikes on Sunday evenings (families planning the week's events), on public holiday eves, and in the weeks before December holidays. A single burst can involve hundreds of simultaneous event creations. The system needs to handle these bursts without degraded response times, not just handle average daily volume.
+
+**The LLM call is the primary latency constraint.** Profiling the pipeline at peak load showed that 78% of the total sub-ten-second budget was consumed by the LLM extraction call. All other steps combined consumed 22%. Optimising non-LLM steps was therefore not the priority - managing LLM call latency and adding request queuing with intelligent batching where message intent is clearly standard was the higher-value engineering investment.
+
+**CDN caching eliminates the page serving load problem entirely.** Once a page is generated and cached at the edge, the subsequent million views of that page do not touch the origin server. The load curve that would otherwise be O(n) with event page views is effectively O(1) after the first generation.
+
+## What 50,000 Real Events Taught Us About NLP Edge Cases
+
+Processing 50,000 real Kenyan event creation messages revealed patterns that no synthetic test dataset could have predicted.
+
+Messages in Sheng, Kenya's urban youth language blend, work surprisingly well through the LLM extraction. Sheng incorporates Swahili, English, and various regional languages in ways that should challenge language models trained primarily on formal English. In practice, the semantic signal for event details is strong enough that the model extracts correctly even from heavily code-switched messages.
+
+The most frequent failure pattern was not the exotic language cases - it was simple familiar references. Messages like "the usual venue", "aunty's place", "my church" contain no extractable address information but are meaningful to the creator and their social circle. Jitabi's current approach accepts these as-is and surfaces them on the event page without trying to resolve them to a map address. This pragmatic approach was chosen over forcing a clarification question that would break the flow for 15% of users who use informal location references.
+
+![Real WhatsApp event creation messages showing Kenyan language patterns and Jitabi responses](https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=1200&q=80)
+
+## Monitoring, Alerting, and the On-Call Experience
+
+Running a consumer product where failures are immediately visible to users requires robust monitoring. Jitabi's monitoring stack covers latency, error rates, and user-facing outcome metrics simultaneously.
+
+The primary on-call alert is not technical - it is a user outcome metric. If the percentage of event creation attempts that complete within 15 seconds drops below 90%, the on-call engineer is paged. This user-facing metric captures all failure modes - whether the failure is in the LLM, the database, the page generation, or the delivery message - in a single number that reflects what users actually experience.
+
+Secondary alerts cover individual system components: LLM service error rate above 5%, Supabase connection failures, CDN cache miss rate anomalies, and WhatsApp webhook delivery failures. These secondary alerts help diagnose the cause once the primary alert has fired.
+
+The most useful monitoring addition came from observing production: tracking the clarification rate per time period. If the clarification rate suddenly increases, it means either the message quality has changed (new user cohort sending less structured messages) or the extraction model has degraded. This metric identified a regression in extraction quality after one LLM provider updated their model that would otherwise have been invisible in standard error rate metrics.
+
 `;

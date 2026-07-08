@@ -72,4 +72,45 @@ Dispute resolution is handled manually by the MyJoyfulDay team for all disputes 
 The vendor marketplace currently covers five categories: photography, catering, decor, entertainment (DJs and MCs), and venues. The next categories in the expansion queue  -  based on the frequency of unprompted Jitabi queries  -  are cake makers, hair and makeup, and event coordination services. Each expansion follows the same playbook: identify demand in the Jitabi conversation logs, manually recruit supply, validate the recommendation flow, then scale.
 
 The marketplace exists because users asked for it. That demand-first approach  -  building supply to serve demand that already exists rather than manufacturing demand to justify supply  -  is the only reason the cold-start problem did not kill it.
+
+## The Cold-Start Problem and How Jitabi Solved It
+
+Every two-sided marketplace faces the same chicken-and-egg problem: vendors will not join without event creators to serve, and event creators will not value the marketplace without vendors to discover. Most marketplace businesses solve this by picking one side and subsidising it - typically by paying vendors to join or by charging event creators below cost until vendor supply is established.
+
+MyJoyfulDay's approach was different because Jitabi created a demand signal before the marketplace existed. Within the first three months of Jitabi's operation, event creators started asking Jitabi unprompted questions like "where can I find a cake in Kisumu for Saturday?" and "who does good catering for 50 people in Westlands?" These questions were arriving in the Jitabi conversation flow with no vendor marketplace to answer them - Jitabi was returning a "coming soon" message.
+
+This demand signal - real, uncoerced, organic demand from users who were already engaged with the platform - was the evidence base for the marketplace investment. The cold-start problem was partially solved before the first vendor was approached: there was demonstrable demand to show them.
+
+The first vendor conversations were straightforward. "We have 500 event creators who asked for photography services last month and we told them we would have an answer for them soon. Do you want to be the first photographer we recommend when they ask?" That framing, backed by the actual demand data, converted nearly every vendor approached in the first wave.
+
+![Kenyan wedding vendors and event suppliers showing marketplace supply side recruitment](https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=80)
+
+## The Manual Onboarding Playbook
+
+The first 50 vendors on the MyJoyfulDay marketplace were onboarded manually. There was no self-serve vendor registration, no online form, no automated process. The team conducted individual conversations, helped vendors write their profiles, and in several cases arranged photography sessions to provide vendors with the professional images needed for their marketplace listing.
+
+This manual process was slow and not scalable. But it was intentional. Each manual onboarding was a quality control mechanism and a learning opportunity. The quality of early vendors established the standards that self-serve onboarding would later need to maintain. The conversations revealed what vendors cared about (customer quality, payment reliability, profile visibility), what they feared (bad reviews from events that went wrong for reasons outside their control), and what they needed to feel confident recommending the platform to other vendors.
+
+The transition to self-serve onboarding happened at 50 vendors. By that point, the quality bar was documented, the review system was in place, and there was enough social proof within vendor communities that new vendors arriving at the self-serve form understood what they were joining and why it was worth their time.
+
+## The 22 Percent Conversion That Validated the Model
+
+The first marketplace quality metric tracked was vendor-suggested to vendor-contacted: what percentage of event creators who saw a vendor recommendation in their Jitabi conversation went on to contact that vendor directly.
+
+The initial expectation was 10 to 15% - comparable to typical click-through rates on digital advertising. The actual rate was 22%. This was significantly higher than expected and reflected something specific about the context: vendor recommendations in Jitabi arrive at exactly the moment the creator is planning an event and actively thinking about vendors. The intent is at its peak. The recommendation is not an interruption but an answer to an active question.
+
+For context: a typical Google Ads campaign targeting Kenyan event planning keywords converts at 2 to 5% from click to contact. A Facebook or Instagram ad targeting event planners converts at 1 to 3%. The 22% Jitabi conversation conversion reflects the premium value of context-matched, intent-timed recommendations over interrupt advertising.
+
+![MyJoyfulDay vendor marketplace showing conversion rate comparison with other marketing channels](https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80)
+
+## Geographic Expansion From Kisumu to Nairobi
+
+MyJoyfulDay's vendor marketplace launched in Kisumu. The decision to start in Kisumu rather than Nairobi was deliberate: a smaller market with lower vendor competition allowed the team to build a complete, high-quality vendor set in one city before attempting the larger and more complex Nairobi market.
+
+The Kisumu launch covered six vendor categories: photography, catering, cake and confectionery, decor, entertainment, and venue hire. Within four months, each category had at least five active vendors with reviews. The Kisumu vendor community was tight-knit enough that quality vendors referred other quality vendors, reducing the manual outreach burden significantly.
+
+The Nairobi expansion used the Kisumu playbook but moved faster, benefiting from process documentation, lessons learned, and the credibility of a working marketplace in another city. The initial Nairobi focus was Karen, Westlands, and Kileleshwa - suburbs with high MyJoyfulDay event creation rates and established event vendor communities.
+
+The expansion to other cities (Mombasa, Nakuru, Eldoret) is ongoing, with each city being approached after its MyJoyfulDay event creation volume crosses a threshold that suggests sufficient vendor demand to make marketplace investment worthwhile.
+
 `;

@@ -85,4 +85,59 @@ This is a genuine disadvantage for job seekers trying to prioritise their applic
 The pattern across the data shows no meaningful trend toward increased transparency in the private sector. If anything, private sector salary disclosure has remained flat while the development sector  -  partly driven by donor transparency requirements  -  has improved modestly.
 
 What TellusJobs can do in the absence of direct salary data is leverage its accumulated posting history to provide estimated salary ranges based on comparable roles, employer, seniority level, and sector  -  giving candidates a data-informed basis for prioritisation even when the employer hasn't disclosed compensation directly.
+
+## The Technical Reality of Aggregating Kenya's Job Market
+
+Building a reliable aggregation layer across 10+ Kenyan job portals means solving a different technical problem for each source. No two portals expose their data in the same way, update at the same frequency, or respond to the same scraping approaches.
+
+LinkedIn presents the most significant challenge: it is the most valuable source for certain candidate profiles but the most aggressively anti-scraping platform in the market. TellusJobs accesses LinkedIn through their official API for partner integrations and through the public search API where available, rather than through direct scraping. This limits coverage to roles posted publicly but ensures compliance with LinkedIn's terms of service.
+
+BrighterMonday has a more accessible structure and provides the highest volume of Kenya-specific postings. The site updates multiple times daily and has a sufficiently consistent HTML structure that the TellusJobs parser handles it reliably. The main challenge is stale posting detection - BrighterMonday does not always remove filled positions promptly, creating a persistent population of posts that appear active but are no longer accepting applications.
+
+Government portals present a different challenge: inconsistent update schedules, PDF-based job advertisements that require document parsing rather than HTML scraping, and public service commission advertisement formats that vary significantly between ministries. TellusJobs handles PDF advertisements through optical character recognition and document parsing, which works well for clearly formatted PDFs but struggles with scanned document PDFs where text is not machine-readable.
+
+![TellusJobs technical aggregation system showing multi-source job portal monitoring and parsing](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80)
+
+## The Stale Posting Problem in Kenya's Job Market
+
+One of the most frustrating experiences in Kenyan job searching is investing time in preparing an application for a role, submitting it, and receiving no response because the role was filled weeks before the posting was removed. TellusJobs' stale posting detection system addresses this directly.
+
+The system tracks each posting across multiple signals to estimate whether it is still actively accepting applications:
+
+**Employer career page cross-reference:** If the role is no longer visible on the employer's own career page but still live on aggregators, the role is likely filled. This is the most reliable stale detection signal.
+
+**Application button status:** Some portals change the application button state when a role closes. TellusJobs monitors these states and updates role status accordingly.
+
+**Historical posting duration:** Based on 12 months of data, TellusJobs has established typical posting durations by sector and seniority. A senior finance role that has been visible for 45 days when the sector median is 21 days is flagged for stale review.
+
+**Employer response patterns:** Employers that consistently remove postings promptly are treated differently from employers that historically leave filled postings visible. The stale confidence score adjusts based on the employer's historical behaviour.
+
+Roles flagged as potentially stale are shown with a warning indicator in the TellusJobs feed, and users can filter to show only recently posted or recently verified active roles.
+
+## Sector-by-Sector Insights From the Data
+
+One year of aggregation data across 10+ Kenyan job portals provides a market-level view of the job posting landscape that no individual portal gives. Selected findings:
+
+**Banking and financial services** post with the highest consistency to their own career portals and rarely to aggregators below the management level. Entry-level banking roles (tellers, relationship officers) appear on BrighterMonday reliably. Management roles above senior associate level predominantly use recruitment agencies or internal posting.
+
+**NGO and development sector** is almost entirely invisible on mainstream portals. Reliefweb and Devex contain roles paying 50 to 150% premium over equivalent private sector roles, yet these platforms are used by a small fraction of the candidate pool that would qualify for these roles. The information asymmetry here is large and addressable.
+
+**Technology sector** is the most LinkedIn-heavy, with the majority of software engineering, product, and data roles posted primarily on LinkedIn with secondary posting to company career pages. Tech companies also have the highest prevalence of remote-first or remote-inclusive roles - important for Kenya's growing technology talent pool outside Nairobi.
+
+**FMCG and consumer goods** rely heavily on recruitment agencies for senior roles and use BrighterMonday and company career pages for field sales and distribution management positions. The informal recruitment channel through distributor networks is significant for roles in trade marketing and sales but largely opaque to any platform.
+
+![Data analysis showing Kenyan job market sector distribution across different posting platforms](https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80)
+
+## Searching TellusJobs Most Effectively
+
+Understanding the aggregation methodology helps users search more effectively.
+
+**Use the "source" filter strategically.** TellusJobs allows filtering by source portal. If you are specifically targeting development sector roles, filtering for Reliefweb and Devex sources gives you those exclusively. If you are specifically targeting company career page postings (the exclusive listing category), filtering for that source gives you roles invisible on any other aggregator.
+
+**Set your freshness preference.** By default, TellusJobs shows roles posted in the last 30 days. For high-competition roles in finance and technology, narrowing to the last seven days prioritises the most recent postings where application competition is still building. For specialist or niche roles, extending to 60 or 90 days may surface older postings still accepting applications.
+
+**Use the sector filter broadly then narrow.** If you are a finance professional, start with the Finance and Accounting sector filter to see the full market, then use sub-filters to narrow. Many relevant roles appear under General Management or Operations rather than Finance - filtering too narrowly at the outset misses these.
+
+**Save searches and set up alerts.** The most effective TellusJobs users save their primary search configuration and receive daily email or WhatsApp alerts when new matching roles appear. This replaces the need for daily manual checking while ensuring you see relevant new postings within 24 hours of posting.
+
 `;

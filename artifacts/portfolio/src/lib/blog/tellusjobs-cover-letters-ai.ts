@@ -85,4 +85,55 @@ Cover letter quality is bounded by CV quality. A vague CV produces vague cover l
 **Missing dates and progression**  -  the system uses career progression signals to calibrate seniority. CVs with inconsistent or missing dates make seniority assessment less accurate, which in turn makes the cover letter less well-targeted to the level of the role.
 
 Investing time in CV quality before relying on AI-generated application materials is not optional  -  it's the prerequisite for the system to perform well. A strong CV is the foundation on which good cover letters, tailored applications, and ultimately successful applications are built.
+
+## What Kenyan Recruiters See When They Open Your Application
+
+Before discussing how TellusJobs generates cover letters, understanding what happens to your cover letter on the receiving end shapes everything about how it should be written.
+
+A Kenyan recruiter at a medium to large organisation typically processes 50 to 200 applications per open role. For senior or specialist roles, this can reach 500+. The initial screening - the read-or-skip decision - takes an average of 15 to 20 seconds per application. In that window, the recruiter scans for evidence that the candidate understood the role, has relevant experience, and can communicate professionally in writing.
+
+Generic AI-generated cover letters fail this scan immediately. The tells are visible within three sentences: "I am writing to express my keen interest in the [role title] position at [company]" followed by a statement about the company's impressive reputation followed by a generic capability claim. This formula is so common that experienced recruiters report the same slight irritation they feel when receiving mass-market promotional mail - the sense that no one put thought into this specific communication for this specific recipient.
+
+The professional cost of a generic AI cover letter is not just a failed application. In Kenya's professional community, where recruiters are often well-connected and industries are relatively small, a pattern of generic applications from the same candidate creates a reputation signal that circulates. Thoughtful applications, conversely, are remembered and mentioned.
+
+![Professional cover letter review process at a Kenyan company showing recruiter reading applications](https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80)
+
+## How TellusJobs Builds a Cover Letter That Actually Works
+
+TellusJobs' cover letter generation begins not with the job description but with the candidate's CV. The system extracts accomplishment statements - specific, quantified, or clearly described professional achievements - from the work experience section. These are the raw material for the letter. A cover letter built from your real accomplishments is immediately distinguishable from a generic template.
+
+The job description is then analysed for priority requirements. Not all stated requirements in a job description are equally important. The system identifies requirements that appear multiple times, requirements that appear in the role title or first paragraph, and requirements that use strong language ("essential", "required", "must have"). These high-priority requirements become the structural framework for the letter.
+
+The matching step maps candidate accomplishments to job requirements. Where there is strong evidence in the CV that the candidate can meet a priority requirement, the system constructs a specific statement using the candidate's own documented evidence. "Your requirement for experience in financial reporting is something I have built over six years: in my most recent role I owned the end-to-end monthly close process for a 12-entity consolidated group, reducing reporting time from 18 days to 11 days."
+
+This specificity is what differentiates a TellusJobs cover letter from a generic AI letter. The statement above is not template language - it uses the candidate's actual experience (six years, 12-entity group, 18 to 11 days) matched to a specific stated requirement. A recruiter reading this in 15 seconds sees immediately that this application is worth reading further.
+
+## Kenyan Professional Writing Conventions By Sector
+
+The appropriate tone and structure for a cover letter varies significantly across Kenya's employment sectors. TellusJobs' generation model is calibrated for sector-specific conventions.
+
+**Banking and financial services:** Formal tone, precise financial language, quantified achievements mandatory, references to specific banking regulations or frameworks appropriate for senior roles. Opening that acknowledges the institution's specific market position (not generic praise but specific, factual acknowledgement). Length: no more than one page.
+
+**NGO and development sector:** Mission-aligned opening that demonstrates genuine understanding of the organisation's focus area, not just its name. Evidence of M&E experience for programme roles, or administrative and operational precision for support roles. Donor awareness for senior roles - naming the relevant institutional donors and demonstrating understanding of their requirements signals insider knowledge. Length: one to one and a half pages for senior roles.
+
+**Technology sector:** Concise, direct, links to portfolio or GitHub as supplementary evidence. Skills specificity (naming specific languages, frameworks, or tools rather than "strong technical background"). Culture fit signals through writing style - informal tech companies signal this in their job descriptions and expect it reflected in applications. Length: half to one page.
+
+**Government and parastatals:** Formal government correspondence format is expected. Opening follows the standard "I write to apply for..." format. Education credentials and professional certifications given prominent placement. Chronological career narrative. Length: one to one and a half pages.
+
+![Sector-specific cover letter formats for Kenya showing banking NGO tech and government examples](https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=1200&q=80)
+
+## The 20 Percent Human Edit
+
+TellusJobs' cover letter is designed as a starting point that requires a human editing pass before submission. The system generates the structural core and the evidence mapping; the candidate adds the elements that no AI can provide.
+
+The specific additions that most improve a TellusJobs-generated cover letter:
+
+**Personal connection to the organisation or role:** Why this specific company, at this specific moment in your career? A sentence that answers this question honestly - "I have followed [company]'s expansion into the SME lending space and I believe my background in SME credit risk is directly relevant to what you are building" - personalises the letter in a way that template AI cannot.
+
+**A specific recent development at the company:** Referencing a recent news item, product launch, or strategic initiative demonstrates that you are applying because of genuine interest in this specific company, not because it appeared in your TellusJobs feed. One well-chosen specific detail does more work than three paragraphs of generic praise.
+
+**Voice adjustment:** TellusJobs aims for a professionally warm tone that works for most contexts. If your natural professional communication style is more formal, more casual, or has specific linguistic patterns, adjust the language to match. A letter that does not sound like you will not survive a face-to-face interview where the contrast between the letter and the person creates a disconnect.
+
+**Closing paragraph:** The TellusJobs closing is competent but generic. Write your own - one or two sentences that express genuine enthusiasm for the opportunity and a specific request (to discuss the role further, to share additional work examples, to schedule a call).
+
 `;

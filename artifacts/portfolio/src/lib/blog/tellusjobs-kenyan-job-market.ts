@@ -77,4 +77,49 @@ The data shows that a significant minority of professional roles are posted excl
 Most importantly, it shows that comprehensive coverage of the Kenyan job market is not achievable through any single platform. It requires systematic aggregation, intelligent deduplication, and continuous monitoring of sources that range from well-structured APIs to individual employer career pages.
 
 This is what TellusJobs is built to solve. The fragmentation of Kenya's job market is not a bug or a temporary inefficiency waiting to be corrected by market forces. It reflects the genuine diversity of the Kenyan hiring ecosystem  -  its multiple sectors, multiple organisation types, multiple geographic markets, and multiple professional communities. Effective job search in Kenya requires infrastructure that matches this complexity. The alternative is spending 200+ hours per job search navigating the fragmentation manually, and still missing a third of the relevant market.
+
+## The Exclusive Listing Problem Nobody Talks About
+
+The single most important insight from TellusJobs' first year of data collection is one that fundamentally changes how you should think about job searching in Kenya: the majority of roles at large Kenyan employers are never posted on any aggregator. They exist only on the company's own career page, in employee referral networks, or through direct recruitment agency mandates.
+
+This pattern holds across every major sector. Kenya's largest commercial banks - Equity, KCB, Co-operative, NCBA, Absa Kenya - post the majority of their open roles on their own career portals, with selective posting to LinkedIn for roles with international candidate pools and rare posting to aggregators for high-volume entry-level hiring. Their premium professional and leadership roles go directly to recruitment agencies or internal referral networks.
+
+The same applies to Kenya's major telecom operators, multinational FMCGs operating in Kenya, NGOs with existing staff referral cultures, and most professional services firms. The job boards see the tip of the iceberg - the roles where employers have either exhausted their preferred channels or need the breadth of an aggregator to fill entry-level volume.
+
+TellusJobs addresses this by including direct career page monitoring alongside portal aggregation. The system checks 150+ company career pages daily, surfacing roles that would otherwise only be discovered by manually checking each employer's website. This coverage of the exclusive listing market is the single largest differentiation from any other Kenyan job aggregator.
+
+![TellusJobs aggregation system showing multiple job portal sources and company career pages](https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80)
+
+## Time and Cognitive Cost of Manual Job Searching
+
+To understand why TellusJobs' aggregation provides real value, it helps to quantify what comprehensive manual searching costs.
+
+A complete daily check of Kenya's job market using only manual methods requires checking: LinkedIn (15 minutes including company page follows), BrighterMonday (10 minutes), your sector-specific board if applicable (10 minutes), 3 to 5 company career pages for target employers (20 to 30 minutes), NGO/development boards if relevant (15 minutes for Reliefweb, Devex), government PSC portal if relevant (10 minutes). Total: approximately 80 to 90 minutes per day.
+
+Across a three-month active job search at five days per week, this is 60 to 65 hours of time. At Kenya's median professional salary of approximately KES 80,000 per month, the implicit hourly rate is roughly KES 462. Sixty-five hours of job portal browsing represents KES 30,000 worth of professional time - more than a month's worth of TellusJobs subscription costs many times over.
+
+Beyond the time cost is the cognitive cost: 90 minutes of checking multiple interfaces, each with their own search mechanics and navigation patterns, each requiring you to remember what you checked last time, each requiring its own login management. This is meaningful decision fatigue that depletes cognitive resources needed for actual applications.
+
+## The Deduplication Problem at Scale
+
+When aggregating across 10+ sources, deduplication is a genuine technical challenge. The same role appears with different titles, different descriptions, and different closing dates across different portals. An "Operations Manager" role posted by an employer to LinkedIn, BrighterMonday, and their own career page appears three times in any naive aggregation.
+
+TellusJobs' deduplication system addresses this through employer-company-date fingerprinting combined with semantic similarity scoring. The first step identifies exact duplicates (same employer, same title, same approximate posting date). The second step uses semantic embedding comparison to identify near-duplicates where the same role has been posted with different title phrasing ("Finance Manager" vs "Head of Finance" for what is clearly the same role given employer, department, and requirements matching).
+
+After deduplication, the effective unique role count is 77% of the raw aggregated total - confirming the 23% duplicate rate that the team identified in the first year of data collection. Without deduplication, a user searching for finance roles in Nairobi would see the same role three or four times, obscuring the actual market size and wasting evaluation time.
+
+![TellusJobs deduplication system showing before and after job listing consolidation from multiple sources](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80)
+
+## Building a Job Search Strategy Around TellusJobs
+
+TellusJobs is most effective as the systematic foundation of a broader job search strategy. Here is the framework that the TellusJobs team recommends to users based on conversion data from users who received interview invitations.
+
+**Layer 1 (TellusJobs daily feed):** Spend 20 minutes per day reviewing the personalised match feed. Apply to roles in the top 20% of your match score within 48 hours of the posting appearing - applications submitted within 48 hours consistently outperform later applications.
+
+**Layer 2 (targeted company monitoring):** Identify 10 to 15 companies where you would genuinely want to work regardless of whether they are currently hiring. Follow their career pages. Check their LinkedIn company pages weekly for network signals. TellusJobs' company career page monitoring covers this automatically for companies in its database.
+
+**Layer 3 (network activation):** Apply for roles where you have a connection who can make an internal referral. A referral does not guarantee a job but statistically moves your application from the general pile to the "read carefully" pile at most large Kenyan employers. TellusJobs shows role-level LinkedIn network connections to help you identify relevant introductions.
+
+**Layer 4 (recruitment agency registration):** Register with two or three sector-specific recruitment agencies. These agencies have mandates for roles that never reach public posting. The registration time investment is 30 to 45 minutes per agency and covers a pipeline that TellusJobs cannot access.
+
 `;

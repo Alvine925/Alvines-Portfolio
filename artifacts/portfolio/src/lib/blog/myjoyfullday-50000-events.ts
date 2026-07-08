@@ -88,4 +88,49 @@ Second, we would instrument the clarification flow from day one. Understanding e
 Third, we would build the vendor marketplace concurrently with the event creation product, not after. The demand signal was there from the beginning  -  users were asking for vendor recommendations in their very first conversations with Jitabi. We left that signal on the floor for eight months while we focused on event creation. Those eight months represent a significant missed opportunity for vendor network growth.
 
 Fifty thousand events is a milestone. It is also a dataset. Every event in it contains a lesson about how people gather, how they communicate, and what they need when they want to bring others together. We are still learning from it.
+
+## The Event Type Breakdown Nobody Predicted
+
+Before building MyJoyfulDay, the assumption was that wedding-related events would dominate the platform. Kenya's wedding culture is elaborate, the vendor ecosystem is large, and the planning coordination requirements are high. Weddings seemed like the obvious use case.
+
+The actual data from 50,000 events told a different story. Birthdays account for approximately 38% of all events created. House parties are 22%. Baby showers are 15%. Community and church events are 12%. Weddings and formal celebrations make up only 13%.
+
+This distribution has significant product implications. Birthday and house party events are typically planned with short lead times - often less than a week, sometimes less than 48 hours. The value of getting a live event page up in under ten seconds is most acute for these spontaneous social occasions. If the planning window is four days, spending two hours manually designing and sharing an event page represents a significant portion of the available planning time.
+
+Weddings, despite being a smaller percentage of volume, represent disproportionate complexity and value - they have the longest planning horizons, the highest vendor spend, and the most guests to coordinate. The vendor marketplace feature was initially designed for wedding planners but quickly became valuable for the larger birthday and house party segment as well.
+
+![Event categories at MyJoyfulDay showing birthday, party, and wedding distribution across Kenya](https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80)
+
+## Sharing Velocity as a Product Metric
+
+One metric that standard event platform analytics did not anticipate as important turned out to be the most revealing signal about product-market fit: sharing velocity. How quickly after event creation does the creator share the event URL with potential guests?
+
+Median sharing velocity on MyJoyfulDay is four minutes after event creation. The creator receives the URL, often while still in the same WhatsApp conversation context they used to create the event, and shares it directly to relevant groups or individual contacts. This four-minute median means the product has found its way into a natural action sequence: the moment a social event is decided, the creator immediately tells people about it, and Jitabi is the mechanism for generating the shareable evidence.
+
+Compare this to traditional event planning tools where the step between deciding to have an event and having something shareable involves multiple form fields, an account creation, and learning a new interface. The sharing moment is deferred by hours or days, and some events that were decided never become shareable pages because the friction was too high to complete the form.
+
+The sharing velocity data also revealed an unexpected user segment: event creators who send the URL not to guests but to themselves. This segment is using Jitabi to create a permanent, shareable record of events they are attending rather than events they are organising. The event page serves as a calendar entry and a shareable reference.
+
+## Infrastructure Surprises at Scale
+
+Certain infrastructure challenges only appear above specific scale thresholds. The following patterns emerged between 10,000 and 50,000 events and were not visible during early testing.
+
+**Read replica lag under burst load:** Supabase read replicas replicate with sub-second lag under normal conditions. Under burst load (hundreds of simultaneous event creations), replica lag occasionally extended to two to three seconds. For event page serving - where the page is generated immediately after write - a two-second lag meant pages were sometimes served before the event data had replicated to the read replica. The fix was to write and immediately read from the primary for new events, falling back to the read replica after 30 seconds.
+
+**CDN cache warming:** When an event page is first generated, it must be served from the origin before the CDN caches it. For events that get shared immediately into large WhatsApp groups, the first 30 seconds after URL delivery can see hundreds of concurrent page requests before CDN caching kicks in. Adding a deliberate CDN cache pre-warming step (requesting the URL from multiple edge nodes immediately after generation) eliminated this origin overload pattern.
+
+**WhatsApp Business Account rate limits:** Meta imposes messaging rate limits based on Business Account quality ratings. As MyJoyfulDay's message volume grew, these limits became a real operational constraint. The fix was spreading volume across multiple phone numbers associated with the same Business Account, with intelligent routing to avoid any single number hitting rate limits.
+
+![MyJoyfulDay platform infrastructure handling 50,000 events and 1 million guest RSVPs](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80)
+
+## The Event That Changed How We Think About Edge Cases
+
+Among the 50,000 events on MyJoyfulDay, one category was never anticipated: funerals. A user sent Jitabi a message asking to create an event for a funeral announcement and burial service the following weekend.
+
+The system created the event page without issue - Jitabi has no content filtering that would distinguish a funeral from a birthday. But the experience of seeing a funeral announcement page generated through the same cheerful event creation flow, with the same design aesthetic and the same default "can't wait to see everyone!" tone in the reminder messages, made it obvious that the product was not designed for this use case.
+
+The response was not to block funeral events but to add an event type category that triggers a different tone calibration for Jitabi's responses, different default copy on the event page, and suppression of the "can't wait to celebrate!" language that works for birthdays and house parties but is deeply inappropriate for bereavement gatherings.
+
+This edge case became a principle: do not assume that the emotional register of your primary use case maps to all use cases. The platform serves real human occasions. Some of those occasions are not celebrations. The product needed to handle this with appropriate sensitivity.
+
 `;

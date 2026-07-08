@@ -87,4 +87,59 @@ This doesn't mean job boards are unimportant  -  they're the primary channel for
 **Always:** Network activation  -  direct outreach to contacts at target employers, LinkedIn connection maintenance, sector event attendance
 
 The job seeker who maintains this full toolkit is genuinely seeing most of the available market. The job seeker who only checks LinkedIn is seeing perhaps 25-30% of it.
+
+## What LinkedIn is Actually Good For in Kenya
+
+Before cataloguing LinkedIn's limitations in the Kenyan context, the genuine strengths deserve acknowledgement. Using a platform strategically means understanding what it does well as much as understanding what it does poorly.
+
+LinkedIn in Kenya is unambiguously strong for: multinational company roles across East Africa and beyond, financial services at the management level and above, consulting and professional services, technology sector roles, and passive visibility that leads to recruiter outreach. If you are a senior finance manager with a 2,000-connection LinkedIn network and active engagement with industry content, LinkedIn is working for you - jobs are coming to you rather than you searching for them.
+
+The platform's recruiter messaging infrastructure is genuinely valuable. Kenya's executive recruitment market uses LinkedIn InMail as a primary outreach channel. Being findable and having a complete, keyword-optimised profile is a career investment even when you are not actively searching.
+
+LinkedIn's company page follow feature - following 20 to 30 companies you are interested in and monitoring their job posts - surfaces a significant subset of roles that would otherwise require regular direct career page checks. The key limitation is algorithmic: following a company does not guarantee you see all their posts. The LinkedIn algorithm prioritises content from highly engaged accounts, which means smaller or less-active company pages reach fewer of their followers.
+
+![LinkedIn profile optimisation for Kenyan job seekers showing search visibility and recruiter outreach](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80)
+
+## The Development Sector Is Invisible on LinkedIn
+
+Kenya is one of the largest recipients of international development funding in sub-Saharan Africa. This funding sustains a large, sophisticated development and NGO sector with career opportunities ranging from field coordinator at NGO salary scale levels to senior management roles at six-figure dollar annual salaries. Most of these opportunities are entirely invisible on LinkedIn Kenya.
+
+Reliefweb is the primary platform for UN and international NGO roles globally, including all roles based in Kenya. UNDP Jobs is the portal for UN system roles specifically. Devex covers development sector roles with a professional community focus. The NGO coordination platform in Kenya (NGEC, various sector networks) has informal job boards that circulate roles within the sector community.
+
+These platforms together represent the largest invisible job market for qualified professionals in Kenya. An accountant with strong financial controls experience who applies only through LinkedIn and BrighterMonday is invisible to the USAID-funded budget management roles, the World Bank-funded project finance positions, and the bilateral donor technical advisor roles that would represent significant career and salary step-ups.
+
+Getting onto these platforms requires deliberate effort: creating profiles, understanding the sector vocabulary and application conventions, and following relevant organisations. TellusJobs aggregates Reliefweb and Devex postings into the main matching feed, making this previously segmented market visible alongside the mainstream options.
+
+## Professional Association Job Boards: The Underused Resource
+
+Kenya's professional associations operate job boards that receive high-quality, targeted postings for members of each profession. These boards are used almost exclusively by practitioners who are already members of the relevant association - creating a less competitive application pool for informed candidates.
+
+**ICPAK (Institute of Certified Public Accountants of Kenya):** Accounting, finance, and audit roles posted by member companies and organisations. Salary ranges tend to be above-market because companies posting here are targeting qualified professionals with specific credentials.
+
+**LSK (Law Society of Kenya):** Legal roles across private practice, in-house legal departments, and public sector legal positions. The LSK job board is the primary channel for legal industry hiring outside of headline law firm roles.
+
+**IHRM (Institute of Human Resource Management):** HR business partner, recruitment specialist, learning and development, and compensation and benefits roles. Organisations posting here are specifically targeting credentialed HR professionals.
+
+**AAK (Architectural Association of Kenya), EBK (Engineers Board of Kenya):** Built environment and engineering roles. These association boards carry roles that general portals rarely surface and that are primarily accessible to registered professionals.
+
+**PRSK (Public Relations Society of Kenya), MMA (Marketing and Advertising Association of Kenya):** Marketing, communications, and PR roles. These boards are less actively maintained than the financial profession boards but worth monitoring for candidates in these sectors.
+
+TellusJobs is building integration with these association boards as a priority, which will surface this previously siloed job market in the main matching feed.
+
+![Professional association job boards in Kenya showing ICPAK LSK IHRM and other sector sources](https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80)
+
+## Building a Complete Kenya Job Search Toolkit for 2025
+
+Based on TellusJobs' data on where successful applications in each sector originate, here is the complete toolkit for different professional profiles:
+
+**Finance professional:** TellusJobs daily feed, direct monitoring of 5 to 10 target bank and financial institution career pages, ICPAK job board (active membership required), two specialist finance recruitment agencies (PriceWaterhouseCoopers' local talent advisory and the Kenya-based finance specialist recruiters), LinkedIn passive profile maintenance.
+
+**NGO and development sector:** TellusJobs daily feed (includes Reliefweb and Devex), direct Reliefweb account (set up saved searches with email alerts), USAID Careers, specific bilateral donor career portals (DFID/UK Aid, GIZ Kenya, AFD), sector-specific networks (KANGO, sector coordination bodies) for informal circulation.
+
+**Technology professional:** TellusJobs daily feed, LinkedIn (this is one sector where LinkedIn performs strongly), direct monitoring of Kenya's major tech employers (Safaricom, Equity Digital, Cellulant, Andela Kenya, various startups via Nairobi tech community channels), GitHub profile visibility, Stack Overflow Jobs for international roles accessible to Kenyan candidates.
+
+**Government and parastatal:** Public Service Commission portal (essential and frequently updated), specific ministry and parastatal career pages for your target agencies, gazette notices for advertised positions, professional body announcements for regulated professions.
+
+**Entry-level and graduate:** TellusJobs daily feed, BrighterMonday (highest volume for graduate entry roles), university career services (many large employers partner directly with universities for graduate intake), internship-to-permanent pathways at target employers.
+
 `;

@@ -91,4 +91,51 @@ TellusJobs' career changer mode explicitly extracts transferable competencies  -
 A 90% match score from TellusJobs means that across the weighted combination of skills alignment, seniority, sector experience, location, and requirements coverage, your profile and the job description are highly aligned semantically. It does not mean you will get the job  -  match scoring is about fit, not about interview performance, network connections, employer preferences for specific educational backgrounds, or the dozens of other factors that influence hiring outcomes.
 
 What the score does predict, based on benchmarking, is conversion from application to interview. High-match applications show meaningfully better application-to-interview conversion than low-match applications, even when the quality of the application materials is held constant. Applying to roles where you are genuinely well-matched is one of the highest-leverage actions a job seeker can take. TellusJobs' matching is designed to help you identify those roles faster and more reliably than manual review can.
+
+## Why Keyword Matching Fails the Kenyan Job Seeker
+
+Traditional job matching - the technology underlying most Kenyan job portals - compares words in a CV against words in a job description. This approach has a structural flaw: it privileges vocabulary consistency over substance. A candidate who has done substantial commercial finance work but describes it using business-oriented language rather than technical accounting vocabulary will score poorly against a role that uses specific accounting jargon in its requirements.
+
+In Kenya, this problem is amplified by several market-specific factors. Kenya's non-standardised job title landscape means that the same role carries different titles at different organisations - the Finance Manager at one company is called the Head of Finance at another and the Finance Controller at a third. Keyword matching treats these as different roles. Semantic matching recognises they are the same function.
+
+The development and NGO sector is particularly affected. International development organisations use a specific vocabulary - log frames, theory of change, M&E frameworks, indicators, beneficiaries - that differs from private sector vocabulary for essentially similar analytical and management work. A candidate moving from development to private sector (or vice versa) with strong relevant skills often scores poorly on keyword matching against roles in their target sector despite being highly qualified.
+
+TellusJobs' semantic embedding approach converts both the CV and the job description into dense numerical representations of their meaning, then measures how close those representations are to each other. This process captures semantic similarity - two texts that mean the same thing score highly regardless of whether they use the same words.
+
+![TellusJobs AI matching system showing semantic similarity score between CV and job description](https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80)
+
+## What the Matching Score Actually Means
+
+TellusJobs generates a match score from 0 to 100 for each candidate-role pairing. Understanding what drives this score - and what it does not capture - helps users interpret results correctly.
+
+The score is composed of four weighted dimensions: skills coverage (what percentage of the explicitly mentioned skills in the job description appear in the candidate's documented experience), seniority alignment (whether the experience level implied by the CV matches the level implied by the job description), sector experience (how much of the candidate's documented sector experience overlaps with the sector of the role), and requirement coverage (how many of the stated requirements in the job description are addressed somewhere in the CV).
+
+What the score does not capture: personal fit beyond what the documents express, cultural alignment, soft skills not explicitly documented in the CV, professional reputation, or network relationships. A 90% match score does not mean the candidate will get the job - it means the documented profile matches the documented requirements well. The human judgment layers in the hiring process will assess the dimensions the score does not reach.
+
+The practical guidance from TellusJobs' application success data: prioritise applications to roles scoring 75 or above, where the documented match is strong enough that the application is clearly justified. Roles scoring 50 to 75 are worth applying to if you have specific non-documented advantages (relevant network, specific project experience not reflected in the CV). Roles below 50 typically reflect a genuine mismatch between current experience and the role requirements.
+
+## The Career Changer Challenge and How Embeddings Help
+
+Career changers - candidates moving between sectors or significantly shifting function - are the group for which traditional keyword matching fails most completely. A commercial banker moving to a fintech role, a development sector M&E specialist moving to a private sector data analyst role, a teacher moving to a learning and development corporate role: these transitions involve genuine transferable skills that keyword matching cannot detect.
+
+Semantic embeddings help career changers because the model understands conceptual relationships between skills even when the vocabulary is different. Data analysis in a development organisation context (survey analysis, indicator tracking, report production) and data analysis in a private sector context (business intelligence, KPI tracking, management reporting) use different vocabulary but share significant conceptual overlap. The embedding model captures this overlap; keyword matching misses it.
+
+For career changers using TellusJobs, the system supplements the raw match score with a transferable skills overlay - a separate analysis that identifies specific experience elements from the CV that map to requirements in the role, even where direct vocabulary overlap is low. This overlay gives career changers a clearer picture of which of their experiences are relevant to a target role and which are not, helping them construct their cover letter around genuine transferability rather than generic claims.
+
+![Career change matching tool at TellusJobs showing transferable skills mapping between sectors](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80)
+
+## Improving Your Match Score Through CV Optimisation
+
+The match score is based on what the CV document says. Improving the CV improves the score. But the goal is not to game the matching system - it is to ensure the CV accurately represents genuine experience and skills in language that the matching system can recognise.
+
+Common CV optimisation steps that improve match quality on TellusJobs:
+
+Adding quantified accomplishments alongside descriptions of responsibility. "Managed a team of five" generates weaker embedding signals than "Managed a team of five finance officers and delivered a 15% reduction in month-end reporting time over 12 months." The second version contains richer information that maps more strongly to similar content in job descriptions.
+
+Using the full names of tools, systems, and frameworks alongside abbreviations. "SAP FI/CO (SAP Financial Accounting and Controlling)" ensures the system captures both the abbreviated and full-form references that might appear in job descriptions.
+
+Ensuring the most recent and relevant experience is described in the most detail. Embedding models weight experience descriptions by the depth of information provided. A current role described in five bullet points influences the match less than one described in fifteen.
+
+Addressing career breaks or unusual patterns with brief explanation sentences. Unexplained gaps or lateral moves confuse the seniority alignment scoring. A sentence explaining a career break or a deliberate lateral move for skill development improves alignment accuracy.
+
 `;

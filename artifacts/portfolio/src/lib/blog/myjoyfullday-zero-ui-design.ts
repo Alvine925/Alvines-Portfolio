@@ -97,4 +97,55 @@ The dashboard was not deleted. It was demoted. It still exists, it is still main
 For these users, the dashboard is genuinely the right interface. The goal was never to eliminate choice. It was to eliminate the assumption that the dashboard was the primary interface for all users. For most users, it is not  -  and those users should not have to navigate through a dashboard to access a product that works better as a conversation.
 
 Zero UI is not dogma. It is a default. The default is conversation. For the users who need more, the screen is still there.
+
+## The Dashboard We Built Twice and Abandoned Twice
+
+The first dashboard iteration for MyJoyfulDay was a standard web application: a clean interface where event creators could see all their events, edit details, view RSVPs, manage guest lists, and access vendor recommendations. We built it in six weeks. Usage data from the first month showed that 92% of users who created events never once opened the dashboard.
+
+The second iteration was a redesign addressing the first dashboard's identified problems: too many features visible at once, navigation was confusing, mobile experience was poor. We rebuilt it in four weeks. Usage from the next two months: 87% of event creators still never opened it.
+
+The insight was not that the dashboard was badly designed. The second dashboard was genuinely better than the first. The insight was that the dashboard answered questions users were not asking in the way users were not asking them. Event creators were in WhatsApp. Their guests were in WhatsApp. Their reminder that they had an event coming up was a WhatsApp message from Jitabi. Leaving WhatsApp to check a web dashboard required a context switch that no amount of good UI design could make worthwhile.
+
+The dashboard exists today - it is available at the MyJoyfulDay web app for the 13% of users who access it - but it is no longer the primary interface. The primary interface is Jitabi.
+
+![MyJoyfulDay dashboard usage data showing 87 percent of users exclusively using WhatsApp interface](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80)
+
+## The Conversation State Machine in Detail
+
+Replacing the dashboard with a conversation required a formal model of what states a Jitabi conversation can be in and what transitions are valid between states. This state machine is the core of Jitabi's conversational architecture.
+
+**INIT:** The conversation begins. Jitabi has received a new message from a phone number that is either new or has no active conversation context. The system parses the incoming message for event intent. If event intent is detected, transition to EXTRACTING. If no event intent is detected, transition to HELP.
+
+**EXTRACTING:** Jitabi runs the LLM extraction on the incoming message and scores confidence across all required event fields. If all fields meet confidence threshold, transition to CONFIRMING. If one or more fields fall below threshold, transition to CLARIFYING.
+
+**CLARIFYING:** Jitabi asks a single question to resolve the lowest-confidence field. The next incoming message is processed in the context of this specific question rather than as a new event creation attempt. After the clarification is processed, return to EXTRACTING with the updated field values.
+
+**CONFIRMING:** Jitabi presents the extracted event summary and asks for confirmation before publishing. Quick replies: "Looks good, publish" and "Let me edit something". If confirmed, transition to PUBLISHING. If edit requested, transition to EDITING.
+
+**PUBLISHING:** Jitabi calls the page generation pipeline. On success, transition to PUBLISHED and send the URL. On failure, retry once and if still failing, notify the user and transition to FAILED.
+
+**PUBLISHED:** The event exists and the URL has been sent. Subsequent messages from this phone number in the next 48 hours are processed as potential edits to the existing event.
+
+**EDITING:** Jitabi accepts updates to the published event. Each update goes through extraction and confirmation before being applied to the live page.
+
+## Measuring Conversational Quality
+
+Replacing a visual interface with a conversation introduces different quality metrics. The standard software metrics - page load time, error rate, time on screen - do not apply to conversational experiences. New metrics were needed.
+
+**Task completion rate:** The percentage of users who initiated an event creation (sent any message to Jitabi with event intent) who ended up with a published event URL. Early versions ran at 71%. Current version runs at 89%. The 18-point improvement came primarily from better extraction models (fewer required clarifications) and better error recovery paths.
+
+**Clarification rate:** The percentage of event creations that required at least one clarification question. Target is under 20%. Current rate is 18%. This number reflects the quality of the extraction model - a good extraction model that confidently identifies fields from natural language rarely needs to ask clarifying questions.
+
+**Time to published:** Median time from first message to event URL delivery. Target is under 90 seconds including human response time to clarification questions. The technical pipeline time is consistently under 10 seconds. The 90-second metric includes the time users take to respond to clarification questions, which is outside Jitabi's control but reflects the overall experience.
+
+![Jitabi conversational interface metrics dashboard showing task completion and clarification rates](https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80)
+
+## The 15 Percent Who Use the Dashboard
+
+The users who regularly access the MyJoyfulDay web dashboard tend to have specific characteristics: they are planning more complex events (multi-day events, events with paid tickets, events coordinating multiple vendors), they have larger guest lists where the guest management tools are genuinely valuable, and they are often repeat users who have created five or more events and have learned the full platform.
+
+This segment generates a disproportionate share of revenue - they are the users most likely to have events with vendor needs, most likely to use premium features, and most likely to refer other serious event planners. The dashboard serves them well, and maintaining it for this segment is worth the ongoing engineering cost.
+
+The product principle this illustrates: Zero UI does not mean no UI for anyone. It means making the WhatsApp interface so capable that the web dashboard is optional rather than required. Users who want the additional control the dashboard provides can access it. Users who never want to leave WhatsApp never have to.
+
 `;

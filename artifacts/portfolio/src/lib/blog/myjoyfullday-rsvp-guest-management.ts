@@ -76,4 +76,49 @@ The WhatsApp confirmation send queue is rate-limited by Meta's API limits. At vi
 After running 1M+ RSVPs, we have some strong opinions about RSVP confirmation messages. The best ones are short (under 60 words), warm in tone, include all logistical essentials (date, time, location), and end with forward-looking anticipation rather than administrative closure.
 
 "Your RSVP has been received" is administrative closure. "See you there!" is forward-looking anticipation. The difference in guest sentiment  -  measurable in follow-through attendance rates  -  is meaningful. Guests who receive warm confirmation messages attend at a 12% higher rate than those who receive clinical acknowledgement. The words in the confirmation message are not just UX copy. They are attendance infrastructure.
+
+## The Load Testing Story: When an Event Went Viral
+
+Designing for a median guest list of 40 people is straightforward. Designing for the event that gets posted in a WhatsApp group with 2,000 members, then forwarded to five more groups, and generates 800 RSVPs in 45 minutes, is a different engineering problem entirely.
+
+This scenario happened on a Sunday evening in November. A community church event in Nairobi was created through Jitabi in the afternoon. The creator shared the URL in the church's main WhatsApp group. Within ten minutes, the link had been forwarded to multiple other groups. By 9 PM, the RSVP endpoint had received 847 requests in 45 minutes.
+
+The RSVP endpoint had been designed for a maximum expected concurrency of 50 simultaneous submissions. At 20 times that concurrency, response times degraded from under 200 milliseconds to over 8 seconds. Several hundred guests received error pages rather than confirmation screens.
+
+The incident drove an immediate architectural change: horizontal scaling of the RSVP service with auto-scaling configured to handle 100x expected concurrency, a database connection pool expanded to match, and a queue-based architecture for RSVP writes that decouples reception from storage. The guest now receives an immediate confirmation (optimistic acknowledgment from the queue entry) before the database write has completed, with a background process handling the actual persistence.
+
+The 45-minute incident with 847 concurrent RSVPs turned out to be useful. It stress-tested the system at a scale that planned load testing would have simulated but not matched in the authentic randomness of real traffic.
+
+![MyJoyfulDay RSVP system handling viral event traffic showing infrastructure scaling](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80)
+
+## Deduplication in Practice: The Real-World Edge Cases
+
+The deduplication strategy - idempotent on phone number plus event ID - handles the obvious case: a guest submitting the RSVP form twice by double-tapping or refreshing. But real-world usage produced several edge cases the initial design did not anticipate.
+
+**Shared devices:** In households where family members share a phone, multiple people RSVPing to the same event from the same number creates a conflict. The system cannot distinguish between a duplicate submission and two genuine guests using the same phone. The current approach: accept the second RSVP as an update to the first (updating the name field), and add a "plus one" prompt on the confirmation screen that allows the original RSVP to add additional guests explicitly.
+
+**Number changes:** When a guest changes their phone number between creating an RSVP and attending the event, the WhatsApp confirmation and reminder messages go to the old number. This is a genuine problem with no clean solution at the platform level - it requires the guest or event creator to update the RSVP with the new number. A manual update path through Jitabi (the creator messages "update RSVP from old-number to new-number") handles this case for events where the creator is aware of the change.
+
+**Cancelled and recreated events:** When an event is cancelled and a new version is created with a new URL, guests who RSVPed to the original event need to RSVP again. This is correct behaviour but creates confusion when guests receive a "your RSVP was cancelled" message followed by a "please RSVP to the new event" message. Improving the cancellation and migration flow to automatically carry over RSVPs when an event is recreated by the same creator is a planned feature.
+
+## The Guest Experience Beyond RSVP
+
+The RSVP confirmation is the beginning of the guest experience, not the end. MyJoyfulDay's guest journey continues through two additional touchpoints that drive event attendance.
+
+**The day-before reminder:** Twenty-four hours before the event start time, all confirmed guests receive a WhatsApp message from Jitabi with the event details, the location (with a Google Maps link if a mappable address was provided), and a one-tap option to confirm they are still attending or let the creator know they cannot make it. This reminder drives a 31% increase in attendance versus events without reminders.
+
+**The morning-of-event message:** For events starting after 2 PM, guests receive a brief "today is the day" message at 9 AM with a link to the event page for a quick detail check. This message has the highest open rate of any Jitabi outbound communication - 84% read rate within two hours of sending - because it is contextually relevant to what the recipient is about to do that day.
+
+![Guest experience timeline at MyJoyfulDay showing RSVP to event attendance journey](https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=80)
+
+## Creator Guest Management: What the Dashboard Enables
+
+While most creators interact with Jitabi exclusively through WhatsApp, the guest management tools in the web dashboard serve the 13% of creators who run larger or more complex events.
+
+The dashboard guest list view shows all RSVPs in real time, sortable by name, confirmation time, or attendance status. For events where capacity matters (venue hire has a maximum occupancy, catering is ordered per head), the real-time RSVP count drives practical decisions. A creator whose venue has 80-person capacity and has received 120 RSVPs needs to close RSVPs or expand their venue booking - information the dashboard surfaces clearly.
+
+The check-in feature allows creators to mark guests as arrived at the event, tracking actual attendance versus RSVPs. This data is useful for future event planning (RSVPs typically over-estimate attendance by 20 to 30% on MyJoyfulDay - knowing this helps creators budget more accurately for catering and seating).
+
+Export to CSV gives creators a guest list they can use offline, share with caterers or venue staff, or import into other systems. This is consistently the most-used dashboard feature among the creators who access the dashboard at all.
+
 `;

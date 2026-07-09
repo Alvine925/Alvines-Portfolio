@@ -95,5 +95,4 @@ Kenya is a leader in technology in Africa. We pioneered M-Pesa and changed how t
 5. **Watch the Legislation:** Keep a close eye on the "AI Bill" and other regulatory developments in the Bunge.
 
 The future of law is here. It's time to lead.
-`
-};
+`;

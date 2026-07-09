@@ -108,6 +108,4 @@ In 2026, your brand is your bond. It is the bridge between where you are today a
 5. **Invest in Quality Photography:** Get a professional, high-resolution headshot. In a sea of blurry selfies, a professional photo signals that you take yourself and your career seriously.
 
 Remember: The best time to start building your brand was ten years ago. The second best time is right now. TellusJobs is here to support you every step of the way. Let's make 2026 your most visible and successful year yet.
-`
-};
-// End of file
+`;

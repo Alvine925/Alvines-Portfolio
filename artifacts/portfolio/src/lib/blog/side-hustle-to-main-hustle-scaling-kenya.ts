@@ -102,5 +102,4 @@ Stop calling it a "side hustle." Start calling it your "future." The transition 
 5. **Customer Loyalty is Key:** In the competitive Kenyan market, it is far cheaper to keep an existing customer than to find a new one. Invest in a loyalty program or a robust customer follow-up system.
 
 Remember: Every iconic Kenyan company, from Safaricom to Equity Bank, started as a vision in someone's mind. Your business can be the next great success story.
-`
-};
+`;

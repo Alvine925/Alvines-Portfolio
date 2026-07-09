@@ -93,6 +93,5 @@ Kenya has the fertile land, the favorable climate, the growing tech ecosystem, a
 5. **Hire for Grit and Adaptability:** Agribusiness is physically and mentally demanding. Use TellusJobs to find people who have the technical skills and the resilience to thrive in the field.
 
 Kenya's future is green, profitable, and exciting. It's time to build your agribusiness legacy.
-`
-};
+`;
 // End of file

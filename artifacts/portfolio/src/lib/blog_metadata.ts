@@ -18,29 +18,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Tech",
       "Kenya"
     ],
-    "coverImage": "https://example.com/images/kenya-digital-id.jpg"
-  },
-  {
-    "slug": "building-a-personal-brand-on-linkedin-the-tellusjobs-strategy-for-2026",
-    "title": "Building a Personal Brand on LinkedIn: The TellusJobs Strategy for 2026",
-    "date": "2026-07-09",
-    "excerpt": "",
-    "tags": [
-      "Business",
-      "Career",
-      "TellusJobs",
-      "Kenya",
-      "LinkedIn",
-      "Personal Branding",
-      "Networking"
-    ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "navigating-the-hybrid-work-landscape-in-nairobi-a-guide-for-professionals",
     "title": "Navigating the Hybrid Work Landscape in Nairobi: A Guide for Professionals",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Nairobi is a city in constant, pulsating motion. From the early morning rush on Mombasa Road to the late-night hustle in the commercial hubs of Westlands and Upper Hill, the city's energy is undeni...",
     "tags": [
       "Business",
       "Career",
@@ -50,13 +34,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Nairobi",
       "Workplace"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "how-to-pitch-your-startup-to-kenyan-vcs-insights-from-tellusjobs",
     "title": "How to Pitch Your Startup to Kenyan VCs: Insights from TellusJobs",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Kenya's startup ecosystem, centered around the vibrant hub of Nairobi, continues to attract record levels of venture capital. Despite global economic shifts and high-interest rates, the \"Silicon Sa...",
     "tags": [
       "Business",
       "Career",
@@ -66,7 +50,7 @@ export const blogMetadata: BlogMetadata[] = [
       "Startups",
       "Investment"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80"
   },
   {
     "slug": "tellus-api-developer-guide",
@@ -78,7 +62,7 @@ export const blogMetadata: BlogMetadata[] = [
       "Tellus",
       "Kenya"
     ],
-    "coverImage": "https://example.com/images/tellus-developer-guide.jpg"
+    "coverImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&q=80"
   },
   {
     "slug": "tellus-multilingual-support",
@@ -91,13 +75,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Tellus",
       "Kenya"
     ],
-    "coverImage": "https://example.com/images/multilingual-support-africa.jpg"
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "future-tourism-tech-ai-safari-kenya",
     "title": "The Future of Tourism Tech: Personalized Safari Experiences with AI",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Tourism has always been one of the crown jewels of the Kenyan economy. From the legendary Maasai Mara to the pristine beaches of the coast, the country's natural beauty has attracted millions of vi...",
     "tags": [
       "Business News",
       "Ideas",
@@ -106,42 +90,26 @@ export const blogMetadata: BlogMetadata[] = [
       "Artificial Intelligence",
       "Travel Tech"
     ],
-    "coverImage": null
-  },
-  {
-    "slug": "why-soft-skills-are-the-new-hard-skills-in-the-ai-era-tellusjobs-insights",
-    "title": "Why Soft Skills are the New Hard Skills in the AI Era: TellusJobs Insights",
-    "date": "2026-07-09",
-    "excerpt": "",
-    "tags": [
-      "Business",
-      "Career",
-      "TellusJobs",
-      "Kenya",
-      "AI",
-      "Soft Skills",
-      "Future of Work"
-    ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "side-hustle-to-main-hustle-scaling-kenya",
     "title": "From Side Hustle to Main Hustle: Scaling Your Business in Kenya",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "In Kenya, the \"side hustle\" is far more than just a passing trend or a way to earn a few extra shillings; it is a fundamental, ingrained way of life. From the junior accountant selling high-quality...",
     "tags": [
       "Business",
       "Career",
       "TellusJobs",
       "Kenya"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "managing-high-profile-events-security-and-discretion-with-myjoyfulday",
     "title": "Managing High - Profile Events: Security and Discretion with MyJoyfulDay",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "In the world of high - profile event management, the challenges extend far beyond the aesthetics of the floral arrangements or the quality of the catering. For heads of state, corporate CEOs, and g...",
     "tags": [
       "AutoShine",
       "MyJoyfulDay",
@@ -149,39 +117,39 @@ export const blogMetadata: BlogMetadata[] = [
       "Security",
       "High - Profile Events"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80"
   },
   {
     "slug": "soft-skills-new-hard-skills-ai-era-tellusjobs",
     "title": "Why Soft Skills are the New Hard Skills in the AI Era: TellusJobs Insights",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "As we navigate the year 2026, the global workforce is experiencing a tectonic shift unlike anything we have seen since the Industrial Revolution. Artificial Intelligence (AI) has become ubiquitous,...",
     "tags": [
       "Business",
       "Career",
       "TellusJobs",
       "Kenya"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "building-personal-brand-linkedin-tellusjobs-2026",
     "title": "Building a Personal Brand on LinkedIn: The TellusJobs Strategy for 2026",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "In the year 2026, the professional landscape has shifted more dramatically than at any other point in the last century. The traditional CV, which was once the bedrock of every successful job search...",
     "tags": [
       "Business",
       "Career",
       "TellusJobs",
       "Kenya"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1611944212129-29977ae1398c?w=1200&q=80"
   },
   {
     "slug": "fleet-management-for-logistics-how-autoshine-keeps-nairobi-moving",
     "title": "Fleet Management for Logistics: How AutoShine Keeps Nairobi Moving",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "In the bustling metropolis of Nairobi, logistics is the lifeblood of the economy. From the heavy - duty trucks moving goods from the Port of Mombasa to the delivery vans navigating the narrow stree...",
     "tags": [
       "AutoShine",
       "MyJoyfulDay",
@@ -189,29 +157,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Logistics",
       "Fleet Management"
     ],
-    "coverImage": null
-  },
-  {
-    "slug": "from-side-hustle-to-main-hustle-scaling-your-business-in-kenya",
-    "title": "From Side Hustle to Main Hustle: Scaling Your Business in Kenya",
-    "date": "2026-07-09",
-    "excerpt": "",
-    "tags": [
-      "Business",
-      "Career",
-      "TellusJobs",
-      "Kenya",
-      "Entrepreneurship",
-      "Scaling",
-      "Growth"
-    ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "kenyan-business-news-tech-taxes-sme-growth-2026",
     "title": "Kenyan Business News: The Impact of New Tech Taxes on SME Growth in 2026",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "The landscape of Kenyan commerce has undergone a seismic shift in the first half of 2026. While the promise of a \"Silicon Savannah\" remains the guiding star for the nation's economic policy, the in...",
     "tags": [
       "Business News",
       "Ideas",
@@ -220,7 +172,7 @@ export const blogMetadata: BlogMetadata[] = [
       "SME Growth",
       "Digital Economy"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80"
   },
   {
     "slug": "nairobi-tech-startup-2026",
@@ -231,7 +183,7 @@ export const blogMetadata: BlogMetadata[] = [
       "Tech",
       "Kenya"
     ],
-    "coverImage": "https://example.com/images/nairobi-skyline-2026.jpg"
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "5g-ai-kenyan-internet",
@@ -243,13 +195,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Tech",
       "Kenya"
     ],
-    "coverImage": "https://example.com/images/5g-ai-kenya.jpg"
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "real-estate-tech-nairobi-ai-property-management",
     "title": "Real Estate Tech in Nairobi: How AI is Changing Property Management",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Nairobi's skyline is a testament to the city's relentless growth. From the towering heights of Upper Hill to the sprawling residential developments in Kilimani and Kileleshwa, the real estate secto...",
     "tags": [
       "Business News",
       "Ideas",
@@ -258,13 +210,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Artificial Intelligence",
       "PropTech"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "why-ceramic-coating-is-the-best-investment-for-your-new-kenyan-vehicle",
     "title": "Why Ceramic Coating is the Best Investment for Your New Kenyan Vehicle",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Purchasing a new vehicle in Kenya is a significant milestone. Whether it is a luxury SUV for navigating the streets of Nairobi, a rugged 4x4 for weekend adventures in the Maasai Mara, or a sleek se...",
     "tags": [
       "AutoShine",
       "MyJoyfulDay",
@@ -272,13 +224,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Ceramic Coating",
       "Investment"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80"
   },
   {
     "slug": "10-unexplored-business-ideas-kenya-next-decade",
     "title": "10 Unexplored Business Ideas in Kenya for the Next Decade",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "As we stand in the mid - 2020s, the Kenyan economic landscape is often characterized by the \"usual suspects\" - mobile money, real estate, and large-scale agriculture. While these sectors have drive...",
     "tags": [
       "Business News",
       "Ideas",
@@ -287,26 +239,26 @@ export const blogMetadata: BlogMetadata[] = [
       "Investment",
       "Future Trends"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80"
   },
   {
     "slug": "overcoming-burnout-how-i-manage-4-digital-platforms-simultaneously",
     "title": "Overcoming Burnout: How I Manage 4 Digital Platforms Simultaneously",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Introduction: The Hidden Cost of Ambition",
     "tags": [
       "Personal",
       "Tech",
       "AI",
       "Alvine Otieno"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "event-management-without-apps-why-whatsapp-is-king-for-kenyan-weddings",
     "title": "Event Management without Apps: Why WhatsApp is King for Kenyan Weddings",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "In the global landscape of event planning, there is a plethora of specialized software, RSVP apps, and project management tools designed to streamline the process. However, in the vibrant and compl...",
     "tags": [
       "AutoShine",
       "MyJoyfulDay",
@@ -314,13 +266,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Weddings",
       "WhatsApp"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80"
   },
   {
     "slug": "the-future-of-recruitment-in-east-africa-beyond-traditional-job-boards",
     "title": "The Future of Recruitment in East Africa: Beyond Traditional Job Boards",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "For decades, the recruitment process in East Africa followed a predictable, albeit inefficient, pattern. A company would place an advertisement in a major newspaper or, more recently, on a generic...",
     "tags": [
       "Business",
       "Career",
@@ -330,13 +282,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Recruitment",
       "Trends"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?w=1200&q=80"
   },
   {
     "slug": "fractional-cfo-services-kenyan-smes",
     "title": "Why Fractional CFO Services are the Next Big Thing for Kenyan SMEs",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "In the dynamic and often volatile business environment of 2026, Kenyan Small and Medium Enterprises (SMEs) are facing a common challenge: the need for high-level financial strategic guidance withou...",
     "tags": [
       "Business News",
       "Ideas",
@@ -345,26 +297,26 @@ export const blogMetadata: BlogMetadata[] = [
       "Finance",
       "Fractional CFO"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80"
   },
   {
     "slug": "how-alvine-otieno-built-a-digital-empire-from-a-single-idea",
     "title": "How Alvine Otieno Built a Digital Empire from a Single Idea",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Introduction: The Genesis of a Vision",
     "tags": [
       "Personal",
       "Tech",
       "AI",
       "Alvine Otieno"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "from-waterless-to-ceramic-the-evolution-of-autoshines-car-care-technology",
     "title": "From Waterless to Ceramic: The Evolution of AutoShine's Car Care Technology",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "The automotive care industry has undergone a massive transformation over the last few decades. What once started with simple buckets of soapy water and a sponge has evolved into a sophisticated sci...",
     "tags": [
       "AutoShine",
       "MyJoyfulDay",
@@ -372,7 +324,7 @@ export const blogMetadata: BlogMetadata[] = [
       "Car Care",
       "Innovation"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80"
   },
   {
     "slug": "ai-ethics-africa",
@@ -384,13 +336,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Tech",
       "Kenya"
     ],
-    "coverImage": "https://example.com/images/ai-ethics-africa.jpg"
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "the-digital-guest-experience-how-myjoyfulday-redefines-rsvp-interaction",
     "title": "The Digital Guest Experience: How MyJoyfulDay Redefines RSVP Interaction",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "In the traditional world of event planning, the RSVP process was often seen as a logistical chore - a necessary but uninspired collection of names and dietary requirements. However, in the modern K...",
     "tags": [
       "AutoShine",
       "MyJoyfulDay",
@@ -398,42 +350,26 @@ export const blogMetadata: BlogMetadata[] = [
       "RSVP",
       "Digital Experience"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80"
   },
   {
     "slug": "looking-ahead-my-10-year-vision-for-technology-in-east-africa",
     "title": "Looking Ahead: My 10-Year Vision for Technology in East Africa",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Introduction: The Horizon of 2036",
     "tags": [
       "Personal",
       "Tech",
       "AI",
       "Alvine Otieno"
     ],
-    "coverImage": null
-  },
-  {
-    "slug": "the-impact-of-ai-on-the-kenyan-legal-profession-opportunities-and-threats",
-    "title": "The Impact of AI on the Kenyan Legal Profession: Opportunities and Threats",
-    "date": "2026-07-09",
-    "excerpt": "",
-    "tags": [
-      "Business",
-      "Career",
-      "TellusJobs",
-      "Kenya",
-      "AI",
-      "Legal",
-      "Technology"
-    ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "planning-a-zero-waste-event-in-nairobi-a-myjoyfulday-success-story",
     "title": "Planning a Zero - Waste Event in Nairobi: A MyJoyfulDay Success Story",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "In the heart of Nairobi, a city known for its vibrant energy and rapid growth, a new trend is emerging in the event management industry: sustainability. As the global conversation around climate ch...",
     "tags": [
       "AutoShine",
       "MyJoyfulDay",
@@ -441,41 +377,26 @@ export const blogMetadata: BlogMetadata[] = [
       "Sustainability",
       "Zero - Waste"
     ],
-    "coverImage": null
-  },
-  {
-    "slug": "the-anatomy-of-a-winning-business-plan-for-the-kenyan-agriculture-sector",
-    "title": "The Anatomy of a Winning Business Plan for the Kenyan Agriculture Sector",
-    "date": "2026-07-09",
-    "excerpt": "",
-    "tags": [
-      "Business",
-      "Career",
-      "TellusJobs",
-      "Kenya",
-      "Agriculture",
-      "Entrepreneurship"
-    ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "impact-ai-kenyan-legal-profession",
     "title": "The Impact of AI on the Kenyan Legal Profession: Opportunities and Threats",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "The Kenyan legal profession is currently standing at a crossroads. For decades, the practice of law in Kenya was defined by dusty archives, voluminous physical files, and the slow, deliberate pace...",
     "tags": [
       "Business",
       "Career",
       "TellusJobs",
       "Kenya"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "the-science-of-shine-understanding-paint-chemistry-with-autoshine-kenya",
     "title": "The Science of Shine: Understanding Paint Chemistry with AutoShine Kenya",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "To the casual observer, a car's paint is simply a color that makes a vehicle look good. But to the experts at AutoShine Kenya, a car's finish is a complex multi - layered chemical system that requi...",
     "tags": [
       "AutoShine",
       "MyJoyfulDay",
@@ -483,13 +404,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Chemistry",
       "Paint Protection"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "fintech-beyond-payments-innovation-kenya",
     "title": "Fintech Beyond Payments: The Next Wave of Financial Innovation in Kenya",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Kenya has long been recognized as the global capital of mobile money. M-Pesa's success put the country on the map, proving that financial services could be delivered via a simple mobile phone.",
     "tags": [
       "Business News",
       "Ideas",
@@ -498,13 +419,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Financial Inclusion",
       "Digital Innovation"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80"
   },
   {
     "slug": "the-ultimate-guide-to-car-detailing-for-nairobi-luxury-vehicle-owners",
     "title": "The Ultimate Guide to Car Detailing for Nairobi's Luxury Vehicle Owners",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "For the discerning luxury vehicle owner in Nairobi, a car is more than a means of transportation; it is an expression of achievement, a sanctuary of comfort, and a significant financial asset. Howe...",
     "tags": [
       "AutoShine",
       "MyJoyfulDay",
@@ -512,13 +433,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Luxury Cars",
       "Detailing"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "ai-powered-cv-parsing-how-tellusjobs-found-the-unfindable-candidate",
     "title": "AI-Powered CV Parsing: How TellusJobs Found the \\",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "In the high-stakes world of modern recruitment, the \"unfindable\" candidate is the ultimate prize - the holy grail of talent acquisition. These are the professionals who possess a rare, almost mythi...",
     "tags": [
       "Business",
       "Career",
@@ -528,7 +449,7 @@ export const blogMetadata: BlogMetadata[] = [
       "Recruitment",
       "Technology"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "ai-enabled-sme-tellus",
@@ -540,7 +461,7 @@ export const blogMetadata: BlogMetadata[] = [
       "Tellus",
       "Kenya"
     ],
-    "coverImage": "https://example.com/images/ai-sme-kenya.jpg"
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "ai-agriculture-tellus-rift-valley",
@@ -552,52 +473,52 @@ export const blogMetadata: BlogMetadata[] = [
       "Tellus",
       "Kenya"
     ],
-    "coverImage": "https://example.com/images/ai-agriculture-kenya.jpg"
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "the-mentors-who-shaped-my-path-building-a-network-in-the-kenyan-tech-scene",
     "title": "The Mentors Who Shaped My Path: Building a Network in the Kenyan Tech Scene",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Introduction: No One Builds Alone",
     "tags": [
       "Personal",
       "Tech",
       "AI",
       "Alvine Otieno"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "the-importance-of-community-in-the-silicon-savannah-my-journey-with-local-hubs",
     "title": "The Importance of Community in the Silicon Savannah: My Journey with Local Hubs",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Introduction: The Power of Proximity",
     "tags": [
       "Personal",
       "Tech",
       "AI",
       "Alvine Otieno"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "business-plan-kenyan-agriculture-sector",
     "title": "The Anatomy of a Winning Business Plan for the Kenyan Agriculture Sector",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Agriculture is the heartbeat, the lifeblood, and the fundamental, unshakable backbone of the Kenyan economy. It contributes approximately 33% of our national GDP and employs more than 40% of the to...",
     "tags": [
       "Business",
       "Career",
       "TellusJobs",
       "Kenya"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?w=1200&q=80"
   },
   {
     "slug": "whatsapp-as-a-crm-how-myjoyfulday-connects-vendors-and-clients-seamlessly",
     "title": "WhatsApp as a CRM: How MyJoyfulDay Connects Vendors and Clients Seamlessly",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "In the global tech landscape, Customer Relationship Management (CRM) usually conjures images of complex cloud - based platforms like Salesforce or HubSpot. However, in the dynamic and deeply person...",
     "tags": [
       "AutoShine",
       "MyJoyfulDay",
@@ -605,39 +526,39 @@ export const blogMetadata: BlogMetadata[] = [
       "CRM",
       "WhatsApp"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80"
   },
   {
     "slug": "why-i-built-tellusplatform-the-personal-frustration-that-led-to-innovation",
     "title": "Why I Built TellusPlatform: The Personal Frustration That Led to Innovation",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Introduction: The Birth of TellusPlatform",
     "tags": [
       "Personal",
       "Tech",
       "AI",
       "Alvine Otieno"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "a-day-in-the-life-of-a-technical-founder-in-kisumu-kenya",
     "title": "A Day in the Life of a Technical Founder in Kisumu, Kenya",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Introduction: The Rhythm of the Lake City",
     "tags": [
       "Personal",
       "Tech",
       "AI",
       "Alvine Otieno"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "ecommerce-logistics-kenya-last-mile-data",
     "title": "E-commerce Logistics in Kenya: Solving the 'Last Mile' Problem with Data",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "E-commerce in Kenya has exploded over the past few years. From the growth of local marketplaces like Jumia and Kilimall to the rise of \"Social Commerce\" on WhatsApp and Instagram, more Kenyans than...",
     "tags": [
       "Business News",
       "Ideas",
@@ -646,7 +567,7 @@ export const blogMetadata: BlogMetadata[] = [
       "Logistics",
       "Big Data"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?w=1200&q=80"
   },
   {
     "slug": "stk-push-m-pesa-tellus",
@@ -658,13 +579,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Tellus",
       "Kenya"
     ],
-    "coverImage": "https://example.com/images/stk-push-future.jpg"
+    "coverImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&q=80"
   },
   {
     "slug": "circular-economy-kenya-green-entrepreneurs",
     "title": "The Circular Economy in Kenya: Opportunities for Green Entrepreneurs",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "For decades, the dominant economic model in Kenya - as in much of the world - has been linear: take resources from the ground, make products, and then discard the waste. However, as we reach 2026,...",
     "tags": [
       "Business News",
       "Ideas",
@@ -673,13 +594,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Circular Economy",
       "Green Entrepreneurship"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "rise-solar-energy-startups-kenya-digital-future",
     "title": "The Rise of Solar Energy Startups: Powering Kenya's Digital Future",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Energy is the lifeblood of the modern economy. In Kenya, the push toward a fully digital and industrial future has long been hampered by the high cost and occasional instability of the national pow...",
     "tags": [
       "Business News",
       "Ideas",
@@ -688,13 +609,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Renewable Energy",
       "Digital Economy"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80"
   },
   {
     "slug": "writing-your-first-business-plan-a-10-step-checklist-for-2026",
     "title": "Writing Your First Business Plan: A 10-Step Checklist for 2026",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "The entrepreneurial spirit in Kenya is currently stronger than at any point in history. From the tech-laden streets of Nairobi's \"Silicon Savannah\" to the bustling markets of Eldoret and the rapidl...",
     "tags": [
       "Business",
       "Career",
@@ -703,7 +624,7 @@ export const blogMetadata: BlogMetadata[] = [
       "Entrepreneurship",
       "Startups"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80"
   },
   {
     "slug": "scaling-tellus-1m-users",
@@ -715,13 +636,13 @@ export const blogMetadata: BlogMetadata[] = [
       "Tellus",
       "Kenya"
     ],
-    "coverImage": "https://example.com/images/scaling-tellus.jpg"
+    "coverImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&q=80"
   },
   {
     "slug": "manufacturing-kenya-tech-global-imports",
     "title": "Manufacturing in Kenya: Leveraging Tech to Compete with Global Imports",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "The manufacturing sector in Kenya has long been a critical pillar of the economy, yet it has faced significant challenges in the face of global competition. For decades, the market has been flooded...",
     "tags": [
       "Business News",
       "Ideas",
@@ -730,20 +651,20 @@ export const blogMetadata: BlogMetadata[] = [
       "Technology",
       "Global Trade"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80"
   },
   {
     "slug": "my-first-1000-lines-of-code-lessons-from-a-self-taught-kenyan-builder",
     "title": "My First 1,000 Lines of Code: Lessons from a Self-Taught Kenyan Builder",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "The Beginning: A Curiosity Born in the Dark",
     "tags": [
       "Personal",
       "Tech",
       "AI",
       "Alvine Otieno"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "alvine-otieno-journey",
@@ -761,27 +682,27 @@ export const blogMetadata: BlogMetadata[] = [
     "slug": "the-philosophy-of-ship-early-fix-fast-my-product-development-journey",
     "title": "The Philosophy of \\",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Introduction: The Perfectionism Trap",
     "tags": [
       "Personal",
       "Tech",
       "AI",
       "Alvine Otieno"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "why-im-betting-everything-on-the-african-ai-revolution",
     "title": "Why I'm Betting Everything on the African AI Revolution",
     "date": "2026-07-09",
-    "excerpt": "",
+    "excerpt": "Introduction: The Quiet Revolution",
     "tags": [
       "Personal",
       "Tech",
       "AI",
       "Alvine Otieno"
     ],
-    "coverImage": null
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
   },
   {
     "slug": "kenyan-industries-revolution",
@@ -1195,7 +1116,7 @@ export const blogMetadata: BlogMetadata[] = [
     "slug": "myjoyfullday-event-decoration-kenya",
     "title": "Event Decoration in Kenya: Creating the Look Your Event Deserves",
     "date": "2025-07-09",
-    "excerpt": "D\u00e9cor sets the tone before a single guest arrives. Here's how Kenyan event decorators work, what different decoration styles cost, and how to get a beautiful result on any budget.",
+    "excerpt": "Décor sets the tone before a single guest arrives. Here's how Kenyan event decorators work, what different decoration styles cost, and how to get a beautiful result on any budget.",
     "tags": [
       "MyJoyfulDay",
       "Decoration",

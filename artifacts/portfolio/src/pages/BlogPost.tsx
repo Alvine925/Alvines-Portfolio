@@ -9,20 +9,35 @@ import alvinePhoto from "@assets/713531308_2391480708041703_8942490288083047707_
 
 // ─── Inline markdown renderers ────────────────────────────────────────────────
 
-// Renders **bold** and plain text within a single line/paragraph.
+// Renders **bold** and [links](url) and plain text within a single line/paragraph.
 function InlineMd({ text }: { text: string }) {
-  const parts = text.split(/(\*\*[^*]+\*\*)/g).filter(Boolean);
+  const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g).filter(Boolean);
   return (
     <>
-      {parts.map((part, i) =>
-        part.startsWith("**") && part.endsWith("**") ? (
-          <strong key={i} className="font-semibold text-foreground">
-            {part.slice(2, -2)}
-          </strong>
-        ) : (
-          <span key={i}>{part}</span>
-        )
-      )}
+      {parts.map((part, i) => {
+        if (part.startsWith("**") && part.endsWith("**")) {
+          return (
+            <strong key={i} className="font-semibold text-foreground">
+              {part.slice(2, -2)}
+            </strong>
+          );
+        }
+        const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+        if (linkMatch) {
+          return (
+            <a
+              key={i}
+              href={linkMatch[2]}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline underline-offset-2 hover:text-primary/80"
+            >
+              {linkMatch[1]}
+            </a>
+          );
+        }
+        return <span key={i}>{part}</span>;
+      })}
     </>
   );
 }
@@ -49,6 +64,18 @@ function ContentBlock({ block }: { block: string }) {
     );
   }
 
+  // Horizontal rule / section divider
+  if (/^-{3,}$/.test(trimmed)) {
+    return <hr className="my-10 border-border" />;
+  }
+
+  if (trimmed.startsWith("#### ")) {
+    return (
+      <h4 className="font-serif text-base font-bold mt-8 mb-2 text-foreground">
+        <InlineMd text={trimmed.slice(5)} />
+      </h4>
+    );
+  }
   if (trimmed.startsWith("### ")) {
     return (
       <h3 className="font-serif text-lg font-bold mt-10 mb-3 text-foreground">
@@ -63,10 +90,79 @@ function ContentBlock({ block }: { block: string }) {
       </h2>
     );
   }
+  if (trimmed.startsWith("# ")) {
+    return (
+      <h2 className="font-serif text-2xl font-bold mt-12 mb-4 text-foreground">
+        <InlineMd text={trimmed.slice(2)} />
+      </h2>
+    );
+  }
+  // Bracketed section header, e.g. [Extended Appendix: ...]
+  const bracketHeader = trimmed.match(/^\[(.+)\]$/);
+  if (bracketHeader) {
+    return (
+      <h3 className="font-serif text-lg font-bold mt-10 mb-3 text-foreground">
+        <InlineMd text={bracketHeader[1]} />
+      </h3>
+    );
+  }
 
   const lines = trimmed.split("\n");
-  const isList = lines.every((l) => l.trim().startsWith("- ") || l.trim().startsWith("* "));
-  if (isList) {
+
+  // Blockquote: every line starts with '>'
+  const isBlockquote = lines.every((l) => l.trim().startsWith(">"));
+  if (isBlockquote) {
+    return (
+      <blockquote className="border-l-4 border-primary/40 pl-5 my-6 italic text-muted-foreground">
+        {lines.map((l, i) => (
+          <p key={i} className="mb-1">
+            <InlineMd text={l.trim().replace(/^>\s*/, "")} />
+          </p>
+        ))}
+      </blockquote>
+    );
+  }
+
+  // Markdown table: pipe-delimited rows, second row is the header separator (---|---)
+  const isTable =
+    lines.length >= 2 &&
+    lines.every((l) => l.trim().startsWith("|") && l.trim().endsWith("|")) &&
+    /^\|?\s*:?-{2,}:?\s*(\|\s*:?-{2,}:?\s*)*\|?$/.test(lines[1].trim());
+  if (isTable) {
+    const parseRow = (row: string) =>
+      row.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map((c) => c.trim());
+    const header = parseRow(lines[0]);
+    const bodyRows = lines.slice(2).map(parseRow);
+    return (
+      <div className="my-6 overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-border">
+              {header.map((h, i) => (
+                <th key={i} className="text-left font-semibold text-foreground py-2 px-3">
+                  <InlineMd text={h} />
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {bodyRows.map((row, ri) => (
+              <tr key={ri} className="border-b border-border/50">
+                {row.map((cell, ci) => (
+                  <td key={ci} className="text-muted-foreground py-2 px-3">
+                    <InlineMd text={cell} />
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  }
+
+  const isBulletList = lines.every((l) => l.trim().startsWith("- ") || l.trim().startsWith("* "));
+  if (isBulletList) {
     return (
       <ul className="list-disc pl-5 space-y-2 my-5 text-muted-foreground leading-relaxed">
         {lines.map((l, i) => (
@@ -75,6 +171,18 @@ function ContentBlock({ block }: { block: string }) {
           </li>
         ))}
       </ul>
+    );
+  }
+  const isNumberedList = lines.length > 1 && lines.every((l) => /^\d+\.\s+/.test(l.trim()));
+  if (isNumberedList) {
+    return (
+      <ol className="list-decimal pl-5 space-y-2 my-5 text-muted-foreground leading-relaxed">
+        {lines.map((l, i) => (
+          <li key={i}>
+            <InlineMd text={l.trim().replace(/^\d+\.\s+/, "")} />
+          </li>
+        ))}
+      </ol>
     );
   }
 

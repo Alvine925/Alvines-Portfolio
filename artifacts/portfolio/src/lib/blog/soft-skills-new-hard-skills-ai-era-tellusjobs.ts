@@ -92,5 +92,4 @@ The next time you update your CV or your TellusJobs profile, don't just list the
 5. **The "Why" Question:** When an employer asks why they should hire you, connect your technical skills to your human values. "I have the technical skills to do the job, but I also have the EQ to lead the team and the ethical judgment to protect the company's reputation."
 
 Remember: Machines are built for efficiency; humans are built for meaning. Find the meaning in your work, develop your human skills, and you will be indispensable in the world of tomorrow.
-`
-};
+`;

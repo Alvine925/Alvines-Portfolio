@@ -1,3 +1,8 @@
+export const title = "How Tellus Lives Inside Your Existing Workflow Without Disrupting It";
+export const date = "2025-05-25";
+export const excerpt = "Every tool that asks you to change your workflow is making a bet that the value exceeds the switching cost. Tellus doesn't ask you to change anything. Here's how that works.";
+export const tags = ["Tellus", "Product", "Integration"];
+
 export const coverImage = "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80";
 
 export const content = `## How Tellus Lives Inside Your Existing Workflow Without Asking You to Change It

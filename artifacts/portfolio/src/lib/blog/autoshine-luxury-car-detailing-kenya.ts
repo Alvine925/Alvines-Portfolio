@@ -1,3 +1,8 @@
+export const title = "Luxury Car Detailing in Kenya: White Glove Care for High-Value Vehicles";
+export const date = "2025-07-17";
+export const excerpt = "Luxury vehicles require specialist knowledge, techniques, and products. Here's how AutoShine's luxury detailing service handles Nairobi's most valuable vehicles  -  and what makes it different.";
+export const tags = ["AutoShine", "Luxury", "Detailing"];
+
 export const coverImage = "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&q=80";
 
 export const content = `## Luxury Car Detailing in Kenya: White Glove Care for High-Value Vehicles

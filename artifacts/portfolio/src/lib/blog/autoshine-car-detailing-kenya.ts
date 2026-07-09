@@ -1,3 +1,8 @@
+export const title = "Car Detailing in Kenya: What It Is, Why It Matters, and What to Expect";
+export const date = "2025-07-02";
+export const excerpt = "Car detailing goes far beyond a car wash. Here's what professional detailing actually involves in Kenya, the different service levels available, and how to find a genuinely qualified detailer.";
+export const tags = ["AutoShine", "Detailing", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80";
 
 export const content = `## Car Detailing in Kenya: What It Is, Why It Matters, and What to Expect

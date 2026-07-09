@@ -1,3 +1,8 @@
+export const title = "n8n Workflow Automation for Kenyan Businesses: A Complete Guide";
+export const date = "2025-07-03";
+export const excerpt = "n8n is one of the most powerful and affordable workflow automation platforms for Kenyan SMEs. Here's what it is, how it works, and the automation patterns that produce the highest returns.";
+export const tags = ["Tellus", "n8n", "Automation"];
+
 export const coverImage = "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&q=80";
 
 export const content = `## n8n Workflow Automation for Kenyan Businesses: A Complete Guide

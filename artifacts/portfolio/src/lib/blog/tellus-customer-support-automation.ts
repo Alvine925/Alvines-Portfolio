@@ -1,3 +1,8 @@
+export const title = "Customer Support Automation for Kenyan Businesses: Scale Without Scaling Headcount";
+export const date = "2025-07-07";
+export const excerpt = "Automation lets Kenyan businesses handle 3 - 5x the inquiry volume with the same team  -  because it handles repetitive inquiries while humans focus on the conversations that actually need them.";
+export const tags = ["Tellus", "Customer Support", "Automation"];
+
 export const coverImage = "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=1200&q=80";
 
 export const content = `## Customer Support Automation for Kenyan Businesses: How to Scale Without Scaling Headcount

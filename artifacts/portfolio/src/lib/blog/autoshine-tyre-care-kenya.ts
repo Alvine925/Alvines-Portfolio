@@ -1,3 +1,8 @@
+export const title = "Tyre Care for Kenyan Drivers: Safety, Maintenance, and Making the Right Choice";
+export const date = "2025-07-14";
+export const excerpt = "Tyres are the only contact between your vehicle and Kenya's demanding roads. Here's the complete guide to tyre pressure, tread depth, selection, rotation, and what AutoShine checks at every service.";
+export const tags = ["AutoShine", "Tyres", "Safety"];
+
 export const coverImage = "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80";
 
 export const content = `## Tyre Care for Kenyan Drivers: Safety, Maintenance, and Making the Right Choice

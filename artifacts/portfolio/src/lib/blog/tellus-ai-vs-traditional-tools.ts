@@ -1,3 +1,8 @@
+export const title = "AI Tools vs. Traditional Business Software: What Kenyan Businesses Should Actually Use";
+export const date = "2025-07-14";
+export const excerpt = "AI is not always the answer. A clear-eyed view of where AI genuinely outperforms traditional tools, where traditional tools are still better, and where combining both produces the best outcomes.";
+export const tags = ["Tellus", "AI", "Business Tools"];
+
 export const coverImage = "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1200&q=80";
 
 export const content = `## AI Tools vs. Traditional Business Software: What Kenyan Businesses Should Actually Use

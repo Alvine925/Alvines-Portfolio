@@ -1,3 +1,8 @@
+export const title = "M-Pesa API Integration (Daraja): A Developer's Guide for Kenyan Applications";
+export const date = "2025-07-04";
+export const excerpt = "The Daraja API is the most important payment integration any Kenyan developer can build. Here's the complete guide  -  from account setup through STK Push implementation and common gotchas.";
+export const tags = ["Tellus", "M-Pesa", "API"];
+
 export const coverImage = "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80";
 
 export const content = `## M-Pesa API Integration (Daraja): A Developer's Guide for Kenyan Applications

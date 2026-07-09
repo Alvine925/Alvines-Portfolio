@@ -1,3 +1,8 @@
+export const title = "Data Privacy in Africa: What Kenyan Businesses and Professionals Need to Know";
+export const date = "2025-07-13";
+export const excerpt = "Kenya's Data Protection Act places clear legal obligations on organisations that process personal data. Here's what the law requires and how AI and automation tools fit within it.";
+export const tags = ["Tellus", "Data Privacy", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=1200&q=80";
 
 export const content = `## Data Privacy in Africa: What Kenyan Businesses and Professionals Need to Know

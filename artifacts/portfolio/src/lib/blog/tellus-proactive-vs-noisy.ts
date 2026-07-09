@@ -1,3 +1,8 @@
+export const title = "The Line Between Helpful and Annoying: How Tellus Decides When to Interrupt You";
+export const date = "2025-06-05";
+export const excerpt = "A proactive AI assistant that interrupts you at the wrong moment is worse than no assistant at all. Here's how Tellus distinguishes between what needs your attention and what doesn't.";
+export const tags = ["Tellus", "Design", "AI"];
+
 export const coverImage = "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80";
 
 export const content = `## The Line Between Helpful and Annoying: How Tellus Decides When to Interrupt You

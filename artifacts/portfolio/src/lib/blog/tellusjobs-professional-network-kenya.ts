@@ -1,3 +1,8 @@
+export const title = "Professional Networking in Kenya: Building the Relationships That Build Your Career";
+export const date = "2025-07-13";
+export const excerpt = "Who you know is a statistically significant variable in Kenyan career outcomes. Here's how to build a professional network that actually opens doors  -  on LinkedIn, at events, and in WhatsApp groups.";
+export const tags = ["TellusJobs", "Networking", "Career"];
+
 export const coverImage = "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80";
 
 export const content = `## Why Your Professional Network Is Your Most Valuable Career Asset in Kenya

@@ -1,3 +1,8 @@
+export const title = "Smart Notifications vs. Notification Overload: How Tellus Decides What You Need to Know";
+export const date = "2025-07-11";
+export const excerpt = "The problem isn't notifications  -  it's undiscriminating notifications. Here's the philosophy behind Tellus's notification intelligence and the architecture that makes context-awareness work.";
+export const tags = ["Tellus", "Productivity", "Notifications"];
+
 export const coverImage = "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=80";
 
 export const content = `## Smart Notifications vs. Notification Overload: How Tellus Decides What You Need to Know

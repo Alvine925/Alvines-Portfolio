@@ -1,3 +1,8 @@
+export const title = "Baby Shower Planning in Kenya: The Modern Guide";
+export const date = "2025-07-03";
+export const excerpt = "Baby showers in Kenya have evolved. Here's how to plan one that celebrates the mother-to-be, works for every budget, and creates a genuinely memorable experience.";
+export const tags = ["MyJoyfulDay", "Baby Shower", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80";
 
 export const content = `## Planning a Baby Shower in Kenya: Everything You Need to Know

@@ -1,3 +1,8 @@
+export const title = "Car Maintenance Tips for Kenyan Drivers: Keeping Your Vehicle in Top Condition";
+export const date = "2025-07-04";
+export const excerpt = "Kenya's roads, climate, and driving conditions create maintenance demands that standard schedules don't anticipate. Here's the practical maintenance guide every Kenyan car owner needs.";
+export const tags = ["AutoShine", "Maintenance", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1200&q=80";
 
 export const content = `## Car Maintenance Tips for Kenyan Drivers: Keeping Your Vehicle in Top Condition

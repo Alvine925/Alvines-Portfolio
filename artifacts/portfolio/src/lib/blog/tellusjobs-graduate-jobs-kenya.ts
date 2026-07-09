@@ -1,3 +1,8 @@
+export const title = "Graduate Jobs in Kenya: What to Expect and How to Land Your First Role";
+export const date = "2025-07-10";
+export const excerpt = "University graduation in Kenya is both an achievement and the start of a competitive journey. Here's how to navigate the graduate job market with strategy rather than hope.";
+export const tags = ["TellusJobs", "Graduate", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&q=80";
 
 export const content = `## Graduate Trainee Programmes in Kenya: The Complete 2025 Guide

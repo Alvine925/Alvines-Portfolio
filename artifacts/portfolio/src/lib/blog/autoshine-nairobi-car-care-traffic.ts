@@ -1,3 +1,8 @@
+export const title = "How Nairobi Traffic Affects Your Car: What to Know and How to Protect Your Vehicle";
+export const date = "2025-07-18";
+export const excerpt = "Stop-and-go Nairobi traffic is harder on vehicles than most drivers realise  -  mechanically, externally, and for interior air quality. Here's what's happening and how to counteract it.";
+export const tags = ["AutoShine", "Nairobi", "Traffic"];
+
 export const coverImage = "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200&q=80";
 
 export const content = `## How Nairobi Traffic Affects Your Car: What to Know and How to Protect Your Vehicle

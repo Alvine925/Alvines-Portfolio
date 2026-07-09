@@ -1,3 +1,8 @@
+export const title = "How TellusJobs Writes Cover Letters That Don't Sound Like AI Wrote Them";
+export const date = "2025-05-28";
+export const excerpt = "Generic AI cover letters are easy to spot and immediately disqualifying. Here's how we built a cover letter system that sounds like the candidate wrote it  -  because in the ways that matter, they did.";
+export const tags = ["TellusJobs", "AI", "Writing"];
+
 export const coverImage = "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80";
 
 export const content = `## AI Cover Letters That Do Not Sound Like AI: How TellusJobs Does It

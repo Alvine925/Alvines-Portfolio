@@ -1,3 +1,8 @@
+export const title = "Windshield and Glass Care for Kenyan Drivers: Seeing Clearly and Staying Safe";
+export const date = "2025-07-13";
+export const excerpt = "Your windshield is your most critical safety component after your brakes. Here's how to clean it properly, deal with chips promptly, and keep glass in condition to see Kenya's roads clearly.";
+export const tags = ["AutoShine", "Windshield", "Safety"];
+
 export const coverImage = "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&q=80";
 
 export const content = `## Windshield and Glass Care for Kenyan Drivers: Seeing Clearly and Staying Safe

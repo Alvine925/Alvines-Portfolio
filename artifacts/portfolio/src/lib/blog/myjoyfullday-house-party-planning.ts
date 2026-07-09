@@ -1,3 +1,8 @@
+export const title = "House Party Planning in Kenya: How to Host at Home Without the Stress";
+export const date = "2025-07-13";
+export const excerpt = "A well-run house party is one of the best event experiences you can create. Here's how to plan one in Kenya  -  from invitations and catering to managing the guest list and the morning after.";
+export const tags = ["MyJoyfulDay", "House Party", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=1200&q=80";
 
 export const content = `## How to Throw a Great House Party in Kenya: A Practical Planning Guide

@@ -1,3 +1,8 @@
+export const title = "Job Interview Tips for Kenya: How to Walk In Confident and Walk Out With an Offer";
+export const date = "2025-07-03";
+export const excerpt = "Kenyan job interviews have their own dynamics. Here's what hiring managers actually look for, the most common mistakes, and how to prepare so thoroughly that nerves become irrelevant.";
+export const tags = ["TellusJobs", "Interview", "Career"];
+
 export const coverImage = "https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=1200&q=80";
 
 export const content = `## Interview Preparation in Kenya: How to Walk In Confident and Walk Out With an Offer

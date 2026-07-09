@@ -1,3 +1,8 @@
+export const title = "Fleet Car Washing in Kenya: Managing Vehicle Presentation Across a Corporate Fleet";
+export const date = "2025-07-09";
+export const excerpt = "Corporate vehicle presentation is a dimension of brand management that many Kenyan businesses underinvest in. Here's how professional fleet washing programmes work and why they're worth it.";
+export const tags = ["AutoShine", "Fleet", "Corporate"];
+
 export const coverImage = "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200&q=80";
 
 export const content = `## Fleet Car Washing in Kenya: Managing Vehicle Presentation Across a Corporate Fleet

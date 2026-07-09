@@ -1,3 +1,8 @@
+export const title = "Remote Work in Kenya: Opportunities, Challenges, and How to Succeed";
+export const date = "2025-07-02";
+export const excerpt = "Remote work has opened up global opportunities for Kenyan professionals. Here's how to find remote roles, build the right setup, and compete effectively for international positions.";
+export const tags = ["TellusJobs", "Remote Work", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?w=1200&q=80";
 
 export const content = `## Remote Work in Kenya: Opportunities, Challenges, and How to Find Legitimate Remote Jobs

@@ -1,8 +1,9 @@
+import { useState } from "react";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { Layout } from "@/components/layout";
 import { SEO } from "@/components/SEO";
-import { blogPosts } from "@/lib/data";
+import { blogMetadata } from "@/lib/blog_metadata";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -13,7 +14,14 @@ const fadeUp = {
   }),
 };
 
+const POSTS_PER_PAGE = 12;
+
 export function Blog() {
+  const [displayCount, setDisplayCount] = useState(POSTS_PER_PAGE);
+
+  const visiblePosts = blogMetadata.slice(0, displayCount);
+  const hasMore = displayCount < blogMetadata.length;
+
   return (
     <Layout>
       <SEO
@@ -37,14 +45,14 @@ export function Blog() {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {blogPosts.map((post, i) => (
+          {visiblePosts.map((post, i) => (
             <motion.article
               key={post.slug}
               variants={fadeUp}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              custom={i * 0.05}
+              custom={(i % POSTS_PER_PAGE) * 0.05}
               className="group flex flex-col"
               data-testid={`article-blog-${post.slug}`}
             >
@@ -103,6 +111,17 @@ export function Blog() {
             </motion.article>
           ))}
         </div>
+
+        {hasMore && (
+          <div className="mt-20 flex justify-center">
+            <button
+              onClick={() => setDisplayCount(prev => prev + POSTS_PER_PAGE)}
+              className="px-8 py-3 rounded-full border border-border hover:bg-muted transition-colors text-sm font-semibold"
+            >
+              Load more articles
+            </button>
+          </div>
+        )}
       </div>
     </Layout>
   );

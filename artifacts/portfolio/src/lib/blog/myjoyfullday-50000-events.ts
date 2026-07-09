@@ -1,3 +1,8 @@
+export const title = "50,000 Events Later: What Building an Event Platform in Kenya Taught Me";
+export const date = "2025-05-20";
+export const excerpt = "We hit 50,000 events created on MyJoyfulDay. Here's what the data revealed, what surprised us, and what we'd build differently if we started over today.";
+export const tags = ["MyJoyfulDay", "Product", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80";
 
 export const content = `

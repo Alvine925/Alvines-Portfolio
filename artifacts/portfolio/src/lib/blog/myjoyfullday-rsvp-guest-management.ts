@@ -1,3 +1,8 @@
+export const title = "How MyJoyfulDay Manages RSVPs for Over a Million Guests Without Sign-Up Forms";
+export const date = "2025-04-15";
+export const excerpt = "One million guests reached, zero sign-up forms. Here's how we designed an RSVP system that works for guests who won't create an account, on devices you can't control.";
+export const tags = ["MyJoyfulDay", "Product", "Design"];
+
 export const coverImage = "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=80";
 
 export const content = `

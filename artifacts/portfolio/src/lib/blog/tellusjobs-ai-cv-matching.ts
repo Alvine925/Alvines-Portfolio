@@ -1,3 +1,8 @@
+export const title = "How AI Reads Your CV and Matches You to Jobs in Seconds";
+export const date = "2025-06-20";
+export const excerpt = "Keyword matching is how 2015 job sites worked. TellusJobs uses embedding-based semantic matching to understand what you've done and compare it to what employers actually want.";
+export const tags = ["TellusJobs", "AI", "Technical"];
+
 export const coverImage = "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80";
 
 export const content = `## How AI Reads Your CV and Matches You to Jobs: The TellusJobs Approach

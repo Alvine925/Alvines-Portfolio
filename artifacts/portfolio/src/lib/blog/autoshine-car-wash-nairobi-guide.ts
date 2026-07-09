@@ -1,3 +1,7 @@
+export const title = "The Complete Guide to Car Wash Services in Nairobi";
+export const date = "2025-07-01";
+export const excerpt = "Find the best car wash in Nairobi and know what to expect from professional services.";
+export const tags = ["AutoShine", "Nairobi", "Car Wash"];
 export const coverImage = "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80";
 
 export const content = `## The Complete Guide to Car Wash Services in Nairobi: Finding the Best, Knowing What to Expect

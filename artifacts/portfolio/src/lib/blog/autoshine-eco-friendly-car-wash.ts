@@ -1,3 +1,8 @@
+export const title = "Eco-Friendly Car Washing in Kenya: Water Conservation and Environmental Responsibility";
+export const date = "2025-07-11";
+export const excerpt = "Kenya faces real water stress. Here's how eco-friendly car washing reduces water consumption, what products minimise environmental impact, and how AutoShine approaches environmental responsibility.";
+export const tags = ["AutoShine", "Eco-Friendly", "Water"];
+
 export const coverImage = "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?w=1200&q=80";
 
 export const content = `## Eco-Friendly Car Washing in Kenya: Water Conservation and Environmental Responsibility

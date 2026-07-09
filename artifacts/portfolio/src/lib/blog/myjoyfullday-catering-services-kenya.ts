@@ -1,3 +1,8 @@
+export const title = "Event Catering in Kenya: How to Feed Your Guests Well Without Breaking the Budget";
+export const date = "2025-07-08";
+export const excerpt = "Food is remembered at every event. Here's how to choose a caterer, plan a menu, and manage catering logistics for Kenyan events from 20 to 500 guests.";
+export const tags = ["MyJoyfulDay", "Catering", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1555244162-803834f70033?w=1200&q=80";
 
 export const content = `## Catering Services for Events in Kenya: How to Choose, What to Ask, and What to Expect

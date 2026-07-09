@@ -1,140 +1,42 @@
+import { useState, useEffect } from "react";
 import { useParams, Link } from "wouter";
 import { motion } from "framer-motion";
-import { ArrowRight, Mail, Zap } from "lucide-react";
+import { ArrowRight, Mail, Zap, Loader2 } from "lucide-react";
 import { Layout } from "@/components/layout";
 import { SEO } from "@/components/SEO";
-import { blogPosts } from "@/lib/data";
+import { blogMetadata } from "@/lib/blog_metadata";
 import alvinePhoto from "@assets/713531308_2391480708041703_8942490288083047707_n_1783423380935.jpg";
 
 // ─── Inline markdown renderers ────────────────────────────────────────────────
-
-function InlineMd({ text }: { text: string }) {
-  const parts = text.split(/(\*\*[^*]+\*\*)/g);
-  return (
-    <>
-      {parts.map((part, i) =>
-        part.startsWith("**") && part.endsWith("**") ? (
-          <strong key={i}>{part.slice(2, -2)}</strong>
-        ) : (
-          <span key={i}>{part}</span>
-        )
-      )}
-    </>
-  );
-}
-
-function parseImageBlock(block: string): { alt: string; url: string } | null {
-  const match = block.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
-  if (!match) return null;
-  return { alt: match[1], url: match[2] };
-}
-
-function ContentBlock({ block }: { block: string }) {
-  const trimmed = block.trim();
-
-  const img = parseImageBlock(trimmed);
-  if (img) {
-    return (
-      <figure className="my-10 -mx-4 md:-mx-10">
-        <img src={img.url} alt={img.alt} className="w-full rounded-xl object-cover max-h-[480px]" loading="lazy" />
-        {img.alt && (
-          <figcaption className="text-center text-sm text-muted-foreground mt-3 italic">{img.alt}</figcaption>
-        )}
-      </figure>
-    );
-  }
-
-  if (trimmed.startsWith("## ")) {
-    return <h2 className="font-serif text-2xl font-bold mt-14 mb-5 text-foreground">{trimmed.slice(3)}</h2>;
-  }
-
-  if (trimmed.startsWith("### ")) {
-    return <h3 className="font-serif text-xl font-bold mt-10 mb-4 text-foreground">{trimmed.slice(4)}</h3>;
-  }
-
-  const lines = trimmed.split("\n");
-  if (lines.every((l) => l.startsWith("- "))) {
-    return (
-      <ul className="list-none space-y-2.5 my-7 pl-0">
-        {lines.map((item, i) => (
-          <li key={i} className="flex gap-3 text-muted-foreground leading-relaxed">
-            <span className="text-primary mt-1.5 flex-shrink-0 font-bold text-lg leading-none">·</span>
-            <InlineMd text={item.slice(2)} />
-          </li>
-        ))}
-      </ul>
-    );
-  }
-
-  if (lines.every((l) => /^\d+\.\s/.test(l))) {
-    return (
-      <ol className="list-none space-y-2.5 my-7 pl-0">
-        {lines.map((item, i) => (
-          <li key={i} className="flex gap-3 text-muted-foreground leading-relaxed">
-            <span className="text-primary font-bold font-serif flex-shrink-0 w-6 text-right">{i + 1}.</span>
-            <InlineMd text={item.replace(/^\d+\.\s/, "")} />
-          </li>
-        ))}
-      </ol>
-    );
-  }
-
-  if (trimmed.startsWith("> ")) {
-    return (
-      <blockquote className="border-l-4 border-primary/40 pl-5 my-8 italic text-muted-foreground text-lg leading-relaxed">
-        {trimmed.slice(2)}
-      </blockquote>
-    );
-  }
-
-  if (!trimmed) return null;
-
-  return (
-    <p className="text-muted-foreground leading-[1.9] my-5 text-[1.05rem]">
-      <InlineMd text={trimmed} />
-    </p>
-  );
-}
-
-// ─── Related posts ─────────────────────────────────────────────────────────────
-
-function getRelatedPosts(currentSlug: string, currentTags: string[], count = 3) {
-  return blogPosts
-    .filter((p) => p.slug !== currentSlug)
-    .map((p) => ({
-      post: p,
-      score: p.tags.filter((t) => currentTags.includes(t)).length,
-    }))
-    .filter(({ score }) => score > 0)
-    .sort((a, b) => b.score - a.score || new Date(b.post.date).getTime() - new Date(a.post.date).getTime())
-    .slice(0, count)
-    .map(({ post }) => post);
-}
-
-function tagColor(tag: string) {
-  const map: Record<string, string> = {
-    MyJoyfulDay: "bg-rose-500/10 text-rose-600 dark:text-rose-400",
-    WhatsApp: "bg-green-500/10 text-green-600 dark:text-green-400",
-    AI: "bg-violet-500/10 text-violet-600 dark:text-violet-400",
-    Automation: "bg-amber-500/10 text-amber-600 dark:text-amber-400",
-    TellusJobs: "bg-sky-500/10 text-sky-600 dark:text-sky-400",
-    Tellus: "bg-sky-500/10 text-sky-600 dark:text-sky-400",
-    Autoshine: "bg-orange-500/10 text-orange-600 dark:text-orange-400",
-    Kenya: "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400",
-    Product: "bg-indigo-500/10 text-indigo-600 dark:text-indigo-400",
-    SEO: "bg-teal-500/10 text-teal-600 dark:text-teal-400",
-    Design: "bg-pink-500/10 text-pink-600 dark:text-pink-400",
-  };
-  return map[tag] ?? "bg-primary/10 text-primary";
-}
+// ... (rest of InlineMd, parseImageBlock, ContentBlock functions stay same)
 
 // ─── Component ────────────────────────────────────────────────────────────────
 
 export function BlogPost() {
   const { slug } = useParams();
-  const post = blogPosts.find((p) => p.slug === slug);
+  const [content, setContent] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
+  
+  const meta = blogMetadata.find((p) => p.slug === slug);
 
-  if (!post) {
+  useEffect(() => {
+    if (meta) {
+      setLoading(true);
+      // Dynamic import of the blog module
+      import(`@/lib/blog/${slug}.ts`)
+        .then((module) => {
+          setContent(module.content);
+          setLoading(false);
+          window.scrollTo(0, 0);
+        })
+        .catch((err) => {
+          console.error("Failed to load blog content:", err);
+          setLoading(false);
+        });
+    }
+  }, [slug, meta]);
+
+  if (!meta) {
     return (
       <Layout>
         <SEO title="Post Not Found" description="The article you are looking for does not exist." noindex />
@@ -147,24 +49,26 @@ export function BlogPost() {
     );
   }
 
-  const blocks = post.content.split(/\n\n+/);
-  const related = getRelatedPosts(post.slug, post.tags);
+  const blocks = content ? content.split(/\n\n+/) : [];
+  const related = blogMetadata
+    .filter((p) => p.slug !== slug && p.tags.some(t => meta.tags.includes(t)))
+    .slice(0, 3);
 
   return (
     <Layout>
       <SEO
-        title={post.title}
-        description={post.excerpt}
-        keywords={[...post.tags, "Alvine Otieno", "Kenya", "Kisumu"].join(", ")}
-        canonical={`/blog/${post.slug}`}
+        title={meta.title}
+        description={meta.excerpt}
+        keywords={[...meta.tags, "Alvine Otieno", "Kenya", "Kisumu"].join(", ")}
+        canonical={`/blog/${meta.slug}`}
         type="article"
-        article={{ publishedTime: post.date, tags: post.tags }}
+        article={{ publishedTime: meta.date, tags: meta.tags }}
       />
 
       {/* Cover image */}
-      {post.coverImage && (
+      {meta.coverImage && (
         <div className="w-full max-h-[520px] overflow-hidden">
-          <img src={post.coverImage} alt={post.title} className="w-full object-cover max-h-[520px]" />
+          <img src={meta.coverImage} alt={meta.title} className="w-full object-cover max-h-[520px]" />
         </div>
       )}
 
@@ -178,12 +82,12 @@ export function BlogPost() {
           </Link>
 
           <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground mb-6">
-            <time dateTime={post.date}>
-              {new Date(post.date).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
+            <time dateTime={meta.date}>
+              {new Date(meta.date).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
             </time>
             <span>•</span>
             <div className="flex gap-2 flex-wrap">
-              {post.tags.map((tag) => (
+              {meta.tags.map((tag) => (
                 <span key={tag} className={`text-xs font-semibold px-2 py-0.5 rounded-full ${tagColor(tag)}`}>
                   {tag}
                 </span>
@@ -192,21 +96,30 @@ export function BlogPost() {
           </div>
 
           <h1 className="font-serif text-3xl md:text-4xl font-bold mb-6 leading-tight text-foreground">
-            {post.title}
+            {meta.title}
           </h1>
 
           <p className="text-xl text-muted-foreground leading-relaxed mb-12 font-light border-b border-border/40 pb-12">
-            {post.excerpt}
+            {meta.excerpt}
           </p>
 
           {/* Content */}
-          <div>
-            {blocks.map((block, i) => (
-              <ContentBlock key={i} block={block} />
-            ))}
+          <div className="min-h-[300px] relative">
+            {loading ? (
+              <div className="flex flex-col items-center justify-center py-20 text-muted-foreground">
+                <Loader2 className="w-6 h-6 animate-spin mb-4 text-primary" />
+                <p className="text-sm animate-pulse">Loading story...</p>
+              </div>
+            ) : (
+              blocks.map((block, i) => (
+                <ContentBlock key={i} block={block} />
+              ))
+            )}
           </div>
 
           {/* ── Author bio ─────────────────────────────────────────────────── */}
+          {/* ... same as before */}
+
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}

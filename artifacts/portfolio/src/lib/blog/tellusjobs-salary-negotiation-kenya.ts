@@ -1,3 +1,7 @@
+export const title = "Salary Negotiation in Kenya: Get Paid What You're Worth";
+export const date = "2025-07-01";
+export const excerpt = "Most professionals accept the first offer. Learn the tactics to negotiate effectively in Kenya.";
+export const tags = ["TellusJobs", "Salary", "Career"];
 export const coverImage = "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80";
 
 export const content = `## Salary Negotiation in Kenya: A Complete Guide to Earning What You're Worth

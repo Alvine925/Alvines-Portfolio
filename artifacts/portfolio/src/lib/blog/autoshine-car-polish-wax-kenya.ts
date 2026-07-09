@@ -1,3 +1,8 @@
+export const title = "Car Polishing and Waxing in Kenya: Understanding Paint Enhancement and Protection";
+export const date = "2025-07-08";
+export const excerpt = "Polish and wax are two of the most confused concepts in car care. Here's what each actually does, when you need which, and the products worth using in Kenya.";
+export const tags = ["AutoShine", "Polish", "Wax"];
+
 export const coverImage = "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80";
 
 export const content = `## Car Polishing and Waxing in Kenya: Understanding Paint Enhancement and Protection

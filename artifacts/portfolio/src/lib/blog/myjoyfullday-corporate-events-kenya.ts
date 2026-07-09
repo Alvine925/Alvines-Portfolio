@@ -1,3 +1,8 @@
+export const title = "Corporate Events in Kenya: Planning That Reflects Well on Your Organisation";
+export const date = "2025-07-04";
+export const excerpt = "Corporate events in Kenya  -  product launches, team builds, annual dinners  -  are high-stakes. Here's how to plan them well and what separates forgettable events from ones people talk about.";
+export const tags = ["MyJoyfulDay", "Corporate", "Events"];
+
 export const coverImage = "https://images.unsplash.com/photo-1511578314322-379afb476865?w=1200&q=80";
 
 export const content = `## Corporate Event Planning in Kenya: A Practical Guide for 2025

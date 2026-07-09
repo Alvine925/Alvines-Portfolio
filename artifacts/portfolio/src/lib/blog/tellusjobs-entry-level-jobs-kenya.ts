@@ -1,3 +1,8 @@
+export const title = "Entry Level Jobs in Kenya: The Honest Guide for Fresh Graduates";
+export const date = "2025-07-09";
+export const excerpt = "Breaking into the Kenyan job market without experience is genuinely hard. Here's the honest picture  -  where entry-level roles actually are, how to compete, and how to get your first break.";
+export const tags = ["TellusJobs", "Entry Level", "Graduate"];
+
 export const coverImage = "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&q=80";
 
 export const content = `## Finding Your First Job in Kenya: A Complete Guide for Fresh Graduates and Entry-Level Job Seekers

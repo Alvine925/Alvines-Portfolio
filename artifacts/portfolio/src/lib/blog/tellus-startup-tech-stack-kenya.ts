@@ -1,3 +1,8 @@
+export const title = "The Kenyan Startup Tech Stack in 2025: What to Build With and Why";
+export const date = "2025-07-12";
+export const excerpt = "Technology stack decisions made early create the foundation for everything else. Here's the stack that most Kenyan startups should use  -  and the principles that should guide the choice.";
+export const tags = ["Tellus", "Tech Stack", "Startup"];
+
 export const coverImage = "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80";
 
 export const content = `## The Kenyan Startup Tech Stack in 2025: What to Build With and Why

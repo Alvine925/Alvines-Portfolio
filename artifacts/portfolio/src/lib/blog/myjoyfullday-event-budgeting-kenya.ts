@@ -1,3 +1,8 @@
+export const title = "Event Budgeting in Kenya: A Realistic Guide to Planning Costs";
+export const date = "2025-07-12";
+export const excerpt = "Kenyan events frequently run over budget  -  not because people are careless, but because the true costs aren't clear at the start. Here's how to budget accurately and where to find savings.";
+export const tags = ["MyJoyfulDay", "Budget", "Events"];
+
 export const coverImage = "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80";
 
 export const content = `## Event Budgeting in Kenya: How to Plan a Celebration Without Financial Stress

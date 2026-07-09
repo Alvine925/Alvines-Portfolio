@@ -1,3 +1,8 @@
+export const title = "Event Photography in Kenya: Finding the Right Photographer and Getting the Most from Them";
+export const date = "2025-07-07";
+export const excerpt = "Your event photos are the only thing that survives the day. Here's how to find a Kenyan event photographer who will deliver, what to look for, and how to brief them properly.";
+export const tags = ["MyJoyfulDay", "Photography", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80";
 
 export const content = `## Finding the Right Event Photographer in Kenya: A Practical Guide

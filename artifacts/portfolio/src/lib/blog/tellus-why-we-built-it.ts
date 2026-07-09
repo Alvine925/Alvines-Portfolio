@@ -1,3 +1,7 @@
+export const title = "Why We Built Tellus: The Case Against Another Productivity Tool";
+export const date = "2025-07-05";
+export const excerpt = "Most tools make you more productive at using tools. Tellus was built to be different.";
+export const tags = ["Tellus", "AI", "Productivity"];
 export const coverImage = "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80";
 
 export const content = `# Why We Built Tellus: The Manifesto Against Productivity Theater

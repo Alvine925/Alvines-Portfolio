@@ -1,3 +1,8 @@
+export const title = "The Best AI Tools for Kenyan Businesses in 2025: A Practical Evaluation";
+export const date = "2025-07-09";
+export const excerpt = "A clear-eyed assessment of which AI tools are worth using for Kenyan businesses  -  what each does well, what it costs, and how it fits the Kenyan context.";
+export const tags = ["Tellus", "AI Tools", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&q=80";
 
 export const content = `## The Best AI Tools for Kenyan Businesses in 2025: A Practical Evaluation

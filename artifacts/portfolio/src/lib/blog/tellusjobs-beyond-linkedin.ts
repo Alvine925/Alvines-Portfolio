@@ -1,3 +1,8 @@
+export const title = "Why LinkedIn Alone Won't Land You a Job in Kenya";
+export const date = "2025-05-15";
+export const excerpt = "LinkedIn is necessary but not sufficient for job seekers in Kenya. Here's the full picture of where Kenyan jobs actually live  -  and what a complete search strategy looks like.";
+export const tags = ["TellusJobs", "Kenya", "Career"];
+
 export const coverImage = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80";
 
 export const content = `## Why LinkedIn Alone Will Not Get You a Job in Kenya in 2025

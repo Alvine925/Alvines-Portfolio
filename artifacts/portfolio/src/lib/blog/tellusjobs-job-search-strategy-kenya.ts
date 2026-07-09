@@ -1,3 +1,8 @@
+export const title = "How to Build a Job Search Strategy That Works in Kenya";
+export const date = "2025-07-14";
+export const excerpt = "Checking LinkedIn and BrighterMonday daily is not a strategy. Here's the structured three-layer approach that produces better results in Kenya's unique job market.";
+export const tags = ["TellusJobs", "Job Search", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80";
 
 export const content = `## Building a Job Search Strategy That Actually Works in Kenya

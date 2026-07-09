@@ -1,3 +1,8 @@
+export const title = "The Future of Work in Kenya: AI, Automation, and What It Means for Kenyan Professionals";
+export const date = "2025-07-06";
+export const excerpt = "Which roles are most exposed to AI? Which are protected? What new work is being created? A grounded assessment of how AI and automation are changing work in Kenya.";
+export const tags = ["Tellus", "AI", "Future of Work"];
+
 export const coverImage = "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80";
 
 export const content = `## The Future of Work in Kenya: AI, Automation, and What It Means for Kenyan Professionals

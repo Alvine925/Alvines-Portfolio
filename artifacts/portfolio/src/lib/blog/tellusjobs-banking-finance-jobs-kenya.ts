@@ -1,3 +1,8 @@
+export const title = "Banking and Finance Jobs in Kenya: Salaries, Requirements, and How to Get Hired";
+export const date = "2025-07-11";
+export const excerpt = "Kenya's banking sector is one of the most active employers of graduates. Here's the full picture of banking and finance careers in Kenya  -  roles, salaries, requirements, and hiring patterns.";
+export const tags = ["TellusJobs", "Banking", "Finance"];
+
 export const coverImage = "https://images.unsplash.com/photo-1541354329998-f4d9a9f9297f?w=1200&q=80";
 
 export const content = `## Banking and Finance Jobs in Kenya: The Complete Career Guide

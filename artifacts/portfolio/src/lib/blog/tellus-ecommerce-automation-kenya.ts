@@ -1,3 +1,8 @@
+export const title = "E-Commerce Automation in Kenya: From Order to Delivery Without Manual Effort";
+export const date = "2025-07-08";
+export const excerpt = "Manual e-commerce operations don't scale. Here's how automation transforms every stage of the Kenyan e-commerce order lifecycle  -  from M-Pesa payment to delivery confirmation.";
+export const tags = ["Tellus", "E-Commerce", "Automation"];
+
 export const coverImage = "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80";
 
 export const content = `## E-Commerce Automation in Kenya: From Order to Delivery Without Manual Effort

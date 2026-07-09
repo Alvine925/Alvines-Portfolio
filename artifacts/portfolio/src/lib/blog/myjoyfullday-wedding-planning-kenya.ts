@@ -1,3 +1,8 @@
+export const title = "Building for Kenya: Why Context Is a Feature";
+export const date = "2024-11-05";
+export const excerpt = "Every product decision looks different when your users are on 3G, pay with M-Pesa, and trust WhatsApp more than any app you could build.";
+export const tags = ["Product", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80";
 
 export const content = `## The Complete Guide to Wedding Planning in Kenya with MyJoyfulDay

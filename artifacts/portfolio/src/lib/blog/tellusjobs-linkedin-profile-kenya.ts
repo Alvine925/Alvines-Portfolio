@@ -1,3 +1,8 @@
+export const title = "LinkedIn Profile Optimisation for Kenyan Professionals: The Complete Guide";
+export const date = "2025-07-08";
+export const excerpt = "LinkedIn is how Kenyan professionals get found by recruiters. Here's how to optimise every section of your profile to attract the right opportunities  -  with Kenya-specific advice.";
+export const tags = ["TellusJobs", "LinkedIn", "Career"];
+
 export const coverImage = "https://images.unsplash.com/photo-1611944212129-29977ae1398c?w=1200&q=80";
 
 export const content = `## How to Build a LinkedIn Profile That Finds You Jobs in Kenya

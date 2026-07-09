@@ -1,3 +1,8 @@
+export const title = "Context-Aware AI: Why Tellus Knows What You Need Before You Ask";
+export const date = "2025-06-25";
+export const excerpt = "Most AI assistants are reactive. You ask, they answer. Tellus is designed to be proactive  -  surfacing what you need before you realise you need it. Here's how that works.";
+export const tags = ["Tellus", "AI", "Technical"];
+
 export const coverImage = "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80";
 
 export const content = `## Context-Aware AI: Why Tellus Knows What You Need Before You Ask It

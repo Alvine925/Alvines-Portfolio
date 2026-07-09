@@ -1,3 +1,8 @@
+export const title = "We Scraped 10 Kenyan Job Portals. Here's What the Data Showed";
+export const date = "2025-06-10";
+export const excerpt = "Building TellusJobs meant collecting data from every major Kenyan job portal. Here's what we found  -  about posting volumes, duplication rates, exclusive listings, and where the real jobs are hiding.";
+export const tags = ["TellusJobs", "Kenya", "Data"];
+
 export const coverImage = "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80";
 
 export const content = `## We Scraped 10 Kenyan Job Portals for a Year. Here Is What the Data Shows

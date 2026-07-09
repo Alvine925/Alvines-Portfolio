@@ -1,3 +1,8 @@
+export const title = "Event Engagement That Lasts: How to Build Excitement Before, During, and After Your Event";
+export const date = "2025-07-15";
+export const excerpt = "Sending an invitation is the start of the conversation, not the end. Here's how to build genuine engagement with your guests from save-the-date to the morning after.";
+export const tags = ["MyJoyfulDay", "Events", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80";
 
 export const content = `## Building Event Engagement That Lasts Beyond the Invite

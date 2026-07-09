@@ -1,3 +1,8 @@
+export const title = "Waterless Car Wash: What It Is, When to Use It, and the Truth About Kenyan Roads";
+export const date = "2025-07-07";
+export const excerpt = "Waterless washing is genuinely useful in the right situations and genuinely damaging in the wrong ones. Here's the honest guide for Kenyan car owners.";
+export const tags = ["AutoShine", "Waterless", "Car Wash"];
+
 export const coverImage = "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80";
 
 export const content = `## Waterless Car Wash: What It Is, When to Use It, and the Truth About Kenyan Roads

@@ -1,3 +1,8 @@
+export const title = "CV Writing for Kenya: How to Write a CV That Gets You Interviews";
+export const date = "2025-07-04";
+export const excerpt = "Kenyan hiring managers see hundreds of CVs. Most are forgettable. Here's how to write one that stands out  -  what to include, what to cut, and how AI is changing the game.";
+export const tags = ["TellusJobs", "CV", "Career"];
+
 export const coverImage = "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=1200&q=80";
 
 export const content = `## How to Write a CV That Gets You Hired in Kenya: The Complete Guide

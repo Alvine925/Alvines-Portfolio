@@ -1,3 +1,8 @@
+export const title = "WhatsApp Business API in Kenya: What It Is, How It Works, and How to Use It";
+export const date = "2025-07-02";
+export const excerpt = "The WhatsApp Business API is categorically different from the WhatsApp Business App. Here's everything Kenyan businesses need to know to access it, use it, and comply with its requirements.";
+export const tags = ["Tellus", "WhatsApp", "API"];
+
 export const coverImage = "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=1200&q=80";
 
 export const content = `## WhatsApp Business API in Kenya: What It Is, How It Works, and How to Use It

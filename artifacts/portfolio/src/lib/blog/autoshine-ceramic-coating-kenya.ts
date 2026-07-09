@@ -1,3 +1,8 @@
+export const title = "Ceramic Coating in Kenya: The Complete Guide to Long-Term Paint Protection";
+export const date = "2025-07-05";
+export const excerpt = "Ceramic coating is the most significant advancement in automotive paint protection of the past two decades. Here's everything about it  -  what it does, what it costs, and how to get it done right in Kenya.";
+export const tags = ["AutoShine", "Ceramic Coating", "Detailing"];
+
 export const coverImage = "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&q=80";
 
 export const content = `## Ceramic Coating in Kenya: The Complete Guide to Long-Term Paint Protection

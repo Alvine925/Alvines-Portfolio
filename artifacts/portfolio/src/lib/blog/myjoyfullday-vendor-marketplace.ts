@@ -1,3 +1,8 @@
+export const title = "Building a Two-Sided Marketplace for Kenyan Weddings from Zero";
+export const date = "2025-04-28";
+export const excerpt = "The cold-start problem is real. Here's how we built both sides of the MyJoyfulDay vendor marketplace simultaneously  -  without faking supply or subsidizing demand.";
+export const tags = ["MyJoyfulDay", "Product", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80";
 
 export const content = `

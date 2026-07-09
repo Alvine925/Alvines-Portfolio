@@ -1,3 +1,8 @@
+export const title = "Zero UI: Why We Removed the Dashboard and Replaced It with a Conversation";
+export const date = "2025-05-10";
+export const excerpt = "Every dashboard we designed got thrown out. Not because the designs were bad  -  because they were solving the wrong problem. Here's the case for Zero UI and what it means in practice.";
+export const tags = ["MyJoyfulDay", "Design", "WhatsApp"];
+
 export const coverImage = "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=1200&q=80";
 
 export const content = `

@@ -1,3 +1,8 @@
+export const title = "The Best Event Venues in Nairobi: A Practical Guide for Every Budget";
+export const date = "2025-07-05";
+export const excerpt = "Nairobi's venue landscape spans hotel ballrooms, garden spaces, rooftop terraces, and community halls. Here's how to find the right one for your event and what to look out for.";
+export const tags = ["MyJoyfulDay", "Venues", "Nairobi"];
+
 export const coverImage = "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=80";
 
 export const content = `## The Best Event Venues in Nairobi: A Complete Guide for 2025

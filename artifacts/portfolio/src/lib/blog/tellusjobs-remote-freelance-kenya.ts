@@ -1,3 +1,8 @@
+export const title = "Remote Freelancing for Kenyan Professionals: How to Earn Internationally from Kenya";
+export const date = "2025-07-12";
+export const excerpt = "Kenyan freelancers are earning international rates from Nairobi, Mombasa, and Kisumu. Here's how to build a freelance career that crosses borders  -  platforms, rates, payment, and positioning.";
+export const tags = ["TellusJobs", "Freelance", "Remote Work"];
+
 export const coverImage = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80";
 
 export const content = `## Freelancing and Remote Contract Work in Kenya: Building an Independent Career

@@ -1,3 +1,8 @@
+export const title = "The Best Car Wash Products in Kenya: A Professional's Guide to What Actually Works";
+export const date = "2025-07-20";
+export const excerpt = "An honest assessment of car care products available in Kenya  -  what categories matter, what to look for, which brands are worth the price, and where to source professional products in Nairobi.";
+export const tags = ["AutoShine", "Products", "Car Care"];
+
 export const coverImage = "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80";
 
 export const content = `## The Best Car Wash Products in Kenya: A Professional's Guide to What Actually Works

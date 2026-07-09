@@ -1,3 +1,7 @@
+export const title = "The Kenyan Job Market Is Fragmented. TellusJobs Is the Fix";
+export const date = "2025-07-01";
+export const excerpt = "A qualified candidate in Kenya has to check dozens of boards daily. Discover how TellusJobs consolidates the market.";
+export const tags = ["TellusJobs", "Kenya", "AI"];
 export const coverImage = "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=1200&q=80";
 
 export const content = `## The Kenyan Job Market Is Fragmented. TellusJobs Is the Fix

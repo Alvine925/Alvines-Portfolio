@@ -1,3 +1,8 @@
+export const title = "AutoShine Subscription Car Wash Plans: Regular Care Without the Hassle";
+export const date = "2025-07-19";
+export const excerpt = "AutoShine subscriptions make professional car care automatic  -  set your frequency, set your location, and your vehicle gets washed on schedule with no booking effort required.";
+export const tags = ["AutoShine", "Subscription", "Car Wash"];
+
 export const coverImage = "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80";
 
 export const content = `## AutoShine Subscription Car Wash Plans: Regular Care Without the Hassle

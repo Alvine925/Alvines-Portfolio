@@ -1,3 +1,7 @@
+export const title = "Live Event Websites from a Single WhatsApp Message";
+export const date = "2025-06-15";
+export const excerpt = "Discover the technical pipeline that converts a WhatsApp message into a published website in 10 seconds.";
+export const tags = ["MyJoyfulDay", "WhatsApp", "AI"];
 export const coverImage = "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&q=80";
 
 export const content = `

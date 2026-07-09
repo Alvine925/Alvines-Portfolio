@@ -1,3 +1,8 @@
+export const title = "The Best App for Event Planning in Kenya Is Already on Your Phone";
+export const date = "2025-06-01";
+export const excerpt = "The hardest part of building MyJoyfulDay wasn't the technology. It was accepting that the best product we could build would never ask anyone to download anything.";
+export const tags = ["MyJoyfulDay", "Product", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=80";
 
 export const content = `

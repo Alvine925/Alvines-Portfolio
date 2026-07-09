@@ -1,3 +1,8 @@
+export const title = "Event Decoration in Kenya: Creating the Look Your Event Deserves";
+export const date = "2025-07-09";
+export const excerpt = "Décor sets the tone before a single guest arrives. Here's how Kenyan event decorators work, what different decoration styles cost, and how to get a beautiful result on any budget.";
+export const tags = ["MyJoyfulDay", "Decoration", "Events"];
+
 export const coverImage = "https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=1200&q=80";
 
 export const content = `## Event Decoration in Kenya: Trends, Budgets, and How to Find the Right Decorator

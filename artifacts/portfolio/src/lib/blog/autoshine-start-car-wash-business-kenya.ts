@@ -1,3 +1,8 @@
+export const title = "How to Start a Car Wash Business in Kenya: A Complete Guide";
+export const date = "2025-07-10";
+export const excerpt = "Car washing is one of Kenya's most accessible and resilient businesses. Here's the complete guide from initial planning through operation  -  models, costs, location, equipment, staffing, and pricing.";
+export const tags = ["AutoShine", "Business", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80";
 
 export const content = `## How to Start a Car Wash Business in Kenya: A Complete Guide

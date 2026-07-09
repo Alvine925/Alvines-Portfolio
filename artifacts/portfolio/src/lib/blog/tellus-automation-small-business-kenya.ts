@@ -1,3 +1,8 @@
+export const title = "Automation for Small Businesses in Kenya: Where to Start and What to Prioritise";
+export const date = "2025-07-05";
+export const excerpt = "Practical, affordable automation is more accessible to Kenyan SMEs than ever. Here's where automation delivers the most value, which tools work, and how to start without being overwhelmed.";
+export const tags = ["Tellus", "Automation", "SME"];
+
 export const coverImage = "https://images.unsplash.com/photo-1556742031-c6961e8560b0?w=1200&q=80";
 
 export const content = `## Automation for Small Businesses in Kenya: Where to Start and What to Prioritise

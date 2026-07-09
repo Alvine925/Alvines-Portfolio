@@ -1,3 +1,8 @@
+export const title = "Building AI That Knows Its Place: Human Autonomy in AI Assistants";
+export const date = "2025-05-12";
+export const excerpt = "The most dangerous AI assistant is one that makes decisions without telling you. Here's how Tellus is designed to support human judgment rather than replace it.";
+export const tags = ["Tellus", "AI", "Design"];
+
 export const coverImage = "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1200&q=80";
 
 export const content = `## Building AI That Knows Its Place: Why Tellus Will Always Ask Before Acting

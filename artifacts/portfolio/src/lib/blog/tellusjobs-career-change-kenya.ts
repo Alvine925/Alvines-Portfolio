@@ -1,3 +1,8 @@
+export const title = "Career Change in Kenya: How to Switch Industries Without Starting from Zero";
+export const date = "2025-07-07";
+export const excerpt = "Changing careers in Kenya feels daunting. The professionals who do it successfully share common approaches. Here's the practical guide to making a deliberate career change work.";
+export const tags = ["TellusJobs", "Career Change", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80";
 
 export const content = `## How to Change Careers in Kenya: A Practical Guide for Professionals Ready for Something Different

@@ -1,3 +1,8 @@
+export const title = "The Skills Kenyan Employers Are Actually Looking For in 2025";
+export const date = "2025-07-15";
+export const excerpt = "Beyond the CV buzzwords  -  here's what hiring managers across Kenya's major sectors consistently say they need and consistently struggle to find. Including what's changed in the last two years.";
+export const tags = ["TellusJobs", "Skills", "Career"];
+
 export const coverImage = "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80";
 
 export const content = `## The Skills Kenyan Employers Are Actually Looking For in 2025

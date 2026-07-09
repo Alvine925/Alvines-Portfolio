@@ -1,3 +1,8 @@
+export const title = "Car Scratch Removal in Kenya: What Can Be Fixed, What Can't, and How to Fix It";
+export const date = "2025-07-12";
+export const excerpt = "Many scratches that look serious can be polished away. Others require professional bodywork. Here's how to assess what you're dealing with and what your options are.";
+export const tags = ["AutoShine", "Scratch", "Paint"];
+
 export const coverImage = "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=1200&q=80";
 
 export const content = `## Car Scratch Removal in Kenya: What Can Be Fixed, What Can't, and How to Fix It

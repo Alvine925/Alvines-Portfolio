@@ -1,3 +1,8 @@
+export const title = "How Often Should You Wash Your Car in Kenya? A Practical Guide";
+export const date = "2025-07-16";
+export const excerpt = "The answer depends on where you drive and how. Here's the specific washing frequency for every Kenyan driving situation  -  from daily Nairobi commuters to coastal residents to rural drivers.";
+export const tags = ["AutoShine", "Car Wash", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1200&q=80";
 
 export const content = `## How Often Should You Wash Your Car in Kenya? A Practical Guide

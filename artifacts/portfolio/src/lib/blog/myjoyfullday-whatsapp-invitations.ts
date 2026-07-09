@@ -1,3 +1,8 @@
+export const title = "WhatsApp Event Invitations: The Smart Way to Invite Guests in Kenya";
+export const date = "2025-07-11";
+export const excerpt = "Printed cards are fading. WhatsApp invitations are how Kenyans actually invite guests. Here's how to do it well  -  and how MyJoyfulDay creates shareable digital invitations automatically.";
+export const tags = ["MyJoyfulDay", "WhatsApp", "Invitations"];
+
 export const coverImage = "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=1200&q=80";
 
 export const content = `## Why WhatsApp Invitations Have Replaced Paper and Email for Kenyan Events

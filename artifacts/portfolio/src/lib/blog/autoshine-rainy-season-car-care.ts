@@ -1,3 +1,8 @@
+export const title = "Car Care During Kenya's Rainy Season: What Every Driver Needs to Know";
+export const date = "2025-07-15";
+export const excerpt = "Rain doesn't clean your car  -  it deposits acidic compounds that etch paint if left to dry. Here's the complete guide to protecting your vehicle through Kenya's long and short rains.";
+export const tags = ["AutoShine", "Rainy Season", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1428592953211-077101b2021b?w=1200&q=80";
 
 export const content = `## Car Care During Kenya's Rainy Season: What Every Driver Needs to Know

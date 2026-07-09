@@ -1,3 +1,8 @@
+export const title = "NGO Jobs in Kenya: How to Break In and Build a Career in the Development Sector";
+export const date = "2025-07-06";
+export const excerpt = "Kenya's development sector employs tens of thousands. Here's how to find NGO jobs, what hiring looks for, the realistic salary picture, and how TellusJobs aggregates development sector vacancies.";
+export const tags = ["TellusJobs", "NGO", "Career"];
+
 export const coverImage = "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1200&q=80";
 
 export const content = `## NGO and Development Sector Jobs in Kenya: How to Build a Career That Matters

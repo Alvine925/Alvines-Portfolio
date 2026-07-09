@@ -1,3 +1,8 @@
+export const title = "Building WhatsApp Bots for Business: The Complete Technical and Strategic Guide";
+export const date = "2025-07-10";
+export const excerpt = "WhatsApp bots are the most impactful technology investment most Kenyan businesses can make. Here's everything  -  strategic decisions, technical approaches, and conversation design principles.";
+export const tags = ["Tellus", "WhatsApp", "Chatbot"];
+
 export const coverImage = "https://images.unsplash.com/photo-1617791160588-241658c0f566?w=1200&q=80";
 
 export const content = `## Building WhatsApp Bots for Business: The Complete Technical and Strategic Guide

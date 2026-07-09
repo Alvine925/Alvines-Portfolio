@@ -1,3 +1,8 @@
+export const title = "M-Pesa for Event Payments: How to Collect Guest Contributions and Vendor Fees";
+export const date = "2025-07-06";
+export const excerpt = "From harambee contributions to vendor deposits, M-Pesa is how Kenyans handle event money. Here's how to set it up properly  -  and how MyJoyfulDay automates the whole process.";
+export const tags = ["MyJoyfulDay", "M-Pesa", "Payments"];
+
 export const coverImage = "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80";
 
 export const content = `## M-Pesa for Events: How MyJoyfulDay Integrates Mobile Money into Kenyan Celebrations

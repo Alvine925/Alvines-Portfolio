@@ -1,3 +1,8 @@
+export const title = "Why AI Assistants Feel Slow (and What We Did About It)";
+export const date = "2025-06-15";
+export const excerpt = "Latency in AI interactions isn't just inconvenient  -  it breaks flow. Here's how we designed Tellus to feel instant even when the underlying computation isn't.";
+export const tags = ["Tellus", "Technical", "AI"];
+
 export const coverImage = "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=80";
 
 export const content = `## Why AI Assistants Feel Slow (And What We Did About It)

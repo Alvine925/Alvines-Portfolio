@@ -1,3 +1,8 @@
+export const title = "Mobile Car Wash Services in Kenya: Convenience That Comes to You";
+export const date = "2025-07-03";
+export const excerpt = "AutoShine's mobile car wash brings professional-quality washing to your home, office, or parking lot. Here's how it works, what services are available, and why it's the smart choice for Nairobi drivers.";
+export const tags = ["AutoShine", "Mobile", "Car Wash"];
+
 export const coverImage = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80";
 
 export const content = `## Mobile Car Wash Services in Kenya: Convenience That Comes to You

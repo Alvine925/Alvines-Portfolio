@@ -1,3 +1,7 @@
+export const title = "How AI Is Transforming Productivity for Kenyan Professionals";
+export const date = "2025-07-01";
+export const excerpt = "AI is compressing the productivity gap in ways that matter specifically for Kenya. Learn where the gains are largest.";
+export const tags = ["Tellus", "AI", "Productivity"];
 export const coverImage = "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80";
 
 export const content = `## How AI Is Transforming Productivity for Kenyan Professionals and Businesses

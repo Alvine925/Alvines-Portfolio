@@ -1,3 +1,8 @@
+export const title = "Birthday Party Planning in Kenya: How to Throw a Celebration People Will Remember";
+export const date = "2025-07-02";
+export const excerpt = "From intimate house parties to large venue celebrations, planning a birthday in Kenya requires the right vendors, the right venue, and a guest experience that reflects the occasion.";
+export const tags = ["MyJoyfulDay", "Birthday", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=1200&q=80";
 
 export const content = `## How to Plan the Perfect Birthday Party in Kenya: The Complete Guide

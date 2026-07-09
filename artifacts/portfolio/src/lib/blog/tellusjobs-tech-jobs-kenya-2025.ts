@@ -1,3 +1,8 @@
+export const title = "Tech Jobs in Kenya 2025: What's Hiring, What's Paying, and How to Get In";
+export const date = "2025-07-05";
+export const excerpt = "Kenya's tech sector is one of Africa's most active. Here's the state of tech hiring in 2025  -  the roles in demand, realistic salaries, the top employers, and how to break in.";
+export const tags = ["TellusJobs", "Tech Jobs", "Kenya"];
+
 export const coverImage = "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80";
 
 export const content = `## Tech Jobs in Kenya 2025: The Complete Guide to the Kenyan Technology Job Market

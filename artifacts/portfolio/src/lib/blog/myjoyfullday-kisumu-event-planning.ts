@@ -1,3 +1,8 @@
+export const title = "Event Planning in Kisumu: The Guide for Kenya's Lakeside City";
+export const date = "2025-07-10";
+export const excerpt = "Kisumu has a thriving events scene with its own distinct character. Here's how to plan events in the lakeside city  -  venues, vendors, logistics, and the things that make Kisumu events unique.";
+export const tags = ["MyJoyfulDay", "Kisumu", "Events"];
+
 export const coverImage = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80";
 
 export const content = `## Event Planning in Kisumu: Kenya's Lakeside City Has the Best Settings You've Never Heard Of

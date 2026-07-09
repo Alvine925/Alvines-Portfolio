@@ -1,3 +1,8 @@
+export const title = "Car Interior Cleaning in Kenya: A Professional's Guide to a Truly Clean Cabin";
+export const date = "2025-07-06";
+export const excerpt = "Professional interior cleaning transforms the driving experience and protects upholstery value. Here's what it actually involves and why 'vacuum included' often means very little.";
+export const tags = ["AutoShine", "Interior", "Detailing"];
+
 export const coverImage = "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80";
 
 export const content = `## Car Interior Cleaning in Kenya: A Professional's Guide to a Truly Clean Cabin

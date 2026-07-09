@@ -8,7 +8,99 @@ import { blogMetadata } from "@/lib/blog_metadata";
 import alvinePhoto from "@assets/713531308_2391480708041703_8942490288083047707_n_1783423380935.jpg";
 
 // ─── Inline markdown renderers ────────────────────────────────────────────────
-// ... (rest of InlineMd, parseImageBlock, ContentBlock functions stay same)
+
+// Renders **bold** and plain text within a single line/paragraph.
+function InlineMd({ text }: { text: string }) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g).filter(Boolean);
+  return (
+    <>
+      {parts.map((part, i) =>
+        part.startsWith("**") && part.endsWith("**") ? (
+          <strong key={i} className="font-semibold text-foreground">
+            {part.slice(2, -2)}
+          </strong>
+        ) : (
+          <span key={i}>{part}</span>
+        )
+      )}
+    </>
+  );
+}
+
+// Detects a markdown image block: ![alt](url)
+function parseImageBlock(block: string): { alt: string; src: string } | null {
+  const match = block.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+  if (!match) return null;
+  return { alt: match[1], src: match[2] };
+}
+
+// Renders a single markdown "block" (split on blank lines) as the
+// appropriate element: heading, image, bullet list, or paragraph.
+function ContentBlock({ block }: { block: string }) {
+  const trimmed = block.trim();
+  if (!trimmed) return null;
+
+  const image = parseImageBlock(trimmed);
+  if (image) {
+    return (
+      <div className="my-8 rounded-xl overflow-hidden">
+        <img src={image.src} alt={image.alt} className="w-full object-cover" loading="lazy" />
+      </div>
+    );
+  }
+
+  if (trimmed.startsWith("### ")) {
+    return (
+      <h3 className="font-serif text-lg font-bold mt-10 mb-3 text-foreground">
+        <InlineMd text={trimmed.slice(4)} />
+      </h3>
+    );
+  }
+  if (trimmed.startsWith("## ")) {
+    return (
+      <h2 className="font-serif text-xl font-bold mt-12 mb-4 text-foreground">
+        <InlineMd text={trimmed.slice(3)} />
+      </h2>
+    );
+  }
+
+  const lines = trimmed.split("\n");
+  const isList = lines.every((l) => l.trim().startsWith("- ") || l.trim().startsWith("* "));
+  if (isList) {
+    return (
+      <ul className="list-disc pl-5 space-y-2 my-5 text-muted-foreground leading-relaxed">
+        {lines.map((l, i) => (
+          <li key={i}>
+            <InlineMd text={l.trim().replace(/^[-*]\s+/, "")} />
+          </li>
+        ))}
+      </ul>
+    );
+  }
+
+  return (
+    <p className="text-muted-foreground leading-relaxed mb-6">
+      <InlineMd text={trimmed} />
+    </p>
+  );
+}
+
+const TAG_COLORS = [
+  "bg-primary/10 text-primary",
+  "bg-blue-500/10 text-blue-600 dark:text-blue-400",
+  "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400",
+  "bg-amber-500/10 text-amber-600 dark:text-amber-400",
+  "bg-rose-500/10 text-rose-600 dark:text-rose-400",
+  "bg-violet-500/10 text-violet-600 dark:text-violet-400",
+];
+
+function tagColor(tag: string): string {
+  let hash = 0;
+  for (let i = 0; i < tag.length; i++) {
+    hash = (hash * 31 + tag.charCodeAt(i)) | 0;
+  }
+  return TAG_COLORS[Math.abs(hash) % TAG_COLORS.length];
+}
 
 // ─── Component ────────────────────────────────────────────────────────────────
 

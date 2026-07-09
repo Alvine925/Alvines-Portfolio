@@ -301,12 +301,28 @@ export function ProjectDetail() {
         )}
       </AnimatePresence>
 
-      {/* Hero  -  colored band */}
+      {/* Hero  -  colored band, image background when available */}
       <div
-        className="w-full py-28 md:py-36 border-b border-border/30"
-        style={{ backgroundColor: project.colors?.bg || "var(--color-muted)" }}
+        className="w-full py-28 md:py-36 border-b border-border/30 relative overflow-hidden"
+        style={
+          project.image
+            ? {
+                backgroundImage: `url(${project.image})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center top",
+              }
+            : { backgroundColor: project.colors?.bg || "var(--color-muted)" }
+        }
       >
-        <div className="max-w-6xl mx-auto px-6">
+        {project.image && (
+          <div
+            className="absolute inset-0"
+            style={{
+              background: `linear-gradient(to right, ${project.colors?.bg || "#0f172a"}F5 40%, ${project.colors?.bg || "#0f172a"}99 70%, ${project.colors?.bg || "#0f172a"}33 100%)`,
+            }}
+          />
+        )}
+        <div className="relative z-10 max-w-6xl mx-auto px-6">
           <motion.div variants={fadeUp} initial="hidden" animate="visible">
             <Link
               href="/projects"

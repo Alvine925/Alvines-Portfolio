@@ -121,28 +121,6 @@ export function Home() {
         </div>
       </section>
 
-      {/* Stats strip */}
-      <section className="border-t border-b border-border/40">
-        <div className="max-w-6xl mx-auto px-6 py-8 flex flex-wrap gap-12 md:gap-20">
-          {[
-            { num: "50K+", label: "Events on MyJoyfulDay" },
-            { num: "5", label: "Products shipped" },
-          ].map(({ num, label }, i) => (
-            <motion.div
-              key={label}
-              variants={fadeUp}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              custom={i * 0.08}
-            >
-              <p className="font-serif text-xl md:text-2xl font-bold text-foreground">{num}</p>
-              <p className="text-xs text-muted-foreground mt-1 max-w-[140px] leading-snug">{label}</p>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
       {/* Services teaser */}
       <section className="max-w-6xl mx-auto px-6 py-20 md:py-28">
         <div className="flex items-baseline justify-between mb-12">

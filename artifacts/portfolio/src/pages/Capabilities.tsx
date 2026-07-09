@@ -14,12 +14,6 @@ const fadeUp = {
   }),
 };
 
-const proofPoints = [
-  { num: "1M+", label: "People reached across products" },
-  { num: "50K+", label: "Events on MyJoyfulDay" },
-  { num: "500+", label: "Traders trained via Deriv Champions" },
-  { num: "5", label: "Products shipped from 0 to live" },
-];
 
 export function Capabilities() {
   return (
@@ -60,28 +54,6 @@ export function Capabilities() {
               </p>
             </div>
           </div>
-        </motion.div>
-
-        {/* Proof strip */}
-        <motion.div
-          variants={fadeUp}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          className="border-t border-b border-border/40 py-8 mb-20 flex flex-wrap gap-10 md:gap-16"
-        >
-          {proofPoints.map(({ num, label }, i) => (
-            <motion.div
-              key={label}
-              initial={{ opacity: 0, y: 12 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.07 }}
-            >
-              <p className="font-serif text-2xl md:text-3xl font-bold text-foreground">{num}</p>
-              <p className="text-xs text-muted-foreground mt-1 max-w-[130px] leading-snug">{label}</p>
-            </motion.div>
-          ))}
         </motion.div>
 
         {/* Capabilities list */}

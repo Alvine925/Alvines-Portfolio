@@ -2,6 +2,7 @@ import myjoyfulldayImg from "@assets/screenshots/myjoyfullday_com.png";
 import tellusjobsImg from "@assets/screenshots/tellusjobs_site.png";
 import autoshineImg from "@assets/screenshots/autoshine_co_ke.png";
 import tellusImg from "@assets/screenshots/site_tellusplatform_site.png";
+import lunarCmsImg from "@assets/lunar-cms-dashboard.png";
 
 export const projects = [
   {
@@ -114,7 +115,7 @@ export const projects = [
       "Designing a content schema flexible enough to handle blogs, products, and FAQs without forcing teams into rigid templates.",
       "Real-time engagement aggregation across multiple social APIs with different data models, rate limits, and auth flows.",
     ],
-    image: null,
+    image: lunarCmsImg,
   },
   {
     slug: "autoshine",

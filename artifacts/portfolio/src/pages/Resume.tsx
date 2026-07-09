@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Download, Mail, MapPin, Phone, Linkedin, ExternalLink } from "lucide-react";
 import { Layout } from "@/components/layout";
 import { SEO } from "@/components/SEO";
+import alvinePhoto from "@assets/713531308_2391480708041703_8942490288083047707_n_1783423380935.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -19,7 +20,7 @@ const Section = ({ title, children, delay = 0 }: { title: string; children: Reac
     whileInView="visible"
     viewport={{ once: true }}
     custom={delay}
-    className="mb-12"
+    className="py-10 border-b border-border/40"
   >
     <div className="flex items-center gap-3 mb-5">
       <h2 className="font-serif text-lg font-bold text-foreground tracking-tight">{title}</h2>
@@ -46,37 +47,45 @@ export function Resume() {
       <div className="max-w-3xl mx-auto px-6 py-20 md:py-28">
 
         {/* Header */}
-        <motion.div variants={fadeUp} initial="hidden" animate="visible" className="mb-12">
+        <motion.div variants={fadeUp} initial="hidden" animate="visible" className="pb-10 border-b border-border/40 mb-0">
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
-            <div>
-              <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-3">Curriculum Vitae</p>
-              <h1 className="font-serif text-3xl md:text-4xl font-bold leading-tight mb-1">Alvine Otieno</h1>
-              <p className="text-base text-muted-foreground font-medium">
-                Business Operations & Automation Specialist · Hub Manager · Web & Bot Developer
-              </p>
+            {/* Photo + name block */}
+            <div className="flex items-start gap-5">
+              <img
+                src={alvinePhoto}
+                alt="Alvine Otieno"
+                className="w-20 h-20 rounded-full object-cover object-top flex-shrink-0 ring-2 ring-border"
+              />
+              <div>
+                <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase mb-3">Curriculum Vitae</p>
+                <h1 className="font-serif text-3xl md:text-4xl font-bold leading-tight mb-1">Alvine Otieno</h1>
+                <p className="text-base text-muted-foreground font-medium">
+                  Business Operations & Automation Specialist · Hub Manager · Web & Bot Developer
+                </p>
 
-              <div className="flex flex-wrap gap-4 mt-4 text-sm text-muted-foreground">
-                <a href="mailto:otienoalvine925@gmail.com" className="flex items-center gap-1.5 hover:text-primary transition-colors">
-                  <Mail size={13} className="text-primary" />
-                  otienoalvine925@gmail.com
-                </a>
-                <a href="https://wa.me/254110486677" className="flex items-center gap-1.5 hover:text-primary transition-colors">
-                  <Phone size={13} className="text-primary" />
-                  +254 110 486 677
-                </a>
-                <span className="flex items-center gap-1.5">
-                  <MapPin size={13} className="text-primary" />
-                  Kisumu, Kenya
-                </span>
-                <a
-                  href="https://ke.linkedin.com/in/alvine-otieno-0351a2286"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-1.5 hover:text-primary transition-colors"
-                >
-                  <Linkedin size={13} className="text-primary" />
-                  linkedin.com/in/alvine-otieno-0351a2286
-                </a>
+                <div className="flex flex-wrap gap-4 mt-4 text-sm text-muted-foreground">
+                  <a href="mailto:otienoalvine925@gmail.com" className="flex items-center gap-1.5 hover:text-primary transition-colors">
+                    <Mail size={13} className="text-primary" />
+                    otienoalvine925@gmail.com
+                  </a>
+                  <a href="https://wa.me/254110486677" className="flex items-center gap-1.5 hover:text-primary transition-colors">
+                    <Phone size={13} className="text-primary" />
+                    +254 110 486 677
+                  </a>
+                  <span className="flex items-center gap-1.5">
+                    <MapPin size={13} className="text-primary" />
+                    Kisumu, Kenya
+                  </span>
+                  <a
+                    href="https://ke.linkedin.com/in/alvine-otieno-0351a2286"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 hover:text-primary transition-colors"
+                  >
+                    <Linkedin size={13} className="text-primary" />
+                    linkedin.com/in/alvine-otieno-0351a2286
+                  </a>
+                </div>
               </div>
             </div>
 

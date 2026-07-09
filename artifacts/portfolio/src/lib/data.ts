@@ -2,7 +2,7 @@ import myjoyfulldayImg from "@assets/screenshots/myjoyfullday_com.png";
 import tellusjobsImg from "@assets/screenshots/tellusjobs_site.png";
 import autoshineImg from "@assets/screenshots/autoshine_co_ke.png";
 import tellusImg from "@assets/screenshots/site_tellusplatform_site.png";
-import lunarCmsImg from "@assets/lunar-cms-dashboard.png";
+import lunarCmsImg from "@assets/lunar-cms-light.png";
 
 export const projects = [
   {

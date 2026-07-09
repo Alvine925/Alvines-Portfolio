@@ -57,17 +57,30 @@ export function Home() {
                 />
               </div>
               <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase">
-                Alvine Otieno · Builder & Automation Specialist
+                Alvine Otieno · Vibe Coder
               </p>
             </div>
-            <h1 className="font-serif text-3xl md:text-4xl font-bold leading-snug tracking-tight mb-8 text-foreground">
-              I remove<br />
-              friction.<br />
-              <em className="text-primary not-italic">Businesses scale.</em>
+            <h1 className="font-serif text-3xl md:text-4xl font-bold leading-snug tracking-tight mb-6 text-foreground">
+              Not a developer.<br />
+              A vibe coder.<br />
+              <em className="text-primary not-italic">Big difference.</em>
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-lg mb-10 font-light">
-              WhatsApp AI bots, workflow automation, and web platforms that do the work businesses are still doing by hand.
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-lg mb-4 font-light">
+              I describe the problem. AI writes the code. Humans review every line.
+              Somehow that's produced 5 products real businesses use daily — including
+              a WhatsApp bot that's handled 50,000+ events.
             </p>
+            <p className="text-sm text-muted-foreground/70 leading-relaxed max-w-md mb-10 italic">
+              Unorthodox? Sure. But the software ships, the businesses scale, and nobody's
+              doing it by hand anymore.
+            </p>
+            {/* Vibe-coder badge */}
+            <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-3 py-1.5 mb-10">
+              <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+              <span className="text-[11px] font-semibold text-primary tracking-wide uppercase">
+                AI-assisted · Human-reviewed · Actually works
+              </span>
+            </div>
             <div className="flex flex-wrap items-center gap-8">
               <Link
                 href="/projects"
